@@ -1,1 +1,2 @@
 crawl4ai==0.6.2
+pandas==2.2.3
