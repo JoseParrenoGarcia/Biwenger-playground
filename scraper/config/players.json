@@ -1,0 +1,25 @@
+{
+  "players": [
+    {
+      "name": "Gerard Moreno",
+      "sofascore_name": "gerard-moreno",
+      "team": "Villarreal",
+      "id": "146866",
+      "to_scrape": true
+    },
+    {
+      "name": "Nicolas Pépé",
+      "sofascore_name": "nicolas-pepe",
+      "team": "Villarreal",
+      "id": "593526",
+      "to_scrape": true
+    },
+    {
+      "name": "Thierno Barry",
+      "sofascore_name": "thierno-barry",
+      "team": "Villarreal",
+      "id": "1395746",
+      "to_scrape": true
+    }
+  ]
+}
