@@ -4,7 +4,7 @@ import asyncio
 from playwright.async_api import async_playwright, Page
 import pandas as pd
 
-# Load player json file with relative path
+# Load player JSON file with relative path
 script_dir = os.path.dirname(os.path.abspath(__file__))
 json_path = os.path.join(script_dir, "config", "players.json")
 with open(json_path, "r") as f:
@@ -12,74 +12,36 @@ with open(json_path, "r") as f:
 
 players = [p for p in data["players"] if p.get("to_scrape", False)]
 
-# === HELPER: Collapse All Sections First ===
-async def collapse_all_sections(page: Page, section_titles: list[str]):
-    for title in section_titles:
-        try:
-            button = page.locator(f"button:has-text('{title}')").first
-            aria_expanded = await button.get_attribute("aria-expanded")
-            if aria_expanded == "true":
-                await button.click()
-                await page.wait_for_timeout(200)
-                print(f"🔻 '{title}' section collapsed (init).")
-        except:
-            continue
+# === GENERAL STATS ===
+async def scrape_general_stats(page: Page) -> pd.DataFrame:
+    await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10000)
 
-# === HELPER: Scrape One Stat Section ===
-async def scrape_stat_section(page: Page, section_title: str) -> pd.DataFrame | None:
-    print(f"\n🔍 Scraping section: {section_title}")
+    # === Step 1: Extract years ===
+    year_spans = await page.query_selector_all(".Box.feDCzw.crsNnE .Box.gQIPzn.fRroAj span")
+    years = []
+    for y in year_spans:
+        text = await y.inner_text()
+        if "/" in text:
+            years.append(text)
 
-    try:
-        # Locate button by visible text
-        section_button = page.locator(f"button:has-text('{section_title}')").first
-        await section_button.wait_for(state="visible", timeout=5000)
+    # === Step 2: Extract stat rows ===
+    stat_rows = await page.query_selector_all(".Box.hMcCqO.sc-c2c19408-0.cFPbZB .Box.ggRYVx.iWGVcA .Box.cQgcrM")
+    data = []
 
-        # If already expanded, collapse it
-        if await section_button.get_attribute("aria-expanded") == "true":
-            await section_button.click()
-            await page.wait_for_timeout(300)
-            print(f"🔻 '{section_title}' collapsed first")
+    for row in stat_rows:
+        stat_cells = await row.query_selector_all(".Box.jNHkiI.kFvGEE span")
+        stats = [await cell.inner_text() for cell in stat_cells]
+        data.append(stats)
 
-        # Expand it
-        await section_button.click()
-        await page.wait_for_timeout(1000)
-        print(f"✅ '{section_title}' expanded")
+    # === Step 3: Combine (only first 2, drop 5th item)
+    years_subset = years[:2]
+    stats_subset = [row[:4] + row[5:] for row in data[:2]]  # Drop 5th item
+    columns = ["Year", "MP", "MIN", "GLS", "AST", "ASR"]
+    combined_rows = [[year] + stat_row for year, stat_row in zip(years_subset, stats_subset)]
+    df = pd.DataFrame(combined_rows, columns=columns)
 
-        # Locate content using aria-controls
-        aria_controls = await section_button.get_attribute("aria-controls")
-        if not aria_controls:
-            print(f"⚠️ No aria-controls found for '{section_title}'")
-            return None
+    return df
 
-        content = page.locator(f"#{aria_controls}")
-
-        # Try extracting d_flex rows
-        rows = await content.locator("div.d_flex").all()
-        print(f"🔍 Found {len(rows)} stat rows in '{section_title}'")
-
-        data = {}
-        for row in rows:
-            spans = await row.locator("span").all()
-            if len(spans) >= 2:
-                key = await spans[0].inner_text()
-                value = await spans[1].inner_text()
-                data[key.strip()] = value.strip()
-
-        if data:
-            return pd.DataFrame(data.items(), columns=["Metric", "Value"])
-
-        # Fallback to table
-        try:
-            table = content.locator("table").first
-            html = await table.inner_html()
-            return pd.read_html(f"<table>{html}</table>")[0]
-        except:
-            print(f"⚠️ No table fallback in '{section_title}'")
-            return None
-
-    except Exception as e:
-        print(f"❌ Failed to scrape '{section_title}': {e}")
-        return None
 
 # === MAIN SCRAPER FOR ONE PLAYER ===
 async def scrape_player_stats(sofascore_name, player_id):
@@ -87,50 +49,57 @@ async def scrape_player_stats(sofascore_name, player_id):
     print(url)
 
     async with async_playwright() as p:
-        # Launch the browser
-        browser = await p.chromium.launch(headless=False)  # Turn off for debugging
+        browser = await p.chromium.launch(headless=False)
         page = await browser.new_page()
         await page.goto(url)
 
-        # Clear consent pop up
+        # Handle consent popup
         try:
-            # Wait for the consent popup to appear (adjust selector as needed)
             await page.wait_for_selector("button:has-text('Consent')", timeout=5000)
             await page.click("button:has-text('Consent')")
             print("✅ Cookie consent accepted.")
-            await page.wait_for_timeout(1000)  # give it a moment to disappear
+            await page.wait_for_timeout(1000)
         except:
             print("⚠️ No cookie popup appeared or button not found.")
 
-        # Scroll to bottom to force-load all sections
-        await page.evaluate("""() => {
-            window.scrollTo(0, document.body.scrollHeight);
-        }""")
-        await page.wait_for_timeout(2000)
-        print("📜 Scrolled to bottom to trigger section rendering")
+        # ⬇️ Smooth scroll to bottom using JS with animation
+        await page.evaluate("""
+            () => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            }
+        """)
+        await page.wait_for_timeout(3000)
+        print("📜 Smooth-scrolled to bottom to trigger section rendering")
 
-        # Collapse all sections first
-        await collapse_all_sections(page, ["Matches", "Attacking", "Passing", "Defending", "Other", "Cards"])
+        # ⬇️ Scroll to and click the 'General' tab to ensure it's visible
+        try:
+            general_tab = await page.wait_for_selector("button:has-text('General')", timeout=5000)
+            await general_tab.scroll_into_view_if_needed()
+            await page.wait_for_timeout(500)
+            await general_tab.click()
+            print("🔍 'General' stats tab clicked and visible.")
+        except Exception as e:
+            print(f"❌ Failed to locate or click 'General' tab: {e}")
 
-        # Collect stats
-        df_matches = await scrape_stat_section(page, "Matches")
-        print(df_matches)
+        # Collapse the first season row (if expanded)
+        try:
+            expand_arrow = await page.query_selector(".Box.Flex.jBQtbp.cQgcrM")
+            if expand_arrow:
+                await expand_arrow.click()
+                print("⬇️ Collapsed first season row to get aggregate stats")
+                await page.wait_for_timeout(1000)  # Wait for collapse animation
+        except Exception as e:
+            print(f"⚠️ Failed to collapse first row: {e}")
 
-        df_attacking = await scrape_stat_section(page, "Attacking")
-        print(df_attacking)
+        # I NEED TO BUILD THE SCRAPING FOR THE TABLE
+        df = await scrape_general_stats(page)
+        print(df)
 
-        # df_passing = await scrape_stat_section(page, "Passing")
-        # print(df_passing)
+        await asyncio.sleep(2)
+        await browser.close()
 
-        # df_defending = await scrape_stat_section(page, "Defending")
-        # print(df_defending)
-
-        await asyncio.sleep(100)  # Keep the browser open for 10 seconds so you can see it
-        # await browser.close()
-
-        # print(f"Visiting {url}")
-
-asyncio.run(scrape_player_stats(sofascore_name=players[0]['sofascore_name'],
-                                player_id=players[0]['id']))
-
-
+# Run the scraper
+asyncio.run(scrape_player_stats(
+    sofascore_name=players[0]['sofascore_name'],
+    player_id=players[0]['id']
+))
