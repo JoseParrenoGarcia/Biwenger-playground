@@ -5,6 +5,9 @@ from playwright.async_api import async_playwright, Page
 import pandas as pd
 from functools import reduce
 
+pd.set_option("display.max_columns", None)
+pd.set_option("display.width", 0)
+
 # === TAB CONFIGURATION ===
 TAB_CONFIG = {
     "General": {
@@ -15,7 +18,22 @@ TAB_CONFIG = {
         "columns": ["Year", "MP", "GLS", "TOS", "SOT", "BCM"],
         "drop_index": None
     },
-    # Add more tabs here...
+    "Team play": {
+        "columns": ["Year", "MP", "AST", "KEYP", "BCC", "SDR"],
+        "drop_index": None
+    },
+    "Passing": {
+        "columns": ["Year", "APS", "APS%", "ALB", "LBA%", "ACR", "CA%"],
+        "drop_index": 0
+    },
+    "Defending": {
+        "columns": ["Year", "CLS", "YC", "RC", "ELTG", "DRP", "TACK", "INT", "BLS", "ADW"],
+        "drop_index": 0
+    },
+    "Additional": {
+        "columns": ["Year", "GLS", "xG", "AST", "XA", "GI", "XGI"],
+        "drop_index": 0
+    },
 }
 
 # === HELPER: Click a tab by name ===
@@ -94,7 +112,17 @@ async def scrape_player_stats(sofascore_name, player_id):
     print(f"🔗 Opening: {url}")
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+        # browser = await p.chromium.launch(headless=False)
+
+        browser = await p.chromium.launch(
+            headless=True,  # ← no window will open
+            args=[
+                "--disable-gpu",  # (optional) quieter logs on some servers
+                "--no-sandbox"  # (optional) needed inside Docker/GitHub CI
+            ],
+            # viewport={"width": 1280, "height": 800}  # keep a desktop layout
+        )
+
         page = await browser.new_page()
         await page.goto(url)
 
@@ -107,9 +135,9 @@ async def scrape_player_stats(sofascore_name, player_id):
         except:
             print("⚠️ No cookie popup.")
 
-        # Scroll to bottom to load dynamic elements
-        await page.evaluate("() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });")
-        await page.wait_for_timeout(3000)
+        # # Scroll to bottom to load dynamic elements
+        # await page.evaluate("() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });")
+        # await page.wait_for_timeout(3000)
 
         # Click first tab (General) and collapse
         await click_tab(page, "General")
@@ -134,12 +162,6 @@ async def scrape_player_stats(sofascore_name, player_id):
         await browser.close()
 
         return df_merged
-
-        # # OPTIONAL: Save to CSV
-        # for tab_name, df in all_dataframes.items():
-        #     filename = f"{sofascore_name}_{tab_name.lower()}.csv"
-        #     df.to_csv(filename, index=False)
-        #     print(f"💾 Saved: {filename}")
 
 # === ENTRY POINT ===
 if __name__ == "__main__":
