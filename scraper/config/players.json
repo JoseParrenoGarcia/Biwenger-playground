@@ -27,6 +27,13 @@
       "team": "Villarreal",
       "id": "345195",
       "to_scrape": true
+    },
+    {
+      "name": "Ilias Akhomach",
+      "sofascore_name": "ilias-akhomach",
+      "team": "Villarreal",
+      "id": "1089108",
+      "to_scrape": true
     }
   ]
 }

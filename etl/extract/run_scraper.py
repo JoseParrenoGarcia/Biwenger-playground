@@ -4,6 +4,7 @@ import json
 from rich.console import Console
 from scraper.player_scraper import scrape_player_stats
 from itertools import islice
+import pandas as pd
 
 BATCH_SIZE = 3
 
@@ -52,7 +53,41 @@ async def extract_players():
         console.rule(f"[bold magenta]🚀 Batch {i} ({len(batch)} players)")
         await asyncio.gather(*(scrape_and_save(p) for p in batch))
 
+def transform_players():
+    console.rule("[bold yellow]🔄 Transform Step: Collate Raw CSVs")
+
+    all_dfs = []
+
+    for filename in os.listdir(RAW_DATA_DIR):
+        if filename.endswith(".csv"):
+            filepath = os.path.join(RAW_DATA_DIR, filename)
+            try:
+                df = pd.read_csv(filepath)
+                all_dfs.append(df)
+                console.print(f"📥 Loaded [green]{filename}[/green] with {len(df)} rows")
+            except Exception as e:
+                console.print(f"[red]❌ Failed to load {filename}: {e}[/red]")
+
+    if not all_dfs:
+        console.print("[red]⚠️ No data files found. Nothing to transform.[/red]")
+        return
+
+    df_all = pd.concat(all_dfs, ignore_index=True)
+    console.print(f"📊 Total rows after concat: [bold]{len(df_all)}[/bold]")
+
+    staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
+    os.makedirs(staging_dir, exist_ok=True)
+    out_path = os.path.join(staging_dir, "all_players.csv")
+
+    df_all.to_csv(out_path, index=False)
+    console.print(f"✅ Saved to [cyan]{out_path}[/cyan]")
+
+
 if __name__ == "__main__":
     console.rule("[bold blue]Extract Step")
     asyncio.run(extract_players())
-    console.print("[bold green]🏁 Extraction complete!")
+
+    console.rule("[bold yellow]Transform Step")
+    transform_players()
+
+    console.print("[bold green]🏁 ETL complete!")
