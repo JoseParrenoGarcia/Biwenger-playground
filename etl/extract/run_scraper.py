@@ -22,9 +22,17 @@ async def extract_players():
         try:
             console.print(f"🔍 Scraping [bold]{player['sofascore_name']}[/bold] (ID: {player['id']})")
             df = await scrape_player_stats(player["sofascore_name"], player["id"])
+
+            # Add player metadata as new columns
+            df.insert(0, "id", player["id"])
+            df.insert(0, "sofascore_name", player["sofascore_name"])
+            df.insert(0, "name", player["name"])
+
+            # Save to raw data path
             out_path = os.path.join(RAW_DATA_DIR, f"{player['sofascore_name']}.csv")
             df.to_csv(out_path, index=False)
             console.print(f"✅ Saved to [green]{out_path}[/green]")
+
         except Exception as e:
             console.print(f"[red]❌ Error scraping {player['sofascore_name']}: {e}[/red]")
 
