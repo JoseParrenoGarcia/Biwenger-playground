@@ -172,9 +172,11 @@ if __name__ == "__main__":
         data = json.load(f)
     players = [p for p in data["players"] if p.get("to_scrape", False)]
 
-    # Run for first player
-    df = asyncio.run(scrape_player_stats(
-        sofascore_name=players[0]['sofascore_name'],
-        player_id=players[0]['id']
-    ))
-    print(df)
+    # Loop through each player
+    for player in players:
+        print(f"\n🚀 Scraping stats for {player['sofascore_name']} (ID: {player['id']})")
+        df = asyncio.run(scrape_player_stats(
+            sofascore_name=player['sofascore_name'],
+            player_id=player['id']
+        ))
+        print(df)
