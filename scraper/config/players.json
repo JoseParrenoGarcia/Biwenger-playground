@@ -5,6 +5,7 @@
       "sofascore_name": "gerard-moreno",
       "team": "Villarreal",
       "id": "146866",
+      "position": "Forward",
       "to_scrape": true
     },
     {
@@ -12,6 +13,7 @@
       "sofascore_name": "nicolas-pepe",
       "team": "Villarreal",
       "id": "593526",
+      "position": "Forward",
       "to_scrape": true
     },
     {
@@ -19,6 +21,7 @@
       "sofascore_name": "thierno-barry",
       "team": "Villarreal",
       "id": "1395746",
+      "position": "Forward",
       "to_scrape": true
     },
     {
@@ -26,6 +29,7 @@
       "sofascore_name": "ayoze-perez",
       "team": "Villarreal",
       "id": "345195",
+      "position": "Forward",
       "to_scrape": true
     },
     {
@@ -33,6 +37,7 @@
       "sofascore_name": "ilias-akhomach",
       "team": "Villarreal",
       "id": "1089108",
+      "position": "Midfielder",
       "to_scrape": true
     }
   ]

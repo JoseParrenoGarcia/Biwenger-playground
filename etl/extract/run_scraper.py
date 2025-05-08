@@ -39,6 +39,7 @@ async def extract_players():
             df.insert(0, "id", player["id"])
             df.insert(0, "sofascore_name", player["sofascore_name"])
             df.insert(0, "name", player["name"])
+            df.insert(0, "position", player["position"])
 
             # Save to raw data path
             out_path = os.path.join(RAW_DATA_DIR, f"{player['sofascore_name']}.csv")
@@ -119,17 +120,20 @@ def transform_players():
         "Additional_xG": "xGoals",
         "Additional_XA": "xAssists",
         "Additional_GI": "goal_involvements",
-        "Additional_XGI": "expected_goal_involvements",
-
+        "Additional_XGI": "expected_goal_involvements"
     }
 
+    # --- Step 3: Rename columns ---
+    df_all.rename(columns=rename_dict, inplace=True)
+    console.print(f"📝 Renamed columns: {list(rename_dict.keys())}")
 
+    # --- Save to staging ---
     staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
     os.makedirs(staging_dir, exist_ok=True)
     out_path = os.path.join(staging_dir, "all_players.csv")
 
     df_all.to_csv(out_path, index=False)
-    console.print("✅ Saved to staging director")
+    console.print("✅ Saved to staging directory")
 
 
 if __name__ == "__main__":
