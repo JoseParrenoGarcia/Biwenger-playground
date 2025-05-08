@@ -20,6 +20,13 @@
       "team": "Villarreal",
       "id": "1395746",
       "to_scrape": true
+    },
+    {
+      "name": "Ayoze Perez",
+      "sofascore_name": "ayoze-perez",
+      "team": "Villarreal",
+      "id": "345195",
+      "to_scrape": true
     }
   ]
 }
