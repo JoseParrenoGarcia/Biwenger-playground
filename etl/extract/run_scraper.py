@@ -3,12 +3,23 @@ import os
 import json
 from rich.console import Console
 from scraper.player_scraper import scrape_player_stats
+from itertools import islice
+
+BATCH_SIZE = 3
 
 console = Console()
 
 # Adjust this path to your raw data directory
 RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/raw")
 os.makedirs(RAW_DATA_DIR, exist_ok=True)
+
+def chunked(iterable, size):
+    it = iter(iterable)
+    while True:
+        batch = list(islice(it, size))
+        if not batch:
+            break
+        yield batch
 
 async def extract_players():
     # Load players to scrape
@@ -36,8 +47,10 @@ async def extract_players():
         except Exception as e:
             console.print(f"[red]❌ Error scraping {player['sofascore_name']}: {e}[/red]")
 
-    # Run all player scrapes in parallel
-    await asyncio.gather(*(scrape_and_save(p) for p in players))
+    # Run player scraping in batches
+    for i, batch in enumerate(chunked(players, BATCH_SIZE), 1):
+        console.rule(f"[bold magenta]🚀 Batch {i} ({len(batch)} players)")
+        await asyncio.gather(*(scrape_and_save(p) for p in batch))
 
 if __name__ == "__main__":
     console.rule("[bold blue]Extract Step")
