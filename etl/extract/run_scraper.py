@@ -75,12 +75,61 @@ def transform_players():
     df_all = pd.concat(all_dfs, ignore_index=True)
     console.print(f"📊 Total rows after concat: [bold]{len(df_all)}[/bold]")
 
+    # --- Step 1: Drop unwanted columns ---
+    columns_to_drop = [
+        "Shooting_MP",
+        "Shooting_GLS",
+        "Team play_MP",
+        "Team play_AST",
+        "Additional_GLS",
+        "Additional_AST",
+    ]
+
+    df_all.drop(columns=[col for col in columns_to_drop if col in df_all.columns], inplace=True)
+    console.print(f"🧹 Dropped columns: {columns_to_drop}")
+
+    # --- Step 2: Define column rename mapping ---
+    rename_dict = {
+        "Year": "season",
+        "General_MP": "matches",
+        "General_MIN": "minutes",
+        "General_GLS": "goals",
+        "General_AST": "assists",
+        "Shooting_TOS": "total_shots",
+        "Shooting_SOT": "shots_on_target",
+        "Shooting_BCM": "big_chances_missed",
+        "Team play_KEYP": "key_passes",
+        "Team play_BCC": "big_chances_created",
+        "Team play_SDR": "dribbles",
+        "Passing_APS": "accurate_passes",
+        "Passing_APS %": "passing_accuracy",
+        "Passing_ALB": "accurate_long_balls",
+        "Passing_LBA %": "long_ball_accuracy",
+        "Passing_ACR": "accurate_crosses",
+        "Passing_CA %": "crossing_accuracy",
+        "Defending_CLS": "clean_sheets",
+        "Defending_YC": "yellow_cards",
+        "Defending_RC": "red_cards",
+        "Defending_ELTG": "errors_leading_to_goal",
+        "Defending_DRP": "dribbled_past",
+        "Defending_TACK": "tackles",
+        "Defending_INT": "interceptions",
+        "Defending_BLS": "blocked_shots",
+        "Defending_ADW": "aerial_duels_won",
+        "Additional_xG": "xGoals",
+        "Additional_XA": "xAssists",
+        "Additional_GI": "goal_involvements",
+        "Additional_XGI": "expected_goal_involvements",
+
+    }
+
+
     staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
     os.makedirs(staging_dir, exist_ok=True)
     out_path = os.path.join(staging_dir, "all_players.csv")
 
     df_all.to_csv(out_path, index=False)
-    console.print(f"✅ Saved to [cyan]{out_path}[/cyan]")
+    console.print("✅ Saved to staging director")
 
 
 if __name__ == "__main__":
