@@ -43,7 +43,7 @@ async def click_tab(page: Page, tab_name: str):
         await tab.scroll_into_view_if_needed()
         await page.wait_for_timeout(500)
         await tab.click()
-        print(f"📌 Clicked '{tab_name}' tab.")
+        # print(f"📌 Clicked '{tab_name}' tab.")
     except Exception as e:
         print(f"⚠️ Could not click tab '{tab_name}': {e}")
 
@@ -53,7 +53,7 @@ async def collapse_first_season_row(page: Page):
         expand_arrow = await page.query_selector(".Box.Flex.jBQtbp.cQgcrM")
         if expand_arrow:
             await expand_arrow.click()
-            print("⬇️ Collapsed first season row")
+            # print("⬇️ Collapsed first season row")
             await page.wait_for_timeout(1000)
     except Exception as e:
         print(f"⚠️ Failed to collapse first row: {e}")
@@ -130,7 +130,7 @@ async def scrape_player_stats(sofascore_name, player_id):
         try:
             await page.wait_for_selector("button:has-text('Consent')", timeout=5000)
             await page.click("button:has-text('Consent')")
-            print("✅ Cookie consent accepted.")
+            # print("✅ Cookie consent accepted.")
             await page.wait_for_timeout(1000)
         except:
             print("⚠️ No cookie popup.")
