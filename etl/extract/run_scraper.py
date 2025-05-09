@@ -162,37 +162,37 @@ def transform_players():
     df_all.rename(columns=rename_dict, inplace=True)
     # console.print(f"📝 Renamed columns: {list(rename_dict.keys())}")
 
-    # --- Step 4: Fill base stats from goalkeeper columns ---
-    merge_columns = {
-        "matches": "gk_matches",
-        "minutes": "gk_minutes",
-        "clean_sheets": "gk_clean_sheets",
-        "avg_rating": "gk_avg_rating",
-        "accurate_passes": "gk_accurate_passes",
-        "passing_accuracy": "gk_passing_accuracy",
-        "accurate_long_balls": "gk_accurate_long_balls",
-        "long_ball_accuracy": "gk_long_ball_accuracy",
-        "yellow_cards": "gk_yellow_cards",
-        "red_cards": "gk_red_cards",
-        "errors_leading_to_goal": "gk_errors_leading_to_goal",
-        "dribbled_past": "gk_dribbled_past",
-        "tackles": "gk_tackles",
-        "interceptions": "gk_interceptions",
-        "aerial_duels_won": "gk_aerial_duels_won"
-    }
-
-    print(df_all)
-    print('------------------------------')
-
-    for base_col, gk_col in merge_columns.items():
-        df_all[base_col] = np.where(df_all[base_col].isna(),
-                                    df_all[gk_col],
-                                    df_all[base_col]
-                                    )
-
-    # Drop all gk_ columns
-    cols_to_drop = list(merge_columns.values())
-    df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
+    # # --- Step 4: Fill base stats from goalkeeper columns ---
+    # merge_columns = {
+    #     "matches": "gk_matches",
+    #     "minutes": "gk_minutes",
+    #     "clean_sheets": "gk_clean_sheets",
+    #     "avg_rating": "gk_avg_rating",
+    #     "accurate_passes": "gk_accurate_passes",
+    #     "passing_accuracy": "gk_passing_accuracy",
+    #     "accurate_long_balls": "gk_accurate_long_balls",
+    #     "long_ball_accuracy": "gk_long_ball_accuracy",
+    #     "yellow_cards": "gk_yellow_cards",
+    #     "red_cards": "gk_red_cards",
+    #     "errors_leading_to_goal": "gk_errors_leading_to_goal",
+    #     "dribbled_past": "gk_dribbled_past",
+    #     "tackles": "gk_tackles",
+    #     "interceptions": "gk_interceptions",
+    #     "aerial_duels_won": "gk_aerial_duels_won"
+    # }
+    #
+    # print(df_all)
+    # print('------------------------------')
+    #
+    # for base_col, gk_col in merge_columns.items():
+    #     df_all[base_col] = np.where(df_all[base_col].isna(),
+    #                                 df_all[gk_col],
+    #                                 df_all[base_col]
+    #                                 )
+    #
+    # # Drop all gk_ columns
+    # cols_to_drop = list(merge_columns.values())
+    # df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
     print(df_all)
 
     # # --- Save to staging ---
@@ -253,8 +253,8 @@ def load_to_production():
 
 
 if __name__ == "__main__":
-    # console.rule("[bold blue]Extract Step")
-    # asyncio.run(extract_players())
+    console.rule("[bold blue]Extract Step")
+    asyncio.run(extract_players())
 
     console.rule("[bold yellow]Transform Step")
     transform_players()

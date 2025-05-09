@@ -1,3 +1,3 @@
-position,name,sofascore_name,id,Year,General_OF_MP,General_OF_MIN,General_OF_GLS,General_OF_AST,General_OF_ASR,Shooting_OF_MP,Shooting_OF_GLS,Shooting_OF_TOS,Shooting_OF_SOT,Shooting_OF_BCM,Team play_OF_MP,Team play_OF_AST,Team play_OF_KEYP,Team play_OF_BCC,Team play_OF_SDR,Passing_OF_APS,Passing_OF_APS%,Passing_OF_ALB,Passing_OF_LBA%,Passing_OF_ACR,Passing_OF_CA%,Defending_OF_CLS,Defending_OF_YC,Defending_OF_RC,Defending_OF_ELTG,Defending_OF_DRP,Defending_OF_TACK,Defending_OF_INT,Defending_OF_BLS,Defending_OF_ADW,Additional_OF_GLS,Additional_OF_xG,Additional_OF_AST,Additional_OF_XA,Additional_OF_GI,Additional_OF_XGI
-Defender,Sergi Cardona,sergi-cardona,986245,23/24,36,2906,1,2,,36,1,28,5,2,36,2,39,4,18,1506,82.7,35,29.9,16,17.2,7,10,0,0,42,91,46,11,54,1,2.67,2,3.66,3,6.33
-Defender,Sergi Cardona,sergi-cardona,986245,24/25,33,2819,1,7,,33,1,20,6,5,33,7,45,10,10,845,79.6,34,31.8,30,28.3,3,11,0,0,28,67,34,5,42,1,2.46,7,4.26,8,6.72
+position,name,sofascore_name,id,Year,General_OF_MP,General_OF_MIN,General_OF_GLS,General_OF_AST,General_OF_ASR
+Defender,Sergi Cardona,sergi-cardona,986245,23/24,36,2906,1,2,7.09
+Defender,Sergi Cardona,sergi-cardona,986245,24/25,33,2819,1,7,7.06
