@@ -33,7 +33,7 @@ async def extract_players():
     async def scrape_and_save(player):
         try:
             console.print(f"🔍 Scraping [bold]{player['sofascore_name']}[/bold] (ID: {player['id']})")
-            df = await scrape_player_stats(player["sofascore_name"], player["id"])
+            df = await scrape_player_stats(player["sofascore_name"], player["id"], player["position"])
 
             # Add player metadata as new columns
             df.insert(0, "id", player["id"])
@@ -85,6 +85,7 @@ def transform_players():
         "Team play_AST",
         "Additional_GLS",
         "Additional_AST",
+        "Goalkeeping_MP",
     ]
 
     df_all.drop(columns=[col for col in columns_to_drop if col in df_all.columns], inplace=True)
@@ -97,6 +98,8 @@ def transform_players():
         "General_MIN": "minutes",
         "General_GLS": "goals",
         "General_AST": "assists",
+        "General_CLS": "clean_sheets",
+        "General_GC": "goals_conceded",
         "Shooting_TOS": "total_shots",
         "Shooting_SOT": "shots_on_target",
         "Shooting_BCM": "big_chances_missed",
@@ -121,7 +124,11 @@ def transform_players():
         "Additional_xG": "xGoals",
         "Additional_XA": "xAssists",
         "Additional_GI": "goal_involvements",
-        "Additional_XGI": "expected_goal_involvements"
+        "Additional_XGI": "expected_goal_involvements",
+        "Goalkeeping_SAV": "saves",
+        "Goalkeeping_SAV%": "prct_saves",
+        "Goalkeeping_PS": "penalties_saved",
+        "Goalkeeping_PS %": "prct_penalties_saved"
     }
 
     # --- Step 3: Rename columns ---
@@ -160,7 +167,7 @@ def load_to_production():
     df_prod = pd.read_csv(production_path)
 
     columns_to_check = [
-        "matches", "minutes", "total_shots", "accurate_passes",  # Replace with real ones
+        "matches", "minutes", "total_shots", "accurate_passes", "saves",  # Replace with real ones
     ]
 
     failed_checks = []

@@ -9,7 +9,7 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 0)
 
 # === TAB CONFIGURATION ===
-TAB_CONFIG = {
+TAB_CONFIG_OUTFIELD = {
     "General": {
         "columns": ["Year", "MP", "MIN", "GLS", "AST", "ASR"],
         "drop_index": None
@@ -33,6 +33,17 @@ TAB_CONFIG = {
     "Additional": {
         "columns": ["Year", "GLS", "xG", "AST", "XA", "GI", "XGI"],
         "drop_index": 0
+    },
+}
+
+TAB_CONFIG_GOALKEEPER = {
+    "General": {
+        "columns": ["Year", "MP", "MIN", "CLS", "GC", "ASR"],
+        "drop_index": None
+    },
+    "Goalkeeping": {
+        "columns": ["Year", "MP", "SAV", "SAV%", "PS", "PS%"],
+        "drop_index": None
     },
 }
 
@@ -122,7 +133,7 @@ async def scrape_stat_table(page: Page, columns: list[str], drop_index: int | No
     return df
 
 # === MAIN SCRAPER ===
-async def scrape_player_stats(sofascore_name, player_id):
+async def scrape_player_stats(sofascore_name, player_id, position):
     url = f"https://www.sofascore.com/player/{sofascore_name}/{player_id}"
     print(f"🔗 Opening: {url}")
 
@@ -160,6 +171,7 @@ async def scrape_player_stats(sofascore_name, player_id):
 
         # Loop through all configured tabs
         all_dataframes = {}
+        TAB_CONFIG = TAB_CONFIG_GOALKEEPER if position == "Goalkeeper" else TAB_CONFIG_OUTFIELD
         for tab_name, config in TAB_CONFIG.items():
             await click_tab(page, tab_name)
             # print(tab_name)
@@ -180,7 +192,6 @@ async def scrape_player_stats(sofascore_name, player_id):
         return df_merged
 
 
-
 # === ENTRY POINT ===
 if __name__ == "__main__":
     # Load player list
@@ -193,8 +204,11 @@ if __name__ == "__main__":
     # Loop through each player
     for player in players:
         print(f"\n🚀 Scraping stats for {player['sofascore_name']} (ID: {player['id']})")
-        df = asyncio.run(scrape_player_stats(
-            sofascore_name=player['sofascore_name'],
-            player_id=player['id']
-        ))
+        df = asyncio.run(
+            scrape_player_stats(
+                sofascore_name=player['sofascore_name'],
+                player_id=player['id'],
+                position=player['position'],
+            )
+        )
         print(df)
