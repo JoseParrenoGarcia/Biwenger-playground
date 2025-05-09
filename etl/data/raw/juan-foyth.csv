@@ -1,3 +1,3 @@
 position,name,sofascore_name,id,Year,General_MP,General_MIN,General_GLS,General_AST,General_ASR,Shooting_MP,Shooting_GLS,Shooting_TOS,Shooting_SOT,Shooting_BCM,Team play_MP,Team play_AST,Team play_KEYP,Team play_BCC,Team play_SDR,Passing_APS,Passing_APS%,Passing_ALB,Passing_LBA%,Passing_ACR,Passing_CA%,Defending_CLS,Defending_YC,Defending_RC,Defending_ELTG,Defending_DRP,Defending_TACK,Defending_INT,Defending_BLS,Defending_ADW,Additional_GLS,Additional_xG,Additional_AST,Additional_XA,Additional_GI,Additional_XGI
-Defender,Juan Foyth,juan-foyth,873189,23/24,16,1321,1,1,6.96,16,1,8,3,1,16,1,6,1,20,638,84.7,33,54.1,2,10.0,1,2,0,0,15,29,15,3,27,1,0.45,1,0.93,2,1.37
-Defender,Juan Foyth,juan-foyth,873189,24/25,16,1256,1,0,7.15,16,1,14,3,3,16,0,7,0,3,669,86.7,53,53.0,2,50.0,3,4,0,1,5,23,17,3,35,1,2.23,0,0.88,1,3.11
+Defender,Juan Foyth,juan-foyth,873189,23/24,16,1321,1,1,,16,1,8,3,1,16,1,6,1,20,638,84.7,33,54.1,2,10.0,1,2,0,0,15,29,15,3,27,1,0.45,1,0.93,2,1.37
+Defender,Juan Foyth,juan-foyth,873189,24/25,16,1256,1,0,,16,1,14,3,3,16,0,7,0,3,669,86.7,53,53.0,2,50.0,3,4,0,1,5,23,17,3,35,1,2.23,0,0.88,1,3.11

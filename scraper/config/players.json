@@ -81,18 +81,18 @@
       "to_scrape": true
     },
     {
-      "name": "Juan Foyth",
-      "sofascore_name": "juan-foyth",
-      "team": "Villarreal",
-      "id": "873189",
-      "position": "Defender",
-      "to_scrape": true
-    },
-    {
       "name": "Eric Bailly",
       "sofascore_name": "eric-bailly",
       "team": "Villarreal",
       "id": "606346",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Juan Foyth",
+      "sofascore_name": "juan-foyth",
+      "team": "Villarreal",
+      "id": "873189",
       "position": "Defender",
       "to_scrape": true
     },

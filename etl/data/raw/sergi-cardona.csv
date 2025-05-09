@@ -1,3 +1,3 @@
 position,name,sofascore_name,id,Year,General_MP,General_MIN,General_GLS,General_AST,General_ASR,Shooting_MP,Shooting_GLS,Shooting_TOS,Shooting_SOT,Shooting_BCM,Team play_MP,Team play_AST,Team play_KEYP,Team play_BCC,Team play_SDR,Passing_APS,Passing_APS%,Passing_ALB,Passing_LBA%,Passing_ACR,Passing_CA%,Defending_CLS,Defending_YC,Defending_RC,Defending_ELTG,Defending_DRP,Defending_TACK,Defending_INT,Defending_BLS,Defending_ADW,Additional_GLS,Additional_xG,Additional_AST,Additional_XA,Additional_GI,Additional_XGI
-Defender,Sergi Cardona,sergi-cardona,986245,23/24,36,2906,1,2,7.09,36,1,28,5,2,36,2,39,4,18,1506,82.7,35,29.9,16,17.2,7,10,0,0,42,91,46,11,54,1,2.67,2,3.66,3,6.33
-Defender,Sergi Cardona,sergi-cardona,986245,24/25,33,2819,1,7,7.06,33,1,20,6,5,33,7,45,10,10,845,79.6,34,31.8,30,28.3,3,11,0,0,28,67,34,5,42,1,2.46,7,4.26,8,6.72
+Defender,Sergi Cardona,sergi-cardona,986245,23/24,36,2906,1,2,,36,1,28,5,2,36,2,39,4,18,1506,82.7,35,29.9,16,17.2,7,10,0,0,42,91,46,11,54,1,2.67,2,3.66,3,6.33
+Defender,Sergi Cardona,sergi-cardona,986245,24/25,33,2819,1,7,,33,1,20,6,5,33,7,45,10,10,845,79.6,34,31.8,30,28.3,3,11,0,0,28,67,34,5,42,1,2.46,7,4.26,8,6.72

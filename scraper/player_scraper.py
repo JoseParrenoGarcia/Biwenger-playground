@@ -12,7 +12,7 @@ pd.set_option("display.width", 0)
 TAB_CONFIG = {
     "General": {
         "columns": ["Year", "MP", "MIN", "GLS", "AST", "ASR"],
-        "drop_index": 4  # Drop the weird empty value
+        "drop_index": None
     },
     "Shooting": {
         "columns": ["Year", "MP", "GLS", "TOS", "SOT", "BCM"],
@@ -92,18 +92,33 @@ async def scrape_stat_table(page: Page, columns: list[str], drop_index: int | No
     # Step 2: Extract stat rows
     stat_rows = await page.query_selector_all(".Box.hMcCqO.sc-c2c19408-0.cFPbZB .Box.ggRYVx.iWGVcA .Box.cQgcrM")
     data = []
-    for row in stat_rows:
-        stat_cells = await row.query_selector_all(".Box.jNHkiI.kFvGEE span")
-        stats = [await cell.inner_text() for cell in stat_cells]
+    for idx, row in enumerate(stat_rows):
+        stat_cells = await row.query_selector_all(".Box.jNHkiI.kFvGEE")
+        stats = []
+
+        for cell in stat_cells:
+            inner_span = await cell.query_selector("span")
+            if inner_span:
+                val = await inner_span.inner_text()
+                stats.append(val.strip())
+            else:
+                stats.append(None)  # Placeholder/dash cell
+
         if drop_index is not None and len(stats) > drop_index:
-            stats = stats[:drop_index] + stats[drop_index+1:]
+            stats = stats[:drop_index] + stats[drop_index + 1:]
+
         data.append(stats)
+
+    # print(data)
 
     # Step 3: Combine into DataFrame
     years_subset = years[:n_rows]
     stats_subset = data[:n_rows]
     combined_rows = [[year] + stat_row for year, stat_row in zip(years_subset, stats_subset)]
     df = pd.DataFrame(combined_rows, columns=columns)
+
+    # print(df)
+
     return df
 
 # === MAIN SCRAPER ===
@@ -147,6 +162,7 @@ async def scrape_player_stats(sofascore_name, player_id):
         all_dataframes = {}
         for tab_name, config in TAB_CONFIG.items():
             await click_tab(page, tab_name)
+            # print(tab_name)
             df = await scrape_stat_table(
                 page=page,
                 columns=config["columns"],

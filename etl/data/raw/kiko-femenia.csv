@@ -1,3 +1,3 @@
 position,name,sofascore_name,id,Year,General_MP,General_MIN,General_GLS,General_AST,General_ASR,Shooting_MP,Shooting_GLS,Shooting_TOS,Shooting_SOT,Shooting_BCM,Team play_MP,Team play_AST,Team play_KEYP,Team play_BCC,Team play_SDR,Passing_APS,Passing_APS%,Passing_ALB,Passing_LBA%,Passing_ACR,Passing_CA%,Defending_CLS,Defending_YC,Defending_RC,Defending_ELTG,Defending_DRP,Defending_TACK,Defending_INT,Defending_BLS,Defending_ADW,Additional_GLS,Additional_xG,Additional_AST,Additional_XA,Additional_GI,Additional_XGI
-Defender,Kiko Femenia,kiko-femenia,53739,23/24,29,2011,0,1,6.82,29,0,2,0,0,29,1,10,2,8,986,85.8,48,45.7,5,12.5,4,8,1,0,16,39,37,0,16,0,0.01,1,1.03,1,1.04
-Defender,Kiko Femenia,kiko-femenia,53739,24/25,28,2229,0,1,6.89,28,0,3,0,1,28,1,16,3,17,1134,90.4,43,60.6,17,36.2,3,7,0,0,24,50,40,1,6,0,0.36,1,2.13,1,2.49
+Defender,Kiko Femenia,kiko-femenia,53739,23/24,29,2011,0,1,,29,0,2,0,0,29,1,10,2,8,986,85.8,48,45.7,5,12.5,4,8,1,0,16,39,37,0,16,0,0.01,1,1.03,1,1.04
+Defender,Kiko Femenia,kiko-femenia,53739,24/25,28,2229,0,1,,28,0,3,0,1,28,1,16,3,17,1134,90.4,43,60.6,17,36.2,3,7,0,0,24,50,40,1,6,0,0.36,1,2.13,1,2.49

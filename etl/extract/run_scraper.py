@@ -66,7 +66,7 @@ def transform_players():
             try:
                 df = pd.read_csv(filepath)
                 all_dfs.append(df)
-                console.print(f"📥 Loaded [green]{filename}[/green] with {len(df)} rows")
+                # console.print(f"📥 Loaded [green]{filename}[/green] with {len(df)} rows")
             except Exception as e:
                 console.print(f"[red]❌ Failed to load {filename}: {e}[/red]")
 
@@ -75,7 +75,7 @@ def transform_players():
         return
 
     df_all = pd.concat(all_dfs, ignore_index=True)
-    console.print(f"📊 Total rows after concat: [bold]{len(df_all)}[/bold]")
+    # console.print(f"📊 Total rows after concat: [bold]{len(df_all)}[/bold]")
 
     # --- Step 1: Drop unwanted columns ---
     columns_to_drop = [
