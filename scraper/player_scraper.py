@@ -1,5 +1,3 @@
-import json
-import os
 import asyncio
 from playwright.async_api import async_playwright, Page
 import pandas as pd
@@ -45,6 +43,19 @@ TAB_CONFIG_GOALKEEPER = {
         "columns": ["Year", "MP", "SAV", "SAV%", "PS", "PS%"],
         "drop_index": None
     },
+    "Passing": {
+        "columns": ["Year", "APS", "APS%", "ALB", "LBA%"],
+        "drop_index": 0
+    },
+    "Defending": {
+        "columns": ["Year", "CLS", "YC", "RC", "ELTG", "DRP", "TACK", "INT", "ADW"],
+        "drop_index": 0
+    },
+    "Additional": {
+        "columns": ["Year", "GC", "xGC", "GP"],
+        "drop_index": 0
+    },
+
 }
 
 # === HELPER: Click a tab by name ===
@@ -70,16 +81,18 @@ async def collapse_first_season_row(page: Page):
         print(f"⚠️ Failed to collapse first row: {e}")
 
 # === HELPER: Combine tables ===
-def combine_stat_tables(all_dataframes: dict[str, pd.DataFrame]) -> pd.DataFrame:
+def combine_stat_tables(all_dataframes: dict[str, pd.DataFrame], position: str) -> pd.DataFrame:
     """
     Merge all tab-specific DataFrames on 'Year', renaming columns to avoid collisions.
     Example:
         {"General": df1, "Shooting": df2} → merged DataFrame with columns like 'MP_General', 'MP_Shooting', etc.
     """
     renamed_dfs = []
+    suffix = "GK" if position == "Goalkeeper" else "OF"
+
     for tab_name, df in all_dataframes.items():
         renamed = df.copy()
-        renamed.columns = [f"{tab_name}_{col}" if col != "Year" else "Year" for col in df.columns]
+        renamed.columns = [f"{tab_name}_{suffix}_{col}" if col != "Year" else "Year" for col in df.columns]
         renamed_dfs.append(renamed)
 
     if not renamed_dfs:
@@ -184,7 +197,7 @@ async def scrape_player_stats(sofascore_name, player_id, position):
 
             all_dataframes[tab_name] = df
 
-        df_merged = combine_stat_tables(all_dataframes)
+        df_merged = combine_stat_tables(all_dataframes, position)
 
         await asyncio.sleep(2)
         await browser.close()
@@ -192,23 +205,23 @@ async def scrape_player_stats(sofascore_name, player_id, position):
         return df_merged
 
 
-# === ENTRY POINT ===
-if __name__ == "__main__":
-    # Load player list
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "config", "players.json")
-    with open(json_path, "r") as f:
-        data = json.load(f)
-    players = [p for p in data["players"] if p.get("to_scrape", False)]
-
-    # Loop through each player
-    for player in players:
-        print(f"\n🚀 Scraping stats for {player['sofascore_name']} (ID: {player['id']})")
-        df = asyncio.run(
-            scrape_player_stats(
-                sofascore_name=player['sofascore_name'],
-                player_id=player['id'],
-                position=player['position'],
-            )
-        )
-        print(df)
+# # === ENTRY POINT ===
+# if __name__ == "__main__":
+#     # Load player list
+#     script_dir = os.path.dirname(os.path.abspath(__file__))
+#     json_path = os.path.join(script_dir, "config", "players.json")
+#     with open(json_path, "r") as f:
+#         data = json.load(f)
+#     players = [p for p in data["players"] if p.get("to_scrape", False)]
+#
+#     # Loop through each player
+#     for player in players:
+#         print(f"\n🚀 Scraping stats for {player['sofascore_name']} (ID: {player['id']})")
+#         df = asyncio.run(
+#             scrape_player_stats(
+#                 sofascore_name=player['sofascore_name'],
+#                 player_id=player['id'],
+#                 position=player['position'],
+#             )
+#         )
+#         print(df)

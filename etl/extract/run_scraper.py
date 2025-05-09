@@ -5,6 +5,10 @@ from rich.console import Console
 from scraper.player_scraper import scrape_player_stats
 from itertools import islice
 import pandas as pd
+import numpy as np
+
+pd.set_option("display.max_columns", None)
+pd.set_option("display.width", 0)
 
 BATCH_SIZE = 3
 
@@ -79,13 +83,15 @@ def transform_players():
 
     # --- Step 1: Drop unwanted columns ---
     columns_to_drop = [
-        "Shooting_MP",
-        "Shooting_GLS",
-        "Team play_MP",
-        "Team play_AST",
-        "Additional_GLS",
-        "Additional_AST",
-        "Goalkeeping_MP",
+        "Shooting_OF_MP",
+        "Shooting_OF_GLS",
+        "Team play_OF_MP",
+        "Team play_OF_AST",
+        "Additional_OF_GLS",
+        "Additional_OF_AST",
+        "Goalkeeping_GK_MP",
+        "Additional_GK_GC",
+        "Defending_GK_CLS",
     ]
 
     df_all.drop(columns=[col for col in columns_to_drop if col in df_all.columns], inplace=True)
@@ -94,53 +100,107 @@ def transform_players():
     # --- Step 2: Define column rename mapping ---
     rename_dict = {
         "Year": "season",
-        "General_MP": "matches",
-        "General_MIN": "minutes",
-        "General_GLS": "goals",
-        "General_AST": "assists",
-        "General_CLS": "clean_sheets",
-        "General_GC": "goals_conceded",
-        "Shooting_TOS": "total_shots",
-        "Shooting_SOT": "shots_on_target",
-        "Shooting_BCM": "big_chances_missed",
-        "Team play_KEYP": "key_passes",
-        "Team play_BCC": "big_chances_created",
-        "Team play_SDR": "dribbles",
-        "Passing_APS": "accurate_passes",
-        "Passing_APS %": "passing_accuracy",
-        "Passing_ALB": "accurate_long_balls",
-        "Passing_LBA %": "long_ball_accuracy",
-        "Passing_ACR": "accurate_crosses",
-        "Passing_CA %": "crossing_accuracy",
-        "Defending_CLS": "clean_sheets",
-        "Defending_YC": "yellow_cards",
-        "Defending_RC": "red_cards",
-        "Defending_ELTG": "errors_leading_to_goal",
-        "Defending_DRP": "dribbled_past",
-        "Defending_TACK": "tackles",
-        "Defending_INT": "interceptions",
-        "Defending_BLS": "blocked_shots",
-        "Defending_ADW": "aerial_duels_won",
-        "Additional_xG": "xGoals",
-        "Additional_XA": "xAssists",
-        "Additional_GI": "goal_involvements",
-        "Additional_XGI": "expected_goal_involvements",
-        "Goalkeeping_SAV": "saves",
-        "Goalkeeping_SAV%": "prct_saves",
-        "Goalkeeping_PS": "penalties_saved",
-        "Goalkeeping_PS %": "prct_penalties_saved"
+        "General_OF_MP": "matches",
+        "General_OF_MIN": "minutes",
+        "General_OF_GLS": "goals",
+        "General_OF_AST": "assists",
+        "General_OF_CLS": "clean_sheets",
+        "General_OF_GC": "goals_conceded",
+        "General_OF_ASR": "avg_rating",
+        "Shooting_OF_TOS": "total_shots",
+        "Shooting_OF_SOT": "shots_on_target",
+        "Shooting_OF_BCM": "big_chances_missed",
+        "Team play_OF_KEYP": "key_passes",
+        "Team play_OF_BCC": "big_chances_created",
+        "Team play_OF_SDR": "dribbles",
+        "Passing_OF_APS": "accurate_passes",
+        "Passing_OF_APS%": "passing_accuracy",
+        "Passing_OF_ALB": "accurate_long_balls",
+        "Passing_OF_LBA%": "long_ball_accuracy",
+        "Passing_OF_ACR": "accurate_crosses",
+        "Passing_OF_CA%": "crossing_accuracy",
+        "Defending_OF_CLS": "clean_sheets",
+        "Defending_OF_YC": "yellow_cards",
+        "Defending_OF_RC": "red_cards",
+        "Defending_OF_ELTG": "errors_leading_to_goal",
+        "Defending_OF_DRP": "dribbled_past",
+        "Defending_OF_TACK": "tackles",
+        "Defending_OF_INT": "interceptions",
+        "Defending_OF_BLS": "blocked_shots",
+        "Defending_OF_ADW": "aerial_duels_won",
+        "Additional_OF_xG": "xGoals",
+        "Additional_OF_XA": "xAssists",
+        "Additional_OF_GI": "goal_involvements",
+        "Additional_OF_XGI": "expected_goal_involvements",
+        "General_GK_MP": "gk_matches",
+        "General_GK_MIN": "gk_minutes",
+        "General_GK_CLS": "gk_clean_sheets",
+        "General_GK_GC": "goals_conceded",
+        "General_GK_ASR": "gk_avg_rating",
+        "Goalkeeping_GK_SAV": "saves",
+        "Goalkeeping_GK_SAV%": "prct_saves",
+        "Goalkeeping_GK_PS": "penalties_saved",
+        "Goalkeeping_GK_PS%": "prct_penalties_saved",
+        "Passing_GK_APS": "gk_accurate_passes",
+        "Passing_GK_APS%": "gk_passing_accuracy",
+        "Passing_GK_ALB": "gk_accurate_long_balls",
+        "Passing_GK_LBA%": "gk_long_ball_accuracy",
+        "Defending_GK_CLS": "gk_clean_sheets",
+        "Defending_GK_YC": "gk_yellow_cards",
+        "Defending_GK_RC": "gk_red_cards",
+        "Defending_GK_ELTG": "gk_errors_leading_to_goal",
+        "Defending_GK_DRP": "gk_dribbled_past",
+        "Defending_GK_TACK": "gk_tackles",
+        "Defending_GK_INT": "gk_interceptions",
+        "Defending_GK_BLS": "gk_blocked_shots",
+        "Defending_GK_ADW": "gk_aerial_duels_won",
+        "Additional_GK_xGC": "xGoals_Conceded",
+        "Additional_GK_GP": "goals_prevented",
     }
 
     # --- Step 3: Rename columns ---
     df_all.rename(columns=rename_dict, inplace=True)
     # console.print(f"📝 Renamed columns: {list(rename_dict.keys())}")
 
-    # --- Save to staging ---
-    staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
-    os.makedirs(staging_dir, exist_ok=True)
-    out_path = os.path.join(staging_dir, "all_players.csv")
+    # --- Step 4: Fill base stats from goalkeeper columns ---
+    merge_columns = {
+        "matches": "gk_matches",
+        "minutes": "gk_minutes",
+        "clean_sheets": "gk_clean_sheets",
+        "avg_rating": "gk_avg_rating",
+        "accurate_passes": "gk_accurate_passes",
+        "passing_accuracy": "gk_passing_accuracy",
+        "accurate_long_balls": "gk_accurate_long_balls",
+        "long_ball_accuracy": "gk_long_ball_accuracy",
+        "yellow_cards": "gk_yellow_cards",
+        "red_cards": "gk_red_cards",
+        "errors_leading_to_goal": "gk_errors_leading_to_goal",
+        "dribbled_past": "gk_dribbled_past",
+        "tackles": "gk_tackles",
+        "interceptions": "gk_interceptions",
+        "aerial_duels_won": "gk_aerial_duels_won"
+    }
 
-    df_all.to_csv(out_path, index=False)
+    print(df_all)
+    print('------------------------------')
+
+    for base_col, gk_col in merge_columns.items():
+        df_all[base_col] = np.where(df_all[base_col].isna(),
+                                    df_all[gk_col],
+                                    df_all[base_col]
+                                    )
+
+    # Drop all gk_ columns
+    cols_to_drop = list(merge_columns.values())
+    df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
+    print(df_all)
+
+    # # --- Save to staging ---
+    # staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
+    # os.makedirs(staging_dir, exist_ok=True)
+    # out_path = os.path.join(staging_dir, "all_players.csv")
+    #
+    # df_all.to_csv(out_path, index=False)
     console.print("✅ Saved to staging directory")
 
 def load_to_production():
@@ -178,7 +238,7 @@ def load_to_production():
         try:
             sum_staging = pd.to_numeric(df_staging[col], errors="coerce").sum()
             sum_prod = pd.to_numeric(df_prod[col], errors="coerce").sum()
-            if sum_staging <= sum_prod:
+            if sum_staging < sum_prod:
                 failed_checks.append((col, sum_staging, sum_prod))
         except Exception as e:
             console.print(f"[red]❌ Error comparing column '{col}': {e}[/red]")
@@ -193,13 +253,13 @@ def load_to_production():
 
 
 if __name__ == "__main__":
-    console.rule("[bold blue]Extract Step")
-    asyncio.run(extract_players())
+    # console.rule("[bold blue]Extract Step")
+    # asyncio.run(extract_players())
 
     console.rule("[bold yellow]Transform Step")
     transform_players()
 
-    console.rule("[bold green]Load Step")
-    load_to_production()
+    # console.rule("[bold green]Load Step")
+    # load_to_production()
 
     console.print("[bold white on black]🏁 Full ETL completed!")

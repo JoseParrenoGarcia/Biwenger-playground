@@ -167,6 +167,30 @@
       "id": "951008",
       "position": "Goalkeeper",
       "to_scrape": true
+    },
+    {
+      "name": "Hugo Duro",
+      "sofascore_name": "hugo-duro",
+      "team": "ValenciaCF",
+      "id": "909119",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Umar Sadiq",
+      "sofascore_name": "umar-sadiq",
+      "team": "ValenciaCF",
+      "id": "754710",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Pepelu",
+      "sofascore_name": "pepelu",
+      "team": "ValenciaCF",
+      "id": "826948",
+      "position": "Midfielder",
+      "to_scrape": true
     }
   ]
 }
