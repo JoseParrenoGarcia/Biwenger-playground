@@ -1,5 +1,3 @@
-import json
-import os
 import asyncio
 from playwright.async_api import async_playwright, Page
 import pandas as pd
@@ -9,10 +7,10 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 0)
 
 # === TAB CONFIGURATION ===
-TAB_CONFIG = {
+TAB_CONFIG_OUTFIELD = {
     "General": {
         "columns": ["Year", "MP", "MIN", "GLS", "AST", "ASR"],
-        "drop_index": 4  # Drop the weird empty value
+        "drop_index": None
     },
     "Shooting": {
         "columns": ["Year", "MP", "GLS", "TOS", "SOT", "BCM"],
@@ -34,6 +32,30 @@ TAB_CONFIG = {
         "columns": ["Year", "GLS", "xG", "AST", "XA", "GI", "XGI"],
         "drop_index": 0
     },
+}
+
+TAB_CONFIG_GOALKEEPER = {
+    "General": {
+        "columns": ["Year", "MP", "MIN", "CLS", "GC", "ASR"],
+        "drop_index": None
+    },
+    "Goalkeeping": {
+        "columns": ["Year", "MP", "SAV", "SAV%", "PS", "PS%"],
+        "drop_index": None
+    },
+    "Passing": {
+        "columns": ["Year", "APS", "APS%", "ALB", "LBA%"],
+        "drop_index": 0
+    },
+    "Defending": {
+        "columns": ["Year", "CLS", "YC", "RC", "ELTG", "DRP", "TACK", "INT", "ADW"],
+        "drop_index": 0
+    },
+    "Additional": {
+        "columns": ["Year", "GC", "xGC", "GP"],
+        "drop_index": 0
+    },
+
 }
 
 # === HELPER: Click a tab by name ===
@@ -59,16 +81,18 @@ async def collapse_first_season_row(page: Page):
         print(f"⚠️ Failed to collapse first row: {e}")
 
 # === HELPER: Combine tables ===
-def combine_stat_tables(all_dataframes: dict[str, pd.DataFrame]) -> pd.DataFrame:
+def combine_stat_tables(all_dataframes: dict[str, pd.DataFrame], position: str) -> pd.DataFrame:
     """
     Merge all tab-specific DataFrames on 'Year', renaming columns to avoid collisions.
     Example:
         {"General": df1, "Shooting": df2} → merged DataFrame with columns like 'MP_General', 'MP_Shooting', etc.
     """
     renamed_dfs = []
+    suffix = "GK" if position == "Goalkeeper" else "OF"
+
     for tab_name, df in all_dataframes.items():
         renamed = df.copy()
-        renamed.columns = [f"{tab_name}_{col}" if col != "Year" else "Year" for col in df.columns]
+        renamed.columns = [f"{tab_name}_{suffix}_{col}" if col != "Year" else "Year" for col in df.columns]
         renamed_dfs.append(renamed)
 
     if not renamed_dfs:
@@ -78,7 +102,7 @@ def combine_stat_tables(all_dataframes: dict[str, pd.DataFrame]) -> pd.DataFrame
     return df_final
 
 # === GENERIC TABLE SCRAPER ===
-async def scrape_stat_table(page: Page, columns: list[str], drop_index: int | None = None, n_rows: int = 2) -> pd.DataFrame:
+async def scrape_stat_table(page: Page, columns: list[str], drop_index: int | None = None, n_rows: int = 100) -> pd.DataFrame:
     await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10000)
 
     # Step 1: Extract years
@@ -92,22 +116,37 @@ async def scrape_stat_table(page: Page, columns: list[str], drop_index: int | No
     # Step 2: Extract stat rows
     stat_rows = await page.query_selector_all(".Box.hMcCqO.sc-c2c19408-0.cFPbZB .Box.ggRYVx.iWGVcA .Box.cQgcrM")
     data = []
-    for row in stat_rows:
-        stat_cells = await row.query_selector_all(".Box.jNHkiI.kFvGEE span")
-        stats = [await cell.inner_text() for cell in stat_cells]
+    for idx, row in enumerate(stat_rows):
+        stat_cells = await row.query_selector_all(".Box.jNHkiI.kFvGEE")
+        stats = []
+
+        for cell in stat_cells:
+            inner_span = await cell.query_selector("span")
+            if inner_span:
+                val = await inner_span.inner_text()
+                stats.append(val.strip())
+            else:
+                stats.append(None)  # Placeholder/dash cell
+
         if drop_index is not None and len(stats) > drop_index:
-            stats = stats[:drop_index] + stats[drop_index+1:]
+            stats = stats[:drop_index] + stats[drop_index + 1:]
+
         data.append(stats)
+
+    # print(data)
 
     # Step 3: Combine into DataFrame
     years_subset = years[:n_rows]
     stats_subset = data[:n_rows]
     combined_rows = [[year] + stat_row for year, stat_row in zip(years_subset, stats_subset)]
     df = pd.DataFrame(combined_rows, columns=columns)
+
+    # print(df)
+
     return df
 
 # === MAIN SCRAPER ===
-async def scrape_player_stats(sofascore_name, player_id):
+async def scrape_player_stats(sofascore_name, player_id, position):
     url = f"https://www.sofascore.com/player/{sofascore_name}/{player_id}"
     print(f"🔗 Opening: {url}")
 
@@ -145,8 +184,10 @@ async def scrape_player_stats(sofascore_name, player_id):
 
         # Loop through all configured tabs
         all_dataframes = {}
+        TAB_CONFIG = TAB_CONFIG_GOALKEEPER if position == "Goalkeeper" else TAB_CONFIG_OUTFIELD
         for tab_name, config in TAB_CONFIG.items():
             await click_tab(page, tab_name)
+            # print(tab_name)
             df = await scrape_stat_table(
                 page=page,
                 columns=config["columns"],
@@ -156,27 +197,31 @@ async def scrape_player_stats(sofascore_name, player_id):
 
             all_dataframes[tab_name] = df
 
-        df_merged = combine_stat_tables(all_dataframes)
+        df_merged = combine_stat_tables(all_dataframes, position)
 
         await asyncio.sleep(2)
         await browser.close()
 
         return df_merged
 
-# === ENTRY POINT ===
-if __name__ == "__main__":
-    # Load player list
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "config", "players.json")
-    with open(json_path, "r") as f:
-        data = json.load(f)
-    players = [p for p in data["players"] if p.get("to_scrape", False)]
 
-    # Loop through each player
-    for player in players:
-        print(f"\n🚀 Scraping stats for {player['sofascore_name']} (ID: {player['id']})")
-        df = asyncio.run(scrape_player_stats(
-            sofascore_name=player['sofascore_name'],
-            player_id=player['id']
-        ))
-        print(df)
+# # === ENTRY POINT ===
+# if __name__ == "__main__":
+#     # Load player list
+#     script_dir = os.path.dirname(os.path.abspath(__file__))
+#     json_path = os.path.join(script_dir, "config", "players.json")
+#     with open(json_path, "r") as f:
+#         data = json.load(f)
+#     players = [p for p in data["players"] if p.get("to_scrape", False)]
+#
+#     # Loop through each player
+#     for player in players:
+#         print(f"\n🚀 Scraping stats for {player['sofascore_name']} (ID: {player['id']})")
+#         df = asyncio.run(
+#             scrape_player_stats(
+#                 sofascore_name=player['sofascore_name'],
+#                 player_id=player['id'],
+#                 position=player['position'],
+#             )
+#         )
+#         print(df)
