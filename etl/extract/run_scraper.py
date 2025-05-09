@@ -44,7 +44,8 @@ async def extract_players():
             # Save to raw data path
             out_path = os.path.join(RAW_DATA_DIR, f"{player['sofascore_name']}.csv")
             df.to_csv(out_path, index=False)
-            console.print(f"✅ Saved to [green]{out_path}[/green]")
+            # console.print(f"✅ Saved to [green]{out_path}[/green]")
+            console.print(f"✅ Saved {player["name"]} to raw")
 
         except Exception as e:
             console.print(f"[red]❌ Error scraping {player['sofascore_name']}: {e}[/red]")
@@ -87,7 +88,7 @@ def transform_players():
     ]
 
     df_all.drop(columns=[col for col in columns_to_drop if col in df_all.columns], inplace=True)
-    console.print(f"🧹 Dropped columns: {columns_to_drop}")
+    # console.print(f"🧹 Dropped columns: {columns_to_drop}")
 
     # --- Step 2: Define column rename mapping ---
     rename_dict = {
@@ -125,7 +126,7 @@ def transform_players():
 
     # --- Step 3: Rename columns ---
     df_all.rename(columns=rename_dict, inplace=True)
-    console.print(f"📝 Renamed columns: {list(rename_dict.keys())}")
+    # console.print(f"📝 Renamed columns: {list(rename_dict.keys())}")
 
     # --- Save to staging ---
     staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
@@ -135,6 +136,54 @@ def transform_players():
     df_all.to_csv(out_path, index=False)
     console.print("✅ Saved to staging directory")
 
+def load_to_production():
+    console.rule("[bold green]📦 Load Step: Move to Production")
+
+    staging_path = os.path.join(os.path.dirname(__file__), "../data/staging/all_players.csv")
+    production_dir = os.path.join(os.path.dirname(__file__), "../data/production")
+    production_path = os.path.join(production_dir, "all_players.csv")
+    os.makedirs(production_dir, exist_ok=True)
+
+    if not os.path.exists(staging_path):
+        console.print("[red]❌ Staging file not found. Cannot proceed.[/red]")
+        return
+
+    df_staging = pd.read_csv(staging_path)
+
+    # Case 1: Production is empty → just copy
+    if not os.path.exists(production_path):
+        df_staging.to_csv(production_path, index=False)
+        console.print("[green]✅ Production was empty. File copied successfully.[/green]")
+        return
+
+    # Case 2: Production exists → compare sums
+    df_prod = pd.read_csv(production_path)
+
+    columns_to_check = [
+        "matches", "minutes", "total_shots", "accurate_passes",  # Replace with real ones
+    ]
+
+    failed_checks = []
+    for col in columns_to_check:
+        if col not in df_staging.columns or col not in df_prod.columns:
+            console.print(f"[yellow]⚠️ Skipping column '{col}' (missing in one of the files)[/yellow]")
+            continue
+        try:
+            sum_staging = pd.to_numeric(df_staging[col], errors="coerce").sum()
+            sum_prod = pd.to_numeric(df_prod[col], errors="coerce").sum()
+            if sum_staging <= sum_prod:
+                failed_checks.append((col, sum_staging, sum_prod))
+        except Exception as e:
+            console.print(f"[red]❌ Error comparing column '{col}': {e}[/red]")
+
+    if failed_checks:
+        console.print("[red]🚫 Validation failed. Not copying to production.[/red]")
+        for col, s_new, s_old in failed_checks:
+            console.print(f"  ➤ [bold]{col}[/bold]: staging={s_new:.2f}, prod={s_old:.2f}")
+    else:
+        df_staging.to_csv(production_path, index=False)
+        console.print("[green]✅ Validation passed. Staging file copied to production.[/green]")
+
 
 if __name__ == "__main__":
     console.rule("[bold blue]Extract Step")
@@ -143,4 +192,7 @@ if __name__ == "__main__":
     console.rule("[bold yellow]Transform Step")
     transform_players()
 
-    console.print("[bold green]🏁 ETL complete!")
+    console.rule("[bold green]Load Step")
+    load_to_production()
+
+    console.print("[bold white on black]🏁 Full ETL completed!")

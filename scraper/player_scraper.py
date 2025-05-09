@@ -78,7 +78,7 @@ def combine_stat_tables(all_dataframes: dict[str, pd.DataFrame]) -> pd.DataFrame
     return df_final
 
 # === GENERIC TABLE SCRAPER ===
-async def scrape_stat_table(page: Page, columns: list[str], drop_index: int | None = None, n_rows: int = 2) -> pd.DataFrame:
+async def scrape_stat_table(page: Page, columns: list[str], drop_index: int | None = None, n_rows: int = 100) -> pd.DataFrame:
     await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10000)
 
     # Step 1: Extract years
@@ -162,6 +162,8 @@ async def scrape_player_stats(sofascore_name, player_id):
         await browser.close()
 
         return df_merged
+
+
 
 # === ENTRY POINT ===
 if __name__ == "__main__":
