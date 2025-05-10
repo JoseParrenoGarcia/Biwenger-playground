@@ -168,9 +168,6 @@ async def scrape_goalkeeper(sofascore_name: str, player_id: int) -> pd.DataFrame
         # --- navigate to the General tab -----------------------------------
         await click_tab(page, "General")
         await collapse_first_season_row(page)
-        await click_tab(page, "Goalkeeping")
-        await click_tab(page, "Attacking")
-
 
         # --- scrape every tab defined for goalkeepers ----------------------
         all_dataframes: dict[str, pd.DataFrame] = {}

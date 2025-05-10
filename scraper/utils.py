@@ -78,5 +78,18 @@ def combine_stat_tables(
     # ── 3 · Drop duplicate columns (can happen if two tabs both have 'ASR_GK') ──
     df_final = df_final.loc[:, ~df_final.columns.duplicated()]
 
+    # ── 4 · Drop empty rating column ──
+    df_final = df_final.loc[:, ~df_final.columns.duplicated()]
+
+    if position == "Goalkeeper":
+        col_main = "General_GK_ASR"
+        col_rating = "General_rating_GK_ASR"
+    else:
+        col_main = "General_OF_ASR"
+        col_rating = "General_rating_OF_ASR"
+
+    if col_main in df_final.columns and col_rating in df_final.columns:
+        df_final.drop(columns=[col_main], inplace=True)
+
     return df_final
 
