@@ -28,10 +28,10 @@ TAB_CONFIG_OUTFIELD = {
         "columns": ["Year", "MP", "MIN", "GLS", "AST", "ASR"],
         "drop_index": None
     },
-    "Shooting": {
-        "columns": ["Year", "MP", "GLS", "TOS", "SOT", "BCM"],
-        "drop_index": None
-    },
+    # "Shooting": {
+    #     "columns": ["Year", "MP", "GLS", "TOS", "SOT", "BCM"],
+    #     "drop_index": None
+    # },
     # "Team play": {
     #     "columns": ["Year", "MP", "AST", "KEYP", "BCC", "SDR"],
     #     "drop_index": None
@@ -103,39 +103,34 @@ async def scrape_stat_table(
     df = pd.DataFrame(combined_rows, columns=columns)
     return df
 
-async def scrape_rating_table(
-    page: Page,
-    n_rows: int = 100
-) -> pd.DataFrame:
-    """
-    When mode == "default": identical behaviour as before.
-    When mode == "rating":  ignore the per-cell loop and pull the ASR column
-                            directly with span[role='meter'] selector. Works
-                            for every position because the rating pill is
-                            rendered the same way for all players.
-    """
-    await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10000)
-
-    # ---- Step 1: seasons (years) – used by both modes --------------------
+async def scrape_rating_table(page: Page, n_rows: int = 100) -> pd.DataFrame:
+    # seasons
     year_spans = await page.query_selector_all(
         ".Box.feDCzw.crsNnE .Box.gQIPzn.fRroAj span"
     )
-    years = [await y.inner_text() for y in year_spans if "/" in await y.inner_text()]
-    years = years[:n_rows]                                   # keep ≤ n_rows
+    years = [await y.inner_text() for y in year_spans if "/" in await y.inner_text()][:n_rows]
 
-    # Wait until at least one rating pill is rendered
-    await page.wait_for_selector("span[role='meter']", timeout=5000)
-
-    # Pull every aria-valuenow in DOM order (top season ➜ bottom season)
-    asr_values = await page.eval_on_selector_all(
-        "span[role='meter']",
-        "els => els.map(e => e.getAttribute('aria-valuenow') || "
-        "                     (e.innerText.trim() || null))"
+    # season rows
+    stat_rows = await page.query_selector_all(
+        ".Box.hMcCqO.sc-c2c19408-0.cFPbZB .Box.ggRYVx.iWGVcA .Box.cQgcrM"
     )
-    # Trim / pad to match number of seasons we captured
-    asr_values = (asr_values + [None] * len(years))[:len(years)]
 
-    rows = [[y, v] for y, v in zip(years, asr_values)]
+    rows, idx = [], 0
+    for row in stat_rows:
+        if idx >= len(years):
+            break
+        meter = await row.query_selector(":scope span[role='meter']")
+        if not meter:          # sub-row → skip
+            continue
+        val = await meter.get_attribute("aria-valuenow") or (await meter.inner_text()).strip()
+        rows.append([years[idx], val])
+        idx += 1
+
+    # pad if fewer ratings than seasons
+    while idx < len(years):
+        rows.append([years[idx], None])
+        idx += 1
+
     return pd.DataFrame(rows, columns=["Year", "ASR"])
 
 # ------------------------------------------------------------------ #

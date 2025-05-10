@@ -1,12 +1,12 @@
 import json, asyncio
 from gk_scraper import scrape_goalkeeper
-from non_gk_scraper import scrape_outfielder
+from non_gk_scraper import scrape_outfield_player
 
 async def run_player(p):
     if p["position"] == "Goalkeeper":
         df = await scrape_goalkeeper(p["sofascore_name"], p["id"])
     else:
-        df = await scrape_outfielder(p["sofascore_name"], p["id"])
+        df = await scrape_outfield_player(p["sofascore_name"], p["id"])
     print(df)
 
 if __name__ == "__main__":
