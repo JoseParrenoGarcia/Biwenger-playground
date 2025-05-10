@@ -5,7 +5,7 @@ from scraper_sofascore_aggregate_stats.runner import run_player
 console = Console()
 BATCH_SIZE = 5
 
-RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/raw")
+RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "data/raw")
 os.makedirs(RAW_DATA_DIR, exist_ok=True)
 
 PLAYERS_TO_SCRAPE_PATH = os.path.abspath(

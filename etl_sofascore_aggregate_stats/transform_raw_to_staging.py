@@ -1,27 +1,12 @@
-def transform_players():
-    console.rule("[bold yellow]🔄 Transform Step: Collate Raw CSVs")
+import os
+import pandas as pd
+import numpy as np
+from rich.console import Console
+console = Console()
 
-    all_dfs = []
+RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "data/raw")
 
-    for filename in os.listdir(RAW_DATA_DIR):
-        if filename.endswith(".csv"):
-            filepath = os.path.join(RAW_DATA_DIR, filename)
-            try:
-                df = pd.read_csv(filepath)
-                all_dfs.append(df)
-                # console.print(f"📥 Loaded [green]{filename}[/green] with {len(df)} rows")
-            except Exception as e:
-                console.print(f"[red]❌ Failed to load {filename}: {e}[/red]")
-
-    if not all_dfs:
-        console.print("[red]⚠️ No data files found. Nothing to transform.[/red]")
-        return
-
-    df_all = pd.concat(all_dfs, ignore_index=True)
-    # console.print(f"📊 Total rows after concat: [bold]{len(df_all)}[/bold]")
-
-    # --- Step 1: Drop unwanted columns ---
-    columns_to_drop = [
+columns_to_drop = [
         "Shooting_OF_MP",
         "Shooting_OF_GLS",
         "Team play_OF_MP",
@@ -33,11 +18,7 @@ def transform_players():
         "Defending_GK_CLS",
     ]
 
-    df_all.drop(columns=[col for col in columns_to_drop if col in df_all.columns], inplace=True)
-    # console.print(f"🧹 Dropped columns: {columns_to_drop}")
-
-    # --- Step 2: Define column rename mapping ---
-    rename_dict = {
+rename_dict = {
         "Year": "season",
         "General_OF_MP": "matches",
         "General_OF_MIN": "minutes",
@@ -97,42 +78,61 @@ def transform_players():
         "Additional_GK_GP": "goals_prevented",
     }
 
-    # --- Step 3: Rename columns ---
-    df_all.rename(columns=rename_dict, inplace=True)
-    # console.print(f"📝 Renamed columns: {list(rename_dict.keys())}")
+merge_columns = {
+        "matches": "gk_matches",
+        "minutes": "gk_minutes",
+        "clean_sheets": "gk_clean_sheets",
+        "avg_rating": "General_rating_GK_ASR",
+        "accurate_passes": "gk_accurate_passes",
+        "passing_accuracy": "gk_passing_accuracy",
+        "accurate_long_balls": "gk_accurate_long_balls",
+        "long_ball_accuracy": "gk_long_ball_accuracy",
+        "yellow_cards": "gk_yellow_cards",
+        "red_cards": "gk_red_cards",
+        "errors_leading_to_goal": "gk_errors_leading_to_goal",
+        "dribbled_past": "gk_dribbled_past",
+        "tackles": "gk_tackles",
+        "interceptions": "gk_interceptions",
+        "aerial_duels_won": "gk_aerial_duels_won"
+    }
 
-    # # --- Step 4: Fill base stats from goalkeeper columns ---
-    # merge_columns = {
-    #     "matches": "gk_matches",
-    #     "minutes": "gk_minutes",
-    #     "clean_sheets": "gk_clean_sheets",
-    #     "avg_rating": "gk_avg_rating",
-    #     "accurate_passes": "gk_accurate_passes",
-    #     "passing_accuracy": "gk_passing_accuracy",
-    #     "accurate_long_balls": "gk_accurate_long_balls",
-    #     "long_ball_accuracy": "gk_long_ball_accuracy",
-    #     "yellow_cards": "gk_yellow_cards",
-    #     "red_cards": "gk_red_cards",
-    #     "errors_leading_to_goal": "gk_errors_leading_to_goal",
-    #     "dribbled_past": "gk_dribbled_past",
-    #     "tackles": "gk_tackles",
-    #     "interceptions": "gk_interceptions",
-    #     "aerial_duels_won": "gk_aerial_duels_won"
-    # }
-    #
-    # print(df_all)
-    # print('------------------------------')
-    #
+def transform_players():
+    all_dfs = []
+
+    for filename in os.listdir(RAW_DATA_DIR):
+        if filename.endswith(".csv"):
+            filepath = os.path.join(RAW_DATA_DIR, filename)
+            try:
+                df = pd.read_csv(filepath)
+                all_dfs.append(df)
+                # console.print(f"📥 Loaded [green]{filename}[/green] with {len(df)} rows")
+            except Exception as e:
+                console.print(f"[red]❌ Failed to load {filename}: {e}[/red]")
+
+    if not all_dfs:
+        console.print("[red]⚠️ No data files found. Nothing to transform.[/red]")
+        return
+
+    df_all = pd.concat(all_dfs, ignore_index=True)
+    console.print(f"📊 Total rows after concat: [bold]{len(df_all)}[/bold]")
+
+    # --- Step 1: Drop unwanted columns ---
+    df_all.drop(columns=[col for col in columns_to_drop if col in df_all.columns], inplace=True)
+
+    # --- Step 2: Rename columns ---
+    df_all.rename(columns=rename_dict, inplace=True)
+
+    # # --- Step 3: Fill base stats from goalkeeper columns ---
     # for base_col, gk_col in merge_columns.items():
     #     df_all[base_col] = np.where(df_all[base_col].isna(),
     #                                 df_all[gk_col],
     #                                 df_all[base_col]
     #                                 )
-    #
-    # # Drop all gk_ columns
-    # cols_to_drop = list(merge_columns.values())
-    # df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
-    print(df_all)
+
+    # # # Drop all gk_ columns
+    # # cols_to_drop = list(merge_columns.values())
+    # # df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
+    # print(df_all)
 
     # # --- Save to staging ---
     # staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
