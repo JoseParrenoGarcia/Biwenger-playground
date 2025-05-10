@@ -1,0 +1,188 @@
+{
+  "players": [
+    {
+      "name": "Gerard Moreno",
+      "sofascore_name": "gerard-moreno",
+      "team": "Villarreal",
+      "id": "146866",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Nicolas Pépé",
+      "sofascore_name": "nicolas-pepe",
+      "team": "Villarreal",
+      "id": "593526",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Thierno Barry",
+      "sofascore_name": "thierno-barry",
+      "team": "Villarreal",
+      "id": "1395746",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Ayoze Perez",
+      "sofascore_name": "ayoze-perez",
+      "team": "Villarreal",
+      "id": "345195",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Ilias Akhomach",
+      "sofascore_name": "ilias-akhomach",
+      "team": "Villarreal",
+      "id": "1089108",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Pape Gueye",
+      "sofascore_name": "pape-gueye",
+      "team": "Villarreal",
+      "id": "879694",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Alejandro Baena",
+      "sofascore_name": "alejandro-baena",
+      "team": "Villarreal",
+      "id": "910031",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Yéremy Pino",
+      "sofascore_name": "yeremy-pino",
+      "team": "Villarreal",
+      "id": "984624",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Dani Parejo",
+      "sofascore_name": "dani-parejo",
+      "team": "Villarreal",
+      "id": "39182",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Santi Comesaña",
+      "sofascore_name": "santi-comesana",
+      "team": "Villarreal",
+      "id": "843678",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Eric Bailly",
+      "sofascore_name": "eric-bailly",
+      "team": "Villarreal",
+      "id": "606346",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Juan Foyth",
+      "sofascore_name": "juan-foyth",
+      "team": "Villarreal",
+      "id": "873189",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Willy Kambwala",
+      "sofascore_name": "kambwala-willy",
+      "team": "Villarreal",
+      "id": "1136721",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Raul Albiol",
+      "sofascore_name": "raul-albiol",
+      "team": "Villarreal",
+      "id": "3041",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Sergi Cardona",
+      "sofascore_name": "sergi-cardona",
+      "team": "Villarreal",
+      "id": "986245",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Logan Costa",
+      "sofascore_name": "logan-costa",
+      "team": "Villarreal",
+      "id": "911853",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Kiko Femenia",
+      "sofascore_name": "kiko-femenia",
+      "team": "Villarreal",
+      "id": "53739",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Alfonso Pedraza",
+      "sofascore_name": "alfonso-pedraza",
+      "team": "Villarreal",
+      "id": "797290",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Pau Navarro",
+      "sofascore_name": "pau-navarro",
+      "team": "Villarreal",
+      "id": "1525863",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Luiz Junior",
+      "sofascore_name": "luiz-junior",
+      "team": "Villarreal",
+      "id": "1066603",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Hugo Duro",
+      "sofascore_name": "hugo-duro",
+      "team": "ValenciaCF",
+      "id": "909119",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Umar Sadiq",
+      "sofascore_name": "umar-sadiq",
+      "team": "ValenciaCF",
+      "id": "754710",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Pepelu",
+      "sofascore_name": "pepelu",
+      "team": "ValenciaCF",
+      "id": "826948",
+      "position": "Midfielder",
+      "to_scrape": true
+    }
+  ]
+}
