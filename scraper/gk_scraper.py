@@ -14,7 +14,7 @@ import asyncio
 import os
 import json
 import pandas as pd
-from utils import combine_stat_tables, click_tab, collapse_first_season_row
+from scraper.utils import combine_stat_tables, click_tab, collapse_first_season_row
 from playwright.async_api import async_playwright, Page
 
 pd.set_option("display.max_columns", None)

@@ -1,6 +1,6 @@
 import json, asyncio, os
-from gk_scraper import scrape_goalkeeper
-from non_gk_scraper import scrape_outfield_player
+from scraper.gk_scraper import scrape_goalkeeper
+from scraper.non_gk_scraper import scrape_outfield_player
 
 async def run_player(p):
     if p["position"] == "Goalkeeper":
