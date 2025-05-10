@@ -213,14 +213,13 @@ async def scrape_player_stats(sofascore_name, player_id, position):
     print(f"🔗 Opening: {url}")
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=False,
-            # args=["--disable-gpu", "--no-sandbox"]
-        )
         # browser = await p.chromium.launch(
-        #     headless=True,
-        #     args=["--disable-gpu", "--no-sandbox"]
+        #     headless=False,
         # )
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--disable-gpu", "--no-sandbox"]
+        )
 
         page = await browser.new_page()
         await page.goto(url)

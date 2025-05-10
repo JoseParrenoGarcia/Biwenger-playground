@@ -7,6 +7,14 @@
       "id": "1066603",
       "position": "Goalkeeper",
       "to_scrape": true
+    },
+    {
+      "name": "Hugo Duro",
+      "sofascore_name": "hugo-duro",
+      "team": "ValenciaCF",
+      "id": "909119",
+      "position": "Forward",
+      "to_scrape": true
     }
   ]
 }
