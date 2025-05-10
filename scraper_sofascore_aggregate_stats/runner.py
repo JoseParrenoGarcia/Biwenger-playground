@@ -25,7 +25,7 @@ if __name__ == "__main__":
         raise SystemExit
 
     # --- Scrape each player using run_player() ---
-    for p in players:
+    for p in players[0:1]:
         print(f"\n🚀 Scraping stats for {p['name']} ({p['sofascore_name']}, ID: {p['id']})")
 
         df = asyncio.run(run_player(p))

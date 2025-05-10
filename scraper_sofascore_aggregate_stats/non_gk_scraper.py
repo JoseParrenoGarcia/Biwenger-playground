@@ -187,6 +187,8 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
             )
             all_dataframes[f"{tab_name}_rating"] = df_rating
 
+        print(all_dataframes)
+
         # --- merge & return -----------------------------------------------
         df_merged = combine_stat_tables(all_dataframes, position="non-gk")
 
