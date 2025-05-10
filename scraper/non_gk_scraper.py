@@ -28,26 +28,26 @@ TAB_CONFIG_OUTFIELD = {
         "columns": ["Year", "MP", "MIN", "GLS", "AST", "ASR"],
         "drop_index": None
     },
-    # "Shooting": {
-    #     "columns": ["Year", "MP", "GLS", "TOS", "SOT", "BCM"],
-    #     "drop_index": None
-    # },
-    # "Team play": {
-    #     "columns": ["Year", "MP", "AST", "KEYP", "BCC", "SDR"],
-    #     "drop_index": None
-    # },
-    # "Passing": {
-    #     "columns": ["Year", "APS", "APS%", "ALB", "LBA%", "ACR", "CA%"],
-    #     "drop_index": 0
-    # },
-    # "Defending": {
-    #     "columns": ["Year", "CLS", "YC", "RC", "ELTG", "DRP", "TACK", "INT", "BLS", "ADW"],
-    #     "drop_index": 0
-    # },
-    # "Additional": {
-    #     "columns": ["Year", "GLS", "xG", "AST", "XA", "GI", "XGI"],
-    #     "drop_index": 0
-    # },
+    "Shooting": {
+        "columns": ["Year", "MP", "GLS", "TOS", "SOT", "BCM"],
+        "drop_index": None
+    },
+    "Team play": {
+        "columns": ["Year", "MP", "AST", "KEYP", "BCC", "SDR"],
+        "drop_index": None
+    },
+    "Passing": {
+        "columns": ["Year", "APS", "APS%", "ALB", "LBA%", "ACR", "CA%"],
+        "drop_index": 0
+    },
+    "Defending": {
+        "columns": ["Year", "CLS", "YC", "RC", "ELTG", "DRP", "TACK", "INT", "BLS", "ADW"],
+        "drop_index": 0
+    },
+    "Additional": {
+        "columns": ["Year", "GLS", "xG", "AST", "XA", "GI", "XGI"],
+        "drop_index": 0
+    },
 }
 
 TAB_OUTFIELD_RATING = {
@@ -203,7 +203,7 @@ if __name__ == "__main__":
     with open(json_path, "r") as f:
         data = json.load(f)
 
-    # --- subset to goalkeepers flagged for scraping -------------------------
+    # --- subset to non-goalkeepers flagged for scraping -------------------------
     not_goalkeepers = [
         p for p in data["players"]
         if p.get("to_scrape", False) and p.get("position") != "Goalkeeper"
@@ -213,7 +213,7 @@ if __name__ == "__main__":
         print("Not non-goalkeepers marked with 'to_scrape': true")
         raise SystemExit
 
-    # --- scrape each keeper -------------------------------------------------
+    # --- scrape each non-keeper -------------------------------------------------
     for p in not_goalkeepers:
         print(f"\n🚀 Scraping PLAYER stats for {p['sofascore_name']} (ID: {p['id']})")
 
