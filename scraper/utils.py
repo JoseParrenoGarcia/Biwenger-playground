@@ -28,3 +28,55 @@ async def collapse_first_season_row(page: Page):
     except Exception as e:
         print(f"⚠️ Failed to collapse first row: {e}")
 
+from functools import reduce
+import pandas as pd
+
+def combine_stat_tables(
+    all_dataframes: dict[str, pd.DataFrame],
+    position: str = "Goalkeeper",
+) -> pd.DataFrame:
+    """
+    Merge tab-specific DataFrames on 'Year', adding a suffix (GK/OF) to every
+    stat column to avoid name collisions.
+
+    Parameters
+    ----------
+    all_dataframes : {"tab name": DataFrame}
+        Output of the scraping loop, e.g. {"General": df_gen, "Shooting": df_shoot}
+    position : {"Goalkeeper", "Outfield"}
+        Used only to choose the suffix for column names.
+
+    Returns
+    -------
+    pd.DataFrame
+        One row per season, outer-joined across all tabs.
+    """
+    suffix = "GK" if position == "Goalkeeper" else "OF"
+
+    # ── 1 · Rename columns per tab ───────────────────────────────────────
+    renamed_dfs: list[pd.DataFrame] = []
+    for tab_name, df in all_dataframes.items():
+        if df.empty:
+            continue
+
+        renamed = df.copy()
+        renamed.columns = [
+            f"{tab_name}_{suffix}_{col}" if col != "Year" else "Year"
+            for col in df.columns
+        ]
+        renamed_dfs.append(renamed)
+
+    if not renamed_dfs:
+        return pd.DataFrame()
+
+    # ── 2 · Outer-join on Year ───────────────────────────────────────────
+    df_final = reduce(
+        lambda left, right: pd.merge(left, right, on="Year", how="outer"),
+        renamed_dfs,
+    )
+
+    # ── 3 · Drop duplicate columns (can happen if two tabs both have 'ASR_GK') ──
+    df_final = df_final.loc[:, ~df_final.columns.duplicated()]
+
+    return df_final
+

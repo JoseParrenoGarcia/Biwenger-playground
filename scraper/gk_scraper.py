@@ -14,7 +14,7 @@ import asyncio
 import os
 import json
 import pandas as pd
-from utils import open_sofascore, click_tab, collapse_first_season_row
+from utils import combine_stat_tables, click_tab, collapse_first_season_row
 from playwright.async_api import async_playwright, Page
 
 pd.set_option("display.max_columns", None)
@@ -99,95 +99,39 @@ async def scrape_stat_table(
     df = pd.DataFrame(combined_rows, columns=columns)
     return df
 
-
-async def _extract_simple_table(
-    page,
-    columns: list[str],
-    drop_index: int | None = None,
-    n_rows: int = 100,
+async def scrape_rating_table(
+    page: Page,
+    n_rows: int = 100
 ) -> pd.DataFrame:
     """
-    Generic extractor for tables where *every* stat is inside a shallow <span>.
-    Identical to the old 'default' mode.
+    When mode == "default": identical behaviour as before.
+    When mode == "rating":  ignore the per-cell loop and pull the ASR column
+                            directly with span[role='meter'] selector. Works
+                            for every position because the rating pill is
+                            rendered the same way for all players.
     """
-    # --- seasons (left column) ----------------------------------------
+    await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10000)
+
+    # ---- Step 1: seasons (years) – used by both modes --------------------
     year_spans = await page.query_selector_all(
         ".Box.feDCzw.crsNnE .Box.gQIPzn.fRroAj span"
     )
-    years = [
-        await y.inner_text() for y in year_spans if "/" in await y.inner_text()
-    ][:n_rows]
+    years = [await y.inner_text() for y in year_spans if "/" in await y.inner_text()]
+    years = years[:n_rows]                                   # keep ≤ n_rows
 
-    # --- stat rows ----------------------------------------------------
-    stat_rows = await page.query_selector_all(
-        ".Box.hMcCqO.sc-c2c19408-0.cFPbZB .Box.ggRYVx.iWGVcA .Box.cQgcrM"
+    # Wait until at least one rating pill is rendered
+    await page.wait_for_selector("span[role='meter']", timeout=5000)
+
+    # Pull every aria-valuenow in DOM order (top season ➜ bottom season)
+    asr_values = await page.eval_on_selector_all(
+        "span[role='meter']",
+        "els => els.map(e => e.getAttribute('aria-valuenow') || "
+        "                     (e.innerText.trim() || null))"
     )
+    # Trim / pad to match number of seasons we captured
+    asr_values = (asr_values + [None] * len(years))[:len(years)]
 
-    data: list[list[str | None]] = []
-    for row in stat_rows[: n_rows]:
-        cells = await row.query_selector_all(".Box.jNHkiI.kFvGEE")
-        stats: list[str | None] = []
-
-        for cell in cells:
-            val = None
-            span = await cell.query_selector("span")
-            if span:
-                txt = (await span.inner_text()).strip()
-                if txt not in {"", "-"}:
-                    val = txt
-            stats.append(val)
-
-        # Drop index if the HTML table contains a decorative column
-        if drop_index is not None and len(stats) > drop_index:
-            stats = stats[:drop_index] + stats[drop_index + 1 :]
-
-        data.append(stats)
-
-    rows = [[y] + s for y, s in zip(years, data)]
-    return pd.DataFrame(rows, columns=columns)
-
-
-async def _extract_rating(
-    page, n_rows: int = 100
-) -> pd.DataFrame:
-    """
-    Row-aware extractor for the Average Sofascore Rating (ASR) pill.
-    Searches *inside each season row only* so sub-competition rows are ignored.
-    """
-    # seasons
-    year_spans = await page.query_selector_all(
-        ".Box.feDCzw.crsNnE .Box.gQIPzn.fRroAj span"
-    )
-    years = [
-        await y.inner_text() for y in year_spans if "/" in await y.inner_text()
-    ][:n_rows]
-
-    # season rows
-    stat_rows = await page.query_selector_all(
-        ".Box.hMcCqO.sc-c2c19408-0.cFPbZB .Box.ggRYVx.iWGVcA .Box.cQgcrM"
-    )
-
-    rows: list[list[str | None]] = []
-    year_idx = 0
-    for row in stat_rows:
-        if year_idx >= len(years):
-            break
-
-        meter = await row.query_selector(":scope span[role='meter']")
-        if not meter:
-            # This is a sub-row (LaLiga, Copa del Rey, …) -> skip
-            continue
-
-        val = await meter.get_attribute("aria-valuenow") or (
-            await meter.inner_text()).strip()
-        rows.append([years[year_idx], val])
-        year_idx += 1
-
-    # Pad with None if fewer ratings than seasons
-    while year_idx < len(years):
-        rows.append([years[year_idx], None])
-        year_idx += 1
-
+    rows = [[y, v] for y, v in zip(years, asr_values)]
     return pd.DataFrame(rows, columns=["Year", "ASR"])
 
 
@@ -204,11 +148,11 @@ async def scrape_goalkeeper(sofascore_name: str, player_id: int) -> pd.DataFrame
     print(f"🔗 Opening: {url}")
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False,)
-        # browser = await p.chromium.launch(
-        #     headless=True,
-        #     args=["--disable-gpu", "--no-sandbox"],
-        # )
+        # browser = await p.chromium.launch(headless=False,)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=["--disable-gpu", "--no-sandbox"],
+        )
 
         page = await browser.new_page()
         await page.goto(url)
@@ -241,27 +185,20 @@ async def scrape_goalkeeper(sofascore_name: str, player_id: int) -> pd.DataFrame
             )
             all_dataframes[tab_name] = df
 
-            print(df)
-
-        # # --- rating column (ASR) ------------------------------------------
-        # for tab_name, cfg in TAB_GK_RATING.items():
-        #     df_rating = await scrape_stat_table(
-        #         page=page,
-        #         columns=cfg["columns"],
-        #         tab_name=tab_name,
-        #         mode="rating",
-        #         position="Goalkeeper",
-        #         drop_index=cfg.get("drop_index"),
-        #         n_rows=2,
-        #     )
-        #     all_dataframes[f"{tab_name}_rating"] = df_rating
+        # --- rating column (ASR) ------------------------------------------
+        for tab_name, cfg in TAB_GK_RATING.items():
+            df_rating = await scrape_rating_table(
+                page=page,
+                n_rows=2,
+            )
+            all_dataframes[f"{tab_name}_rating"] = df_rating
 
         # --- merge & return -----------------------------------------------
-        # df_merged = combine_stat_tables(all_dataframes, position="Goalkeeper")
+        df_merged = combine_stat_tables(all_dataframes, position="Goalkeeper")
 
         await asyncio.sleep(4)
         await browser.close()
-        # return df_merged
+        return df_merged
 
 
 
