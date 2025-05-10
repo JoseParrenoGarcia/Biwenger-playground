@@ -2,7 +2,7 @@ import asyncio
 import os
 import json
 from rich.console import Console
-from scraper.player_scraper import scrape_player_stats
+from scraper_sofascore_aggregate_stats.player_scraper import scrape_player_stats
 from itertools import islice
 import pandas as pd
 import numpy as np
@@ -28,7 +28,7 @@ def chunked(iterable, size):
 
 async def extract_players():
     # Load players to scrape
-    config_path = os.path.join(os.path.dirname(__file__), "../../scraper/config/players.json")
+    config_path = os.path.join(os.path.dirname(__file__), "../../scraper_sofascore_aggregate_stats/config/players.json")
     with open(config_path, "r") as f:
         players = [p for p in json.load(f)["players"] if p.get("to_scrape", False)]
 
