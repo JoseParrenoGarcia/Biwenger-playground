@@ -179,8 +179,6 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
                 n_rows=2,
             )
 
-            print(df_rating)
-
             all_dataframes[f"{tab_name}_rating"] = df_rating
 
         for tab_name, cfg in TAB_CONFIG_OUTFIELD.items():
@@ -192,9 +190,6 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
                 n_rows=2,
             )
             all_dataframes[tab_name] = df
-
-
-        # print(all_dataframes)
 
         # --- merge & return -----------------------------------------------
         df_merged = combine_stat_tables(all_dataframes, position="non-gk")
