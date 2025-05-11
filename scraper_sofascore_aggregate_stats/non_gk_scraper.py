@@ -101,6 +101,9 @@ async def scrape_stat_table(
 
     combined_rows = [[year] + stat_row for year, stat_row in zip(years, data)]
     df = pd.DataFrame(combined_rows, columns=columns)
+
+    # print(df)
+
     return df
 
 async def scrape_rating_table(page: Page, n_rows: int = 100) -> pd.DataFrame:
@@ -169,23 +172,24 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
         # --- scrape every tab defined for non-goalkeepers ----------------------
         all_dataframes: dict[str, pd.DataFrame] = {}
 
+        # --- rating column (ASR) ------------------------------------------
+        for tab_name, cfg in TAB_OUTFIELD_RATING.items():
+            df_rating = await scrape_rating_table(
+                page=page,
+                n_rows=100,
+            )
+
+            all_dataframes[f"{tab_name}_rating"] = df_rating
+
         for tab_name, cfg in TAB_CONFIG_OUTFIELD.items():
             await click_tab(page, tab_name)
             df = await scrape_stat_table(
                 page=page,
                 columns=cfg["columns"],
                 drop_index=cfg.get("drop_index"),
-                n_rows=2,
+                n_rows=100,
             )
             all_dataframes[tab_name] = df
-
-        # --- rating column (ASR) ------------------------------------------
-        for tab_name, cfg in TAB_OUTFIELD_RATING.items():
-            df_rating = await scrape_rating_table(
-                page=page,
-                n_rows=2,
-            )
-            all_dataframes[f"{tab_name}_rating"] = df_rating
 
         # --- merge & return -----------------------------------------------
         df_merged = combine_stat_tables(all_dataframes, position="non-gk")

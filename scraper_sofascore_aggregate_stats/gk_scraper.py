@@ -110,28 +110,34 @@ async def scrape_rating_table(
                             for every position because the rating pill is
                             rendered the same way for all players.
     """
-    await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10000)
+    """Scrapes the rating table, ensuring we only get season-level ratings."""
+    await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10_000)
 
-    # ---- Step 1: seasons (years) – used by both modes --------------------
+    # First get all the years/seasons
     year_spans = await page.query_selector_all(
         ".Box.feDCzw.crsNnE .Box.gQIPzn.fRroAj span"
     )
     years = [await y.inner_text() for y in year_spans if "/" in await y.inner_text()]
-    years = years[:n_rows]                                   # keep ≤ n_rows
+    years = years[:n_rows]
 
-    # Wait until at least one rating pill is rendered
-    await page.wait_for_selector("span[role='meter']", timeout=5000)
-
-    # Pull every aria-valuenow in DOM order (top season ➜ bottom season)
-    asr_values = await page.eval_on_selector_all(
-        "span[role='meter']",
-        "els => els.map(e => e.getAttribute('aria-valuenow') || "
-        "                     (e.innerText.trim() || null))"
+    # Get rating elements using the selector that we know works
+    rating_elements = await page.query_selector_all(
+        "div.Box.Flex.ggRYVx.iWGVcA > div.Box.Flex.ggRYVx.cQgcrM > div.Box.Flex.jNHkiI.kFvGEE span[role='meter']"
     )
-    # Trim / pad to match number of seasons we captured
-    asr_values = (asr_values + [None] * len(years))[:len(years)]
 
-    rows = [[y, v] for y, v in zip(years, asr_values)]
+    # Extract the rating values
+    ratings = []
+    for el in rating_elements[:len(years)]:
+        value = await el.get_attribute("aria-valuenow")
+        ratings.append(value)
+
+    # Create rows combining years and ratings
+    rows = [[year, rating] for year, rating in zip(years, ratings)]
+
+    # Add None for any missing ratings
+    while len(rows) < len(years):
+        rows.append([years[len(rows)], None])
+
     return pd.DataFrame(rows, columns=["Year", "ASR"])
 
 
@@ -172,25 +178,27 @@ async def scrape_goalkeeper(sofascore_name: str, player_id: int) -> pd.DataFrame
         # --- scrape every tab defined for goalkeepers ----------------------
         all_dataframes: dict[str, pd.DataFrame] = {}
 
+        # --- rating column (ASR) ------------------------------------------
+        for tab_name, cfg in TAB_GK_RATING.items():
+            df_rating = await scrape_rating_table(
+                page=page,
+                n_rows=100,
+            )
+
+            all_dataframes[f"{tab_name}_rating"] = df_rating
+
         for tab_name, cfg in TAB_CONFIG_GOALKEEPER.items():
             await click_tab(page, tab_name)
             df = await scrape_stat_table(
                 page=page,
                 columns=cfg["columns"],
                 drop_index=cfg.get("drop_index"),
-                n_rows=2,
+                n_rows=100,
             )
             all_dataframes[tab_name] = df
 
-        # --- rating column (ASR) ------------------------------------------
-        for tab_name, cfg in TAB_GK_RATING.items():
-            df_rating = await scrape_rating_table(
-                page=page,
-                n_rows=2,
-            )
-            all_dataframes[f"{tab_name}_rating"] = df_rating
 
-        # --- merge & return -----------------------------------------------
+        # # --- merge & return -----------------------------------------------
         df_merged = combine_stat_tables(all_dataframes, position="Goalkeeper")
 
         await asyncio.sleep(4)
