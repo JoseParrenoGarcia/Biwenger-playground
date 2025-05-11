@@ -6,8 +6,8 @@ from transform_raw_to_staging import transform_players
 console = Console()
 
 if __name__ == "__main__":
-    # console.rule("[bold blue]Extract Step")
-    # asyncio.run(extract_players())
+    console.rule("[bold blue]Extract Step")
+    asyncio.run(extract_players())
 
     console.rule("[bold yellow]Transform Step")
     transform_players()

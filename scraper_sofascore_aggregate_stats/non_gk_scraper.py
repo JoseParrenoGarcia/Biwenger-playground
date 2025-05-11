@@ -176,7 +176,7 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
         for tab_name, cfg in TAB_OUTFIELD_RATING.items():
             df_rating = await scrape_rating_table(
                 page=page,
-                n_rows=2,
+                n_rows=100,
             )
 
             all_dataframes[f"{tab_name}_rating"] = df_rating
@@ -187,7 +187,7 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
                 page=page,
                 columns=cfg["columns"],
                 drop_index=cfg.get("drop_index"),
-                n_rows=2,
+                n_rows=100,
             )
             all_dataframes[tab_name] = df
 
