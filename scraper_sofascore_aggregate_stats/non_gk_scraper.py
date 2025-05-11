@@ -101,6 +101,9 @@ async def scrape_stat_table(
 
     combined_rows = [[year] + stat_row for year, stat_row in zip(years, data)]
     df = pd.DataFrame(combined_rows, columns=columns)
+
+    # print(df)
+
     return df
 
 async def scrape_rating_table(page: Page, n_rows: int = 100) -> pd.DataFrame:
@@ -185,9 +188,12 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
                 page=page,
                 n_rows=2,
             )
+
+            print(df_rating)
+
             all_dataframes[f"{tab_name}_rating"] = df_rating
 
-        print(all_dataframes)
+        # print(all_dataframes)
 
         # --- merge & return -----------------------------------------------
         df_merged = combine_stat_tables(all_dataframes, position="non-gk")
@@ -216,7 +222,7 @@ if __name__ == "__main__":
         raise SystemExit
 
     # --- scrape each non-keeper -------------------------------------------------
-    for p in not_goalkeepers:
+    for p in not_goalkeepers[0]:
         print(f"\n🚀 Scraping PLAYER stats for {p['sofascore_name']} (ID: {p['id']})")
 
         df = asyncio.run(
