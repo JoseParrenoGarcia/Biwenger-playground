@@ -172,16 +172,6 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
         # --- scrape every tab defined for non-goalkeepers ----------------------
         all_dataframes: dict[str, pd.DataFrame] = {}
 
-        for tab_name, cfg in TAB_CONFIG_OUTFIELD.items():
-            await click_tab(page, tab_name)
-            df = await scrape_stat_table(
-                page=page,
-                columns=cfg["columns"],
-                drop_index=cfg.get("drop_index"),
-                n_rows=2,
-            )
-            all_dataframes[tab_name] = df
-
         # --- rating column (ASR) ------------------------------------------
         for tab_name, cfg in TAB_OUTFIELD_RATING.items():
             df_rating = await scrape_rating_table(
@@ -192,6 +182,17 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
             print(df_rating)
 
             all_dataframes[f"{tab_name}_rating"] = df_rating
+
+        for tab_name, cfg in TAB_CONFIG_OUTFIELD.items():
+            await click_tab(page, tab_name)
+            df = await scrape_stat_table(
+                page=page,
+                columns=cfg["columns"],
+                drop_index=cfg.get("drop_index"),
+                n_rows=2,
+            )
+            all_dataframes[tab_name] = df
+
 
         # print(all_dataframes)
 
@@ -222,7 +223,7 @@ if __name__ == "__main__":
         raise SystemExit
 
     # --- scrape each non-keeper -------------------------------------------------
-    for p in not_goalkeepers[0]:
+    for p in not_goalkeepers:
         print(f"\n🚀 Scraping PLAYER stats for {p['sofascore_name']} (ID: {p['id']})")
 
         df = asyncio.run(

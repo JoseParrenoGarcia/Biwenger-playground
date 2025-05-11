@@ -120,43 +120,6 @@ async def scrape_rating_table(
     years = [await y.inner_text() for y in year_spans if "/" in await y.inner_text()]
     years = years[:n_rows]
 
-    # # Debug: Try increasingly specific selectors
-    # debug_selectors = [
-    #     # Very broad - should catch any rating element
-    #     "span[role='meter']",
-    #
-    #     # Try different parent levels
-    #     ".Box span[role='meter']",
-    #     ".Box.Flex span[role='meter']",
-    #
-    #     # Try the parent containers
-    #     "div.Box.Flex.ggRYVx.iWGVcA",
-    #     "div.Box.Flex.ggRYVx.cQgcrM",
-    #
-    #     # Try the container with the rating
-    #     "div.Box.klGMtt",
-    #
-    #     # Your original selector
-    #     "div.Box.Flex.ggRYVx.iWGVcA > div.Box.Flex.ggRYVx.cQgcrM > div.Box.Flex.jNHkiI.kFvGEE span[role='meter']"
-    # ]
-    #
-    # # Test each selector
-    # for selector in debug_selectors:
-    #     elements = await page.query_selector_all(selector)
-    #     count = len(elements)
-    #     print(f"Selector '{selector}' found {count} elements")
-    #
-    #     # If we found meter elements, try to get values
-    #     if count > 0 and "meter" in selector:
-    #         values = []
-    #         for el in elements[:5]:  # Just show first 5 for debug
-    #             try:
-    #                 value = await el.get_attribute("aria-valuenow")
-    #                 values.append(value)
-    #             except:
-    #                 values.append("error")
-    #         print(f"  Values: {values}")
-
     # Get rating elements using the selector that we know works
     rating_elements = await page.query_selector_all(
         "div.Box.Flex.ggRYVx.iWGVcA > div.Box.Flex.ggRYVx.cQgcrM > div.Box.Flex.jNHkiI.kFvGEE span[role='meter']"
@@ -221,8 +184,6 @@ async def scrape_goalkeeper(sofascore_name: str, player_id: int) -> pd.DataFrame
                 page=page,
                 n_rows=2,
             )
-
-            print(df_rating)
 
             all_dataframes[f"{tab_name}_rating"] = df_rating
 
