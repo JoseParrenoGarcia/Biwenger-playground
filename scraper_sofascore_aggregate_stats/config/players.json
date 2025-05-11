@@ -161,6 +161,14 @@
       "to_scrape": true
     },
     {
+      "name": "Diego Conde",
+      "sofascore_name": "diego-conde",
+      "team": "Villarreal",
+      "id": "951008",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
       "name": "Hugo Duro",
       "sofascore_name": "hugo-duro",
       "team": "ValenciaCF",
@@ -177,11 +185,171 @@
       "to_scrape": true
     },
     {
+      "name": "Rafa Mir",
+      "sofascore_name": "rafa-mir",
+      "team": "ValenciaCF",
+      "id": "825754",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
       "name": "Pepelu",
       "sofascore_name": "pepelu",
       "team": "ValenciaCF",
       "id": "826948",
       "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Enzo Barrenechea",
+      "sofascore_name": "enzo-barrenechea",
+      "team": "ValenciaCF",
+      "id": "1087316",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Javi Guerra",
+      "sofascore_name": "javier-guerra",
+      "team": "ValenciaCF",
+      "id": "1122610",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Diego Lopez",
+      "sofascore_name": "diego-lopez",
+      "team": "ValenciaCF",
+      "id": "998950",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Andre Almeida",
+      "sofascore_name": "andre-almeida",
+      "team": "ValenciaCF",
+      "id": "845693",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Luis Rioja",
+      "sofascore_name": "luis-rioja",
+      "team": "ValenciaCF",
+      "id": "900433",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Ivan Jaime",
+      "sofascore_name": "ivan-jaime",
+      "team": "ValenciaCF",
+      "id": "951986",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Hugo Guillamon",
+      "sofascore_name": "hugo-guillamon",
+      "team": "ValenciaCF",
+      "id": "855830",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Sergi Canos",
+      "sofascore_name": "sergi-canos",
+      "team": "ValenciaCF",
+      "id": "790833",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Fran Pérez",
+      "sofascore_name": "fran-perez",
+      "team": "ValenciaCF",
+      "id": "966637",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Mouctar Diakhaby",
+      "sofascore_name": "mouctar-diakhaby",
+      "team": "ValenciaCF",
+      "id": "797306",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Jose Gaya",
+      "sofascore_name": "jose-luis-gaya",
+      "team": "ValenciaCF",
+      "id": "227922",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Cristian Mosquera",
+      "sofascore_name": "cristhian-mosquera",
+      "team": "ValenciaCF",
+      "id": "1144630",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Yarek Gasiorowski",
+      "sofascore_name": "gasiorowski-yarek",
+      "team": "ValenciaCF",
+      "id": "1184317",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Thierry Correia",
+      "sofascore_name": "correia-thierry",
+      "team": "ValenciaCF",
+      "id": "851282",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Cesar Tarrega",
+      "sofascore_name": "cesar-tarrega",
+      "team": "ValenciaCF",
+      "id": "996928",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Dimitri Foulquier",
+      "sofascore_name": "dimitri-foulquier",
+      "team": "ValenciaCF",
+      "id": "151138",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Jesus Vazquez",
+      "sofascore_name": "jesus-vazquez",
+      "team": "ValenciaCF",
+      "id": "996929",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Giorgi Mamardashvili",
+      "sofascore_name": "giorgi-mamardashvili",
+      "team": "ValenciaCF",
+      "id": "930997",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Stole Dimitrievski",
+      "sofascore_name": "stole-dimitrievski",
+      "team": "ValenciaCF",
+      "id": "97951",
+      "position": "Goalkeeper",
       "to_scrape": true
     }
   ]
