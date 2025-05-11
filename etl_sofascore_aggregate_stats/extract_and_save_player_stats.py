@@ -30,6 +30,7 @@ async def extract_players():
             df.insert(0, "sofascore_name", p["sofascore_name"])
             df.insert(0, "name", p["name"])
             df.insert(0, "position", p["position"])
+            df.insert(0, "current_team", p["team"])
 
             # Save to raw data path
             out_path = os.path.join(RAW_DATA_DIR, f"{p['sofascore_name']}.csv")
