@@ -5,6 +5,7 @@ from rich.console import Console
 console = Console()
 
 RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "data/raw")
+STAGING_DATA_DIR = os.path.join(os.path.dirname(__file__), "data/staging")
 
 columns_to_drop = [
         "Shooting_OF_MP",
@@ -26,7 +27,7 @@ rename_dict = {
         "General_OF_AST": "assists",
         "General_OF_CLS": "clean_sheets",
         "General_OF_GC": "goals_conceded",
-        "General_OF_ASR": "avg_rating",
+        "General_rating_OF_ASR": "avg_rating",
         "Shooting_OF_TOS": "total_shots",
         "Shooting_OF_SOT": "shots_on_target",
         "Shooting_OF_BCM": "big_chances_missed",
@@ -56,7 +57,7 @@ rename_dict = {
         "General_GK_MIN": "gk_minutes",
         "General_GK_CLS": "gk_clean_sheets",
         "General_GK_GC": "goals_conceded",
-        "General_GK_ASR": "gk_avg_rating",
+        "General_rating_GK_ASR": "gk_avg_rating",
         "Goalkeeping_GK_SAV": "saves",
         "Goalkeeping_GK_SAV%": "prct_saves",
         "Goalkeeping_GK_PS": "penalties_saved",
@@ -82,7 +83,7 @@ merge_columns = {
         "matches": "gk_matches",
         "minutes": "gk_minutes",
         "clean_sheets": "gk_clean_sheets",
-        "avg_rating": "General_rating_GK_ASR",
+        "avg_rating": "gk_avg_rating",
         "accurate_passes": "gk_accurate_passes",
         "passing_accuracy": "gk_passing_accuracy",
         "accurate_long_balls": "gk_accurate_long_balls",
@@ -122,22 +123,21 @@ def transform_players():
     # --- Step 2: Rename columns ---
     df_all.rename(columns=rename_dict, inplace=True)
 
-    # # --- Step 3: Fill base stats from goalkeeper columns ---
-    # for base_col, gk_col in merge_columns.items():
-    #     df_all[base_col] = np.where(df_all[base_col].isna(),
-    #                                 df_all[gk_col],
-    #                                 df_all[base_col]
-    #                                 )
+    # --- Step 3: Fill base stats from goalkeeper columns ---
+    for base_col, gk_col in merge_columns.items():
+        df_all[base_col] = np.where(df_all[base_col].isna(),
+                                    df_all[gk_col],
+                                    df_all[base_col]
+                                    )
 
-    # # # Drop all gk_ columns
-    # # cols_to_drop = list(merge_columns.values())
-    # # df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
-    # print(df_all)
+    # # Drop all gk_ columns
+    cols_to_drop = list(merge_columns.values())
+    df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
 
-    # # --- Save to staging ---
-    # staging_dir = os.path.join(os.path.dirname(__file__), "../data/staging")
-    # os.makedirs(staging_dir, exist_ok=True)
-    # out_path = os.path.join(staging_dir, "all_players.csv")
-    #
-    # df_all.to_csv(out_path, index=False)
+    # --- Save to staging ---
+    os.makedirs(STAGING_DATA_DIR, exist_ok=True)
+    out_path = os.path.join(STAGING_DATA_DIR, "all_players.csv")
+
+    df_all.to_csv(out_path, index=False)
+
     console.print("✅ Saved to staging directory")
