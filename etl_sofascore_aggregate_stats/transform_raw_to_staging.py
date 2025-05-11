@@ -130,9 +130,50 @@ def transform_players():
                                     df_all[base_col]
                                     )
 
-    # # Drop all gk_ columns
+    # Drop all gk_ columns
     cols_to_drop = list(merge_columns.values())
     df_all.drop(columns=[col for col in cols_to_drop if col in df_all.columns], inplace=True)
+
+    # print(df_all.dtypes)
+
+    # Enrich with some columns
+    df_all.replace("-", 0, inplace=True)
+    df_all['avg_rating'] = df_all['avg_rating'].astype(float)
+
+    # Offensive metrics
+    df_all["avg_total_rating"] = df_all['avg_rating'] * df_all['matches']
+    df_all["pct_shots_on_target"] = df_all['shots_on_target'] / df_all['total_shots']
+    df_all['goals_per_90'] = df_all['goals'] / (df_all['minutes'] / 90)
+    df_all['assists_per_90'] = df_all['assists'] / (df_all['minutes'] / 90)
+    df_all["key_passes_per_90"] = df_all['key_passes'] / (df_all['minutes'] / 90)
+    df_all["accurate_passes_per_90"] = df_all['accurate_passes'] / (df_all['minutes'] / 90)
+    df_all['goal_involvements_per_90'] = df_all['goal_involvements'] / (df_all['minutes'] / 90)
+    df_all["big_chances_created_per_90"] = df_all['big_chances_created'] / (df_all['minutes'] / 90)
+    df_all["big_chance_conversion_rate"] = (df_all['goals'] / (df_all['shots_on_target'] + df_all['big_chances_missed'])) * 100
+    df_all['xG_diff'] = df_all['goals'] - df_all['xGoals']
+    df_all['xA_diff'] = df_all['assists'] - df_all['xAssists']
+
+    # Defensive metrics
+    df_all["tackle_success_rate"] = (df_all['tackles'] / (df_all['tackles'] + df_all['dribbled_past'])) * 100
+    df_all["defensive_actions_per_90"] = (df_all['tackles'] + df_all['interceptions'] + df_all['blocked_shots']) / (df_all['minutes'] / 90)
+    df_all["yellow_cards_per_90"] = df_all['yellow_cards'] / (df_all['minutes'] / 90)
+    df_all["red_cards_per_90"] = df_all['red_cards'] / (df_all['minutes'] / 90)
+    df_all["aerial_duel_win_rate"] = (df_all['aerial_duels_won'] / (df_all['aerial_duels_won'] + df_all['minutes'] / 90)) * 100
+    df_all["errors_leading_to_goal_per_90"] = df_all['errors_leading_to_goal'] / (df_all['minutes'] / 90)
+    df_all["interceptions_per_90"] = df_all['interceptions'] / (df_all['minutes'] / 90)
+    df_all["clean_sheets_per_90"] = df_all['clean_sheets'] / (df_all['minutes'] / 90)
+    df_all["blocked_shots_per_90"] = df_all['blocked_shots'] / (df_all['minutes'] / 90)
+
+    # Goalkeeper metrics
+    df_all['goals_prevented_per_90'] = df_all['goals_prevented'] / (df_all['minutes'] / 90)
+    df_all['xGoals_conceded_diff'] = df_all['goals_conceded'] - df_all['xGoals_Conceded']
+
+    # Other
+    df_all['availability_rate'] = df_all['minutes'] / (df_all['matches'] * 90)
+
+    # 3 Decimal points
+    for col in df_all.select_dtypes(include='float64').columns:
+        df_all[col] = df_all[col].round(3)
 
     # --- Save to staging ---
     os.makedirs(STAGING_DATA_DIR, exist_ok=True)
