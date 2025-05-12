@@ -137,7 +137,7 @@ def transform_players():
     # print(df_all.dtypes)
 
     # Enrich with some columns
-    df_all.replace("-", 0, inplace=True)
+    df_all.replace("-", np.nan, inplace=True)
     df_all['avg_rating'] = df_all['avg_rating'].astype(float)
 
     # Offensive metrics
