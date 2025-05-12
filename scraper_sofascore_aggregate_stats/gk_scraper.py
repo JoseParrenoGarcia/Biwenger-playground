@@ -200,7 +200,6 @@ async def scrape_goalkeeper(sofascore_name: str, player_id: int) -> pd.DataFrame
         # # --- merge & return -----------------------------------------------
         df_merged = combine_stat_tables(all_dataframes, position="Goalkeeper")
 
-        await asyncio.sleep(4)
         await browser.close()
         return df_merged
 
