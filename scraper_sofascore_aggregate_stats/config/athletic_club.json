@@ -1,0 +1,196 @@
+{
+  "players": [
+    {
+      "name": "Maroan Sannadi",
+      "sofascore_name": "maroan-sannadi",
+      "team": "Athletic club",
+      "id": "1520799",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Gorka Guruzeta",
+      "sofascore_name": "gorka-guruzeta",
+      "team": "Athletic club",
+      "id": "605672",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Alvaro Djalo",
+      "sofascore_name": "alvaro-djalo",
+      "team": "Athletic club",
+      "id": "1160960",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Nico Williams",
+      "sofascore_name": "nico-williams",
+      "team": "Athletic club",
+      "id": "1085400",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Inaki Williams",
+      "sofascore_name": "inaki-williams",
+      "team": "Athletic club",
+      "id": "783374",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Oihan Sancet",
+      "sofascore_name": "oihan-sancet",
+      "team": "Athletic club",
+      "id": "966801",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Alex Berenguer",
+      "sofascore_name": "alex-berenguer",
+      "team": "Athletic club",
+      "id": "592012",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Mikel Jauregizar",
+      "sofascore_name": "mikel-jauregizar",
+      "team": "Athletic club",
+      "id": "1495844",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Unai Gomez",
+      "sofascore_name": "unai-gomez",
+      "team": "Athletic club",
+      "id": "874705",
+      "position": "1391375",
+      "to_scrape": true
+    },
+    {
+      "name": "Inigo Ruiz de Galarreta",
+      "sofascore_name": "inigo-ruiz-de-galarreta",
+      "team": "Athletic club",
+      "id": "96365",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Benat Prados",
+      "sofascore_name": "benat-prados",
+      "team": "Athletic club",
+      "id": "1012409",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Mikel Vesga",
+      "sofascore_name": "mikel-vesga",
+      "team": "Athletic club",
+      "id": "359742",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Peio Canales",
+      "sofascore_name": "peio-canales",
+      "team": "Athletic club",
+      "id": "1464648",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Daniel Vivian",
+      "sofascore_name": "daniel-vivian",
+      "team": "Athletic club",
+      "id": "910978",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Yuri Berchiche",
+      "sofascore_name": "yuri-berchiche",
+      "team": "Athletic club",
+      "id": "84531",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Yeray Alvarez",
+      "sofascore_name": "yeray-alvarez",
+      "team": "Athletic club",
+      "id": "807648",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Aitor Paredes",
+      "sofascore_name": "aitor-paredes",
+      "team": "Athletic club",
+      "id": "959872",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Oscar de Marcos",
+      "sofascore_name": "oscar-de-marcos",
+      "team": "Athletic club",
+      "id": "52663",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Unai Nunez",
+      "sofascore_name": "unai-nunez",
+      "team": "Athletic club",
+      "id": "892521",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Andoni Gorosabel",
+      "sofascore_name": "andoni-gorosabel",
+      "team": "Athletic club",
+      "id": "866810",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Adama Boiro",
+      "sofascore_name": "adama-boiro",
+      "team": "Athletic club",
+      "id": "1398511",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Inigo Lekue",
+      "sofascore_name": "inigo-lekue",
+      "team": "Athletic club",
+      "id": "801837",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Unai Simon",
+      "sofascore_name": "unai-simon",
+      "team": "Athletic club",
+      "id": "797291",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Julen Agirrezabala",
+      "sofascore_name": "julen-agirrezabala",
+      "team": "Athletic club",
+      "id": "1014412",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    }
+  ]
+}
