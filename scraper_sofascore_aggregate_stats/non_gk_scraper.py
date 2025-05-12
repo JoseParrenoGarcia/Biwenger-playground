@@ -11,8 +11,7 @@ async def collapse_first_row_if_open(page: Page)
 """
 
 import asyncio
-import os
-import json
+from utils import load_players_from_team_files
 import pandas as pd
 from scraper_sofascore_aggregate_stats.utils import combine_stat_tables, click_tab, collapse_first_season_row
 from playwright.async_api import async_playwright, Page
@@ -202,24 +201,21 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
 #  4 · Test hook (run this file directly)                            #
 # ------------------------------------------------------------------ #
 if __name__ == "__main__":
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "config", "players.json")
-    with open(json_path, "r") as f:
-        data = json.load(f)
+    players = load_players_from_team_files()
 
-    # --- subset to non-goalkeepers flagged for scraping -------------------------
+    if not players:
+        print("No players marked with 'to_scrape': true")
+        raise SystemExit
+
+    # --- subset to goalkeepers flagged for scraping -------------------------
     not_goalkeepers = [
-        p for p in data["players"]
+        p for p in players
         if p.get("to_scrape", False) and p.get("position") != "Goalkeeper"
     ]
 
-    if not not_goalkeepers:
-        print("Not non-goalkeepers marked with 'to_scrape': true")
-        raise SystemExit
-
-    # --- scrape each non-keeper -------------------------------------------------
+    # --- scrape each keeper -------------------------------------------------
     for p in not_goalkeepers:
-        print(f"\n🚀 Scraping PLAYER stats for {p['sofascore_name']} (ID: {p['id']})")
+        print(f"\n🚀 Scraping {p['position']} stats for {p['sofascore_name']} (ID: {p['id']})")
 
         df = asyncio.run(
             scrape_outfield_player(

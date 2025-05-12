@@ -9,7 +9,7 @@ RAW_DATA_DIR = os.path.join(os.path.dirname(__file__), "data/raw")
 os.makedirs(RAW_DATA_DIR, exist_ok=True)
 
 PLAYERS_TO_SCRAPE_PATH = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "scraper_sofascore_aggregate_stats", "config", "players.json")
+    os.path.join(os.path.dirname(__file__), "..", "scraper_sofascore_aggregate_stats", "config", "villareal.json")
 )
 
 def chunked(lst, size):

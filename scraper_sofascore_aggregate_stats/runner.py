@@ -12,7 +12,7 @@ async def run_player(p):
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "config", "players.json")
+    json_path = os.path.join(script_dir, "config", "villareal.json")
 
     with open(json_path, "r") as f:
         players = [
