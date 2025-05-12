@@ -1,6 +1,7 @@
 import asyncio, os, json
 from rich.console import Console
 from scraper_sofascore_aggregate_stats.runner import run_player
+from scraper_sofascore_aggregate_stats.utils import load_players_from_team_files
 
 console = Console()
 BATCH_SIZE = 5
@@ -18,8 +19,8 @@ def chunked(lst, size):
 
 
 async def extract_players():
-    with open(PLAYERS_TO_SCRAPE_PATH, "r") as f:
-        players = [p for p in json.load(f)["players"] if p.get("to_scrape", False)]
+    # Use the load_players_from_team_files function instead of reading just one file
+    players = load_players_from_team_files()
 
     console.print(f"📋 [cyan]Extracting stats for {len(players)} players[/cyan]")
 

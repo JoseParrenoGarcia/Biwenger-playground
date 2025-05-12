@@ -1,0 +1,4 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_GK_ASR,General_GK_MP,General_GK_MIN,General_GK_CLS,General_GK_GC,Goalkeeping_GK_MP,Goalkeeping_GK_SAV,Goalkeeping_GK_SAV%,Goalkeeping_GK_PS,Goalkeeping_GK_PS%,Passing_GK_APS,Passing_GK_APS%,Passing_GK_ALB,Passing_GK_LBA%,Defending_GK_CLS,Defending_GK_YC,Defending_GK_RC,Defending_GK_ELTG,Defending_GK_DRP,Defending_GK_TACK,Defending_GK_INT,Defending_GK_ADW,Additional_GK_GC,Additional_GK_xGC,Additional_GK_GP
+Villarreal,Goalkeeper,Diego Conde,diego-conde,951008,21/22,6.50,1,15,0,0,1,0,,,,0,,0,,0,0,0,0,0,0,0,,0,,
+Villarreal,Goalkeeper,Diego Conde,diego-conde,951008,23/24,6.95,40,3518,17,26,40,78,75.0,0,,467,49.2,235,32.8,17,0,0,0,0,0,0,11,26,,
+Villarreal,Goalkeeper,Diego Conde,diego-conde,951008,24/25,6.90,21,1873,2,31,21,59,65.6,0,,382,76.4,85,43.6,2,2,0,2,2,2,1,2,31,25.2,-5.82
