@@ -1,0 +1,4 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_GK_ASR,General_GK_MP,General_GK_MIN,General_GK_CLS,General_GK_GC,Goalkeeping_GK_MP,Goalkeeping_GK_SAV,Goalkeeping_GK_SAV%,Goalkeeping_GK_PS,Goalkeeping_GK_PS%,Passing_GK_APS,Passing_GK_APS%,Passing_GK_ALB,Passing_GK_LBA%,Defending_GK_CLS,Defending_GK_YC,Defending_GK_RC,Defending_GK_ELTG,Defending_GK_DRP,Defending_GK_TACK,Defending_GK_INT,Defending_GK_ADW,Additional_GK_GC,Additional_GK_xGC,Additional_GK_GP
+ValenciaCF,Goalkeeper,Giorgi Mamardashvili,giorgi-mamardashvili,930997,22/23,6.81,42,3797,8,49,42,110,69.2,0,,665,61.7,215,35.1,8,3,0,3,0,0,1,10,49,47.7,-1.35
+ValenciaCF,Goalkeeper,Giorgi Mamardashvili,giorgi-mamardashvili,930997,23/24,7.09,37,3289,13,41,37,108,72.5,3,50.0,454,46.9,208,29.0,13,3,1,2,0,4,2,10,41,50.3,9.26
+ValenciaCF,Goalkeeper,Giorgi Mamardashvili,giorgi-mamardashvili,930997,24/25,6.87,31,2790,8,45,31,82,64.6,2,33.3,523,62.0,157,33.3,8,1,0,3,1,2,1,7,45,41.7,-3.28

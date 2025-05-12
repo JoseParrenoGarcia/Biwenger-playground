@@ -1,0 +1,10 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_OF_ASR,General_OF_MP,General_OF_MIN,General_OF_GLS,General_OF_AST,Shooting_OF_MP,Shooting_OF_GLS,Shooting_OF_TOS,Shooting_OF_SOT,Shooting_OF_BCM,Team play_OF_MP,Team play_OF_AST,Team play_OF_KEYP,Team play_OF_BCC,Team play_OF_SDR,Passing_OF_APS,Passing_OF_APS%,Passing_OF_ALB,Passing_OF_LBA%,Passing_OF_ACR,Passing_OF_CA%,Defending_OF_CLS,Defending_OF_YC,Defending_OF_RC,Defending_OF_ELTG,Defending_OF_DRP,Defending_OF_TACK,Defending_OF_INT,Defending_OF_BLS,Defending_OF_ADW,Additional_OF_GLS,Additional_OF_xG,Additional_OF_AST,Additional_OF_XA,Additional_OF_GI,Additional_OF_XGI
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,16/17,6.40,22,1869,0,2,22,0,3,0,0,22,2,9,2,24,546,77.2,26,35.6,8,12.7,2,5,0,0,12,42,27,0,7,0,,2,,2,
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,17/18,6.53,16,1238,0,2,16,0,2,0,0,16,2,8,3,33,394,77.4,25,39.1,4,16.0,1,2,0,0,10,25,14,2,5,0,,2,,2,
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,18/19,6.52,29,2092,3,2,29,3,14,5,1,29,2,15,2,28,322,65.6,32,46.4,4,13.8,4,8,0,0,12,35,27,4,31,3,,2,,5,
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,19/20,6.75,27,1865,1,0,27,1,10,3,0,27,0,11,3,34,364,67.0,20,24.1,11,26.2,6,4,0,0,11,36,29,3,20,1,,0,,1,
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,20/21,6.56,45,3534,1,6,45,1,13,8,2,45,6,19,3,35,757,71.6,64,37.6,14,17.9,10,9,0,0,13,46,34,3,26,1,,6,,7,
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,21/22,6.66,38,3057,0,1,38,0,17,5,0,38,1,13,1,30,615,67.1,44,26.0,12,12.9,11,12,0,0,16,43,34,2,29,0,,1,,1,
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,22/23,6.62,33,1943,0,2,33,0,4,0,0,33,2,12,3,22,555,74.5,33,35.5,19,21.1,4,4,0,0,9,36,15,3,17,0,0.15,2,1.96,2,2.11
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,23/24,6.64,34,1923,0,0,34,0,7,1,1,34,0,17,2,23,598,73.0,31,27.7,8,17.4,5,3,0,0,8,43,16,3,10,0,0.64,0,0.81,0,1.45
+ValenciaCF,Defender,Dimitri Foulquier,dimitri-foulquier,151138,24/25,6.71,34,2457,0,1,34,0,13,2,1,34,1,12,4,10,880,81.4,34,34.3,9,15.3,5,6,0,0,12,51,19,4,15,0,0.43,1,2.00,1,2.43

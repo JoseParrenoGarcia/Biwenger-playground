@@ -1,4 +1,6 @@
 from playwright.async_api import async_playwright, Page
+import os
+import json
 
 # ---------- browser context ----------
 async def open_sofascore(url: str) -> Page:
@@ -93,3 +95,35 @@ def combine_stat_tables(
 
     return df_final
 
+
+def load_players_from_team_files():
+    """
+    Load player data from individual team JSON files in the config/teams directory.
+    Returns a list of all players with to_scrape=True.
+    """
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    teams_dir = os.path.join(script_dir, "config")
+
+    # Create the teams directory if it doesn't exist
+    if not os.path.exists(teams_dir):
+        os.makedirs(teams_dir)
+
+    all_players = []
+
+    # Get all JSON files in the teams directory
+    for filename in os.listdir(teams_dir):
+        if filename.endswith('.json'):
+            team_file_path = os.path.join(teams_dir, filename)
+
+            with open(team_file_path, 'r') as f:
+                try:
+                    team_data = json.load(f)
+                    # Add players with to_scrape=True to our list
+                    all_players.extend([
+                        p for p in team_data.get("players", [])
+                        if p.get("to_scrape", False)
+                    ])
+                except json.JSONDecodeError:
+                    print(f"Error: Could not parse JSON in {filename}")
+
+    return all_players

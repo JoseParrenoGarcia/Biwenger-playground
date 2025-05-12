@@ -7,8 +7,8 @@ from load_to_production_folder import load_to_production
 console = Console()
 
 if __name__ == "__main__":
-    # console.rule("[bold blue]Extract Step")
-    # asyncio.run(extract_players())
+    console.rule("[bold blue]Extract Step")
+    asyncio.run(extract_players())
 
     console.rule("[bold yellow]Transform Step")
     transform_players()
