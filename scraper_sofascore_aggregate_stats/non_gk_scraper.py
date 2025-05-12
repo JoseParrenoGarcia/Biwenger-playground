@@ -65,14 +65,22 @@ async def scrape_stat_table(
     drop_index: int | None = None,
     n_rows: int = 100
 ) -> pd.DataFrame:
-    await page.wait_for_selector(".Box.feDCzw.crsNnE", timeout=10000)
+    await page.wait_for_selector(".Box.crsNnE", timeout=10000)
 
-    # ---- Step 1: seasons (years) – used by both modes --------------------
     year_spans = await page.query_selector_all(
-        ".Box.feDCzw.crsNnE .Box.gQIPzn.fRroAj span"
+        ".Box.crsNnE .Box.fRroAj span"
     )
-    years = [await y.inner_text() for y in year_spans if "/" in await y.inner_text()]
-    years = years[:n_rows]                                   # keep ≤ n_rows
+
+    raw_years = [await y.inner_text() for y in year_spans]
+
+    # Filter for valid season formats
+    years = [y for y in raw_years if "/" in y]
+
+    # Fallback: at least take the first one
+    if not years and raw_years:
+        years = raw_years[:1]
+
+    years = years[:n_rows]
 
     # ---- Step 2 & 3: normal stat rows -----------------------------------
     stat_rows = await page.query_selector_all(
@@ -81,7 +89,7 @@ async def scrape_stat_table(
     data: list[list[str | None]] = []
 
     for row in stat_rows[:n_rows]:
-        stat_cells = await row.query_selector_all(".Box.jNHkiI.kFvGEE")
+        stat_cells = await row.query_selector_all(".Box.kFvGEE")
         stats: list[str | None] = []
 
         for cell in stat_cells:
@@ -101,16 +109,23 @@ async def scrape_stat_table(
     combined_rows = [[year] + stat_row for year, stat_row in zip(years, data)]
     df = pd.DataFrame(combined_rows, columns=columns)
 
-    # print(df)
-
     return df
 
 async def scrape_rating_table(page: Page, n_rows: int = 100) -> pd.DataFrame:
-    # seasons
     year_spans = await page.query_selector_all(
-        ".Box.feDCzw.crsNnE .Box.gQIPzn.fRroAj span"
+        ".Box.crsNnE .Box.fRroAj span"
     )
-    years = [await y.inner_text() for y in year_spans if "/" in await y.inner_text()][:n_rows]
+
+    raw_years = [await y.inner_text() for y in year_spans]
+
+    # Filter for valid season formats
+    years = [y for y in raw_years if "/" in y]
+
+    # Fallback: at least take the first one
+    if not years and raw_years:
+        years = raw_years[:1]
+
+    years = years[:n_rows]
 
     # season rows
     stat_rows = await page.query_selector_all(
@@ -188,12 +203,12 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
                 drop_index=cfg.get("drop_index"),
                 n_rows=100,
             )
+
             all_dataframes[tab_name] = df
 
         # --- merge & return -----------------------------------------------
         df_merged = combine_stat_tables(all_dataframes, position="non-gk")
 
-        await asyncio.sleep(4)
         await browser.close()
         return df_merged
 
@@ -201,29 +216,56 @@ async def scrape_outfield_player(sofascore_name: str, player_id: int) -> pd.Data
 #  4 · Test hook (run this file directly)                            #
 # ------------------------------------------------------------------ #
 if __name__ == "__main__":
-    players = load_players_from_team_files()
+    n = "maroan-sannadi"
+    id = 1520799
 
-    if not players:
-        print("No players marked with 'to_scrape': true")
-        raise SystemExit
-
-    # --- subset to goalkeepers flagged for scraping -------------------------
-    not_goalkeepers = [
-        p for p in players
-        if p.get("to_scrape", False) and p.get("position") != "Goalkeeper"
-    ]
-
-    # --- scrape each keeper -------------------------------------------------
-    for p in not_goalkeepers:
-        print(f"\n🚀 Scraping {p['position']} stats for {p['sofascore_name']} (ID: {p['id']})")
-
-        df = asyncio.run(
-            scrape_outfield_player(
-                sofascore_name=p["sofascore_name"],
-                player_id=p["id"],
-            )
+    print(f"\n🚀 Scraping stats for {n} (ID: {id})")
+    df = asyncio.run(
+        scrape_outfield_player(
+            sofascore_name=n,
+            player_id=id
         )
+    )
+    print("-" * 32)
+    print(df)
 
-        print("-" * 32)
-        print(df)
+    n = "ayoze-perez"
+    id = 345195
+
+    print(f"\n🚀 Scraping stats for {n} (ID: {id})")
+    df = asyncio.run(
+        scrape_outfield_player(
+            sofascore_name=n,
+            player_id=id
+        )
+    )
+    print("-" * 32)
+    print(df)
+
+    # # --- load players from team files ---------------------------------
+    # players = load_players_from_team_files()
+    #
+    # if not players:
+    #     print("No players marked with 'to_scrape': true")
+    #     raise SystemExit
+    #
+    # # --- subset to goalkeepers flagged for scraping -------------------------
+    # not_goalkeepers = [
+    #     p for p in players
+    #     if p.get("to_scrape", False) and p.get("position") != "Goalkeeper"
+    # ]
+    #
+    # # --- scrape each keeper -------------------------------------------------
+    # for p in not_goalkeepers:
+    #     print(f"\n🚀 Scraping {p['position']} stats for {p['sofascore_name']} (ID: {p['id']})")
+    #
+    #     df = asyncio.run(
+    #         scrape_outfield_player(
+    #             sofascore_name=p["sofascore_name"],
+    #             player_id=p["id"],
+    #         )
+    #     )
+    #
+    #     print("-" * 32)
+    #     print(df)
 
