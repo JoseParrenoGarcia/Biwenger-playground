@@ -1,0 +1,212 @@
+{
+  "players": [
+    {
+      "name": "Hugo Duro",
+      "sofascore_name": "robert-lewandowski",
+      "team": "Barcelona",
+      "id": "41789",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Ansu Fati",
+      "sofascore_name": "ansu-fati",
+      "team": "Barcelona",
+      "id": "962883",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Ferran Torres",
+      "sofascore_name": "ferran-torres",
+      "team": "Barcelona",
+      "id": "855833",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Pau Victor",
+      "sofascore_name": "pau-victor",
+      "team": "Barcelona",
+      "id": "1031567",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Lamine Yamal",
+      "sofascore_name": "lamine-yamal",
+      "team": "Barcelona",
+      "id": "1402912",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Raphinha",
+      "sofascore_name": "raphinha",
+      "team": "Barcelona",
+      "id": "831005",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Pedri",
+      "sofascore_name": "pedri",
+      "team": "Barcelona",
+      "id": "992587",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Gavi",
+      "sofascore_name": "gavi",
+      "team": "Barcelona",
+      "id": "1103693",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Frenkie de Jong",
+      "sofascore_name": "frenkie-de-jong",
+      "team": "Barcelona",
+      "id": "795222",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Luis Rioja",
+      "sofascore_name": "luis-rioja",
+      "team": "Barcelona",
+      "id": "900433",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Dani Olmo",
+      "sofascore_name": "dani-olmo",
+      "team": "Barcelona",
+      "id": "789071",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Fermin Lopez",
+      "sofascore_name": "fermin-lopez",
+      "team": "Barcelona",
+      "id": "1153270",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Marc Casado",
+      "sofascore_name": "marc-casado",
+      "team": "Barcelona",
+      "id": "1000483",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Pablo Torre",
+      "sofascore_name": "pablo-torre",
+      "team": "Barcelona",
+      "id": "1082981",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Marc Bernal",
+      "sofascore_name": "marc-bernal",
+      "team": "Barcelona",
+      "id": "1526618",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Ronald Araujo",
+      "sofascore_name": "ronald-araujo",
+      "team": "Barcelona",
+      "id": "925097",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Jules Kounde",
+      "sofascore_name": "jules-kounde",
+      "team": "Barcelona",
+      "id": "827212",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Pau Cubarsi",
+      "sofascore_name": "pau-cubarsi",
+      "team": "Barcelona",
+      "id": "1402913",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Alejandro Balde",
+      "sofascore_name": "alejandro-balde",
+      "team": "Barcelona",
+      "id": "997035",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Andreas Christensen",
+      "sofascore_name": "andreas-christensen",
+      "team": "Barcelona",
+      "id": "186795",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Inigo Martinez",
+      "sofascore_name": "inigo-martinez",
+      "team": "Barcelona",
+      "id": "173883",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Eric Garcia",
+      "sofascore_name": "eric-garcia",
+      "team": "Barcelona",
+      "id": "876214",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Gerard Martin",
+      "sofascore_name": "gerard-martin",
+      "team": "Barcelona",
+      "id": "1094827",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Marc Andre ter Stegen",
+      "sofascore_name": "marc-andre-ter-stegen",
+      "team": "Barcelona",
+      "id": "88625",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Wojciech Szczesny",
+      "sofascore_name": "wojciech-szczesny",
+      "team": "Barcelona",
+      "id": "50490",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Inaki Pena",
+      "sofascore_name": "inaki-pena",
+      "team": "Barcelona",
+      "id": "794949",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    }
+  ]
+}
