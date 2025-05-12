@@ -1,4 +1,5 @@
-import json, asyncio, os
+import asyncio
+from utils import load_players_from_team_files
 from scraper_sofascore_aggregate_stats.gk_scraper import scrape_goalkeeper
 from scraper_sofascore_aggregate_stats.non_gk_scraper import scrape_outfield_player
 
@@ -11,14 +12,7 @@ async def run_player(p):
     return df
 
 if __name__ == "__main__":
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    json_path = os.path.join(script_dir, "config", "villareal.json")
-
-    with open(json_path, "r") as f:
-        players = [
-            p for p in json.load(f)["players"]
-            if p.get("to_scrape", False)
-        ]
+    players = load_players_from_team_files()
 
     if not players:
         print("No players marked with 'to_scrape': true")
