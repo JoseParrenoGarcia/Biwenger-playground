@@ -1,0 +1,188 @@
+{
+  "players": [
+    {
+      "name": "Cedric Bakambu",
+      "sofascore_name": "cedric-bakambu",
+      "team": "Betis",
+      "id": "115665",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Cucho Hernandez",
+      "sofascore_name": "cucho-hernandez",
+      "team": "Betis",
+      "id": "887055",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Chimy Avila",
+      "sofascore_name": "chimy-avila",
+      "team": "Betis",
+      "id": "789381",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Antony",
+      "sofascore_name": "antony",
+      "team": "Betis",
+      "id": "958380",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Abdessamad Ezzalzouli",
+      "sofascore_name": "abdessamad-ezzalzouli",
+      "team": "Betis",
+      "id": "1011375",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Isco",
+      "sofascore_name": "isco",
+      "team": "Betis",
+      "id": "103417",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Lo Celso",
+      "sofascore_name": "lo-celso-giovani",
+      "team": "Betis",
+      "id": "798835",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Jonny",
+      "sofascore_name": "johnny",
+      "team": "Betis",
+      "id": "990169",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "William Carvalho",
+      "sofascore_name": "william-carvalho",
+      "team": "Betis",
+      "id": "137978",
+      "position": "1391375",
+      "to_scrape": true
+    },
+    {
+      "name": "Pablo Fornals",
+      "sofascore_name": "pablo-fornals",
+      "team": "Betis",
+      "id": "816763",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Jesus Rodriguez",
+      "sofascore_name": "jesus-rodriguez",
+      "team": "Betis",
+      "id": "1800245",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Marc Roca",
+      "sofascore_name": "marc-roca",
+      "team": "Betis",
+      "id": "847128",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Sergi Altimira",
+      "sofascore_name": "sergi-altimira",
+      "team": "Betis",
+      "id": "1137814",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Youssouf Sabaly",
+      "sofascore_name": "youssouf-sabaly",
+      "team": "Betis",
+      "id": "111803",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Hector Bellerin",
+      "sofascore_name": "hector-bellerin",
+      "team": "Betis",
+      "id": "188365",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Natan",
+      "sofascore_name": "natan",
+      "team": "Betis",
+      "id": "1015287",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Ricardo Rodriguez",
+      "sofascore_name": "ricardo-rodriguez",
+      "team": "Betis",
+      "id": "67769",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Marc Bartra",
+      "sofascore_name": "marc-bartra",
+      "team": "Betis",
+      "id": "99519",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Diego Llorente",
+      "sofascore_name": "diego-llorente",
+      "team": "Betis",
+      "id": "305278",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Romain Perraud",
+      "sofascore_name": "romain-perraud",
+      "team": "Betis",
+      "id": "827519",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Aitor Ruibal",
+      "sofascore_name": "aitor-ruibal",
+      "team": "Betis",
+      "id": "893062",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Adrian",
+      "sofascore_name": "adrian",
+      "team": "Betis",
+      "id": "50539",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Francisco Vieites",
+      "sofascore_name": "francisco-vieites",
+      "team": "Betis",
+      "id": "929975",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    }
+  ]
+}
