@@ -1,0 +1,10 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_OF_ASR,General_OF_MP,General_OF_MIN,General_OF_GLS,General_OF_AST,Shooting_OF_MP,Shooting_OF_GLS,Shooting_OF_TOS,Shooting_OF_SOT,Shooting_OF_BCM,Team play_OF_MP,Team play_OF_AST,Team play_OF_KEYP,Team play_OF_BCC,Team play_OF_SDR,Passing_OF_APS,Passing_OF_APS%,Passing_OF_ALB,Passing_OF_LBA%,Passing_OF_ACR,Passing_OF_CA%,Defending_OF_CLS,Defending_OF_YC,Defending_OF_RC,Defending_OF_ELTG,Defending_OF_DRP,Defending_OF_TACK,Defending_OF_INT,Defending_OF_BLS,Defending_OF_ADW,Additional_OF_GLS,Additional_OF_xG,Additional_OF_AST,Additional_OF_XA,Additional_OF_GI,Additional_OF_XGI
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,16/17,7.15,50,3788,13,14,50,13,86,30,3,50,14,110,19,86,1482,82.1,103,64.4,81,25.1,13,4,0,0,52,66,43,29,11,13,,14,,27,
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,17/18,7.01,33,2559,2,8,33,2,49,12,4,33,8,58,11,52,1004,84.1,67,65.0,51,27.9,7,1,0,0,33,35,20,15,9,2,,8,,10,
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,18/19,6.88,43,2612,4,6,43,4,38,15,4,43,6,57,3,71,1185,84.4,51,65.4,31,25.4,4,5,0,0,33,47,29,11,14,4,,6,,10,
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,19/20,6.67,29,1160,0,0,29,0,17,6,0,29,0,11,1,26,395,84.4,20,64.5,13,31.7,0,2,0,0,10,14,8,8,9,0,,0,,0,
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,20/21,7.00,36,1644,2,4,36,2,26,13,3,36,4,28,4,47,747,85.2,42,79.2,23,25.6,0,5,0,0,16,35,14,5,9,2,,4,,6,
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,21/22,6.88,35,2005,4,6,35,4,37,11,4,35,6,44,5,42,801,83.9,40,67.8,31,27.7,2,2,0,0,20,34,18,14,14,4,,6,,10,
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,22/23,6.85,32,1584,1,3,32,1,15,6,1,32,3,33,2,22,808,87.6,33,63.5,14,25.0,0,2,0,0,20,37,10,3,6,1,0.97,3,1.74,4,2.71
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,23/24,6.63,3,166,0,0,3,0,2,0,0,3,0,1,0,1,69,89.6,0,,1,16.7,0,0,0,0,1,3,0,1,,0,0.16,0,0.08,0,0.24
+Atletico Madrid,Midfielder,Thomas Lemar,thomas-lemar,191182,24/25,6.63,8,135,0,0,8,0,4,2,1,8,0,3,2,0,86,86.9,2,28.6,1,16.7,0,0,0,0,2,2,0,1,,0,0.46,0,0.19,0,0.65

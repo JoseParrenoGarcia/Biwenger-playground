@@ -1,0 +1,10 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_GK_ASR,General_GK_MP,General_GK_MIN,General_GK_CLS,General_GK_GC,Goalkeeping_GK_MP,Goalkeeping_GK_SAV,Goalkeeping_GK_SAV%,Goalkeeping_GK_PS,Goalkeeping_GK_PS%,Passing_GK_APS,Passing_GK_APS%,Passing_GK_ALB,Passing_GK_LBA%,Defending_GK_CLS,Defending_GK_YC,Defending_GK_RC,Defending_GK_ELTG,Defending_GK_DRP,Defending_GK_TACK,Defending_GK_INT,Defending_GK_ADW,Additional_GK_GC,Additional_GK_xGC,Additional_GK_GP
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,16/17,6.94,48,4320,17,52,48,158,75.2,1,100.0,1273,81.2,295,52.3,17,2,0,2,1,0,2,4,52,,
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,17/18,7.01,47,4230,24,35,47,124,78.0,1,25.0,1102,78.6,280,49.8,24,1,0,0,2,1,4,5,35,,
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,18/19,6.94,48,4320,23,42,48,117,73.6,0,,1029,81.7,284,57.0,23,0,0,2,3,0,3,7,42,,
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,19/20,6.92,46,4140,17,50,46,112,69.1,2,22.2,1340,85.5,258,57.5,17,1,0,3,1,2,3,16,50,,
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,20/21,6.88,42,3900,14,50,42,107,68.2,1,11.1,1063,86.4,206,57.7,14,1,0,1,2,0,0,9,50,,
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,21/22,6.77,49,4470,15,57,49,117,67.2,1,14.3,1359,85.5,292,58.5,15,3,0,2,1,0,2,8,57,58.4,1.35
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,22/23,7.08,50,4458,28,39,50,119,75.3,0,,1335,83.1,355,59.2,28,0,0,0,0,0,1,11,39,43.9,4.91
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,23/24,7.16,36,3240,17,37,36,96,72.2,0,,1019,86.2,219,59.8,17,3,0,2,0,0,0,5,37,37.8,0.77
+Barcelona,Goalkeeper,Marc Andre ter Stegen,marc-andre-ter-stegen,88625,24/25,7.08,8,675,1,8,8,20,71.4,0,,202,86.0,31,52.5,1,0,0,0,1,0,0,4,8,7.6,-0.35
