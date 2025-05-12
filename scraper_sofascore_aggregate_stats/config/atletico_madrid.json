@@ -1,0 +1,188 @@
+{
+  "players": [
+    {
+      "name": "Julian Alvarez",
+      "sofascore_name": "julian-alvarez",
+      "team": "Atletico Madrid",
+      "id": "944656",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Antoine Griezmann",
+      "sofascore_name": "antoine-griezmann",
+      "team": "Atletico Madrid",
+      "id": "85859",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Angel Correa",
+      "sofascore_name": "angel-correa",
+      "team": "Atletico Madrid",
+      "id": "316152",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Alexander Sorloth",
+      "sofascore_name": "alexander-sorloth",
+      "team": "Atletico Madrid",
+      "id": "309078",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "sofascore_name": "rodrigo-de-paul",
+      "team": "Atletico Madrid",
+      "id": "249399",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Conor Gallagher",
+      "sofascore_name": "conor-gallagher",
+      "team": "Atletico Madrid",
+      "id": "904970",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Giuliano Simeone",
+      "sofascore_name": "giuliano-simeone",
+      "team": "Atletico Madrid",
+      "id": "1099352",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Marcos Llorente",
+      "sofascore_name": "marcos-llorente",
+      "team": "Atletico Madrid",
+      "id": "353138",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Samuel Lino",
+      "sofascore_name": "samuel-lino",
+      "team": "Atletico Madrid",
+      "id": "874705",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Koke",
+      "sofascore_name": "koke",
+      "team": "Atletico Madrid",
+      "id": "84539",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Pablo Barrios",
+      "sofascore_name": "pablo-barrios",
+      "team": "Atletico Madrid",
+      "id": "1142588",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Rodrigo Riquelme",
+      "sofascore_name": "rodrigo-riquelme",
+      "team": "Atletico Madrid",
+      "id": "989113",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Thomas Lemar",
+      "sofascore_name": "thomas-lemar",
+      "team": "Atletico Madrid",
+      "id": "191182",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Nahuel Molina",
+      "sofascore_name": "nahuel-molina",
+      "team": "Atletico Madrid",
+      "id": "831799",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Clement Lenglet",
+      "sofascore_name": "clement-lenglet",
+      "team": "Atletico Madrid",
+      "id": "580550",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Jose Maria Gimenez",
+      "sofascore_name": "jose-maria-gimenez",
+      "team": "Atletico Madrid",
+      "id": "325355",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Axel Witsel",
+      "sofascore_name": "axel-witsel",
+      "team": "Atletico Madrid",
+      "id": "35612",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Cesar Azpilicueta",
+      "sofascore_name": "cesar-azpilicueta",
+      "team": "Atletico Madrid",
+      "id": "21555",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Reinildo Mandava",
+      "sofascore_name": "reinildo-mandava",
+      "team": "Atletico Madrid",
+      "id": "831424",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Robin Le Normand",
+      "sofascore_name": "robin-le-normand",
+      "team": "Atletico Madrid",
+      "id": "787751",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Javi Galan",
+      "sofascore_name": "javi-galan",
+      "team": "Atletico Madrid",
+      "id": "825133",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Jan Oblak",
+      "sofascore_name": "jan-oblak",
+      "team": "Atletico Madrid",
+      "id": "69768",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Juan Musso",
+      "sofascore_name": "juan-musso",
+      "team": "Atletico Madrid",
+      "id": "263651",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    }
+  ]
+}
