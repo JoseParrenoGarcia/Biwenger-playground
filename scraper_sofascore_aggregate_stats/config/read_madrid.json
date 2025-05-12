@@ -1,0 +1,188 @@
+{
+  "players": [
+    {
+      "name": "Kylian Mbappe",
+      "sofascore_name": "kylian-mbappe",
+      "team": "Real Madrid",
+      "id": "826643",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Vinicius Junior",
+      "sofascore_name": "vinicius-junior",
+      "team": "Real Madrid",
+      "id": "868812",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Rodrygo",
+      "sofascore_name": "rodrygo",
+      "team": "Real Madrid",
+      "id": "910536",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Endrick",
+      "sofascore_name": "endrick",
+      "team": "Real Madrid",
+      "id": "1174937",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Jude Bellingham",
+      "sofascore_name": "jude-bellingham",
+      "team": "Real Madrid",
+      "id": "991011",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Luka Modric",
+      "sofascore_name": "luka-modric",
+      "team": "Real Madrid",
+      "id": "15466",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Arda Guler",
+      "sofascore_name": "arda-guler",
+      "team": "Real Madrid",
+      "id": "1091116",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Federico Valverde",
+      "sofascore_name": "federico-valverde",
+      "team": "Real Madrid",
+      "id": "831808",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "sofascore_name": "camavinga-eduardo",
+      "team": "Real Madrid",
+      "id": "973887",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Brahim Diaz",
+      "sofascore_name": "brahim-diaz",
+      "team": "Real Madrid",
+      "id": "835485",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Dani Olmo",
+      "sofascore_name": "dani-olmo",
+      "team": "Real Madrid",
+      "id": "789071",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Aurelien Tchouameni",
+      "sofascore_name": "aurelien-tchouameni",
+      "team": "Real Madrid",
+      "id": "859025",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Dani Ceballos",
+      "sofascore_name": "dani-ceballos",
+      "team": "Real Madrid",
+      "id": "547838",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Antonio Rudiger",
+      "sofascore_name": "antonio-rudiger",
+      "team": "Real Madrid",
+      "id": "142622",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Daniel Carvajal",
+      "sofascore_name": "daniel-carvajal",
+      "team": "Real Madrid",
+      "id": "138572",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Eder Militao",
+      "sofascore_name": "eder-militao",
+      "team": "Real Madrid",
+      "id": "822519",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "David Alaba",
+      "sofascore_name": "david-alaba",
+      "team": "Real Madrid",
+      "id": "66492",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Ferland Mendy",
+      "sofascore_name": "ferland-mendy",
+      "team": "Real Madrid",
+      "id": "792073",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Raul Asencio",
+      "sofascore_name": "raul-asencio",
+      "team": "Real Madrid",
+      "id": "1156645",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Lucas Vazquez",
+      "sofascore_name": "lucas-vazquez",
+      "team": "Real Madrid",
+      "id": "255239",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Fran Garcia",
+      "sofascore_name": "fran-garcia",
+      "team": "Real Madrid",
+      "id": "851271",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Thibaut Courtois",
+      "sofascore_name": "thibaut-courtois",
+      "team": "Real Madrid",
+      "id": "70988",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Andriy Lunin",
+      "sofascore_name": "andriy-lunin",
+      "team": "Real Madrid",
+      "id": "857574",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    }
+  ]
+}

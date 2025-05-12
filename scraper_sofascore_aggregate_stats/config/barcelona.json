@@ -1,7 +1,7 @@
 {
   "players": [
     {
-      "name": "Hugo Duro",
+      "name": "Robert Lewandowski",
       "sofascore_name": "robert-lewandowski",
       "team": "Barcelona",
       "id": "41789",
@@ -69,14 +69,6 @@
       "sofascore_name": "frenkie-de-jong",
       "team": "Barcelona",
       "id": "795222",
-      "position": "Midfielder",
-      "to_scrape": true
-    },
-    {
-      "name": "Luis Rioja",
-      "sofascore_name": "luis-rioja",
-      "team": "Barcelona",
-      "id": "900433",
       "position": "Midfielder",
       "to_scrape": true
     },
