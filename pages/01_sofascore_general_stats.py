@@ -33,6 +33,10 @@ with st.form("filters_form"):
         "Team",
         options=sorted(df['current_team'].unique()),
     )
+    highlight_players = cols[3].multiselect(
+        "Highlight Players",
+        options=sorted(df['name'].unique()),
+    )
 
     # CHART LAYOUT COLS
     metric_cols = df.select_dtypes(include=['float', 'int']).columns.tolist()
@@ -54,6 +58,11 @@ if submitted:
         df = df[df['position'].isin(position)]
     if team:
         df = df[df['current_team'].isin(team)]
+
+    # Create a new column to determine symbols
+    df['marker_symbol'] = 'circle'
+    if highlight_players:
+        df.loc[df['name'].isin(highlight_players), 'marker_symbol'] = 'star'
 
     # Reorder columns to show avg_total_rating after season
     cols = df.columns.tolist()
@@ -84,6 +93,7 @@ if submitted:
             x=x_metric,
             y=y_metric,
             size=bubble_metric if bubble_metric else None,
+            symbol='marker_symbol',
             color="position",  # Color by position
             color_discrete_map=position_colors,  # Map positions to colors
             hover_name="name" if "name" in df.columns else None,
