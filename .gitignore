@@ -1,3 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment files
+.env
+.venv/
+venv/
+
 # Ignore Streamlit secrets
 .streamlit/secrets.toml
+
+# Ignore IDE/project files
 .idea/
