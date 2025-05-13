@@ -43,10 +43,6 @@ with st.form("filters_form"):
     y_metric = cols[1].selectbox("Y-axis", metric_cols, index=1)
     bubble_metric = cols[2].selectbox("Bubble Size", [None] + metric_cols)
 
-    # sliders = st.columns(2)
-    # x_range = sliders[0].slider(f"{x_metric} Range", float(df[x_metric].min()), float(df[x_metric].max()), (float(df[x_metric].min()), float(df[x_metric].max())))
-    # y_range = sliders[1].slider(f"{y_metric} Range", float(df[y_metric].min()), float(df[y_metric].max()), (float(df[y_metric].min()), float(df[y_metric].max())))
-
     submitted = st.form_submit_button("Apply Filters")
 
 
@@ -59,23 +55,54 @@ if submitted:
     if team:
         df = df[df['current_team'].isin(team)]
 
+    # Reorder columns to show avg_total_rating after season
+    cols = df.columns.tolist()
+    if 'avg_total_rating' in cols and 'season' in cols:
+        cols.remove('avg_total_rating')
+        season_index = cols.index('season')
+        cols.insert(season_index + 1, 'avg_total_rating')
+        df = df[cols]
+
+    # Calculate tertiles for X and Y axes
+    x_tertiles = [df[x_metric].quantile(q) for q in [0.33, 0.67]]
+    y_tertiles = [df[y_metric].quantile(q) for q in [0.33, 0.67]]
+
     # --- Visualise ---
     with st.container(border=True):
         st.subheader("Stats scatter plot")
 
         # Create scatter plot
+        position_colors = {
+            "Goalkeeper": "rgb(253, 216, 53)",
+            "Defender": "rgb(30, 136, 229)",
+            "Midfielder": "rgb(67, 160, 71)",
+            "Forward": "rgb(244, 81, 30)"
+        }
+
         fig = px.scatter(
             df,
             x=x_metric,
             y=y_metric,
             size=bubble_metric if bubble_metric else None,
-            # color="team" if "team" in df.columns else None,
+            color="position",  # Color by position
+            color_discrete_map=position_colors,  # Map positions to colors
             hover_name="name" if "name" in df.columns else None,
             hover_data=["team", "position"] if all(col in df.columns for col in ["team", "position"]) else None,
             # title=f"{position if position != 'All' else 'All Positions'} Players - {season}",
             height=600
         )
 
+        # Add vertical tertile lines (X-axis)
+        colour="rgb(248, 196, 113)"
+        for x_val in x_tertiles:
+            fig.add_vline(x=x_val, line_dash="dash", line_color=colour)
+
+        # Add horizontal tertile lines (Y-axis)
+        for y_val in y_tertiles:
+            fig.add_hline(y=y_val, line_dash="dash", line_color=colour)
+
         st.plotly_chart(fig, use_container_width=True)
 
-st.dataframe(df)
+    with st.container(border=True):
+        st.subheader("Stats table")
+        st.dataframe(df)
