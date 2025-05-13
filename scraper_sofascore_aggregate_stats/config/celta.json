@@ -1,0 +1,188 @@
+{
+  "players": [
+    {
+      "name": "Iago Aspas",
+      "sofascore_name": "iago-aspas",
+      "team": "Celta",
+      "id": "19356",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Borja Iglesias",
+      "sofascore_name": "borja-iglesias",
+      "team": "Celta",
+      "id": "785989",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Pablo Duran",
+      "sofascore_name": "pablo-duran",
+      "team": "Celta",
+      "id": "1398524",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Alfon Gonzalez",
+      "sofascore_name": "alfon-gonzalez",
+      "team": "Celta",
+      "id": "1468090",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Ilaix Moriba",
+      "sofascore_name": "ilaix-moriba",
+      "team": "Celta",
+      "id": "962890",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Williot Swedberg",
+      "sofascore_name": "williot-swedberg",
+      "team": "Celta",
+      "id": "1126779",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Franco Cervi",
+      "sofascore_name": "franco-cervi",
+      "team": "Celta",
+      "id": "557008",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Fran Beltran",
+      "sofascore_name": "fran-beltran",
+      "team": "Celta",
+      "id": "835484",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Hugo Alvarez",
+      "sofascore_name": "hugo-alvarez",
+      "team": "Celta",
+      "id": "1154935",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Iker Losada",
+      "sofascore_name": "iker-losada",
+      "team": "Celta",
+      "id": "992331",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Damian Rodriguez",
+      "sofascore_name": "damian-rodriguez",
+      "team": "Celta",
+      "id": "1216080",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Marcos Alonso",
+      "sofascore_name": "marcos-alonso",
+      "team": "Celta",
+      "id": "69408",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Carl Starfelt",
+      "sofascore_name": "carl-starfelt",
+      "team": "Celta",
+      "id": "360718",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Mihailo Ristic",
+      "sofascore_name": "mihailo-ristic",
+      "team": "Celta",
+      "id": "363774",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Jailson",
+      "sofascore_name": "jailson",
+      "team": "Celta",
+      "id": "794861",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Javi Rodriguez",
+      "sofascore_name": "javi-rodriguez",
+      "team": "Celta",
+      "id": "1526627",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Javier Manquillo",
+      "sofascore_name": "javier-manquillo",
+      "team": "Celta",
+      "id": "210082",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Carlos Dominguez",
+      "sofascore_name": "carlos-dominguez",
+      "team": "Celta",
+      "id": "1069703",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Yoel Lago",
+      "sofascore_name": "yoel-lago",
+      "team": "Celta",
+      "id": "1145100",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Sergio Carreira",
+      "sofascore_name": "sergio-carreira",
+      "team": "Celta",
+      "id": "1002764",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Oscar Mingueza",
+      "sofascore_name": "oscar-mingueza",
+      "team": "Celta",
+      "id": "859773",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Vicente Guaita",
+      "sofascore_name": "vicente-guaita",
+      "team": "Celta",
+      "id": "32023",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Ivan Villar",
+      "sofascore_name": "ivan-villar",
+      "team": "Celta",
+      "id": "848980",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    }
+  ]
+}
