@@ -1,7 +1,7 @@
-import asyncio, os, json
+import asyncio, os
 from rich.console import Console
-from scraper_sofascore_aggregate_stats.runner import run_player
-from scraper_sofascore_aggregate_stats.utils import load_players_from_team_files
+from etl_sofascore_aggregate_stats.scraper_sofascore_aggregate_stats.runner import run_player
+from etl_sofascore_aggregate_stats.scraper_sofascore_aggregate_stats.utils import load_players_from_team_files
 
 console = Console()
 BATCH_SIZE = 5

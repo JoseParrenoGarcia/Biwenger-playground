@@ -1,0 +1,11 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_OF_ASR,General_OF_MP,General_OF_MIN,General_OF_GLS,General_OF_AST,Shooting_OF_MP,Shooting_OF_GLS,Shooting_OF_TOS,Shooting_OF_SOT,Shooting_OF_BCM,Team play_OF_MP,Team play_OF_AST,Team play_OF_KEYP,Team play_OF_BCC,Team play_OF_SDR,Passing_OF_APS,Passing_OF_APS%,Passing_OF_ALB,Passing_OF_LBA%,Passing_OF_ACR,Passing_OF_CA%,Defending_OF_CLS,Defending_OF_YC,Defending_OF_RC,Defending_OF_ELTG,Defending_OF_DRP,Defending_OF_TACK,Defending_OF_INT,Defending_OF_BLS,Defending_OF_ADW,Additional_OF_GLS,Additional_OF_xG,Additional_OF_AST,Additional_OF_XA,Additional_OF_GI,Additional_OF_XGI
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,15/16,6.93,43,3858,1,6,43,1,15,3,0,43,6,28,11,80,1658,84.5,38,49.4,23,18.9,21,3,0,0,34,71,81,7,44,1,,6,,7,
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,16/17,6.72,42,3234,1,5,42,1,32,10,1,42,5,31,4,56,1472,84.9,32,47.8,11,12.8,14,4,0,0,24,36,49,8,44,1,,5,,6,
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,17/18,6.76,47,4131,3,5,47,3,32,9,3,47,5,44,9,45,2093,84.9,47,45.6,14,15.1,14,8,0,1,42,77,34,11,49,3,,5,,8,
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,18/19,6.81,19,1533,0,5,19,0,18,4,0,19,5,9,4,15,661,84.2,25,61.0,9,23.1,3,3,0,0,7,15,20,8,21,0,,5,,5,
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,19/20,6.59,23,1796,1,1,23,1,10,2,0,23,1,10,4,26,698,82.3,26,55.3,2,6.1,5,3,0,0,28,27,28,4,22,1,,1,,2,
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,20/21,6.87,35,2775,1,3,35,1,20,6,1,35,3,26,6,28,1252,83.9,23,40.4,17,23.0,7,8,0,0,35,37,36,9,44,1,,3,,4,
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,21/22,6.83,32,2567,0,5,32,0,11,2,0,32,5,33,5,26,848,78.4,28,35.9,15,30.0,11,2,1,0,17,54,28,4,31,0,,5,,5,
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,22/23,6.77,20,1026,1,0,20,1,6,4,1,20,0,11,1,15,452,82.9,16,76.2,7,24.1,3,1,0,0,7,25,10,2,18,1,0.41,0,0.84,1,1.25
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,23/24,6.56,30,2032,0,1,30,0,4,1,1,30,1,16,2,21,732,79.9,31,40.8,4,8.3,8,0,1,0,37,36,27,0,19,0,0.23,1,1.33,1,1.56
+Betis,Defender,Hector Bellerin,hector-bellerin,188365,24/25,6.92,13,812,0,2,13,0,3,1,0,13,2,10,2,9,320,83.1,15,51.7,3,23.1,3,1,0,0,10,17,8,0,9,0,0.22,2,2.17,2,2.38

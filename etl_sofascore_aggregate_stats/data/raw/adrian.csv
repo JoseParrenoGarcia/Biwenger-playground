@@ -1,0 +1,9 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_GK_ASR,General_GK_MP,General_GK_MIN,General_GK_CLS,General_GK_GC,Goalkeeping_GK_MP,Goalkeeping_GK_SAV,Goalkeeping_GK_SAV%,Goalkeeping_GK_PS,Goalkeeping_GK_PS%,Passing_GK_APS,Passing_GK_APS%,Passing_GK_ALB,Passing_GK_LBA%,Defending_GK_CLS,Defending_GK_YC,Defending_GK_RC,Defending_GK_ELTG,Defending_GK_DRP,Defending_GK_TACK,Defending_GK_INT,Defending_GK_ADW,Additional_GK_GC,Additional_GK_xGC,Additional_GK_GP
+Betis,Goalkeeper,Adrian,adrian,50539,16/17,6.85,17,1530,6,30,17,60,66.7,0,,216,49.8,136,38.5,6,1,0,1,3,1,0,2,30,,
+Betis,Goalkeeper,Adrian,adrian,50539,17/18,6.96,22,1980,8,31,22,77,71.3,0,,278,46.5,194,37.9,8,2,0,0,3,2,0,3,31,,
+Betis,Goalkeeper,Adrian,adrian,50539,18/19,6.42,5,450,2,8,5,9,52.9,,,109,79.6,34,56.7,2,0,0,0,0,0,0,1,8,,
+Betis,Goalkeeper,Adrian,adrian,50539,19/20,6.48,18,1563,3,24,18,41,63.1,0,,357,75.2,94,45.0,3,1,0,4,0,2,0,6,24,,
+Betis,Goalkeeper,Adrian,adrian,50539,20/21,7.02,6,540,3,11,6,21,65.6,,,125,74.4,30,43.5,3,0,0,1,0,3,0,3,11,,
+Betis,Goalkeeper,Adrian,adrian,50539,21/22,7.50,1,90,1,0,1,3,,,,33,100.0,4,100.0,1,0,0,0,0,0,0,,0,,
+Betis,Goalkeeper,Adrian,adrian,50539,22/23,7.10,1,90,0,1,1,7,87.5,,,20,60.6,6,31.6,0,0,0,1,0,0,1,,1,,
+Betis,Goalkeeper,Adrian,adrian,50539,24/25,6.94,22,1980,5,25,22,51,67.1,0,,454,75.5,100,41.0,5,1,0,1,2,0,0,5,25,27.3,2.32

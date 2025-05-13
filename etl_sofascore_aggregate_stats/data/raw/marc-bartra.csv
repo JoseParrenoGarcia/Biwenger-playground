@@ -1,0 +1,11 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_OF_ASR,General_OF_MP,General_OF_MIN,General_OF_GLS,General_OF_AST,Shooting_OF_MP,Shooting_OF_GLS,Shooting_OF_TOS,Shooting_OF_SOT,Shooting_OF_BCM,Team play_OF_MP,Team play_OF_AST,Team play_OF_KEYP,Team play_OF_BCC,Team play_OF_SDR,Passing_OF_APS,Passing_OF_APS%,Passing_OF_ALB,Passing_OF_LBA%,Passing_OF_ACR,Passing_OF_CA%,Defending_OF_CLS,Defending_OF_YC,Defending_OF_RC,Defending_OF_ELTG,Defending_OF_DRP,Defending_OF_TACK,Defending_OF_INT,Defending_OF_BLS,Defending_OF_ADW,Additional_OF_GLS,Additional_OF_xG,Additional_OF_AST,Additional_OF_XA,Additional_OF_GI,Additional_OF_XGI
+Betis,Defender,Marc Bartra,marc-bartra,99519,15/16,7.02,17,731,2,1,17,2,9,2,0,17,1,2,0,6,503,87.8,37,51.4,,,2,1,0,1,3,17,21,0,20,2,,1,,3,
+Betis,Defender,Marc Bartra,marc-bartra,99519,16/17,7.13,29,2426,1,3,29,1,31,7,0,29,3,14,5,15,1789,82.6,102,41.0,0,,9,7,0,1,39,84,93,7,82,1,,3,,4,
+Betis,Defender,Marc Bartra,marc-bartra,99519,17/18,7.28,36,2881,5,1,36,5,25,10,2,36,1,13,6,31,1882,84.0,138,46.3,3,17.6,13,8,0,1,35,89,76,2,106,5,,1,,6,
+Betis,Defender,Marc Bartra,marc-bartra,99519,18/19,7.01,46,3960,1,0,46,1,21,7,1,46,0,9,0,18,2692,87.5,200,49.5,1,14.3,11,4,0,0,48,120,90,6,99,1,,0,,1,
+Betis,Defender,Marc Bartra,marc-bartra,99519,19/20,6.99,33,2781,3,1,33,3,30,4,2,33,1,8,3,15,1593,85.2,117,48.3,1,25.0,6,9,0,0,30,68,41,5,107,3,,1,,4,
+Betis,Defender,Marc Bartra,marc-bartra,99519,20/21,6.71,19,1695,0,1,19,0,10,4,0,19,1,3,1,7,772,80.6,60,38.0,0,,6,3,0,2,10,27,40,2,59,0,,1,,1,
+Betis,Defender,Marc Bartra,marc-bartra,99519,21/22,7.00,32,2827,2,0,32,2,19,5,3,32,0,5,0,10,1397,82.7,115,40.8,,,11,6,0,1,20,48,44,1,72,2,,0,,2,
+Betis,Defender,Marc Bartra,marc-bartra,99519,22/23,7.01,39,3043,4,1,39,4,37,11,0,39,1,14,1,19,1849,83.3,135,45.6,4,19.0,9,5,1,0,27,70,64,8,117,4,0.72,1,0.46,5,1.18
+Betis,Defender,Marc Bartra,marc-bartra,99519,23/24,6.70,4,315,0,0,4,0,4,0,1,4,0,0,0,2,135,86.0,8,42.1,,,0,2,0,0,1,8,5,2,7,0,0.31,0,0.03,0,0.34
+Betis,Defender,Marc Bartra,marc-bartra,99519,24/25,7.01,34,2761,3,1,34,3,26,8,3,34,1,6,0,8,1249,82.3,132,43.1,1,100.0,4,2,0,1,12,43,40,6,67,3,1.59,1,0.33,4,1.92

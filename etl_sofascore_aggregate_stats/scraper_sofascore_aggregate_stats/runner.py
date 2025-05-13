@@ -1,7 +1,7 @@
 import asyncio
-from scraper_sofascore_aggregate_stats.utils import load_players_from_team_files
-from scraper_sofascore_aggregate_stats.gk_scraper import scrape_goalkeeper
-from scraper_sofascore_aggregate_stats.non_gk_scraper import scrape_outfield_player
+from etl_sofascore_aggregate_stats.scraper_sofascore_aggregate_stats.utils import load_players_from_team_files
+from etl_sofascore_aggregate_stats.scraper_sofascore_aggregate_stats.gk_scraper import scrape_goalkeeper
+from etl_sofascore_aggregate_stats.scraper_sofascore_aggregate_stats.non_gk_scraper import scrape_outfield_player
 
 async def run_player(p):
     if p["position"] == "Goalkeeper":

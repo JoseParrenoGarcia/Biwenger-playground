@@ -11,9 +11,8 @@ async def collapse_first_row_if_open(page: Page)
 """
 
 import asyncio
-from scraper_sofascore_aggregate_stats.utils import load_players_from_team_files
 import pandas as pd
-from scraper_sofascore_aggregate_stats.utils import combine_stat_tables, click_tab, collapse_first_season_row
+from etl_sofascore_aggregate_stats.scraper_sofascore_aggregate_stats.utils import combine_stat_tables, click_tab, collapse_first_season_row
 from playwright.async_api import async_playwright, Page
 
 pd.set_option("display.max_columns", None)
