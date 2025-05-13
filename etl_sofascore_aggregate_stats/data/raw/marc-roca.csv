@@ -1,0 +1,10 @@
+current_team,position,name,sofascore_name,id,Year,General_rating_OF_ASR,General_OF_MP,General_OF_MIN,General_OF_GLS,General_OF_AST,Shooting_OF_MP,Shooting_OF_GLS,Shooting_OF_TOS,Shooting_OF_SOT,Shooting_OF_BCM,Team play_OF_MP,Team play_OF_AST,Team play_OF_KEYP,Team play_OF_BCC,Team play_OF_SDR,Passing_OF_APS,Passing_OF_APS%,Passing_OF_ALB,Passing_OF_LBA%,Passing_OF_ACR,Passing_OF_CA%,Defending_OF_CLS,Defending_OF_YC,Defending_OF_RC,Defending_OF_ELTG,Defending_OF_DRP,Defending_OF_TACK,Defending_OF_INT,Defending_OF_BLS,Defending_OF_ADW,Additional_OF_GLS,Additional_OF_xG,Additional_OF_AST,Additional_OF_XA,Additional_OF_GI,Additional_OF_XGI
+Betis,Midfielder,Marc Roca,marc-roca,847128,16/17,6.76,26,1406,0,1,26,0,14,3,1,26,1,8,1,16,671,84.0,93,71.0,1,25.0,3,4,0,0,22,40,22,4,11,0,,1,,1,
+Betis,Midfielder,Marc Roca,marc-roca,847128,17/18,6.80,9,349,0,0,9,0,6,0,0,9,0,3,0,3,208,87.8,22,75.9,1,100.0,2,0,0,0,1,9,5,2,1,0,,0,,0,
+Betis,Midfielder,Marc Roca,marc-roca,847128,18/19,6.94,40,3499,1,2,40,1,28,10,1,40,2,24,7,32,1931,87.1,172,72.9,0,,11,11,1,1,48,82,39,8,48,1,,2,,3,
+Betis,Midfielder,Marc Roca,marc-roca,847128,19/20,6.77,39,3288,2,1,39,2,34,5,1,39,1,32,8,17,1556,81.5,178,57.4,19,31.7,6,8,0,1,59,87,35,18,38,2,,1,,3,
+Betis,Midfielder,Marc Roca,marc-roca,847128,20/21,6.67,13,577,0,0,13,0,9,3,0,13,0,3,2,5,463,90.8,25,64.1,2,28.6,2,3,2,0,7,5,8,2,9,0,,0,,0,
+Betis,Midfielder,Marc Roca,marc-roca,847128,21/22,6.72,13,460,0,0,13,0,5,0,0,13,0,5,0,4,312,89.1,23,71.9,2,40.0,0,0,0,0,6,12,7,3,1,0,,0,,0,
+Betis,Midfielder,Marc Roca,marc-roca,847128,22/23,6.81,36,2627,1,2,36,1,42,14,2,36,2,36,5,17,1107,79.5,84,51.9,18,21.7,0,7,0,1,50,76,27,18,21,1,2.15,2,2.55,3,4.70
+Betis,Midfielder,Marc Roca,marc-roca,847128,23/24,7.01,37,2743,4,3,37,4,27,10,1,37,3,26,4,13,1467,85.4,101,52.6,5,14.3,9,7,0,0,29,64,28,7,17,4,2.08,3,2.22,7,4.31
+Betis,Midfielder,Marc Roca,marc-roca,847128,24/25,7.05,17,1041,2,2,17,2,13,5,0,17,2,12,2,5,531,87.2,29,47.5,6,37.5,2,4,0,0,10,26,15,4,6,2,1.06,2,0.62,4,1.68
