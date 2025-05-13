@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 from utils_streamlit import get_sofascore_player_stats
 
 # --- Page Setup ---
@@ -32,6 +33,10 @@ with st.form("filters_form"):
     team = cols[2].multiselect(
         "Team",
         options=sorted(df['current_team'].unique()),
+    )
+    highlight_players = cols[3].multiselect(
+        "Highlight Players",
+        options=sorted(df['name'].unique()),
     )
 
     # CHART LAYOUT COLS
@@ -87,10 +92,37 @@ if submitted:
             color="position",  # Color by position
             color_discrete_map=position_colors,  # Map positions to colors
             hover_name="name" if "name" in df.columns else None,
-            hover_data=["team", "position"] if all(col in df.columns for col in ["team", "position"]) else None,
-            # title=f"{position if position != 'All' else 'All Positions'} Players - {season}",
+            hover_data={
+                x_metric: True,
+                y_metric: True,
+                "position": False,
+            },
             height=600
         )
+
+        if highlight_players:
+            highlighted_df = df[df['name'].isin(highlight_players)]
+
+            fig.add_trace(
+                go.Scatter(
+                    x=highlighted_df[x_metric],
+                    y=highlighted_df[y_metric],
+                    mode='markers',
+                    marker=dict(
+                        color='black',
+                        line=dict(width=2, color='grey'),
+                        size=highlighted_df[bubble_metric] * 5 if bubble_metric else 10
+                    ),
+                    text=[f"<b>{name}</b><br><br>{x_metric}: {x_val}<br>{y_metric}: {y_val}"
+                          for name, x_val, y_val in zip(
+                            highlighted_df['name'],
+                            highlighted_df[x_metric],
+                            highlighted_df[y_metric]
+                        )],
+                    hoverinfo='text',
+                    showlegend=False
+                )
+            )
 
         # Add vertical tertile lines (X-axis)
         colour="rgb(248, 196, 113)"
