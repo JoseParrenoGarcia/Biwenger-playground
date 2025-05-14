@@ -1,6 +1,8 @@
-from playwright.sync_api import sync_playwright
 import json
 import os
+from rich.console import Console
+
+console = Console()
 
 def load_credentials(filepath="secrets/credentials.json") -> dict:
     current_dir = os.path.dirname(os.path.abspath(__file__))  # /.../etl_biwenger_player_stats/scraper_biwenger_player_stats
@@ -12,7 +14,15 @@ def load_credentials(filepath="secrets/credentials.json") -> dict:
 
 def perform_login(page, email: str, password: str):
     page.goto("https://biwenger.as.com/")
-    page.get_by_role("button", name="Agree").click()
+    # page.get_by_role("button", name="Agree").click()
+
+    try:
+        page.wait_for_selector('button:has-text("Agree")', timeout=1000)
+        page.get_by_role("button", name="Agree").click()
+    except:
+        pass
+        # print("⚠️ 'Agree' button not found — continuing.")
+
     page.get_by_role("link", name="Play now!").click()
     page.get_by_role("button", name="Already have an account").click()
     page.get_by_role("textbox", name="Email").fill(email)
@@ -32,6 +42,6 @@ def save_players_to_json(players, filename="players_raw.json"):
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(players, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {len(players)} players to {file_path}")
+    console.log(f"[bold green]✅ Saved {len(players)} players to {file_path}")
 
 
