@@ -59,13 +59,17 @@ def scrape_stats(page) -> dict:
 def scrape_all_players(page, max_players=500):
     player_data = []
 
+    # ✅ Step 1: Click first player (ensure we're on the detail page)
+    console.log("[bold cyan]🔎 Clicking first player...")
+    page.locator('table a[role="button"][href^="/la-liga/players/"]').first.click()
+    page.wait_for_timeout(1000)  # Wait for page to load
+
     for i in range(max_players):
-        # Scrape current player
         stats = scrape_stats(page)
-        console.log(f"[bold green]✅ Scraped {i+1}: {stats['name']}")
+        console.log(f"✅ Scraped {i+1}: [bold]{stats['name']}[/]")
         player_data.append(stats)
 
-        # Check if the next arrow exists and is clickable
+        # Check for next arrow
         next_button = page.locator('a.navigation.next')
         if next_button.count() == 0:
             console.log("🚨 [bold red]No next player button found. End of list.[/]")
@@ -73,7 +77,7 @@ def scrape_all_players(page, max_players=500):
 
         try:
             next_button.click()
-            page.wait_for_timeout(1000)  # wait 1s for page transition
+            page.wait_for_timeout(1000)
         except Exception as e:
             console.log(f"❌ [bold red]Failed to click next:[/] {e}")
             break
@@ -104,9 +108,6 @@ def scraper():
 
         # Click view as list
         page.get_by_role("button", name="Table").click()
-
-        # Click the very first player in the list
-        page.locator('table a[role="button"][href^="/la-liga/players/"]').first.click()
 
         # Scrape player stats
         all_stats = scrape_all_players(page, max_players=4)
