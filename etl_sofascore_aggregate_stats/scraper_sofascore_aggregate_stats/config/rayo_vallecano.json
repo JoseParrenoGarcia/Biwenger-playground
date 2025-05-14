@@ -1,0 +1,180 @@
+{
+  "players": [
+    {
+      "name": "Sergio Camello",
+      "sofascore_name": "sergio-camello",
+      "team": "Rayo Vallecano",
+      "id": "910024",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Randy Nteka",
+      "sofascore_name": "randy-nteka",
+      "team": "Rayo Vallecano",
+      "id": "932764",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Sergi Guardiola",
+      "sofascore_name": "sergi-guardiola",
+      "team": "Rayo Vallecano",
+      "id": "141945",
+      "position": "Forward",
+      "to_scrape": true
+    },
+    {
+      "name": "Pape Ismaila Ciss",
+      "sofascore_name": "ismaila-ciss",
+      "team": "Rayo Vallecano",
+      "id": "913679",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Isi Palazon",
+      "sofascore_name": "isi-palazon",
+      "team": "Rayo Vallecano",
+      "id": "899982",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Alvaro Garcia",
+      "sofascore_name": "alvaro-garcia",
+      "team": "Rayo Vallecano",
+      "id": "345111",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Jorge de Frutos",
+      "sofascore_name": "jorge-de-frutos",
+      "team": "Rayo Vallecano",
+      "id": "900003",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Pedro Diaz",
+      "sofascore_name": "pedro-diaz",
+      "team": "Rayo Vallecano",
+      "id": "900669",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Oscar Trejo",
+      "sofascore_name": "oscar-trejo",
+      "team": "Rayo Vallecano",
+      "id": "21949",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Unai Lopez",
+      "sofascore_name": "unai-lopez",
+      "team": "Rayo Vallecano",
+      "id": "588566",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Oscar Valentin",
+      "sofascore_name": "oscar-valentin",
+      "team": "Rayo Vallecano",
+      "id": "900008",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Adrian Embarba",
+      "sofascore_name": "adrian-embarba",
+      "team": "Rayo Vallecano",
+      "id": "346516",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Gerard Gumbau",
+      "sofascore_name": "gerard-gumbau",
+      "team": "Rayo Vallecano",
+      "id": "326471",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Joni Montiel",
+      "sofascore_name": "joni-montiel",
+      "team": "Rayo Vallecano",
+      "id": "827491",
+      "position": "Midfielder",
+      "to_scrape": true
+    },
+    {
+      "name": "Andrei Ratiu",
+      "sofascore_name": "andrei-ratiu",
+      "team": "Rayo Vallecano",
+      "id": "965031",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Abdul Mumin",
+      "sofascore_name": "abdul-mumin",
+      "team": "Rayo Vallecano",
+      "id": "846147",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Florian Lejeune",
+      "sofascore_name": "florian-lejeune",
+      "team": "Rayo Vallecano",
+      "id": "88528",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Ivan Balliu",
+      "sofascore_name": "ivan-balliu",
+      "team": "Rayo Vallecano",
+      "id": "152446",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Alfonso Espino",
+      "sofascore_name": "alfonso-espino",
+      "team": "Rayo Vallecano",
+      "id": "542634",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Josep Chavarria",
+      "sofascore_name": "josep-chavarria",
+      "team": "Rayo Vallecano",
+      "id": "1010421",
+      "position": "Defender",
+      "to_scrape": true
+    },
+    {
+      "name": "Augusto Batalla",
+      "sofascore_name": "augusto-batalla",
+      "team": "Rayo Vallecano",
+      "id": "358910",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    },
+    {
+      "name": "Dani Cardenas",
+      "sofascore_name": "dani-cardenas",
+      "team": "Rayo Vallecano",
+      "id": "965832",
+      "position": "Goalkeeper",
+      "to_scrape": true
+    }
+  ]
+}
