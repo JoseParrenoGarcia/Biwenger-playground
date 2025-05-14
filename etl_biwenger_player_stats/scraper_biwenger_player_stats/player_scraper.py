@@ -110,7 +110,8 @@ def scraper():
         page.get_by_role("button", name="Table").click()
 
         # Scrape player stats
-        all_stats = scrape_all_players(page, max_players=4)
+        # all_stats = scrape_all_players(page, max_players=4)
+        all_stats = scrape_all_players(page)
 
         # Store to raw data
         save_players_to_json(all_stats, filename="biwenger_players_raw.json")
