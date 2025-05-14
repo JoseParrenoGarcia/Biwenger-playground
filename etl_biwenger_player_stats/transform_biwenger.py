@@ -6,8 +6,9 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 0)
 
 def transform_players(
-    input_filename="biwenger_players_raw.json",
-    output_filename="biwenger_players_transformed.csv"
+        input_filename="biwenger_players_raw.json",
+        output_filename="biwenger_players_transformed.csv",
+        season_tag='24/25',
 ):
     # Step 1: Build paths
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -33,6 +34,9 @@ def transform_players(
     numeric_fields = ["total_points", "games_played", "avg_points_per_game"]
     for field in numeric_fields:
         df[field] = pd.to_numeric(df[field], errors="coerce")
+
+    # Add season tag
+    df['season_tag'] = season_tag
 
     print(df)
 

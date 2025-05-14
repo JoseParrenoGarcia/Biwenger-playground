@@ -1,19 +1,19 @@
-name,team,position,total_points,current_value,min_value_1y,max_value_1y,games_played,avg_points_per_game
-Raphinha,Barcelona,Forward,338,22230000.0,5000000.0,23780000.0,33,10.2
-Mbappé,Real Madrid,Forward,311,27320000.0,20830000.0,27500000.0,31,10.0
-Yamal,Barcelona,Forward,298,25270000.0,17180000.0,25270000.0,32,9.3
-Pedri,Barcelona,Forward,280,22040000.0,6870000.0,22040000.0,34,8.2
-Lewandowski,Barcelona,Forward,264,19710000.0,11720000.0,23300000.0,31,8.5
-Valverde,Real Madrid,Forward,254,19040000.0,11450000.0,19560000.0,33,7.7
-Budimir,Osasuna,Forward,250,14770000.0,5410000.0,15620000.0,35,7.1
-Baena,Villarreal,Forward,237,17430000.0,9020000.0,19190000.0,29,8.2
-Joan García,Espanyol,Forward,232,11120000.0,170000.0,11120000.0,35,6.6
-Julián Alvarez,Atlético,Forward,231,18460000.0,7420000.0,19470000.0,34,6.8
-Bellingham,Real Madrid,Forward,229,20870000.0,15800000.0,23820000.0,29,7.9
-Vinícius Jr,Real Madrid,Forward,227,18210000.0,17780000.0,25650000.0,29,7.8
-Griezmann,Atlético,Forward,224,10100000.0,10100000.0,18400000.0,35,6.4
-Lukébakio,Sevilla,Forward,220,11430000.0,1420000.0,15100000.0,36,6.1
-Rodrygo,Real Madrid,Forward,217,10820000.0,7120000.0,18650000.0,30,7.2
-Modric,Real Madrid,Forward,206,8040000.0,3480000.0,12880000.0,32,6.4
-Ayoze,Villarreal,Forward,205,19000000.0,5840000.0,19000000.0,28,7.3
-Rubén García,Osasuna,Forward,205,7160000.0,1470000.0,7160000.0,34,6.0
+name,team,position,total_points,current_value,min_value_1y,max_value_1y,games_played,avg_points_per_game,season_tag
+Raphinha,Barcelona,Forward,338,22230000.0,5000000.0,23780000.0,33,10.2,24/25
+Mbappé,Real Madrid,Forward,311,27320000.0,20830000.0,27500000.0,31,10.0,24/25
+Yamal,Barcelona,Forward,298,25270000.0,17180000.0,25270000.0,32,9.3,24/25
+Pedri,Barcelona,Midfielder,280,22040000.0,6870000.0,22040000.0,34,8.2,24/25
+Lewandowski,Barcelona,Forward,264,19710000.0,11720000.0,23300000.0,31,8.5,24/25
+Valverde,Real Madrid,Midfielder,254,19040000.0,11450000.0,19560000.0,33,7.7,24/25
+Budimir,Osasuna,Forward,250,14770000.0,5410000.0,15620000.0,35,7.1,24/25
+Baena,Villarreal,Midfielder,237,17430000.0,9020000.0,19190000.0,29,8.2,24/25
+Joan García,Espanyol,Goalkeeper,232,11120000.0,170000.0,11120000.0,35,6.6,24/25
+Julián Alvarez,Atlético,Forward,231,18460000.0,7420000.0,19470000.0,34,6.8,24/25
+Bellingham,Real Madrid,Midfielder,229,20870000.0,15800000.0,23820000.0,29,7.9,24/25
+Vinícius Jr,Real Madrid,Forward,227,18210000.0,17780000.0,25650000.0,29,7.8,24/25
+Griezmann,Atlético,Forward,224,10100000.0,10100000.0,18400000.0,35,6.4,24/25
+Lukébakio,Sevilla,Forward,220,11430000.0,1420000.0,15100000.0,36,6.1,24/25
+Rodrygo,Real Madrid,Forward,217,10820000.0,7120000.0,18650000.0,30,7.2,24/25
+Modric,Real Madrid,Midfielder,206,8040000.0,3480000.0,12880000.0,32,6.4,24/25
+Ayoze,Villarreal,Forward,205,19000000.0,5840000.0,19000000.0,28,7.3,24/25
+Rubén García,Osasuna,Midfielder,205,7160000.0,1470000.0,7160000.0,34,6.0,24/25
