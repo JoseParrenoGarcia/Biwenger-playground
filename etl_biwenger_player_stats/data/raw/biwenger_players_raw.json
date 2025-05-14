@@ -35,7 +35,7 @@
   {
     "name": "Pedri",
     "team": "Barcelona",
-    "position": "Forward",
+    "position": "Midfielder",
     "total_points": "280",
     "current_value": "€22,040,000",
     "min_value_1y": "€6,870,000",
@@ -57,7 +57,7 @@
   {
     "name": "Valverde",
     "team": "Real Madrid",
-    "position": "Forward",
+    "position": "Midfielder",
     "total_points": "254",
     "current_value": "€19,040,000",
     "min_value_1y": "€11,450,000",
@@ -79,7 +79,7 @@
   {
     "name": "Baena",
     "team": "Villarreal",
-    "position": "Forward",
+    "position": "Midfielder",
     "total_points": "237",
     "current_value": "€17,430,000",
     "min_value_1y": "€9,020,000",
@@ -90,7 +90,7 @@
   {
     "name": "Joan García",
     "team": "Espanyol",
-    "position": "Forward",
+    "position": "Goalkeeper",
     "total_points": "232",
     "current_value": "€11,120,000",
     "min_value_1y": "€170,000",
@@ -112,7 +112,7 @@
   {
     "name": "Bellingham",
     "team": "Real Madrid",
-    "position": "Forward",
+    "position": "Midfielder",
     "total_points": "229",
     "current_value": "€20,870,000",
     "min_value_1y": "€15,800,000",
@@ -167,7 +167,7 @@
   {
     "name": "Modric",
     "team": "Real Madrid",
-    "position": "Forward",
+    "position": "Midfielder",
     "total_points": "206",
     "current_value": "€8,040,000",
     "min_value_1y": "€3,480,000",
@@ -189,7 +189,7 @@
   {
     "name": "Rubén García",
     "team": "Osasuna",
-    "position": "Forward",
+    "position": "Midfielder",
     "total_points": "205",
     "current_value": "€7,160,000",
     "min_value_1y": "€1,470,000",

@@ -48,7 +48,7 @@ def scrape_stats(page) -> dict:
     stats = {
         "name": raw_name.split("\n")[0].strip() if raw_name else None,  # or a more specific selector
         "team": safe_get_attr('team-link a[title]', 'title'),
-        "position": safe_get_attr('player-position', 'title'),
+        "position": safe_get_attr('div.wrapper player-position', 'title'),
         "total_points": safe_stat("Points"),
         "current_value": safe_table_value("Value"),
         "min_value_1y": safe_table_value("Min"),

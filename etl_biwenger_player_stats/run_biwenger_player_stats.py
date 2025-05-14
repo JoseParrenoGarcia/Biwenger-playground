@@ -7,11 +7,11 @@ console = Console()
 
 if __name__ == "__main__":
     start_time = time.time()
-    # console.rule("[bold blue]Extract Step")
-    # scraper(hardcoded_pages=2)
+    console.rule("[bold blue]Extract Step")
+    scraper(hardcoded_pages=2)
 
-    console.rule("[bold yellow]Transform Step")
-    transform_players()
+    # console.rule("[bold yellow]Transform Step")
+    # transform_players()
 
     # console.rule("[bold green]Load Step")
     # load_to_production()
