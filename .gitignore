@@ -13,3 +13,6 @@ venv/
 
 # Ignore IDE/project files
 .idea/
+
+# Secrets
+secrets/
