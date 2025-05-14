@@ -97,5 +97,104 @@
     "max_value_1y": "€11,120,000",
     "games_played": "35",
     "avg_points_per_game": "6.6"
+  },
+  {
+    "name": "Julián Alvarez",
+    "team": "Atlético",
+    "position": "Forward",
+    "total_points": "231",
+    "current_value": "€18,460,000",
+    "min_value_1y": "€7,420,000",
+    "max_value_1y": "€19,470,000",
+    "games_played": "34",
+    "avg_points_per_game": "6.8"
+  },
+  {
+    "name": "Bellingham",
+    "team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "229",
+    "current_value": "€20,870,000",
+    "min_value_1y": "€15,800,000",
+    "max_value_1y": "€23,820,000",
+    "games_played": "29",
+    "avg_points_per_game": "7.9"
+  },
+  {
+    "name": "Vinícius Jr",
+    "team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "227",
+    "current_value": "€18,210,000",
+    "min_value_1y": "€17,780,000",
+    "max_value_1y": "€25,650,000",
+    "games_played": "29",
+    "avg_points_per_game": "7.8"
+  },
+  {
+    "name": "Griezmann",
+    "team": "Atlético",
+    "position": "Forward",
+    "total_points": "224",
+    "current_value": "€10,100,000",
+    "min_value_1y": "€10,100,000",
+    "max_value_1y": "€18,400,000",
+    "games_played": "35",
+    "avg_points_per_game": "6.4"
+  },
+  {
+    "name": "Lukébakio",
+    "team": "Sevilla",
+    "position": "Forward",
+    "total_points": "220",
+    "current_value": "€11,430,000",
+    "min_value_1y": "€1,420,000",
+    "max_value_1y": "€15,100,000",
+    "games_played": "36",
+    "avg_points_per_game": "6.1"
+  },
+  {
+    "name": "Rodrygo",
+    "team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "217",
+    "current_value": "€10,820,000",
+    "min_value_1y": "€7,120,000",
+    "max_value_1y": "€18,650,000",
+    "games_played": "30",
+    "avg_points_per_game": "7.2"
+  },
+  {
+    "name": "Modric",
+    "team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "206",
+    "current_value": "€8,040,000",
+    "min_value_1y": "€3,480,000",
+    "max_value_1y": "€12,880,000",
+    "games_played": "32",
+    "avg_points_per_game": "6.4"
+  },
+  {
+    "name": "Ayoze",
+    "team": "Villarreal",
+    "position": "Forward",
+    "total_points": "205",
+    "current_value": "€19,000,000",
+    "min_value_1y": "€5,840,000",
+    "max_value_1y": "€19,000,000",
+    "games_played": "28",
+    "avg_points_per_game": "7.3"
+  },
+  {
+    "name": "Rubén García",
+    "team": "Osasuna",
+    "position": "Forward",
+    "total_points": "205",
+    "current_value": "€7,160,000",
+    "min_value_1y": "€1,470,000",
+    "max_value_1y": "€7,160,000",
+    "games_played": "34",
+    "avg_points_per_game": "6.0"
   }
 ]

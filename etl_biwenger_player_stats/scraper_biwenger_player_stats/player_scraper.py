@@ -2,6 +2,9 @@ from etl_biwenger_player_stats.scraper_biwenger_player_stats.utils import (
     perform_login,
     load_credentials,
     save_players_to_json,
+    click_return_to_list,
+    get_total_pages,
+    click_next_pagination_arrow
 )
 from playwright.sync_api import sync_playwright
 import time
@@ -73,6 +76,7 @@ def scrape_all_players(page, max_players=500):
         next_button = page.locator('a.navigation.next')
         if next_button.count() == 0:
             console.log("🚨 [bold red]No next player button found. End of list.[/]")
+            click_return_to_list(page)
             break
 
         try:
@@ -85,22 +89,25 @@ def scrape_all_players(page, max_players=500):
     return player_data
 
 
-def scraper():
+def scraper(hardcoded_pages: int = None):
     console.rule("[bold blue]Starting Biwenger Scraper")
     start = time.time()
     creds = load_credentials()
 
     with sync_playwright() as p:
         # browser = p.chromium.launch(headless=False)
+        # b = True
         browser = p.chromium.launch(
             headless=True,
             args=["--disable-gpu", "--no-sandbox"],
         )
+        b = False
+
         context = browser.new_context()
         page = context.new_page()
 
         # Now you're logged in: do scraping here
-        perform_login(page, creds["biwenger_email"], creds["biwenger_password"])
+        perform_login(page, creds["biwenger_email"], creds["biwenger_password"], browser=b)
         page.goto("https://biwenger.as.com/app")
 
         # Click players tab
@@ -109,9 +116,26 @@ def scraper():
         # Click view as list
         page.get_by_role("button", name="Table").click()
 
-        # Scrape player stats
-        # all_stats = scrape_all_players(page, max_players=4)
-        all_stats = scrape_all_players(page)
+        # Pagination loop
+        all_stats = []
+        total_pages = get_total_pages(page)
+
+        if hardcoded_pages:
+            total_pages = hardcoded_pages
+
+        console.log(f"📄 Total pages: {total_pages}")
+
+        for page_number in range(1, total_pages + 1):
+            console.rule(f"[bold blue]📄 Scraping Page {page_number}")
+
+            if page_number > 1:
+                success = click_next_pagination_arrow(page)
+                if not success:
+                    console.log(f"❌ [bold red]Next page button disabled or missing at page {page_number}")
+                    break
+
+            stats = scrape_all_players(page)
+            all_stats.extend(stats)
 
         # Store to raw data
         save_players_to_json(all_stats, filename="biwenger_players_raw.json")
