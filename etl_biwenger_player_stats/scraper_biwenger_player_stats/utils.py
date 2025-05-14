@@ -5,7 +5,7 @@ import math
 
 console = Console()
 
-def load_credentials(filepath="secrets/credentials.json") -> dict:
+def load_credentials() -> dict:
     current_dir = os.path.dirname(os.path.abspath(__file__))  # /.../etl_biwenger_player_stats/scraper_biwenger_player_stats
     root_dir = os.path.abspath(os.path.join(current_dir, "..", ".."))  # go up two levels
     secrets_path = os.path.join(root_dir, "secrets", "credentials.json")
@@ -18,12 +18,6 @@ def perform_login(page, email: str, password: str, browser: bool = False) -> Non
 
     if browser:
         page.get_by_role("button", name="Agree").click()
-    # try:
-    #     page.wait_for_selector('button:has-text("Agree")', timeout=1000)
-    #     page.get_by_role("button", name="Agree").click()
-    # except:
-    #     pass
-        # print("⚠️ 'Agree' button not found — continuing.")
 
     page.get_by_role("link", name="Play now!").click()
     page.get_by_role("button", name="Already have an account").click()
@@ -32,7 +26,7 @@ def perform_login(page, email: str, password: str, browser: bool = False) -> Non
     page.get_by_role("button", name="Log in").click()
     page.wait_for_timeout(5000)
 
-def save_players_to_json(players, filename="players_raw.json"):
+def save_players_to_json(players, filename):
     current_dir = os.path.dirname(os.path.abspath(__file__))
     root_dir = os.path.abspath(os.path.join(current_dir, ".."))
     data_dir = os.path.join(root_dir, "data", "raw")
