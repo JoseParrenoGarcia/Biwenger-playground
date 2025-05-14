@@ -20,4 +20,18 @@ def perform_login(page, email: str, password: str):
     page.get_by_role("button", name="Log in").click()
     page.wait_for_timeout(5000)
 
+def save_players_to_json(players, filename="players_raw.json"):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    root_dir = os.path.abspath(os.path.join(current_dir, ".."))
+    data_dir = os.path.join(root_dir, "data", "raw")
+
+    os.makedirs(data_dir, exist_ok=True)  # Create folder if it doesn't exist
+
+    file_path = os.path.join(data_dir, filename)
+
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(players, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Saved {len(players)} players to {file_path}")
+
 

@@ -1,9 +1,22 @@
 from etl_biwenger_player_stats.scraper_biwenger_player_stats.utils import (
     perform_login,
-    load_credentials
+    load_credentials,
+    save_players_to_json,
 )
 from playwright.sync_api import sync_playwright
 import time
+
+def select_team(page, team_name: str):
+    # Open the team filter
+    page.locator('button[modalmenutitle="Team"]').click()
+    page.wait_for_selector('div[role="dialog"]')  # Wait for modal
+
+    # Click the team name
+    page.get_by_role("button", name=team_name).click()
+    print(f"✅ Selected team: {team_name}")
+
+    # Optional: wait for player list to reload
+    page.wait_for_timeout(2000)
 
 def scrape_stats(page) -> dict:
     """
@@ -52,8 +65,32 @@ def scrape_stats(page) -> dict:
 
     return stats
 
+def scrape_all_players(page, max_players=500):
+    player_data = []
 
-def scrape_players():
+    for i in range(max_players):
+        # Scrape current player
+        stats = scrape_stats(page)
+        print(f"✅ Scraped {i+1}: {stats['name']}")
+        player_data.append(stats)
+
+        # Check if the next arrow exists and is clickable
+        next_button = page.locator('a.navigation.next')
+        if next_button.count() == 0:
+            print("🚨 No next player button found. End of list.")
+            break
+
+        try:
+            next_button.click()
+            page.wait_for_timeout(1000)  # wait 1s for page transition
+        except Exception as e:
+            print(f"❌ Failed to click next: {e}")
+            break
+
+    return player_data
+
+
+def scraper():
     creds = load_credentials()
 
     with sync_playwright() as p:
@@ -79,12 +116,14 @@ def scrape_players():
         page.locator('table a[role="button"][href^="/la-liga/players/"]').first.click()
 
         # Scrape player stats
-        player_stats = scrape_stats(page)
-        print(player_stats)
+        all_stats = scrape_all_players(page, max_players=3)
+
+        # Store to raw data
+        save_players_to_json(all_stats, filename="biwenger_players_raw.json")
 
         time.sleep(5)
         browser.close()
 
 
 if __name__ == "__main__":
-    scrape_players()
+    scraper()
