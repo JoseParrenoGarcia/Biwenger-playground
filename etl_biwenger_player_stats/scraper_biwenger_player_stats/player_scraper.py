@@ -89,19 +89,19 @@ def scrape_all_players(page, max_players=500):
     return player_data
 
 
-def scraper():
+def scraper(hardcoded_pages: int = None):
     console.rule("[bold blue]Starting Biwenger Scraper")
     start = time.time()
     creds = load_credentials()
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        b = True
-        # browser = p.chromium.launch(
-        #     headless=True,
-        #     args=["--disable-gpu", "--no-sandbox"],
-        # )
-        # b = False
+        # browser = p.chromium.launch(headless=False)
+        # b = True
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-gpu", "--no-sandbox"],
+        )
+        b = False
 
         context = browser.new_context()
         page = context.new_page()
@@ -119,9 +119,11 @@ def scraper():
         # Pagination loop
         all_stats = []
         total_pages = get_total_pages(page)
-        console.log(f"📄 Total pages: {total_pages}")
 
-        total_pages = 2
+        if hardcoded_pages:
+            total_pages = hardcoded_pages
+
+        console.log(f"📄 Total pages: {total_pages}")
 
         for page_number in range(1, total_pages + 1):
             console.rule(f"[bold blue]📄 Scraping Page {page_number}")
@@ -134,19 +136,6 @@ def scraper():
 
             stats = scrape_all_players(page)
             all_stats.extend(stats)
-
-            # if pagination_number == 1:
-            #     stats = scrape_all_players(page)
-            # else:
-            #     print('# Click the next page')
-            #
-            # all_stats.extend(stats)
-            # pagination_number += 1
-            #
-            # # Optional hard cap (e.g., for testing)
-            # if pagination_number > 3:  # 499 players / 9 ≈ 56 pages
-            #     break
-
 
         # Store to raw data
         save_players_to_json(all_stats, filename="biwenger_players_raw.json")
