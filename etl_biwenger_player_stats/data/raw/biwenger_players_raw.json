@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Raphinha",
+    "team": "Barcelona",
+    "position": "Forward",
+    "total_points": "338",
+    "current_value": "€22,230,000",
+    "min_value_1y": "€5,000,000",
+    "max_value_1y": "€23,780,000",
+    "games_played": "33",
+    "avg_points_per_game": "10.2"
+  },
+  {
+    "name": "Mbappé",
+    "team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "311",
+    "current_value": "€27,320,000",
+    "min_value_1y": "€20,830,000",
+    "max_value_1y": "€27,500,000",
+    "games_played": "31",
+    "avg_points_per_game": "10.0"
+  },
+  {
+    "name": "Yamal",
+    "team": "Barcelona",
+    "position": "Forward",
+    "total_points": "298",
+    "current_value": "€25,270,000",
+    "min_value_1y": "€17,180,000",
+    "max_value_1y": "€25,270,000",
+    "games_played": "32",
+    "avg_points_per_game": "9.3"
+  },
+  {
+    "name": "Pedri",
+    "team": "Barcelona",
+    "position": "Forward",
+    "total_points": "280",
+    "current_value": "€22,040,000",
+    "min_value_1y": "€6,870,000",
+    "max_value_1y": "€22,040,000",
+    "games_played": "34",
+    "avg_points_per_game": "8.2"
+  }
+]

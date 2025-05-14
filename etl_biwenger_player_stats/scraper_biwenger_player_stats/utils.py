@@ -1,22 +1,47 @@
-from playwright.sync_api import sync_playwright
+import json
+import os
+from rich.console import Console
 
-def login_and_save_session(email: str, password: str, storage_path: str = "biwenger_storage.json"):
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context()
-        page = context.new_page()
+console = Console()
 
-        page.goto("https://biwenger.as.com/")
+def load_credentials(filepath="secrets/credentials.json") -> dict:
+    current_dir = os.path.dirname(os.path.abspath(__file__))  # /.../etl_biwenger_player_stats/scraper_biwenger_player_stats
+    root_dir = os.path.abspath(os.path.join(current_dir, "..", ".."))  # go up two levels
+    secrets_path = os.path.join(root_dir, "secrets", "credentials.json")
+
+    with open(secrets_path, "r") as f:
+        return json.load(f)
+
+def perform_login(page, email: str, password: str):
+    page.goto("https://biwenger.as.com/")
+    # page.get_by_role("button", name="Agree").click()
+
+    try:
+        page.wait_for_selector('button:has-text("Agree")', timeout=1000)
         page.get_by_role("button", name="Agree").click()
-        page.get_by_role("link", name="Play now!").click()
-        page.get_by_role("button", name="Already have an account").click()
-        page.get_by_role("textbox", name="Email").fill(email)
-        page.get_by_role("textbox", name="Password").fill(password)
-        page.get_by_role("button", name="Log in").click()
+    except:
+        pass
+        # print("⚠️ 'Agree' button not found — continuing.")
 
-        page.wait_for_timeout(5000)  # Allow redirects/login to complete
+    page.get_by_role("link", name="Play now!").click()
+    page.get_by_role("button", name="Already have an account").click()
+    page.get_by_role("textbox", name="Email").fill(email)
+    page.get_by_role("textbox", name="Password").fill(password)
+    page.get_by_role("button", name="Log in").click()
+    page.wait_for_timeout(5000)
 
-        context.storage_state(path=storage_path)
-        print(f"✅ Session saved to {storage_path}")
+def save_players_to_json(players, filename="players_raw.json"):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    root_dir = os.path.abspath(os.path.join(current_dir, ".."))
+    data_dir = os.path.join(root_dir, "data", "raw")
 
-        browser.close()
+    os.makedirs(data_dir, exist_ok=True)  # Create folder if it doesn't exist
+
+    file_path = os.path.join(data_dir, filename)
+
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(players, f, indent=2, ensure_ascii=False)
+
+    console.log(f"[bold green]✅ Saved {len(players)} players to {file_path}")
+
+
