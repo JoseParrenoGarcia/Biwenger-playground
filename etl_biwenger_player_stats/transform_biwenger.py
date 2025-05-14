@@ -29,7 +29,8 @@ def transform_players(
     # Step 4: Clean numeric fields
     currency_fields = ["current_value", "min_value_1y", "max_value_1y"]
     for field in currency_fields:
-        df[field] = df[field].str.replace("€", "", regex=False).str.replace(",", "", regex=False).astype(float)
+        df[field] = df[field].str.replace("€", "", regex=False).str.replace(",", "", regex=False)
+        df[field] = pd.to_numeric(df[field], errors="coerce")
 
     numeric_fields = ["total_points", "games_played", "avg_points_per_game"]
     for field in numeric_fields:
@@ -37,6 +38,11 @@ def transform_players(
 
     # Add season tag
     df['season_tag'] = season_tag
+
+    # Enrichment
+    df['possible_value_improvement'] = df['max_value_1y'] - df['current_value']
+    df['possible_value_decrease'] = df['current_value'] - df['min_value_1y']
+    df['points_per_value'] = df['total_points'] / (df['current_value'] / 1_000_000)
 
     print(df)
 
