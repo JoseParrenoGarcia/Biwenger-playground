@@ -42,5 +42,60 @@
     "max_value_1y": "€22,040,000",
     "games_played": "34",
     "avg_points_per_game": "8.2"
+  },
+  {
+    "name": "Lewandowski",
+    "team": "Barcelona",
+    "position": "Forward",
+    "total_points": "264",
+    "current_value": "€19,710,000",
+    "min_value_1y": "€11,720,000",
+    "max_value_1y": "€23,300,000",
+    "games_played": "31",
+    "avg_points_per_game": "8.5"
+  },
+  {
+    "name": "Valverde",
+    "team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "254",
+    "current_value": "€19,040,000",
+    "min_value_1y": "€11,450,000",
+    "max_value_1y": "€19,560,000",
+    "games_played": "33",
+    "avg_points_per_game": "7.7"
+  },
+  {
+    "name": "Budimir",
+    "team": "Osasuna",
+    "position": "Forward",
+    "total_points": "250",
+    "current_value": "€14,770,000",
+    "min_value_1y": "€5,410,000",
+    "max_value_1y": "€15,620,000",
+    "games_played": "35",
+    "avg_points_per_game": "7.1"
+  },
+  {
+    "name": "Baena",
+    "team": "Villarreal",
+    "position": "Forward",
+    "total_points": "237",
+    "current_value": "€17,430,000",
+    "min_value_1y": "€9,020,000",
+    "max_value_1y": "€19,190,000",
+    "games_played": "29",
+    "avg_points_per_game": "8.2"
+  },
+  {
+    "name": "Joan García",
+    "team": "Espanyol",
+    "position": "Forward",
+    "total_points": "232",
+    "current_value": "€11,120,000",
+    "min_value_1y": "€170,000",
+    "max_value_1y": "€11,120,000",
+    "games_played": "35",
+    "avg_points_per_game": "6.6"
   }
 ]
