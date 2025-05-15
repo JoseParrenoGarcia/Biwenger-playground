@@ -57,7 +57,7 @@ def scrape_stats(page) -> dict:
         console.log("[bold red]❌ All extraction attempts failed")
         return None
 
-    hold = 5
+    hold = 0.2
 
     # 👇 Scroll to and extract key stats
     raw_name = extract_with_attempts(lambda: safe_text('h1'))
@@ -80,12 +80,9 @@ def scrape_stats(page) -> dict:
     scroll_into_view(page, 'tr:has-text("Max")')
     max_value = extract_with_attempts(lambda: safe_table_value("Max"))
 
-    scroll_into_view(page, 'tr:has-text("Min")')
-    min_value = extract_with_attempts(lambda: safe_table_value("Min"))
-    print(f'Min value is: -->{min_value}<--')
-
-    # html = page.locator('tr:has-text("Min")').first.inner_html()
-    # print(f"[DEBUG] Min row raw HTML:\n{html}")
+    # scroll_into_view(page, 'tr:has-text("Min")')
+    # min_value = extract_with_attempts(lambda: safe_table_value("Min"))
+    # print(f'Min value is: -->{min_value}<--')
 
     stats = {
         "name": raw_name.split("\n")[0].strip() if raw_name else None,  # or a more specific selector
@@ -94,11 +91,9 @@ def scrape_stats(page) -> dict:
         "total_points": total_points,
         "games_played": games_played,
         "current_value": current_value,
-        "min_value_1y": min_value,
+        # "min_value_1y": min_value,
         "max_value_1y": max_value,
     }
-
-    print(stats)
 
     return stats
 
@@ -168,7 +163,7 @@ def scraper(hardcoded_pages: int = None):
 
         console.log(f"📄 Total pages: {total_pages}")
 
-        for page_number in range(1, total_pages + 1):
+        for page_number in range(1, total_pages - 2):
             console.rule(f"[bold blue]📄 Scraping Page {page_number}")
 
             if page_number > 1:
