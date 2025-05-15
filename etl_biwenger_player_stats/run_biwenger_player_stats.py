@@ -7,9 +7,9 @@ console = Console()
 
 if __name__ == "__main__":
     start_time = time.time()
-    # console.rule("[bold blue]Extract Step")
+    console.rule("[bold blue]Extract Step")
     # scraper()
-    # scraper(hardcoded_pages=2)
+    scraper(hardcoded_pages=2)
 
     console.rule("[bold yellow]Transform Step")
     transform_players()

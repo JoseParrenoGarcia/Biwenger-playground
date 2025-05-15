@@ -2,6 +2,7 @@ import json
 import os
 from rich.console import Console
 import math
+import time
 
 console = Console()
 
@@ -69,4 +70,11 @@ def click_next_pagination_arrow(page):
     page.wait_for_timeout(1500)
     return True
 
+
+def scroll_into_view(page, selector, hold=0.2):
+    try:
+        page.locator(selector).first.scroll_into_view_if_needed(timeout=2000)
+        time.sleep(hold)  # Let rendering catch up
+    except:
+        console.log(f"[bold yellow]⚠️ Could not scroll to {selector}")
 

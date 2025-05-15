@@ -4,7 +4,8 @@ from etl_biwenger_player_stats.scraper_biwenger_player_stats.utils import (
     save_players_to_json,
     click_return_to_list,
     get_total_pages,
-    click_next_pagination_arrow
+    click_next_pagination_arrow,
+    scroll_into_view
 )
 from playwright.sync_api import sync_playwright
 import time
@@ -42,20 +43,62 @@ def scrape_stats(page) -> dict:
         except:
             return None
 
-    raw_name = safe_text('h1')
+    def extract_with_attempts(extract_func, max_attempts=5, delay=1):
+        for attempt in range(max_attempts):
+            value = extract_func()
 
+            if value is not None and value != "":
+                return value
+
+            if attempt < max_attempts - 1:  # Don't sleep on the last attempt
+                console.log(f"[bold yellow]🔁 Extraction attempt {attempt + 1} failed, retrying...")
+                time.sleep(delay)
+
+        console.log("[bold red]❌ All extraction attempts failed")
+        return None
+
+    hold = 5
+
+    # 👇 Scroll to and extract key stats
+    raw_name = extract_with_attempts(lambda: safe_text('h1'))
+    team = extract_with_attempts(lambda: safe_get_attr('team-link a[title]', 'title'))
+    position = extract_with_attempts(lambda: safe_get_attr('div.wrapper player-position', 'title'))
+
+    scroll_into_view(page, 'h4:has-text("Statistics")', hold=hold)
+
+    scroll_into_view(page, 'div.stat:has-text("Points")')
+    total_points = extract_with_attempts(lambda: safe_stat("Points"))
+
+    scroll_into_view(page, 'div.stat:has-text("Games played")')
+    games_played = extract_with_attempts(lambda: safe_stat("Games played"))
+
+    scroll_into_view(page, 'table.table', hold=hold)
+
+    scroll_into_view(page, 'tr:has-text("Value")')
+    current_value = extract_with_attempts(lambda: safe_table_value("Value"))
+
+    scroll_into_view(page, 'tr:has-text("Max")')
+    max_value = extract_with_attempts(lambda: safe_table_value("Max"))
+
+    scroll_into_view(page, 'tr:has-text("Min")')
+    min_value = extract_with_attempts(lambda: safe_table_value("Min"))
+    print(f'Min value is: -->{min_value}<--')
+
+    # html = page.locator('tr:has-text("Min")').first.inner_html()
+    # print(f"[DEBUG] Min row raw HTML:\n{html}")
 
     stats = {
         "name": raw_name.split("\n")[0].strip() if raw_name else None,  # or a more specific selector
-        "team": safe_get_attr('team-link a[title]', 'title'),
-        "position": safe_get_attr('div.wrapper player-position', 'title'),
-        "total_points": safe_stat("Points"),
-        "current_value": safe_table_value("Value"),
-        "min_value_1y": safe_table_value("Min"),
-        "max_value_1y": safe_table_value("Max"),
-        "games_played": safe_stat("Games played"),
-        "avg_points_per_game": safe_stat("Average")
+        "team": team,
+        "position": position,
+        "total_points": total_points,
+        "games_played": games_played,
+        "current_value": current_value,
+        "min_value_1y": min_value,
+        "max_value_1y": max_value,
     }
+
+    print(stats)
 
     return stats
 
