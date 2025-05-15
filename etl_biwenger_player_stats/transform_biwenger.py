@@ -32,7 +32,7 @@ def transform_players(
         df[field] = df[field].str.replace("€", "", regex=False).str.replace(",", "", regex=False)
         df[field] = pd.to_numeric(df[field], errors="coerce")
 
-    numeric_fields = ["total_points", "games_played", "avg_points_per_game"]
+    numeric_fields = ["total_points", "games_played"]
     for field in numeric_fields:
         df[field] = pd.to_numeric(df[field], errors="coerce")
 
@@ -43,6 +43,7 @@ def transform_players(
     df['possible_value_improvement'] = df['max_value_1y'] - df['current_value']
     df['possible_value_decrease'] = df['current_value'] - df['min_value_1y']
     df['points_per_value'] = df['total_points'] / (df['current_value'] / 1_000_000)
+    df['points_per_game'] = df['total_points'] / df['games_played']
 
     print(df)
 
