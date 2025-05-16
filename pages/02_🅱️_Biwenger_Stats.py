@@ -2,14 +2,21 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from utils_streamlit import get_biwenger_player_stats
+from utils_streamlit import (
+    get_biwenger_player_stats,
+    get_current_team_players
+)
 
 # --- Page Setup ---
 st.set_page_config(layout="wide", page_title="Biwenger Stats Explorer")
 
 # --- Load Data ---
 PRODUCTION_DATA_DIR = get_biwenger_player_stats()
+PRODUCTION_DATA_DIR_TEAM = get_current_team_players()
+
 df = pd.read_csv(PRODUCTION_DATA_DIR)
+df_team = pd.read_csv(PRODUCTION_DATA_DIR_TEAM)
+current_team_players = df_team['name'].tolist()
 
 # --- Main page ---
 st.title("Biwenger Player Statistics Explorer")
@@ -34,6 +41,7 @@ with st.form("filters_form"):
         "Team",
         options=sorted(df['current_team'].unique()),
     )
+
     highlight_players = cols[3].multiselect(
         "Highlight Players",
         options=sorted(df['name'].unique()),
@@ -46,7 +54,6 @@ with st.form("filters_form"):
 
     x_metric = cols[0].selectbox("X-axis", metric_cols, index=0)
     y_metric = cols[1].selectbox("Y-axis", metric_cols, index=1)
-    bubble_metric = cols[2].selectbox("Bubble Size", [None] + metric_cols)
 
     submitted = st.form_submit_button("Apply Filters")
 
@@ -88,7 +95,6 @@ if submitted:
             df,
             x=x_metric,
             y=y_metric,
-            size=bubble_metric if bubble_metric else None,
             color="position",  # Color by position
             color_discrete_map=position_colors,  # Map positions to colors
             hover_name="name" if "name" in df.columns else None,
@@ -100,8 +106,21 @@ if submitted:
             height=600
         )
 
-        if highlight_players:
-            highlighted_df = df[df['name'].isin(highlight_players)]
+
+        def _highlight_players(fig, df, players_to_highlight, x_metric, y_metric, color, line_color):
+            """
+            Highlights specified players on the scatter plot with a given color.
+
+            Args:
+                fig: The plotly figure to add the highlighted players to.
+                df: The DataFrame containing player data.
+                players_to_highlight: A list of player names to highlight.
+                x_metric: The column name for the x-axis.
+                y_metric: The column name for the y-axis.
+                color: The color of the highlighted markers.
+                line_color: The color of the highlighted marker borders.
+            """
+            highlighted_df = df[df['name'].isin(players_to_highlight)]
 
             fig.add_trace(
                 go.Scatter(
@@ -109,9 +128,9 @@ if submitted:
                     y=highlighted_df[y_metric],
                     mode='markers',
                     marker=dict(
-                        color='black',
-                        line=dict(width=2, color='grey'),
-                        size=highlighted_df[bubble_metric] * 5 if bubble_metric else 10
+                        color=color,
+                        line=dict(width=2, color=line_color),
+                        size=10,
                     ),
                     text=[f"<b>{name}</b><br><br>{x_metric}: {x_val}<br>{y_metric}: {y_val}"
                           for name, x_val, y_val in zip(
@@ -123,6 +142,12 @@ if submitted:
                     showlegend=False
                 )
             )
+
+
+        _highlight_players(fig, df, current_team_players, x_metric, y_metric, 'rgb(125, 60, 152)', 'rgb(187, 143, 206)')
+
+        if highlight_players:
+            _highlight_players(fig, df, highlight_players, x_metric, y_metric, 'black', 'grey')
 
         # Add vertical tertile lines (X-axis)
         colour="rgb(248, 196, 113)"
@@ -138,3 +163,7 @@ if submitted:
     with st.container(border=True):
         st.subheader("Stats table")
         st.dataframe(df)
+
+    with st.container(border=True):
+        st.subheader("Current team table")
+        st.dataframe(df_team)
