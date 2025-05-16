@@ -8,7 +8,7 @@ pd.set_option("display.width", 0)
 def transform_players(
         input_filename="biwenger_players_raw.json",
         output_filename="biwenger_players_transformed.csv",
-        season_tag='24/25',
+        season_tag='24',
 ):
     # Step 1: Build paths
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -44,6 +44,7 @@ def transform_players(
     df['points_per_value'] = df['total_points'] / (df['current_value'] / 1_000_000)
     df['points_per_game'] = df['total_points'] / df['games_played']
     df['current_team'] = df['team']
+    df['games_played_perct'] = df['games_played'] / 38
 
     float_columns = df.select_dtypes(include=['float']).columns
     for col in float_columns:

@@ -122,7 +122,7 @@ def scrape_all_players(page, max_players=500):
     return player_data
 
 
-def scraper(hardcoded_pages: int = None):
+def scraper(hardcoded_pages: int = None, season_tag: int = 24):
     console.rule("[bold blue]Starting Biwenger Scraper")
     start = time.time()
     creds = load_credentials()
@@ -171,7 +171,7 @@ def scraper(hardcoded_pages: int = None):
             all_stats.extend(stats)
 
         # Store to raw data
-        save_players_to_json(all_stats, filename="biwenger_players_raw.json")
+        save_players_to_json(all_stats, filename=f"biwenger_players_raw_{season_tag}.json")
 
         time.sleep(5)
         browser.close()
@@ -179,4 +179,4 @@ def scraper(hardcoded_pages: int = None):
 
 
 if __name__ == "__main__":
-    scraper()
+    scraper(season_tag=24)

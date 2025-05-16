@@ -4,7 +4,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 from utils_streamlit import (
     get_biwenger_player_stats,
-    get_current_team_players
+    get_current_team_players,
+    enrich_biwenger_stats
 )
 
 # --- Page Setup ---
@@ -17,6 +18,9 @@ PRODUCTION_DATA_DIR_TEAM = get_current_team_players()
 df = pd.read_csv(PRODUCTION_DATA_DIR)
 df_team = pd.read_csv(PRODUCTION_DATA_DIR_TEAM)
 current_team_players = df_team['name'].tolist()
+
+df_enriched = enrich_biwenger_stats(df, df_team)
+st.dataframe(df_enriched)
 
 # --- Main page ---
 st.title("Biwenger Player Statistics Explorer")
