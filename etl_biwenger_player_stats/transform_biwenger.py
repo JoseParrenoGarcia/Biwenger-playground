@@ -37,13 +37,17 @@ def transform_players(
         df[field] = pd.to_numeric(df[field], errors="coerce")
 
     # Add season tag
-    df['season_tag'] = season_tag
+    df['season'] = season_tag
 
     # Enrichment
     df['possible_value_improvement'] = df['max_value_1y'] - df['current_value']
-    # df['possible_value_decrease'] = df['current_value'] - df['min_value_1y']
     df['points_per_value'] = df['total_points'] / (df['current_value'] / 1_000_000)
     df['points_per_game'] = df['total_points'] / df['games_played']
+    df['current_team'] = df['team']
+
+    float_columns = df.select_dtypes(include=['float']).columns
+    for col in float_columns:
+        df[col] = df[col].round(2)
 
     print(df)
 
