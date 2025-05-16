@@ -19,8 +19,18 @@ def get_current_team_players():
     return os.path.join(current_dir, "etl_biwenger_player_stats", "data", "raw", "current_team.csv")
 
 @st.cache_data
-def enrich_biwenger_stats(all_players_df: pd.DataFrame, current_team_df: pd.DataFrame):
-    merged_df = pd.merge(all_players_df, current_team_df, on='name', how='left')
+def enrich_team_stats(current_team_df: pd.DataFrame, all_players_df: pd.DataFrame):
+    merged_df = pd.merge(current_team_df, all_players_df, on=['name', 'season'], how='left')
+
+    # # Define the columns to rename
+    # cols_to_rename = {
+    #     'possible_value_improvement': 'last_season_possible_value_improvement',
+    #     'games_played_perct': 'last_season_games_played_perct',
+    #     'points_per_game': 'last_season_points_per_game',
+    #     'points_per_value': 'last_season_points_per_value',
+    # }
+
+    # merged_df.rename(columns=cols_to_rename)
 
     return merged_df
 

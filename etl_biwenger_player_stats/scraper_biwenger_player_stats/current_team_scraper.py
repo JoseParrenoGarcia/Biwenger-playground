@@ -101,6 +101,7 @@ def scraper(hardcoded_pages: int = None):
 
         # Scrape players
         df = scrape_basic_team_table(page)
+        df['season'] = 24
 
         # Store to raw data
         save_players_to_csv(df, filename="current_team.csv")

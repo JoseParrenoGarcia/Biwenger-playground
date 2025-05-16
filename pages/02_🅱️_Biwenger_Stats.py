@@ -1,11 +1,12 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from utils_streamlit import (
     get_biwenger_player_stats,
     get_current_team_players,
-    enrich_biwenger_stats
+    enrich_team_stats
 )
 
 # --- Page Setup ---
@@ -17,10 +18,8 @@ PRODUCTION_DATA_DIR_TEAM = get_current_team_players()
 
 df = pd.read_csv(PRODUCTION_DATA_DIR)
 df_team = pd.read_csv(PRODUCTION_DATA_DIR_TEAM)
+df_team_enriched = enrich_team_stats(current_team_df=df_team, all_players_df=df)
 current_team_players = df_team['name'].tolist()
-
-df_enriched = enrich_biwenger_stats(df, df_team)
-st.dataframe(df_enriched)
 
 # --- Main page ---
 st.title("Biwenger Player Statistics Explorer")
@@ -166,8 +165,62 @@ if submitted:
 
     with st.container(border=True):
         st.subheader("Stats table")
-        st.dataframe(df)
+        st.dataframe(df, hide_index=True)
 
-    with st.container(border=True):
-        st.subheader("Current team table")
-        st.dataframe(df_team)
+with st.container(border=True):
+    st.subheader("Transfer options")
+    cols = st.columns([1, 8])
+    with cols[0]:
+        num_gameweeks = st.selectbox("Select Gameweek", list(range(1, 39)))
+
+    st.write("##### Current team")
+    current_season = df_team_enriched.copy()
+    current_season['games_played_until_today'] = max(df_team_enriched['games_played'].max(), num_gameweeks)
+    current_season['games_missing_till_end'] = 38 - current_season['games_played_until_today']
+    current_season['predicted_games_till_end'] = np.floor(current_season['games_played_perct'] * current_season['games_missing_till_end'])
+    current_season['remaining_points'] = current_season['points_per_game'] * current_season['predicted_games_till_end']
+
+
+    # Sum of current points per game
+    # Sum of predicted points
+    # Total players
+
+    select_cols = [
+        'position',
+        'name',
+        'current_season_points',
+        'market_value',
+        'possible_value_improvement',
+        'games_played',
+        'games_played_perct',
+        'points_per_game',
+        'points_per_value',
+        'predicted_games_till_end',
+        'remaining_points',
+    ]
+    st.dataframe(current_season[select_cols], hide_index=True, height=650)
+
+    st.write("### Possible team")
+    cols_2 = st.columns([1, 1, 3])
+
+    players_to_remove = cols_2[0].multiselect(
+        "Remove players from team",
+        options=sorted(current_season['name'].unique()),
+    )
+
+    predicted_season = current_season.copy()
+
+    if players_to_remove:
+        predicted_season = predicted_season[~predicted_season['name'].isin(players_to_remove)]
+
+    players_to_add = cols_2[1].multiselect(
+        "Add players to team",
+        options=sorted(df['name'].unique()),
+    )
+
+    st.dataframe(predicted_season, hide_index=True, height=650)
+
+
+
+
+
