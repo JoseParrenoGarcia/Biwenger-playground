@@ -86,7 +86,7 @@ def scrape_stats(page) -> dict:
 
     stats = {
         "name": raw_name.split("\n")[0].strip() if raw_name else None,  # or a more specific selector
-        "team": team,
+        "current_team": team,
         "position": position,
         "total_points": total_points,
         "games_played": games_played,
