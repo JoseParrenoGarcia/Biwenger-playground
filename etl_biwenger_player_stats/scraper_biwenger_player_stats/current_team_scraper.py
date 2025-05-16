@@ -52,14 +52,14 @@ def scrape_basic_team_table(page) -> pd.DataFrame:
             # Create player data with standard fields
             player_data = {
                 "name": name,
-                "points": points,
+                "current_season_points": points,
                 "market_value": market_value_raw,
             }
 
             # Add fitness values as individual columns
             # Pad with None if there are fewer than 5 values
             for j in range(5):
-                column_name = f"fitness_{j + 1}"
+                column_name = f"game_t-{j + 1}"
                 player_data[column_name] = fitness[j] if j < len(fitness) else None
 
             players.append(player_data)
