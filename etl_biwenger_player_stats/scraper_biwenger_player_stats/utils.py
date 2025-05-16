@@ -3,6 +3,7 @@ import os
 from rich.console import Console
 import math
 import time
+import pandas as pd
 
 console = Console()
 
@@ -40,6 +41,28 @@ def save_players_to_json(players, filename):
         json.dump(players, f, indent=2, ensure_ascii=False)
 
     console.log(f"[bold green]✅ Saved {len(players)} players to {file_path}")
+
+
+def save_players_to_csv(players, filename):
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    root_dir = os.path.abspath(os.path.join(current_dir, ".."))
+    data_dir = os.path.join(root_dir, "data", "raw")
+
+    os.makedirs(data_dir, exist_ok=True)  # Create folder if it doesn't exist
+
+    file_path = os.path.join(data_dir, filename)
+
+    # If players is a DataFrame, save directly
+    if isinstance(players, pd.DataFrame):
+        players.to_csv(file_path, index=False)
+    else:
+        # Convert to DataFrame if it's a list of dictionaries
+        pd.DataFrame(players).to_csv(file_path, index=False)
+
+    # Get row count for the log message
+    row_count = len(players)
+    console.log(f"[bold green]✅ Saved {row_count} players to {file_path}")
+
 
 def go_to_pagination_page(page, n):
     try:

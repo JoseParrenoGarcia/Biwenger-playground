@@ -80,10 +80,6 @@ def scrape_stats(page) -> dict:
     scroll_into_view(page, 'tr:has-text("Max")')
     max_value = extract_with_attempts(lambda: safe_table_value("Max"))
 
-    # scroll_into_view(page, 'tr:has-text("Min")')
-    # min_value = extract_with_attempts(lambda: safe_table_value("Min"))
-    # print(f'Min value is: -->{min_value}<--')
-
     stats = {
         "name": raw_name.split("\n")[0].strip() if raw_name else None,  # or a more specific selector
         "current_team": team,
@@ -91,7 +87,6 @@ def scrape_stats(page) -> dict:
         "total_points": total_points,
         "games_played": games_played,
         "current_value": current_value,
-        # "min_value_1y": min_value,
         "max_value_1y": max_value,
     }
 
