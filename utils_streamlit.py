@@ -1,6 +1,7 @@
 import os
 
 import pandas as pd
+import numpy as np
 import streamlit as st
 
 @st.cache_data
@@ -37,3 +38,22 @@ def enrich_team_stats(current_team_df: pd.DataFrame, all_players_df: pd.DataFram
 @st.cache_data
 def transform_for_transfers(df_enriched: pd.DataFrame):
     return df_enriched
+
+def metrics_container(current_season: pd.DataFrame):
+    total_players = current_season['name'].nunique()
+    sum_current_points_per_game = np.round((current_season['points_per_game'].sum() / total_players) * 11, 2)  # normalise to 11 players
+    sum_predicted_points = np.round((current_season['remaining_points'].sum() / total_players) * 11, 2)  # normalise to 11 players
+
+
+    cols_metrics = st.columns(3)
+    with cols_metrics[0]:
+        with st.container(border=True):
+            st.metric(label="Total points per game", value=sum_current_points_per_game)
+
+    with cols_metrics[1]:
+        with st.container(border=True):
+            st.metric(label="Remaining predicted points end of season", value=sum_predicted_points)
+
+    with cols_metrics[2]:
+        with st.container(border=True):
+            st.metric(label="Total players in team", value=total_players)
