@@ -2,3 +2,6 @@ crawl4ai==0.6.2
 pandas==2.2.3
 streamlit==1.45.0
 plotly==6.1.0rc0
+langchain==0.3.25
+langchain-community==0.0.4
+playwright==1.52.0
