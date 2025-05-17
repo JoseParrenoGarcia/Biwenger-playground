@@ -5,7 +5,8 @@ from etl_biwenger_player_stats.scraper_biwenger_player_stats.utils import (
     click_return_to_list,
     get_total_pages,
     click_next_pagination_arrow,
-    scroll_into_view
+    scroll_into_view,
+    calculate_season
 )
 from playwright.sync_api import sync_playwright
 import time
@@ -122,7 +123,7 @@ def scrape_all_players(page, max_players=500):
     return player_data
 
 
-def scraper(hardcoded_pages: int = None):
+def scraper(season_tag, hardcoded_pages: int = None, ):
     console.rule("[bold blue]Starting Biwenger Scraper")
     start = time.time()
     creds = load_credentials()
@@ -158,7 +159,7 @@ def scraper(hardcoded_pages: int = None):
 
         console.log(f"📄 Total pages: {total_pages}")
 
-        for page_number in range(1, total_pages - 2):
+        for page_number in range(1, total_pages - 5):
             console.rule(f"[bold blue]📄 Scraping Page {page_number}")
 
             if page_number > 1:
@@ -171,7 +172,7 @@ def scraper(hardcoded_pages: int = None):
             all_stats.extend(stats)
 
         # Store to raw data
-        save_players_to_json(all_stats, filename="biwenger_players_raw.json")
+        save_players_to_json(all_stats, filename=f"biwenger_players_raw_{season_tag}.json")
 
         time.sleep(5)
         browser.close()
@@ -179,4 +180,4 @@ def scraper(hardcoded_pages: int = None):
 
 
 if __name__ == "__main__":
-    scraper()
+    scraper(season_tag=calculate_season())
