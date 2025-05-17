@@ -2,10 +2,8 @@ from etl_biwenger_player_stats.scraper_biwenger_player_stats.utils import (
     perform_login,
     load_credentials,
     save_players_to_csv,
-    click_return_to_list,
-    get_total_pages,
-    click_next_pagination_arrow,
-    scroll_into_view
+    scroll_into_view,
+    calculate_season
 )
 import pandas as pd
 from playwright.sync_api import sync_playwright
@@ -101,7 +99,7 @@ def scraper(hardcoded_pages: int = None):
 
         # Scrape players
         df = scrape_basic_team_table(page)
-        df['season'] = 24
+        df['season'] = calculate_season()
 
         # Store to raw data
         save_players_to_csv(df, filename="current_team.csv")

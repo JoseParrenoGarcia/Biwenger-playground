@@ -2,6 +2,8 @@ import os
 import json
 import pandas as pd
 import glob
+from etl_biwenger_player_stats.scraper_biwenger_player_stats.utils import calculate_season
+
 
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", 0)
@@ -9,7 +11,6 @@ pd.set_option("display.width", 0)
 def transform_players(
         input_filename="biwenger_players_raw_*.json",
         output_filename="biwenger_players_transformed.csv",
-        season_tag='24',
 ):
     # Step 1: Build paths
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -45,7 +46,7 @@ def transform_players(
         df[field] = pd.to_numeric(df[field], errors="coerce")
 
     # Add season tag
-    df['season'] = season_tag
+    df['season'] = calculate_season()
 
     # Enrichment
     df['possible_value_improvement'] = df['max_value_1y'] - df['current_value']

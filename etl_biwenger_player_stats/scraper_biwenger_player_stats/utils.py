@@ -4,6 +4,7 @@ from rich.console import Console
 import math
 import time
 import pandas as pd
+import datetime
 
 console = Console()
 
@@ -100,4 +101,15 @@ def scroll_into_view(page, selector, hold=0.2):
         time.sleep(hold)  # Let rendering catch up
     except:
         console.log(f"[bold yellow]⚠️ Could not scroll to {selector}")
+
+def calculate_season():
+    current_year = datetime.datetime.now().year
+    current_month = datetime.datetime.now().month
+
+    if current_month < 7:
+        season = current_year - 1
+    else:
+        season = current_year
+
+    return season
 

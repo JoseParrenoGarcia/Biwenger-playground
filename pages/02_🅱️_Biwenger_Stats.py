@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from utils_streamlit import (
     get_biwenger_player_stats,
     get_current_team_players,
-    enrich_team_stats
+    enrich_team_stats,
 )
 
 # --- Page Setup ---
