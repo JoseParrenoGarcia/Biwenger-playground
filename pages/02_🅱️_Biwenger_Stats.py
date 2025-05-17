@@ -180,10 +180,22 @@ with st.container(border=True):
     current_season['predicted_games_till_end'] = np.floor(current_season['games_played_perct'] * current_season['games_missing_till_end'])
     current_season['remaining_points'] = current_season['points_per_game'] * current_season['predicted_games_till_end']
 
+    total_players = current_season['name'].nunique()
+    sum_current_points_per_game = np.round((current_season['points_per_game'].sum() / total_players) * 11, 2) # normalise to 11 players
+    sum_predicted_points = np.round((current_season['remaining_points'].sum() / total_players) * 11, 2) # normalise to 11 players
 
-    # Sum of current points per game
-    # Sum of predicted points
-    # Total players
+    cols_metrics = st.columns(3)
+    with cols_metrics[0]:
+        with st.container(border=True):
+            st.metric(label = "Total points per game", value = sum_current_points_per_game)
+
+    with cols_metrics[1]:
+        with st.container(border=True):
+            st.metric(label = "Remaining predicted points end of season", value = sum_predicted_points)
+
+    with cols_metrics[2]:
+        with st.container(border=True):
+            st.metric(label = "Total players in team", value = total_players)
 
     select_cols = [
         'position',
