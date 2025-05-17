@@ -185,8 +185,7 @@ with st.container(border=True):
     st.dataframe(current_season[select_cols], hide_index=True, height=650)
 
     st.write("### Possible team")
-#     metrics_container(current_season)
-#
+
     cols_2 = st.columns([1, 1, 3])
 
     players_to_remove = cols_2[0].multiselect(
@@ -194,15 +193,21 @@ with st.container(border=True):
         options=sorted(current_season['name'].unique()),
     )
 
-    predicted_season = current_season.copy()
+    players_to_add = cols_2[1].multiselect(
+        "Add players to team",
+        options=sorted(df['name'].unique()),
+    )
 
+    predicted_season = current_season.copy()
     if players_to_remove:
         predicted_season = predicted_season[~predicted_season['name'].isin(players_to_remove)]
-#
-#     players_to_add = cols_2[1].multiselect(
-#         "Add players to team",
-#         options=sorted(df['name'].unique()),
-#     )
+
+    df_aux = df.copy()
+    if players_to_add:
+        df_aux = df_aux[df_aux['name'].isin(players_to_add)]
+        df_aux['current_season_points'] = df_aux['total_points']
+        df_aux['market_value'] = df_aux['current_value']
+        predicted_season = pd.concat([predicted_season, df_aux])
 
     metrics_container(predicted_season)
     st.dataframe(predicted_season[select_cols], hide_index=True, height=650)
