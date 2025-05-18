@@ -1,7 +1,7 @@
 import os
 import tomllib
 
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 
 # Load TOML
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -12,7 +12,8 @@ with open(secrets_path, "rb") as f:
     config = tomllib.load(f)
 
 api_key = config["openai"]["api_key"]
-model = config["openai"].get("model", "gpt-3.5-turbo")
+model = config["openai"]["model"]
+
 
 # Create LLM client
 llm = ChatOpenAI(
