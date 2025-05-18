@@ -5,7 +5,7 @@ from web_retriever_langchain.agent.llm_config import llm
 from web_retriever_langchain.agent.tools_setup import get_browser_tools
 
 def build_agent(verbose: bool = True):
-    tools, browser = get_browser_tools()
+    tools = get_browser_tools()
 
     agent = initialize_agent(
         tools=tools,
@@ -14,4 +14,5 @@ def build_agent(verbose: bool = True):
         verbose=verbose,
     )
 
-    return agent, browser
+    return agent
+
