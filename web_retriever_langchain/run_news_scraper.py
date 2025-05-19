@@ -3,6 +3,8 @@ import datetime
 import json
 from web_retriever_langchain.config.team_sources import team_sources
 from web_retriever_langchain.agent.retriever_agent import build_agent
+from web_retriever_langchain.utils.link_utils import extract_links_from_text
+from web_retriever_langchain.agent.tools_setup import get_browser_tools
 
 def ensure_dir(path):
     if not os.path.exists(path):
@@ -28,8 +30,28 @@ def run_scraper(team: str):
         print(f"[!] No sources found for team '{team}'")
         return
 
-    print(f"[+] Found {len(urls)} sources for team '{team}'")
+    print(f"[+] Found {len(urls)} source(s) for team '{team}'")
 
+    tools = get_browser_tools(mode="discovery")
+    agent = build_agent(tools=tools, verbose=True)
+
+    all_extracted_links = []
+
+    for url in urls:
+        print(f"[→] Visiting: {url}")
+        try:
+            result = agent.run(f"Go to {url} and return the full HTML or visible text of the page.")
+            print("[✓] Page fetched.")
+
+            # Extract links from returned text
+            links = extract_links_from_text(result)
+            all_extracted_links.extend(links)
+
+        except Exception as e:
+            print(f"[!] Error visiting {url}: {e}")
+
+    print(f"[+] Found {len(all_extracted_links)} raw links total.")
+    save_article_links(team, all_extracted_links)
 
 if __name__ == "__main__":
     # Example: scrape Valencia CF

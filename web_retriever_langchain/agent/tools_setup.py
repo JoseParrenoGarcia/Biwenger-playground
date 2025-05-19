@@ -2,22 +2,33 @@ from typing import cast, List
 from langchain_community.tools import (
     DuckDuckGoSearchRun,
 )
-from langchain_community.tools.playwright import (
-    NavigateTool,
-    ClickTool,
-    ExtractTextTool,
-)
+from langchain_community.tools.playwright.navigate import NavigateTool
+from langchain_community.tools.playwright.click import ClickTool
+from langchain_community.tools.playwright.extract_text import ExtractTextTool
 from langchain.tools.base import Tool
+from langchain_community.tools.playwright.utils import create_sync_playwright_browser
+
+
 from langchain_openai import ChatOpenAI
+
+# Start Playwright browser once
+browser = create_sync_playwright_browser()
 
 # --- Link Discovery Tools ---
 def get_link_discovery_tools() -> List[Tool]:
-    return cast(List[Tool], [NavigateTool(), ExtractTextTool()])
+    return cast(List[Tool], [
+        NavigateTool(sync_browser=browser),
+        ExtractTextTool(sync_browser=browser)
+    ])
 
 
 # --- Interactive Browsing Tools ---
 def get_interactive_browser_tools() -> List[Tool]:
-    return cast(List[Tool], [NavigateTool(), ClickTool(), ExtractTextTool()])
+    return cast(List[Tool], [
+        NavigateTool(sync_browser=browser),
+        ClickTool(sync_browser=browser),
+        ExtractTextTool(sync_browser=browser)
+    ])
 
 
 # --- DuckDuckGo + Browser Tools ---
