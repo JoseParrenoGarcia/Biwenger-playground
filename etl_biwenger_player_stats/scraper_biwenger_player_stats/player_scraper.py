@@ -58,7 +58,7 @@ def scrape_stats(page) -> dict:
         console.log("[bold red]❌ All extraction attempts failed")
         return None
 
-    hold = 0.2
+    hold = 0.5
 
     # 👇 Scroll to and extract key stats
     raw_name = extract_with_attempts(lambda: safe_text('h1'))
