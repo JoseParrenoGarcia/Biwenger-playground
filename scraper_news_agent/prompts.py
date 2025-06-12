@@ -11,6 +11,7 @@ def build_link_filter_prompt(team: str, links: list[str]) -> dict:
         2. Transfers: rumors, confirmed signings, or departures involving the team.
         3. Lineups: articles discussing potential starting elevens or tactical previews.
         4. Previews: analysis or news about upcoming matches (e.g. opponents, kickoff time, squad rotation).
+        5. Match reports: summaries or analyses of recent matches involving the team.
         
         ### Prioritization Guidelines:
 
@@ -37,7 +38,7 @@ def build_link_filter_prompt(team: str, links: list[str]) -> dict:
           ]
         }}
         
-        - Try to include links that fall under the 4 key categories: injuries, transfers, lineups, and previews.
+        - Try to include links that fall under the 5 key categories: injuries, transfers, lineups, previews and past match reports.
         - Do not include unrelated links (e.g., fan polls, merchandise, ads, navigation or calendar pages).
         - Where possible, return around 10 relevant article URLs. Fewer is fine if fewer are available.
         """
@@ -61,6 +62,7 @@ def build_summary_prompt(team: str, articles: list[str]) -> dict:
     - Transfers
     - Lineups
     - Previews of upcoming matches
+    - Match reports (if applicable)
 
     ### Requirements:
     - Include all key details: player names, timelines (e.g. “out for two weeks”), match or training context, and quotes when relevant.
