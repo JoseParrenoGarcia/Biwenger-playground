@@ -69,6 +69,8 @@ def get_article_contents_from_links(team: str, article_urls: list[str]) -> list[
             print(f"❌ Failed to scrape article for {team}: {url}\n{e}")
             continue
 
+        time.sleep(0.5) # gentle scraping
+
     return article_blobs
 
 from scraper_news_agent.prompts import build_summary_prompt
