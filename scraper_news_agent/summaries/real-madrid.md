@@ -1,33 +1,41 @@
 # Real Madrid
 
 ## Injuries
-- **Endrick**: Out due to a muscle injury sustained on May 18 against Sevilla. He has completed three weeks of recovery and will miss the Club World Cup and Brazil's matches against Ecuador and Paraguay. His recovery has been coordinated between Real Madrid's staff and his personal physiotherapist.
+- **Dani Carvajal**: Expected to return from a long-term knee injury. He has been training and is anticipated to be fit for the upcoming matches, although he may not play in the World Club Cup to avoid risking a setback.
+- **Éder Militao**: Also recovering from injury, he has begun training with the group but is still not at full capacity.
+- **Antonio Rüdiger**: Working on recovery from a partial meniscus tear. His participation in the World Club Cup is uncertain.
+- **Eduardo Camavinga**: Recovering from an adductor injury, he is also uncertain for the World Cup.
+- **Ferland Mendy**: Confirmed to be out for the World Club Cup due to ongoing recovery.
 
 ## Transfers
-- **Trent Alexander-Arnold**: Officially presented as a new player for Real Madrid, wearing the number 12 jersey. He signed a six-year contract after leaving Liverpool, with a small compensation paid for his participation in the Club World Cup.
-- **Franco Mastantuono**: Will join Real Madrid after the Club World Cup, currently playing for River Plate. The club has negotiated to avoid paying his full release clause of €41 million.
-- **Reinier**: The door has closed for him at Real Madrid after four unsuccessful loan spells. He is expected to seek a new team as he returns to Valdebebas for the upcoming season.
+- **Trent Alexander-Arnold**: Officially signed from Liverpool, he will wear the number 12 jersey. He is expected to participate in the World Club Cup.
+- **Franco Mastantuono**: Signed from River Plate for approximately €45 million. He will join the team after the World Club Cup, on August 15, 2025, after turning 18.
+- **Dean Huijsen**: Recently signed from Bournemouth, he will also be part of the squad for the World Club Cup.
+- **Álvaro Carreras**: Expected to join after the World Club Cup, currently with Benfica.
+- **Miguel Gutiérrez**: The club has retained 50% of his rights after his transfer to Girona. He is likely to be sold to Napoli, which could yield around €17 million for Madrid.
 
 ## Lineups
-### Predicted Starting Eleven for Club World Cup
-| Position        | Player                     |
-|-----------------|---------------------------|
-| Goalkeeper       | Thibaut Courtois         |
-| Defenders        | Dani Carvajal, Éder Militao, David Alaba, Trent Alexander-Arnold |
-| Midfielders      | Jude Bellingham, Eduardo Camavinga, Luka Modric, Aurélien Tchouaméni |
-| Forwards         | Vinicius Jr., Kylian Mbappé, Rodrygo Goes |
+### Predicted Lineup for World Club Cup
+| Position      | Player                     |
+|---------------|----------------------------|
+| Goalkeeper    | Thibaut Courtois          |
+| Right Back    | Trent Alexander-Arnold     |
+| Center Back   | Dean Huijsen               |
+| Center Back   | Éder Militao / Antonio Rüdiger |
+| Left Back     | Álvaro Carreras            |
+| Midfield      | Aurélien Tchouaméni       |
+| Midfield      | Federico Valverde          |
+| Midfield      | Jude Bellingham            |
+| Forward       | Franco Mastantuono         |
+| Forward       | Vinícius Jr.              |
+| Forward       | Kylian Mbappé             |
 
-- **Convocatoria for Club World Cup**: 
-  - **Goalkeepers**: Thibaut Courtois, Andriy Lunin, Fran González, Sergio Mestre
-  - **Defenders**: Dani Carvajal, Éder Militao, David Alaba, Trent Alexander-Arnold, Lucas Vázquez, Fran García, Antonio Rüdiger, Ferland Mendy, Dean Huijsen, Youssef, Jacobo Ramón, Raúl Asencio, Jesús Fortea, Diego Aguado
-  - **Midfielders**: Jude Bellingham, Eduardo Camavinga, Federico Valverde, Luka Modric, Aurélien Tchouaméni, Arda Güler, Dani Ceballos, Chema Andrés, Mario Martín
-  - **Forwards**: Vinicius Jr., Kylian Mbappé, Rodrygo Goes, Endrick, Brahim Díaz, Gonzalo García, Víctor Muñoz
+- Xabi Alonso is expected to implement a 4-3-3 formation, with an emphasis on attacking play and ball progression from the back.
 
 ## Previews of Upcoming Matches
-- **Club World Cup**: 
-  - **First Match**: June 18 against Al Hilal
-  - **Second Match**: June 22 against Pachuca
-  - **Final Group Match**: June 27 against RB Salzburg
-- **Xabi Alonso**: Expressed confidence in the team's potential and highlighted the importance of integrating new players like Alexander-Arnold into the squad. 
-
-- **Rodrygo**: After a challenging end to the previous season, he has expressed happiness under Xabi Alonso's management and is eager to prove himself in the upcoming matches.
+- **Match**: Real Madrid vs. Al Hilal  
+  **Date**: June 18, 2025  
+  **Time**: 21:00 CEST  
+  **Location**: Hard Rock Stadium, Miami  
+  **Context**: This will be the first match for Real Madrid in the World Club Cup, with Xabi Alonso making his debut as head coach. The team is looking to start strong against a well-prepared Al Hilal, which has been bolstering its squad with significant signings, including Victor Osimhen.  
+  **Quote**: Xabi Alonso emphasized the importance of the tournament and the need for the team to perform well to honor the club's legacy.
