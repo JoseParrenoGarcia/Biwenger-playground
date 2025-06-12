@@ -1,6 +1,6 @@
-from scraper_news_agent.prompts import build_link_filter_prompt
+from scraper_news_agent.prompts import build_link_filter_prompt, build_summary_prompt
 from scraper_news_agent.config import TEAM_NEWS_SOURCES
-from utils import Website, write_summary_to_file
+from utils import Website, write_summary_to_file, call_llm
 from openai import OpenAI
 import toml
 import json
@@ -23,7 +23,7 @@ def _extract_json_block(text):
     match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
     return match.group(1) if match else text.strip()
 
-def get_relevant_links(url:str, team:str):
+def get_relevant_links(url:str, team:str, model: str, client=None):
     website = Website(url)
     if not website.links:
         print(f"No links found at {url}")
@@ -33,20 +33,12 @@ def get_relevant_links(url:str, team:str):
     prompts = build_link_filter_prompt(team=team, links=website.links)
 
     try:
-        response = openai_client.chat.completions.create(
-            model=OPENAI_MODEL,
-            messages=[
-                {"role": "system", "content": prompts["system"]},
-                {"role": "user", "content": prompts["user"]}
-            ],
-            temperature=0.3
-        )
-        result = response.choices[0].message.content
+        result = call_llm(prompts["system"], prompts["user"], model=model, client=client)
+        # print(result)
         result_clean = _extract_json_block(result)
         return json.loads(result_clean)
-
     except Exception as e:
-        print(f"❌ Error calling OpenAI: {e}")
+        print(f"❌ Error parsing JSON from LLM for {team}: {e}")
         return {}
 
 def get_article_contents_from_links(team: str, article_urls: list[str]) -> list[str]:
@@ -73,10 +65,8 @@ def get_article_contents_from_links(team: str, article_urls: list[str]) -> list[
 
     return article_blobs
 
-from scraper_news_agent.prompts import build_summary_prompt
-from openai import OpenAI
 
-def get_summary_from_site(team: str, article_blobs: list[str]) -> str:
+def get_summary_from_site(team: str, article_blobs: list[str], model: str, client=None) -> str:
     """
     Given a list of full article contents, returns a markdown summary
     grouped into Injuries, Transfers, Lineups, and Previews.
@@ -98,16 +88,7 @@ def get_summary_from_site(team: str, article_blobs: list[str]) -> str:
     prompts = build_summary_prompt(team=team, articles=article_blobs)
 
     try:
-        response = openai_client.chat.completions.create(
-            model=OPENAI_MODEL,
-            messages=[
-                {"role": "system", "content": prompts["system"]},
-                {"role": "user", "content": prompts["user"]}
-            ],
-            temperature=0.3,
-        )
-
-        return response.choices[0].message.content.strip()
+        return call_llm(prompts["system"], prompts["user"], model=model, client=client)
 
     except Exception as e:
         print(f"❌ Failed to generate summary for {team}: {e}")
@@ -123,7 +104,9 @@ def main_scraper():
         # Step 1: Gather relevant links from all sources
         for url in sources:
             print(f"🌐 Site: {url}")
-            relevant_links = get_relevant_links(url, team)
+            model = OPENAI_MODEL
+            client = openai_client
+            relevant_links = get_relevant_links(url, team, model=model, client=client)
 
             if not relevant_links:
                 print("⚠️ No relevant links found.")
@@ -146,7 +129,11 @@ def main_scraper():
             continue
 
         # Step 3: Generate single summary per team
-        summary_md = get_summary_from_site(team=team, article_blobs=article_blobs)
+        # model = "gemma3:4b"
+        # client = None
+        model = OPENAI_MODEL
+        client = openai_client
+        summary_md = get_summary_from_site(team=team, article_blobs=article_blobs, model=model, client=client)
 
         # Step 4: Write summary to file
         if summary_md:

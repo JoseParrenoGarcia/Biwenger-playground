@@ -6,7 +6,6 @@ TEAM_NEWS_SOURCES = {
         "https://as.com/noticias/athletic/",
         "https://www.estadiodeportivo.com/futbol/athletic-club-bilbao/",
         "https://www.eldesmarque.com/futbol/athletic-club/",
-
     ],
     "Celta de Vigo": [
         "https://www.farodevigo.es/celta-de-vigo/",

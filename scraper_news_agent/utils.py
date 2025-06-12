@@ -101,3 +101,45 @@ def write_summary_to_file(team: str, content: str, out_dir: str = "summaries") -
         return ""
 
     return full_path
+
+def call_llm(system_prompt: str, user_prompt: str, model: str, client=None) -> str:
+    """
+    Unified interface to call OpenAI or Ollama depending on model string.
+
+    - If `model` starts with 'gpt-', uses OpenAI.
+    - If `model` starts with 'gemma' or 'ollama/', uses Ollama local API.
+    """
+    if model.startswith("gpt-"):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ],
+                temperature=0.3,
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            print(f"❌ OpenAI error: {e}")
+            return ""
+
+    elif model.startswith("ollama") or model.startswith("gemma"):
+        try:
+            payload = {
+                "model": model.replace("ollama/", ""),
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ],
+                "options": {"temperature": 0.3},
+                "stream": False,
+            }
+            response = requests.post("http://localhost:11434/api/chat", json=payload)
+            response.raise_for_status()
+            return response.json()["message"]["content"].strip()
+        except Exception as e:
+            print(f"❌ Ollama error: {e}")
+            return ""
+    else:
+        raise ValueError(f"Unsupported model: {model}")
