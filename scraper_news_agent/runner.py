@@ -1,3 +1,5 @@
+from numpy.ma.core import minimum
+
 from scraper_news_agent.prompts import build_link_filter_prompt
 from scraper_news_agent.config import TEAM_NEWS_SOURCES
 from utils import Website
@@ -23,7 +25,7 @@ def _extract_json_block(text):
     match = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
     return match.group(1) if match else text.strip()
 
-def _get_relevant_links(url:str, team:str):
+def get_relevant_links(url:str, team:str):
     website = Website(url)
     if not website.links:
         print(f"No links found at {url}")
@@ -49,20 +51,53 @@ def _get_relevant_links(url:str, team:str):
         print(f"❌ Error calling OpenAI: {e}")
         return {}
 
+def get_article_contents_from_links(team: str, article_urls: list[str]) -> list[str]:
+    """
+    Extracts and returns the cleaned text content of each article URL for a team.
+    Skips empty pages or failed loads.
+    """
+    minimum_required_characters = 250
+    article_blobs = []
+
+    for url in article_urls:
+        try:
+            article = Website(url)
+            content = article.get_contents()
+            if "Webpage Contents:\n" in content and len(article.text.strip()) > minimum_required_characters:
+                article_blobs.append(content)
+            else:
+                print(f"⚠️ Skipping short or empty article for {team}: {url}")
+        except Exception as e:
+            print(f"❌ Failed to scrape article for {team}: {url}\n{e}")
+            continue
+
+    return article_blobs
+
 def main_scraper():
     for team, sources in TEAM_NEWS_SOURCES.items():
         print(f"\n🔎 Scraping team: {team}")
 
         for url in sources:
             print(f"🌐 Site: {url}")
-            relevant_links = _get_relevant_links(url, team)
+            relevant_links = get_relevant_links(url, team)
 
             if not relevant_links:
                 print("⚠️ No relevant links found.")
                 continue
 
-            print("\n🔗 RELEVANT LINKS:")
-            print(json.dumps(relevant_links, indent=2))
+            # Extract the list of URLs from the dict
+            article_urls = relevant_links.get("links", [])
+
+            # print("\n🔗 RELEVANT LINKS:")
+            # print(json.dumps(relevant_links, indent=2))
+
+            all_articles = get_article_contents_from_links(team, article_urls)
+
+            if not all_articles:
+                print("⚠️ No article content extracted.")
+                return
+
+            print(all_articles)
 
             time.sleep(1)  # avoid hammering sites or OpenAI
 

@@ -49,3 +49,28 @@ def build_link_filter_prompt(team: str, links: list[str]) -> dict:
         "user": user_prompt
     }
 
+def build_summary_prompt(team: str, articles: list[str]) -> dict:
+    """
+    Returns system + user prompt to generate markdown summary of full articles for a team.
+    """
+
+    system_prompt = f"""You are a football news summarizer.
+
+    Given a set of news articles about the football team "{team}", your task is to extract relevant information and generate a summary in markdown format, grouped into the following categories:
+    - Injuries
+    - Transfers
+    - Lineups
+    - Previews of upcoming matches
+
+    Only include information that is directly supported by the articles. Be concise and factual. Each section should use bullet points or short paragraphs. If a section has no content, include the heading and write "No major updates."
+
+    Your response must be in valid markdown. Do not include any commentary or explanation outside of the summary itself."""
+
+    article_blobs = "\n\n---\n\n".join(articles)
+
+    user_prompt = f"""Summarize the following articles about {team}:{article_blobs}"""
+
+    return {
+        "system": system_prompt,
+        "user": user_prompt
+    }
