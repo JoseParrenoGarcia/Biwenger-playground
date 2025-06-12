@@ -1,8 +1,6 @@
-from numpy.ma.core import minimum
-
 from scraper_news_agent.prompts import build_link_filter_prompt
 from scraper_news_agent.config import TEAM_NEWS_SOURCES
-from utils import Website
+from utils import Website, write_summary_to_file
 from openai import OpenAI
 import toml
 import json
@@ -73,10 +71,54 @@ def get_article_contents_from_links(team: str, article_urls: list[str]) -> list[
 
     return article_blobs
 
+from scraper_news_agent.prompts import build_summary_prompt
+from openai import OpenAI
+
+def get_summary_from_site(team: str, article_blobs: list[str]) -> str:
+    """
+    Given a list of full article contents, returns a markdown summary
+    grouped into Injuries, Transfers, Lineups, and Previews.
+
+    Parameters:
+    - team: the name of the football team
+    - date: the date string used for context
+    - article_blobs: list of raw article contents (from Website.get_contents())
+    - client: an instantiated OpenAI client (OpenAI(api_key=...))
+    - model: OpenAI model name (default: gpt-4o)
+
+    Returns:
+    - Markdown summary string
+    """
+    if not article_blobs:
+        print(f"⚠️ No articles to summarize for {team}.")
+        return ""
+
+    prompts = build_summary_prompt(team=team, articles=article_blobs)
+
+    try:
+        response = openai_client.chat.completions.create(
+            model=OPENAI_MODEL,
+            messages=[
+                {"role": "system", "content": prompts["system"]},
+                {"role": "user", "content": prompts["user"]}
+            ],
+            temperature=0.3,
+        )
+
+        return response.choices[0].message.content.strip()
+
+    except Exception as e:
+        print(f"❌ Failed to generate summary for {team}: {e}")
+        return ""
+
+
 def main_scraper():
     for team, sources in TEAM_NEWS_SOURCES.items():
         print(f"\n🔎 Scraping team: {team}")
 
+        team_article_urls = []
+
+        # Step 1: Gather relevant links from all sources
         for url in sources:
             print(f"🌐 Site: {url}")
             relevant_links = get_relevant_links(url, team)
@@ -85,22 +127,28 @@ def main_scraper():
                 print("⚠️ No relevant links found.")
                 continue
 
-            # Extract the list of URLs from the dict
-            article_urls = relevant_links.get("links", [])
+            urls = relevant_links.get("links", [])
+            team_article_urls.extend(urls)
 
-            # print("\n🔗 RELEVANT LINKS:")
-            # print(json.dumps(relevant_links, indent=2))
+            time.sleep(1)  # gentle scraping
 
-            all_articles = get_article_contents_from_links(team, article_urls)
+        if not team_article_urls:
+            print(f"⚠️ No relevant article URLs found for {team}. Skipping.")
+            continue
 
-            if not all_articles:
-                print("⚠️ No article content extracted.")
-                return
+        # Step 2: Extract article contents
+        article_blobs = get_article_contents_from_links(team, team_article_urls)
 
-            print(all_articles)
+        if not article_blobs:
+            print(f"⚠️ No article content extracted for {team}. Skipping.")
+            continue
 
-            time.sleep(1)  # avoid hammering sites or OpenAI
+        # Step 3: Generate single summary per team
+        summary_md = get_summary_from_site(team=team, article_blobs=article_blobs)
 
+        # Step 4: Write summary to file
+        if summary_md:
+            write_summary_to_file(team, summary_md)
 
 if __name__ == "__main__":
     main_scraper()

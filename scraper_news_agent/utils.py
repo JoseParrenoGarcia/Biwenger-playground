@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 import logging
+import os
 
 HEADERS = {
     "User-Agent": (
@@ -70,6 +71,33 @@ class Website:
     def get_links(self):
         return self.links
 
-if __name__ == "__main__":
-    site = Website("https://www.superdeporte.es/valencia-cf/")
-    print(site.get_links())  # Show first 5 links
+def write_summary_to_file(team: str, content: str, out_dir: str = "summaries") -> str:
+    """
+    Writes markdown summary content to a file: summaries/{team}-{date}.md
+
+    Parameters:
+    - team: team name (will be lowercased and spaces replaced)
+    - date: ISO date string (e.g., "2025-06-12")
+    - content: markdown content to write
+    - out_dir: output folder (default: 'summaries')
+
+    Returns:
+    - Full path to the written file
+    """
+    # Normalize filename
+    safe_team = team.lower().replace(" ", "-")
+    filename = f"{safe_team}.md"
+    full_path = os.path.join(out_dir, filename)
+
+    # Ensure directory exists
+    os.makedirs(out_dir, exist_ok=True)
+
+    try:
+        with open(full_path, "w", encoding="utf-8") as f:
+            f.write(content.strip() + "\n")
+        print(f"✅ Summary written to: {full_path}")
+    except Exception as e:
+        print(f"❌ Failed to write summary to {full_path}: {e}")
+        return ""
+
+    return full_path

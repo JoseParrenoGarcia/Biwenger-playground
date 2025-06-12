@@ -62,9 +62,25 @@ def build_summary_prompt(team: str, articles: list[str]) -> dict:
     - Lineups
     - Previews of upcoming matches
 
-    Only include information that is directly supported by the articles. Be concise and factual. Each section should use bullet points or short paragraphs. If a section has no content, include the heading and write "No major updates."
+    ### Requirements:
+    - Include all key details: player names, timelines (e.g. “out for two weeks”), match or training context, and quotes when relevant.
+    - For lineups, feel free to include **predicted starting elevens**, **convocatoria** (squad call-ups), or tactical formations if mentioned.
+    - For previews, include opponent names, dates, competition, key player matchups, and any notable quotes from coaches or players.
+    - Bullet points or short paragraphs per item are preferred.
+    - If a section has no content, include the header and say "No major updates."
+    - Be factual. Only include information supported by the text. Do not speculate.
+    
+    - For lineups:
+      - Try to synthesize likely starting elevens for the next match.
+      - If multiple sources suggest different players for a position, include both to indicate possible ambiguity or rotations (e.g., “Mosquera or Paulista”, “Foulquier or Thierry Correia”).
+      - Optionally add confidence notes like “(likely)” or “(uncertain)” next to each player if such signals exist.
+      - You may use either bullet points or a markdown table to show the lineup.
+      - Include any quotes or notes on tactics (e.g., formation changes, player roles) if mentioned.
 
-    Your response must be in valid markdown. Do not include any commentary or explanation outside of the summary itself."""
+    ### Output Format:
+    Return a markdown document starting with a level-1 heading with the team, followed by clearly separated sections for each category.
+    Do not include any explanation or commentary outside the summary itself."""
+
 
     article_blobs = "\n\n---\n\n".join(articles)
 
