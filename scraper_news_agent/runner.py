@@ -1,10 +1,12 @@
 from scraper_news_agent.prompts import build_link_filter_prompt
+from scraper_news_agent.config import TEAM_NEWS_SOURCES
 from utils import Website
 from openai import OpenAI
 import toml
 import json
 import os
 import re
+import time
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 root_dir = os.path.abspath(os.path.join(current_dir, ".."))
@@ -47,29 +49,24 @@ def _get_relevant_links(url:str, team:str):
         print(f"❌ Error calling OpenAI: {e}")
         return {}
 
+def main_scraper():
+    for team, sources in TEAM_NEWS_SOURCES.items():
+        print(f"\n🔎 Scraping team: {team}")
+
+        for url in sources:
+            print(f"🌐 Site: {url}")
+            relevant_links = _get_relevant_links(url, team)
+
+            if not relevant_links:
+                print("⚠️ No relevant links found.")
+                continue
+
+            print("\n🔗 RELEVANT LINKS:")
+            print(json.dumps(relevant_links, indent=2))
+
+            time.sleep(1)  # avoid hammering sites or OpenAI
+
 
 if __name__ == "__main__":
-    team = "Valencia"
-    url = "https://www.superdeporte.es/valencia-cf/"
-
-    relevant_links = _get_relevant_links(url, team)
-    print("\n🔗 RELEVANT LINKS:")
-    print(json.dumps(relevant_links, indent=2))
-
-    # # Step 1: Scrape the landing page
-    # site = Website(url)
-    # print(f"\n✅ Loaded: {site.title}\n")
-    #
-    # # Step 2: Get extracted links (already cleaned & normalized)
-    # links = site.get_links()
-    # print(f"Found {len(links)} links.\n")
-    #
-    # # Step 3: Build prompt messages
-    # prompts = build_link_filter_prompt(team=team, links=links)
-    # print(type(prompts["system"]))
-    # print(type(prompts["user"]))
-    # print('-----')
-    # print(prompts["system"])
-    # print('-----')
-    # print(prompts["user"])
+    main_scraper()
 

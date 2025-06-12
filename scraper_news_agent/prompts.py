@@ -12,25 +12,35 @@ def build_link_filter_prompt(team: str, links: list[str]) -> dict:
         3. Lineups: articles discussing potential starting elevens or tactical previews.
         4. Previews: analysis or news about upcoming matches (e.g. opponents, kickoff time, squad rotation).
         
-        You must **only include links that likely point to full articles**, not:
-        - Generic landing pages (e.g. ending in `/valencia-cf/`)
-        - Static pages like calendars or match schedules
-        - Pages with no date (e.g. no `/2025/06/11/` or similar)
+        ### Prioritization Guidelines:
+
+        - Prefer links that look like full articles — especially if the URL includes a date (e.g. `/2025/06/11/`)
+        - However, **do not skip valid-looking links just because they lack a date**.
+          - If the link appears to point to a news article (based on the URL text), you can include it.
+          - Use your best judgment to avoid junk like navigation pages, homepages, or schedule-only links.
         
-        ### Strong preference: include URLs that contain a date (e.g. `/2025/06/11/`) as they are more likely to be individual news articles.
+        ### Exclude:
+        
+        - Landing pages (e.g. ending in `/valencia-cf/`)
+        - Generic index pages (e.g. `/calendario/`, `/jugadores/`)
+        - URLs that look like sections, tags, ads, or login/subscribe pages
+
 
         Respond ONLY with a JSON object in the following format:
         
         {{
           "links": [
-            {{"type": "injuries", "url": "https://full.url/related-to-injuries"}},
-            {{"type": "transfers", "url": "https://full.url/related-to-transfers"}},
-            {{"type": "lineups", "url": "https://full.url/lineup-discussion"}},
-            {{"type": "preview", "url": "https://full.url/match-preview"}}
+            "https://example.com/article-with-date.html",
+            "https://example.com/valencia/injury-update",
+            "https://example.com/article-about-transfer-rumours",
+            "https://example.com/article-about-lineups-or-previews-of-upcoming-matches",
           ]
         }}
         
-        Only include links you are reasonably confident belong to one of the categories. If a link fits more than one category, choose the most specific one. Do not include unrelated links (e.g., fan polls, merchandise, ads). Be concise."""
+        - Try to include links that fall under the 4 key categories: injuries, transfers, lineups, and previews.
+        - Do not include unrelated links (e.g., fan polls, merchandise, ads, navigation or calendar pages).
+        - Where possible, return around 10 relevant article URLs. Fewer is fine if fewer are available.
+        """
 
     user_prompt = f"The list of links is:\n" + "\n".join(links)
     
