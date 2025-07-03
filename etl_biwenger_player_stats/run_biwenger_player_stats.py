@@ -14,8 +14,8 @@ if __name__ == "__main__":
     # scraper(season_tag=calculate_season())
     # scraper(hardcoded_pages=6)
     #
-    # console.rule("[bold yellow]Player Transform Step")
-    # transform_players()
+    console.rule("[bold yellow]Player Transform Step")
+    transform_players()
     #
     # console.rule("[bold green]Player Load Step")
     # load_to_production()
@@ -23,7 +23,9 @@ if __name__ == "__main__":
     # total_duration = time.time() - start_time
     # console.print(f"[bold white on black]🏁 Full ETL completed in {total_duration:.2f} seconds!")
 
-    start_time = time.time()
-    console.rule("[bold blue]Team Extract Step")
-    team_scraper()
+    # start_time = time.time()
+    # console.rule("[bold blue]Team Extract Step")
+    # team_scraper()
+    # total_duration = time.time() - start_time
+    # console.print(f"[bold white on black]🏁 Full Team ETL completed in {total_duration:.2f} seconds!")
 

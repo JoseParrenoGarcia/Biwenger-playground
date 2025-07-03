@@ -74,13 +74,13 @@ def team_scraper(hardcoded_pages: int = None):
     creds = load_credentials()
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        b = True
-        # browser = p.chromium.launch(
-        #     headless=True,
-        #     args=["--disable-gpu", "--no-sandbox"],
-        # )
-        # b = False
+        # browser = p.chromium.launch(headless=False)
+        # b = True
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-gpu", "--no-sandbox"],
+        )
+        b = False
 
         context = browser.new_context()
         page = context.new_page()
