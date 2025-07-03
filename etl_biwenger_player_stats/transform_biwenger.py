@@ -2,7 +2,7 @@ import os
 import json
 import pandas as pd
 import glob
-from etl_biwenger_player_stats.scraper_biwenger_player_stats.utils import calculate_season
+import re
 
 
 pd.set_option("display.max_columns", None)
@@ -28,8 +28,15 @@ def transform_players(
         raise FileNotFoundError(f"No files found matching pattern: {input_filename} in {raw_path}")
 
     for json_file in json_files:
+        season_match = re.search(r"(\d{4})", os.path.basename(json_file))
+        if not season_match:
+            raise ValueError(f"Could not extract season from file name: {json_file}")
+        season = season_match.group(1)
+
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
+            for record in data:
+                record['season'] = season  # Add season tag to each record
             all_data.extend(data)
 
     # Step 3: Convert to DataFrame
@@ -44,9 +51,6 @@ def transform_players(
     numeric_fields = ["total_points", "games_played"]
     for field in numeric_fields:
         df[field] = pd.to_numeric(df[field], errors="coerce")
-
-    # Add season tag
-    df['season'] = calculate_season()
 
     # Enrichment
     df['possible_value_improvement'] = df['max_value_1y'] - df['current_value']

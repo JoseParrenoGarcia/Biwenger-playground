@@ -1,7 +1,17 @@
 
 TEAM_NEWS_SOURCES = {
+    "Alaves": [
+        "https://www.noticiasdealava.eus/alaves",
+        "https://www.eitb.eus/es/deportes/futbol/alaves",
+        "https://www.eldesmarque.com/futbol/deportivo-alaves/",
+        "https://www.mundodeportivo.com/futbol/alaves",
+        "https://www.relevo.com/futbol/equipos/deportivo-alaves",
+        "https://as.com/noticias/deportivo-alaves",
+        "https://www.marca.com/futbol/alaves.html?intcmp=MENUESCU&s_kw=alaves",
+    ],
     "Athletic Bilbao": [
         "https://www.deia.eus/athletic/",
+        "https://www.eitb.eus/es/deportes/futbol/athletic/",
         "https://www.marca.com/futbol/athletic.html?intcmp=MENUESCU&s_kw=athletic",
         "https://as.com/noticias/athletic/",
         "https://www.estadiodeportivo.com/futbol/athletic-club-bilbao/",
@@ -14,6 +24,9 @@ TEAM_NEWS_SOURCES = {
         "https://www.eldesmarque.com/futbol/celta-de-vigo/",
         "https://as.com/noticias/real-club-celta-de-vigo/?omnil=mod_esc",
         "https://www.marca.com/futbol/celta.html?intcmp=MENUESCU&s_kw=celta",
+    ],
+    "Osasuna": [
+        "https://www.eitb.eus/es/deportes/futbol/osasuna/",
     ],
     "Real Betis": [
         "https://www.estadiodeportivo.com/futbol/betis/",
@@ -33,6 +46,7 @@ TEAM_NEWS_SOURCES = {
     ],
     "Real Sociedad": [
         "https://www.diariovasco.com/real-sociedad/",
+        "https://www.eitb.eus/es/deportes/futbol/real-sociedad/",
         "https://www.marca.com/futbol/real-sociedad.html?intcmp=MENUESCU&s_kw=realsociedad",
         "https://as.com/noticias/real-sociedad/",
         "https://www.estadiodeportivo.com/futbol/real-sociedad/",
