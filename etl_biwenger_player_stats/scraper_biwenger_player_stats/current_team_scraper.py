@@ -38,6 +38,7 @@ def scrape_basic_team_table(page) -> pd.DataFrame:
 
             # 2. Total points (first <td> after name column)
             points_text = row.locator("td").nth(2).inner_text().strip()
+            points_text = points_text.replace("\n", "").replace(" ", "")  # Remove newlines and spaces
             points = int(points_text)
 
             # 3. Market value – first <td> with class 'tr' after points
@@ -67,19 +68,19 @@ def scrape_basic_team_table(page) -> pd.DataFrame:
 
     return pd.DataFrame(players).replace("-", 0).fillna(0)
 
-def scraper(hardcoded_pages: int = None):
+def team_scraper(hardcoded_pages: int = None):
     console.rule("[bold blue]Starting Biwenger Scraper")
     start = time.time()
     creds = load_credentials()
 
     with sync_playwright() as p:
-        # browser = p.chromium.launch(headless=False)
-        # b = True
-        browser = p.chromium.launch(
-            headless=True,
-            args=["--disable-gpu", "--no-sandbox"],
-        )
-        b = False
+        browser = p.chromium.launch(headless=False)
+        b = True
+        # browser = p.chromium.launch(
+        #     headless=True,
+        #     args=["--disable-gpu", "--no-sandbox"],
+        # )
+        # b = False
 
         context = browser.new_context()
         page = context.new_page()
