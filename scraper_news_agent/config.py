@@ -35,6 +35,13 @@ TEAM_NEWS_SOURCES = {
         "https://www.estadiodeportivo.com/futbol/barcelona/",
         "https://www.eldesmarque.com/futbol/fc-barcelona/",
     ],
+    "Betis": [
+        "https://www.estadiodeportivo.com/futbol/betis/",
+        "https://www.eldesmarque.com/futbol/real-betis/",
+        "https://www.marca.com/futbol/betis.html?intcmp=MENUESCU&s_kw=betis",
+        "https://as.com/noticias/real-betis/?omnil=mod_esc",
+        "https://mundobetis.com",
+    ],
     "Celta de Vigo": [
         "https://www.farodevigo.es/celta-de-vigo/",
         "https://www.lavozdegalicia.es/gradario/",
@@ -51,6 +58,22 @@ TEAM_NEWS_SOURCES = {
         "https://alicanteplaza.es/tag/elche-cf",
         "https://www.estadiodeportivo.com/futbol/elche/",
         "https://www.eldesmarque.com/futbol/elche-cf/",
+    ],
+    "Espanyol": [
+        "https://www.marca.com/futbol/espanyol.html?intcmp=MENUESCU&s_kw=espanyol",
+        "https://as.com/noticias/getafe-cf/",
+        "https://www.eldesmarque.com/futbol/rcd-espanyol/",
+        "https://www.estadiodeportivo.com/futbol/espanyol/",
+        "https://www.mundodeportivo.com/futbol/rcd-espanyol",
+        "https://www.sport.es/es/espanyol/",
+        "https://www.lagradaonline.com",
+        "https://el1900.com"
+    ],
+    "Getafe": [
+        "https://www.marca.com/futbol/getafe.html?intcmp=MENUESCU&s_kw=getafe",
+        "https://as.com/noticias/rcd-espanyol/",
+        "https://www.eldesmarque.com/futbol/getafe-cf/",
+        "https://www.estadiodeportivo.com/futbol/getafe/",
     ],
     "Levante": [
         "https://www.superdeporte.es/levante-ud/",
@@ -71,13 +94,6 @@ TEAM_NEWS_SOURCES = {
         "https://www.marca.com/futbol/osasuna.html?intcmp=MENUESCU&s_kw=osasuna",
         "https://www.estadiodeportivo.com/futbol/osasuna/",
         "https://www.eldesmarque.com/futbol/osasuna/",
-    ],
-    "Real Betis": [
-        "https://www.estadiodeportivo.com/futbol/betis/",
-        "https://www.eldesmarque.com/futbol/real-betis/",
-        "https://www.marca.com/futbol/betis.html?intcmp=MENUESCU&s_kw=betis",
-        "https://as.com/noticias/real-betis/?omnil=mod_esc",
-        "https://mundobetis.com",
     ],
     "Real Madrid": [
         "https://www.marca.com/futbol/real-madrid.html?intcmp=MENUESCU&s_kw=realmadrid",
