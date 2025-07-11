@@ -3,6 +3,16 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 import logging
 import os
+import tiktoken
+
+MAX_TOKENS = 128_000
+
+def truncate_user_prompt(user_prompt: str, model: str, max_tokens: int) -> str:
+    enc = tiktoken.encoding_for_model(model)
+    user_tokens = enc.encode(user_prompt)
+    if len(user_tokens) > max_tokens:
+        user_tokens = user_tokens[:max_tokens]
+    return enc.decode(user_tokens)
 
 HEADERS = {
     "User-Agent": (
@@ -111,11 +121,20 @@ def call_llm(system_prompt: str, user_prompt: str, model: str, client=None) -> s
     """
     if model.startswith("gpt-"):
         try:
+            # Estimate how many tokens system prompt takes
+            enc = tiktoken.encoding_for_model(model)
+            system_tokens = enc.encode(system_prompt)
+            buffer_tokens = 2000  # for role formatting + safety buffer
+
+            # Available tokens for the user prompt only
+            available_user_tokens = MAX_TOKENS - len(system_tokens) - buffer_tokens
+            truncated_user_prompt = truncate_user_prompt(user_prompt, model, available_user_tokens)
+
             response = client.chat.completions.create(
                 model=model,
                 messages=[
                     {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
+                    {"role": "user", "content": truncated_user_prompt}
                 ],
                 temperature=0.3,
             )

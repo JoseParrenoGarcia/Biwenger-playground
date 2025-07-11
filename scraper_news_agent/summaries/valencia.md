@@ -4,10 +4,30 @@
 No major updates.
 
 ## Transfers
-- **Dimitri Foulquier** has officially renewed his contract with Valencia CF until June 2027. His renewal was a priority for coach Carlos Corberán, who values Foulquier's contributions to the team. The player expressed his happiness about continuing at the club, stating, "I'm very happy and looking forward to defending this shirt."
+- **Yarek Gasiorowski** has officially transferred to **PSV Eindhoven** for approximately **€10 million**, plus a **15%** sell-on clause. He expressed his emotions saying, "Decir adiós es duro para mí" ("Saying goodbye is hard for me"). He leaves after 14 years with the club, having made 35 appearances for the first team since debuting in October 2023.
   
-- **Cristhian Mosquera**'s future remains uncertain as he is a target for several clubs, including RB Leipzig and Inter Milan. The Valencia CF is making efforts to renew his contract, which runs until June 2026. His agent confirmed that they will continue discussions soon, emphasizing Mosquera's contentment at the club.
+- **Hugo González** has moved to **Celta 'B'**. The transfer includes performance bonuses and a **30%** sell-on clause for Valencia. He had a contract until June 2027 and was previously on loan at Cartagena.
 
-- **Julen Agirrezabala**, currently with Athletic Club, is a target for Valencia CF as they seek to strengthen their goalkeeping position. The club is exploring a potential loan with an option to buy, but the Athletic Club is expected to be resistant to letting him go easily.
+- **Julen Agirrezabala** is set to join Valencia on loan from **Athletic Club** until June 2026, with an option to buy for **€12 million**. The deal was finalized after lengthy negotiations, and he arrived in Valencia to complete his medical.
 
-- **Yunus Musah** is set to transfer to Napoli, which will result in Valencia CF receiving approximately €500,000 due to FIFA's solidarity mechanism
+- **Mateo Prevedini**, a 22-year-old central defender from **Independiente**, has signed with **Valencia Mestalla** after leaving **AD Mérida**. He is the third signing for the B team this season.
+
+- **Leyre Monente**, a midfielder, has joined the **Valencia Femenino** on a two-year contract from **Deportivo Alavés**.
+
+- **Amanda Mbadi**, a midfielder from **RCD Espanyol**, has signed with **Valencia Femenino** until June 2026.
+
+- **Jana Xin**, a goalkeeper, has joined the **Valencia Femenino** for two seasons from **Fundación Albacete**.
+
+## Lineups
+No major updates.
+
+## Previews of Upcoming Matches
+- **Valencia** will face **Osasuna** on **August 24, 2025**, at **17:00** in their second LaLiga match of the season, following their opener against **Real Sociedad** at Mestalla.
+
+## Match Reports
+No major updates.
+
+## Other Notable Updates
+- **Carlos Corberán** is focusing on the upcoming season with a need to finalize contracts for key players like **Javi Guerra**, **César Tárrega**, and **Diego López**. The club aims to retain these talents while also addressing the situation with **Cristhian Mosquera**, who has rejected a renewal offer and is being pursued by **Arsenal**.
+  
+- **Ron Gourlay**, the new CEO of Football, is working on a project to return Valencia to European competitions, emphasizing the importance of homegrown talent.

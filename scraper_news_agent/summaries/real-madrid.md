@@ -1,41 +1,39 @@
 # Real Madrid
 
 ## Injuries
-- **Dani Carvajal**: Expected to return from a long-term knee injury. He has been training and is anticipated to be fit for the upcoming matches, although he may not play in the World Club Cup to avoid risking a setback.
-- **Éder Militao**: Also recovering from injury, he has begun training with the group but is still not at full capacity.
-- **Antonio Rüdiger**: Working on recovery from a partial meniscus tear. His participation in the World Club Cup is uncertain.
-- **Eduardo Camavinga**: Recovering from an adductor injury, he is also uncertain for the World Cup.
-- **Ferland Mendy**: Confirmed to be out for the World Club Cup due to ongoing recovery.
+- **Endrick**: Suffered a relapse of his previous injury affecting the hamstring tendon in his right leg. He will be sidelined for several weeks, missing the start of the Liga EA Sports against Osasuna.
+- **Dani Carvajal**: Returned to action in the semifinal against PSG after a long recovery from a serious knee injury.
+- **Eder Militao**: Also made his return after an extended absence due to a knee injury.
 
 ## Transfers
-- **Trent Alexander-Arnold**: Officially signed from Liverpool, he will wear the number 12 jersey. He is expected to participate in the World Club Cup.
-- **Franco Mastantuono**: Signed from River Plate for approximately €45 million. He will join the team after the World Club Cup, on August 15, 2025, after turning 18.
-- **Dean Huijsen**: Recently signed from Bournemouth, he will also be part of the squad for the World Club Cup.
-- **Álvaro Carreras**: Expected to join after the World Club Cup, currently with Benfica.
-- **Miguel Gutiérrez**: The club has retained 50% of his rights after his transfer to Girona. He is likely to be sold to Napoli, which could yield around €17 million for Madrid.
+- **Álvaro Carreras**: Confirmed to be joining Real Madrid from Benfica for €50 million, to be paid in installments. His arrival is expected to bolster the defense.
+- **Rodrygo**: His future is uncertain as he has been relegated to the bench during the World Cup. He is considering his options and may seek a transfer.
+- **Jesús Vallejo**: Expected to join Albacete after leaving Real Madrid as a free agent.
+- **Ibrahima Konaté**: The central defender from Liverpool is being targeted by Real Madrid, with a potential move being discussed for the summer of 2026.
 
 ## Lineups
-### Predicted Lineup for World Club Cup
-| Position      | Player                     |
-|---------------|----------------------------|
-| Goalkeeper    | Thibaut Courtois          |
-| Right Back    | Trent Alexander-Arnold     |
-| Center Back   | Dean Huijsen               |
-| Center Back   | Éder Militao / Antonio Rüdiger |
-| Left Back     | Álvaro Carreras            |
-| Midfield      | Aurélien Tchouaméni       |
-| Midfield      | Federico Valverde          |
-| Midfield      | Jude Bellingham            |
-| Forward       | Franco Mastantuono         |
-| Forward       | Vinícius Jr.              |
-| Forward       | Kylian Mbappé             |
-
-- Xabi Alonso is expected to implement a 4-3-3 formation, with an emphasis on attacking play and ball progression from the back.
+### Predicted Starting XI vs PSG (Mundial de Clubes Semifinal)
+| Position         | Player               |
+|------------------|---------------------|
+| Goalkeeper       | Thibaut Courtois    |
+| Right Back       | Fede Valverde        |
+| Center Back      | Raúl Asencio        |
+| Center Back      | Antonio Rüdiger     |
+| Left Back        | Fran García         |
+| Central Midfield | Aurélien Tchouaméni |
+| Central Midfield | Arda Güler          |
+| Central Midfield | Jude Bellingham      |
+| Forward          | Gonzalo             |
+| Forward          | Kylian Mbappé      |
+| Forward          | Vinicius Jr.        |
 
 ## Previews of Upcoming Matches
-- **Match**: Real Madrid vs. Al Hilal  
-  **Date**: June 18, 2025  
-  **Time**: 21:00 CEST  
-  **Location**: Hard Rock Stadium, Miami  
-  **Context**: This will be the first match for Real Madrid in the World Club Cup, with Xabi Alonso making his debut as head coach. The team is looking to start strong against a well-prepared Al Hilal, which has been bolstering its squad with significant signings, including Victor Osimhen.  
-  **Quote**: Xabi Alonso emphasized the importance of the tournament and the need for the team to perform well to honor the club's legacy.
+- **Real Madrid vs Osasuna**: Scheduled for August 19, 2025, at 21:00 (local time). This match marks the start of the Liga EA Sports for the Madrid side.
+
+## Match Reports
+- **PSG 4-0 Real Madrid**: The match highlighted significant defensive errors from Raúl Asencio and Antonio Rüdiger, leading to a quick 2-0 deficit. Despite some attempts to recover, the team was unable to mount a serious challenge against PSG. Xabi Alonso acknowledged the need for improvement and emphasized the importance of learning from this defeat.
+
+## Additional Notes
+- **Luka Modric**: Recently played his last match for Real Madrid, expressing gratitude towards the club and its president, Florentino Pérez. He emphasized the special bond he shared with the club and its supporters.
+- **Vinicius Jr.**: Captured on camera smiling during the match against PSG, which drew criticism from fans for perceived lack of seriousness during the defeat.
+- **Thibaut Courtois**: Acknowledged the team's shortcomings and emphasized the need for collective improvement following the heavy loss.

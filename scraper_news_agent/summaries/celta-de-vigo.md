@@ -4,18 +4,25 @@
 No major updates.
 
 ## Transfers
-- **Ionut Radu**: The Celta de Vigo has officially signed the 28-year-old Romanian goalkeeper Ionut Radu on a free transfer from Venezia, with a contract lasting until June 2029. Radu expressed excitement about joining the club and highlighted the team's ambition, stating, "The Celta is becoming a very big club." He aims to help the team achieve success in both LaLiga and the Europa League.
-  
-- **Ilaix Moriba**: The Celta is in negotiations to finalize the signing of Ilaix Moriba from RB Leipzig. The option to purchase him for €6 million expires on June 15. There are ongoing discussions regarding his salary, as Moriba is reportedly willing to adjust his expectations to remain at Celta.
+- **Carles Pérez** has been officially ceded to **Aris de Salónica** for the 2025-2026 season. The agreement includes an option to buy for around **€3 million**. The Celta will cover a significant portion of his salary during the loan. Pérez expressed excitement about this new challenge and mentioned that he was influenced by the presence of **Rubén Reyes**, the club's director who previously signed him for Getafe. (Sources: AS.com, Marca, Estadio Deportivo)
 
-- **Carles Pérez**: The club is looking to offload Carles Pérez, who has been linked with a move to Aris Salónica. His high salary is a significant obstacle for potential transfers, and the Celta is exploring options for a permanent departure.
+- **Carlos Dotor** has been loaned to **Málaga** for the upcoming season. This move follows a disappointing period with limited playtime at Celta, where he had been on loan at both Oviedo and Sporting Gijón last season. (Sources: Estadio Deportivo, Marca)
 
-- **Jordi Escobar**: The Celta has received interest from St. Pauli and Portuguese clubs for the forward, who was the top scorer for the Celta Fortuna last season.
+- **Gael Alonso** has signed a three-year contract with **FC Andorra** after leaving Celta. He declined a renewal offer from Celta to pursue this opportunity. (Sources: La Voz de Galicia, Estadio Deportivo)
 
-- **Franco Cervi and Mihailo Ristic**: Both players have expressed a desire to remain at the club, despite the Celta's intention to reduce the wage bill.
+- **Hugo González** has officially signed with Celta Fortuna until 2028 after a successful loan period from Valencia. (Sources: La Voz de Galicia, Marca)
+
+- **Bryan Zaragoza** is still a target for Celta, but negotiations are complicated due to demands from **Bayern Munich** for a loan fee and an obligatory purchase option. Celta is looking for a more favorable agreement. (Sources: Estadio Deportivo)
+
+- **Carl Starfelt** is being pursued by **Como 1907**, but Celta is demanding more than **€10 million** for his transfer. (Sources: AS.com, Estadio Deportivo)
 
 ## Lineups
 No major updates.
 
 ## Previews of Upcoming Matches
-- **Celta de Vigo vs. Wolverhampton Wanderers**: The Celta will face Wolves on August 9 at Molineux Stadium. This match will mark the return of former Celta player Jørgen Strand Larsen. It is expected to be a challenging test for the team just before the start of the LaLiga season. The match is part of the Celta's pre-season preparations, which will also include other Portuguese teams.
+- **Celta** will celebrate its **102nd anniversary** with a match against **Mallorca** on **August 23, 2025**, at **17:00** in Son Moix. This will be the first away match of the season. (Source: La Voz de Galicia)
+
+- The **EuroCelta** will kick off its pre-season with a match against **Famalicão** on **July 15, 2025**, at the Ciudad Deportiva Afouteza. (Source: AS.com)
+
+## Match Reports
+No major updates.

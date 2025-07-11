@@ -1,32 +1,34 @@
 # Real Sociedad
 
 ## Injuries
-- **Luka Sucic**: Absent from Croatia's match against the Czech Republic due to attending his sister's wedding in Bosnia. He is expected to return for pre-season training on July 7.
+- **Arsen Zakharyan**: Suffered a scare with a sore sole during training, but it was confirmed to be just discomfort. He is training separately for precaution and is a doubt for the first preseason match against Pau on July 18. His injury history is concerning as he missed most of the previous season due to injuries.
 
 ## Transfers
-- **Martin Zubimendi**: Set to join Arsenal for around €70 million, exceeding his release clause. The transfer is expected to be finalized after July 1 due to financial regulations.
-- **Nayef Aguerd**: The Moroccan defender, who was on loan from West Ham, is not expected to return. The Arsenal and Olympique de Marseille are interested in him.
-- **Carlos Fernández**: The forward has struggled during his loan at Cádiz, scoring only one goal. He is expected to return to Real Sociedad, but finding a new club for him is complicated due to his contract and salary.
-- **Umar Sadiq**: After a loan spell at Valencia, where he scored six goals, Sadiq is not in the plans for the upcoming season. The club is looking to sell him for around €10 million or arrange another loan.
-- **Orri Oskarsson**: The club is not considering a loan for him despite his underwhelming performance in his first season. He remains under contract until 2030.
+- **Martin Zubimendi**: Officially transferred to Arsenal for approximately €66 million, surpassing his release clause. He has expressed gratitude towards the club and its fans in his farewell message.
+- **Equi Fernández**: The Real Sociedad is close to finalizing the signing of the Argentine midfielder from Al-Qadsiah for around €19 million. This would make him one of the most expensive signings in the club's history.
+- **Zac Shuaib**: A young midfielder from Arsenal has signed with Real Sociedad, initially set to join the 'C' team. He has roots in Gipuzkoa and is seen as a promising talent.
+- **Umar Sadiq**: Currently seeking a new club after his loan spell at Valencia. The club is looking for around €10 million for his transfer.
+- **Carlos Fernández**: His future remains uncertain as he returns from a loan spell at Cádiz, where he had limited success.
 
 ## Lineups
-### Predicted Starting Eleven for Preseason
-- **Formation**: 4-3-3 (likely)
-  - **Goalkeeper**: Álex Remiro
-  - **Defenders**: Aritz Elustondo, Igor Zubeldia, Jon Martín, Jon Pacheco
-  - **Midfielders**: Beñat Turrientes, Gorrotxategi, Mikel Merino
-  - **Forwards**: Mikel Oyarzabal (C), Orri Oskarsson, Sadiq Umar (or Carlos Fernández)
-
-### Squad Call-Ups
-- **International Players**: Beñat Turrientes, Pablo Marín, Aitor Fraga are currently with the U21 national team for the European Championship.
+- **Predicted Starting XI for Upcoming Match**:
+  - **Formation**: 4-3-3 (likely)
+  - **Goalkeeper**: Unai Marrero (likely)
+  - **Defenders**: Álvaro Odriozola (likely), Aritz Elustondo (likely), Igor Zubeldia (likely), Aihen Muñoz (likely)
+  - **Midfielders**: Urko González de Zárate (likely), Gorrotxategi (likely), Ezequiel Fernández (if signed)
+  - **Forwards**: Brais Méndez (likely), Take Kubo (likely), Karrikaburu (likely)
 
 ## Previews of Upcoming Matches
-- **Preseason Matches**:
-  - **July 21**: vs. V-Varen Nagasaki (Japan)
-  - **July 25**: vs. Yokohama FC (Japan)
-  - **July 30**: vs. Osasuna (Zubieta, 19:00)
-  - **August 2**: vs. Stade Rennais (Zubieta)
-  - **August 9**: Double-header against Bournemouth (11:15 and 17:15)
+- **First Preseason Match**: 
+  - **Opponent**: Pau FC
+  - **Date**: July 18, 2025
+  - **Location**: Zubieta
+  - **Notes**: This will be the first test for new coach Sergio Francisco.
 
-- **Coaching Remarks**: New coach Sergio Francisco has emphasized that solutions to the team's scoring issues are within the current squad, particularly looking to maximize Oyarzabal's potential as he has been a key player in recent matches for Spain.
+## Match Reports
+- No major updates.
+
+## Other Notes
+- **Mikel Oyarzabal**: Surprised everyone by returning to training a week earlier than scheduled.
+- **Jon Gorrotxategi** and **Urko González de Zárate** are expected to fill the gap left by Zubimendi, with both players having had successful loan spells last season.
+- The club is also facing pressure from fans for new signings, particularly after the high-profile departure of Zubimendi.
