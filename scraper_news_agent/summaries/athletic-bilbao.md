@@ -1,37 +1,43 @@
-Okay, here's a breakdown of the provided text, categorized for clarity and analysis:
+# Athletic Bilbao
 
-**I. Core News & Story:**
+## Injuries
+- **Yeray Álvarez**: Positive for doping after a UEFA control following the Europa League match against Manchester United. He claims it was due to an involuntary intake of a medication for alopecia. Currently suspended while the case is under investigation.
 
-* **Julen Agirrezabala's Uncertain Future:** The central story is that Athletic Club goalkeeper Julen Agirrezabala is facing increased interest from other clubs, primarily due to Unai Simón’s strong performance. This has created uncertainty about Agirrezabala’s role and potential future at Athletic.
-* **Multiple Interested Clubs:** Several clubs, including Benfica, Valencia, and Sevilla, are reportedly showing interest in acquiring Agirrezabala.
-* **Unai Simón’s Dominance:** Unai Simón’s excellent form has significantly reduced Agirrezabala’s playing time and opportunities, fueling the interest from other clubs.
+## Transfers
+- **Robert Navarro**: Signed from Mallorca, he has expressed his happiness to join Athletic and emphasized his versatility in attack. He signed a contract until 2030.
+- **Amaia Martínez**: Extended her loan at Espanyol for another season after a successful stint.
+- **Julen Agirrezabala**: Set to join Valencia on loan, with the deal including a €1 million fee and a €12 million option to buy.
+- **Unai Egiluz**: Renewed his contract with Athletic until 2028 and will join the first team after a successful loan at Mirandés.
+- **Eider Arana**: Renewed with Athletic until 2028 after returning from a loan at Eibar.
+- **Ane Campos**: Signed from Eibar until 2029.
 
-**II. Context & Details:**
+## Lineups
+### Predicted Starting Eleven (for upcoming matches)
+- **Formation**: 4-2-3-1
+- **Goalkeeper**: Unai Simón
+- **Defenders**: 
+  - Dani Vivian
+  - Aitor Paredes
+  - Unai Egiluz
+  - (Yeray Álvarez - suspended)
+- **Midfielders**: 
+  - Oihan Sancet
+  - Unai Gómez
+- **Forwards**:
+  - Nico Williams
+  - Robert Navarro
+  - Iñaki Williams (Captain)
 
-* **Athletic Club’s Perspective:** Athletic Club acknowledges the interest in Agirrezabala but doesn’t provide specific details about potential deals. They recognize the situation and the potential for a transfer.
-* **Agirrezabala’s Contract:** Agirrezabala’s contract extends until June 2027, with an option to extend it until 2029.
-* **Ernesto Valverde’s Influence:** The decision regarding Agirrezabala’s future ultimately rests with manager Ernesto Valverde.
-* **Other Goalkeeping Options:** Athletic Club has other goalkeeping options available, including Jon Padilla (on loan to Pumas) and Mikel Santos (in the youth team).
+### Squad Updates
+- **Julen Agirrezabala** will not be part of the squad as he is set for a loan to Valencia.
+- **Nico Williams** is expected to return to training on July 14 after participating in the UEFA Nations League.
 
-**III.  Sources & Reporting:**
+## Previews of Upcoming Matches
+- The Athletic will face **Arsenal**, **Liverpool**, and **PSV Eindhoven** in pre-season friendlies to prepare for the Champions League.
+- The first match is scheduled for **July 19** against Ponferradina, followed by a match against Alavés on **July 22**.
 
-* **DiarioAS:** The information is sourced from DiarioAS, a Spanish sports news outlet.
-* **Mikel González:** Mikel González, Athletic Club’s director of sporting management, is quoted, providing context and acknowledging the interest.
+## Match Reports
+- No major updates on match reports as the pre-season has just started.
 
-**IV.  Overall Tone & Style:**
-
-* **Informative & Analytical:** The reporting is primarily informative, presenting the facts and analyzing the situation.
-* **Slightly Dramatic:** The phrasing ("uncertain future," "threatens to perpetuate") adds a touch of drama to the story.
-
----
-
-**Key Takeaways:**
-
-* This article highlights a common situation in football – a player facing reduced playing time due to a superior teammate.
-* It demonstrates the complexities of player transfers, where multiple factors (performance, contract length, manager’s decisions) play a role.
-
-Would you like me to:
-
-*   Summarize a specific aspect of the article in more detail?
-*   Compare this article to other reporting on the same topic?
-*   Analyze the potential implications of this situation for Athletic Club?
+## Additional Notes
+- The club is currently dealing with the implications of Yeray's doping case while also preparing for the upcoming season with significant changes in the squad and coaching staff, including the addition of **Pablo Orbaiz** as an assistant coach to **Ernesto Valverde**.

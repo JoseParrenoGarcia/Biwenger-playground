@@ -1,21 +1,29 @@
 # Sevilla FC
 
 ## Injuries
-No major updates.
+- **Kelechi Iheanacho**: Continues to miss training due to an **indigestion** issue. He has not participated in any training sessions since returning to Sevilla and is uncertain for the upcoming matches.
+- **Joan Jordán**: Also absent from training due to **minor physical discomfort**. He is expected to return soon.
 
 ## Transfers
-- **Esther Sullastres** has renewed her contract with Sevilla FC Femenino until June 2027, solidifying her role as the team's goalkeeper.
-- **Nemanja Gudelj** may leave Sevilla this summer. At 33 years old, he has lost prominence in the team and could be sold to reduce salary costs. The club would consider offers around €5 million.
-- **Loïc Badé** is attracting interest from Bayer Leverkusen as a potential replacement for Jonathan Tah, who has moved to Bayern Munich. Sevilla is aware that a substantial offer could prompt them to reconsider his sale.
-- **Youssef En-Nesyri** is close to joining Al Hilal for around €40 million, which would yield Sevilla €4 million due to their retained percentage from his previous sale to Fenerbahçe.
-- **Federico Gattoni** will remain on loan at River Plate until December 2025, as his loan agreement lasts for a year and a half.
-- **Eduard Spertsyan**, a 25-year-old midfielder from Krasnodar, is being considered for a transfer to Sevilla, with a potential price lower than his market value due to his contract situation.
-- **Pablo Sarabia** is a potential target for Sevilla if financial conditions allow, as he is a free agent after leaving Wolverhampton Wanderers.
-- **Petar Stanic**, a 23-year-old midfielder, has a pre-agreement with Sevilla from the previous management, but the new director, Antonio Cordón, must decide whether to proceed with the deal.
+- **Álex Costa**: Officially signed from **SD Ponferradina** until 2028. He is primarily joining the Sevilla Atlético but may have opportunities with the first team.
+- **Juanlu Sánchez**: Negotiations with **Nápoles** are ongoing. Sevilla has lowered their asking price to **€17 million** plus a percentage of a future sale, while Nápoles has offered **€14 million**. The deal is still not finalized.
+- **Nicolás Tagliafico**: The club is interested in the Argentine left-back, but negotiations are complicated due to his high salary demands. Alternatives like **Gabriel Suazo** (free agent) are also being considered.
+- **Jens Cajuste**: The Swedish midfielder from Nápoles is on Sevilla's radar as a potential signing, contingent on player sales to free up salary cap space.
 
 ## Lineups
-No major updates.
+- **Predicted Lineup for Upcoming Match Against Birmingham City** (July 12, 2025):
+  - **Formation**: 4-3-3
+  - **Goalkeeper**: (not specified)
+  - **Defenders**: Adrià Pedrosa, José Ángel Carmona, Tanguy Nianzou, Marcao
+  - **Midfielders**: Joan Jordán, (another midfielder not specified)
+  - **Forwards**: Dodi Lukébakio, Kelechi Iheanacho (if fit), (another forward not specified)
 
 ## Previews of Upcoming Matches
-- Sevilla will play a friendly against **Sunderland** on **July 19** at the Algarve Stadium, Portugal, as part of their pre-season preparations.
-- They will also face **Schalke 04** on **July 26** in Gelsenkirchen and **Toulouse** on **August 10** in France.
+- **Match Against Birmingham City**: Scheduled for **July 12, 2025**, at **21:00** local time in Algarve. This will be Sevilla's first friendly match of the pre-season under new coach Matías Almeyda.
+
+## Match Reports
+- No major updates available as the season has not yet started and no matches have been played.
+
+## Additional Notes
+- Matías Almeyda has emphasized the need for a **mental and habitual change** within the team, indicating a focus on rebuilding and improving player performances.
+- The club is currently prioritizing **player sales** to manage financial constraints before making further signings.
