@@ -75,6 +75,13 @@ TEAM_NEWS_SOURCES = {
         "https://www.eldesmarque.com/futbol/getafe-cf/",
         "https://www.estadiodeportivo.com/futbol/getafe/",
     ],
+    "Girona": [
+        "https://www.marca.com/futbol/girona.html?intcmp=MENUESCU&s_kw=girona",
+        "https://as.com/noticias/girona-cf/",
+        "https://www.eldesmarque.com/futbol/girona-fc/",
+        "https://www.estadiodeportivo.com/futbol/girona/",
+        "https://www.lesportiudecatalunya.cat/girona.html",
+    ],
     "Levante": [
         "https://www.superdeporte.es/levante-ud/",
         "https://plazadeportiva.valenciaplaza.com/levanteud/",
@@ -85,6 +92,15 @@ TEAM_NEWS_SOURCES = {
         "https://www.estadiodeportivo.com/futbol/levante/",
         "https://www.eldesmarque.com/futbol/levante-ud/",
     ],
+    "Mallorca": [
+        "https://www.ultimahora.es/deportes/real-mallorca.html",
+        "https://www.diariodemallorca.es/rcd-mallorca/",
+        "https://www.futboldesdemallorca.com",
+        "https://www.marca.com/futbol/mallorca.html",
+        "https://as.com/noticias/real-mallorca/",
+        "https://www.estadiodeportivo.com/futbol/mallorca/",
+        "https://www.eldesmarque.com/futbol/rcd-mallorca/",
+    ],
     "Osasuna": [
         "https://www.eitb.eus/es/deportes/futbol/osasuna/",
         "https://www.diariodenavarra.es/noticias/deportes/futbol/osasuna/portada/",
@@ -94,6 +110,21 @@ TEAM_NEWS_SOURCES = {
         "https://www.marca.com/futbol/osasuna.html?intcmp=MENUESCU&s_kw=osasuna",
         "https://www.estadiodeportivo.com/futbol/osasuna/",
         "https://www.eldesmarque.com/futbol/osasuna/",
+    ],
+    "Oviedo": [
+        "https://www.elcomercio.es/real-oviedo/?ref=https%3A%2F%2Fwww.elcomercio.es%2Freal-oviedo%2F",
+        "https://www.lavozdeasturias.es/temas/real-oviedo",
+        "https://as.com/noticias/real-oviedo/",
+        "https://www.marca.com/futbol/oviedo.html",
+        "https://www.estadiodeportivo.com/futbol/oviedo/",
+        "https://www.eldesmarque.com/futbol/real-oviedo/",
+    ],
+    "Rayo Vallecano": [
+        "https://www.marca.com/futbol/rayo.html?intcmp=MENUESCU&s_kw=rayo",
+        "https://as.com/noticias/rayo-vallecano/",
+        "https://www.eldesmarque.com/futbol/rayo-vallecano/",
+        "https://www.estadiodeportivo.com/futbol/rayo-vallecano/",
+        "https://unionrayo.com",
     ],
     "Real Madrid": [
         "https://www.marca.com/futbol/real-madrid.html?intcmp=MENUESCU&s_kw=realmadrid",
@@ -129,5 +160,13 @@ TEAM_NEWS_SOURCES = {
         "https://as.com/noticias/valencia-cf/?omnil=mod_esc",
         "https://www.estadiodeportivo.com/futbol/valencia/",
         "https://www.eldesmarque.com/futbol/valencia-cf/",
+    ],
+    "Villareal": [
+        "https://www.marca.com/futbol/villarreal.html?intcmp=MENUESCU&s_kw=villarreal",
+        "https://as.com/noticias/villarreal-cf/",
+        "https://www.estadiodeportivo.com/futbol/villarreal/",
+        "https://www.eldesmarque.com/futbol/villarreal-cf/",
+        "https://www.elperiodicomediterraneo.com/villarrealcf/",
+        
     ],
 }
