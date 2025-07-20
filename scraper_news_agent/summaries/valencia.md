@@ -1,33 +1,37 @@
 # Valencia CF
 
 ## Injuries
-No major updates.
+- **Alberto Marí**: Suffered a muscle injury in the ischiotibial area during the first pre-season match against CD Castellón, leaving the game in the 16th minute. The extent of the injury is yet to be confirmed, but it could lead to several weeks out if it is a muscle tear.
 
 ## Transfers
-- **Yarek Gasiorowski** has officially transferred to **PSV Eindhoven** for approximately **€10 million**, plus a **15%** sell-on clause. He expressed his emotions saying, "Decir adiós es duro para mí" ("Saying goodbye is hard for me"). He leaves after 14 years with the club, having made 35 appearances for the first team since debuting in October 2023.
-  
-- **Hugo González** has moved to **Celta 'B'**. The transfer includes performance bonuses and a **30%** sell-on clause for Valencia. He had a contract until June 2027 and was previously on loan at Cartagena.
-
-- **Julen Agirrezabala** is set to join Valencia on loan from **Athletic Club** until June 2026, with an option to buy for **€12 million**. The deal was finalized after lengthy negotiations, and he arrived in Valencia to complete his medical.
-
-- **Mateo Prevedini**, a 22-year-old central defender from **Independiente**, has signed with **Valencia Mestalla** after leaving **AD Mérida**. He is the third signing for the B team this season.
-
-- **Leyre Monente**, a midfielder, has joined the **Valencia Femenino** on a two-year contract from **Deportivo Alavés**.
-
-- **Amanda Mbadi**, a midfielder from **RCD Espanyol**, has signed with **Valencia Femenino** until June 2026.
-
-- **Jana Xin**, a goalkeeper, has joined the **Valencia Femenino** for two seasons from **Fundación Albacete**.
+- **Enzo Barrenechea**: Officially signed with Benfica on loan from Aston Villa, with an option to buy for €12 million. Valencia was unable to match the offer.
+- **José Copete**: Valencia has made a first offer of €2 million to RCD Mallorca for the central defender, who is valued at €4 million. The player is keen on the move, but negotiations are ongoing.
+- **Yarek Gasiorowski**: Sold to PSV Eindhoven for approximately €10 million, with Valencia retaining 15% of a future sale.
+- **Cristhian Mosquera**: Expected to finalize a transfer to Arsenal for around €20 million.
 
 ## Lineups
-No major updates.
+### Predicted Starting XI for Pre-season Match vs CD Castellón
+| Position          | Player               |
+|-------------------|---------------------|
+| Goalkeeper        | Stole Dimitrievski  |
+| Right Back        | Dimitri Foulquier   |
+| Center Back       | César Tárrega       |
+| Center Back       | Mouctar Diakhaby    |
+| Left Back         | José Luis Gayà      |
+| Central Midfield  | Javi Guerra         |
+| Central Midfield  | Lucas Núñez       |
+| Right Midfield    | Diego López         |
+| Left Midfield     | Fran Pérez          |
+| Attacking Midfield| Dani Raba           |
+| Forward           | Alberto Marí        |
 
 ## Previews of Upcoming Matches
-- **Valencia** will face **Osasuna** on **August 24, 2025**, at **17:00** in their second LaLiga match of the season, following their opener against **Real Sociedad** at Mestalla.
+- **Next Match**: Valencia CF vs. CD Leganés on July 23, 2025, at 20:00 hours, at Estadi Antonio Puchades. The match will be broadcast on A Punt and GOL.
 
 ## Match Reports
-No major updates.
+- **Valencia CF 1-2 CD Castellón**: Valencia lost their first pre-season match. The team struggled significantly in the first half, trailing 0-2 at halftime due to defensive errors. Sergi Canós scored a penalty in the second half to reduce the deficit, but Valencia could not equalize. The match highlighted the need for reinforcements, as fans expressed their frustration towards the management during the game.
 
-## Other Notable Updates
-- **Carlos Corberán** is focusing on the upcoming season with a need to finalize contracts for key players like **Javi Guerra**, **César Tárrega**, and **Diego López**. The club aims to retain these talents while also addressing the situation with **Cristhian Mosquera**, who has rejected a renewal offer and is being pursued by **Arsenal**.
-  
-- **Ron Gourlay**, the new CEO of Football, is working on a project to return Valencia to European competitions, emphasizing the importance of homegrown talent.
+## Other Notes
+- **Eray Cömert**: Expressed his happiness to return to Valencia and is eager to prove himself after a disappointing loan spell at Valladolid. He aims to secure a place in the squad.
+- **Cristian Rivero**: Acknowledged the tough competition for the goalkeeper position and expressed his desire to stay with the club, hoping to be part of the team on September 1st.
+- **Thierry Correia**: Currently recovering from injury but optimistic about returning to full training soon. He expressed hope that key players like Javi Guerra, Diego López, and César Tárrega will remain with the club.

@@ -1,45 +1,45 @@
-# Deportivo Alavés
+# Alavés
 
 ## Injuries
-- **No major updates.**
+- **Abdel Abqar**: Left the club after failing to renew his contract. He was a key player for the team but is now officially out.
+- **Aleksandar Sedlar**: Departed for Tractor FC in Iran after finishing his contract with Alavés. He had a significant injury history that affected his playing time.
+- **Manu Sánchez**: Returned to Celta Vigo after his loan period, but the club is hopeful to retain him despite challenges.
 
 ## Transfers
-- **Borja Sainz**: Expected to sign with **Oporto** for five seasons, with Alavés set to receive around **€300,000** due to training rights.
-- **Tomás Conechny**: Has left for **Racing de Avellaneda** after passing medical tests in Argentina.
-- **Kike García**: Officially transferred to **Espanyol** after two seasons with Alavés, where he scored **15 goals** last season.
-- **Aleksandar Sedlar** and **Abdel Abqar**: Both have left the club after their contracts expired, with Sedlar having suffered a significant injury last season.
-- **Jonny Otto**: Signed from **PAOK** for two seasons, providing experience to the defense.
-- **Pablo Ibáñez**: Joined from **Osasuna**, signing until **2030**.
-- **Bruno Petkovic**: Close to signing for Alavés after rejecting an offer from **Kocaelispor** due to unfavorable conditions.
-- **Youssef Enríquez (Yusi)**: Lateral izquierdo from **Real Madrid**, signed for four seasons.
-- **Tomás Mendes**: Loaned to **FC Alverca** in Portugal for the upcoming season.
+- **Kike García**: Officially transferred to RCD Espanyol after two seasons with Alavés. He scored 15 goals last season and was a fan favorite.
+- **Tomás Conechny**: Transferred to Racing Club in Argentina after one season with Alavés, where he played 24 matches.
+- **Youssef Enríquez (Yusi)**: Signed from Real Madrid Castilla until 2029. He is a promising left-back and has been described as having great potential.
+- **Raúl Fernández**: Joined Alavés as a goalkeeper for the upcoming season after a successful stint with Mirandés.
+- **Calebe Gonçalves**: Expected to join Alavés on loan from Fortaleza, with an option to buy for €4 million.
+- **Jesús Owono**: Renewed his contract with Alavés until 2029 and will be loaned to Andorra for the season.
 
 ## Lineups
-- **Predicted Starting XI for Upcoming Matches**:
-  | Position         | Player                  |
-  |------------------|-------------------------|
-  | GK               | Antonio Sivera         |
-  | DF               | Tenaglia               |
-  | DF               | Garcés                 |
-  | DF               | Mouriño                |
-  | DF               | Manu Sánchez           |
-  | MF               | Antonio Blanco         |
-  | MF               | Guevara                |
-  | MF               | Carlos Vicente         |
-  | MF               | Aleñá                  |
-  | FW               | Kike García            |
-  | FW               | Toni Martínez          |
-
-- **Notable Absences**: Tomás Conechny (transferred), Kike García (transferred), Sedlar and Abqar (departed).
+### Predicted Starting XI (for upcoming matches)
+| Position       | Player               |
+|----------------|----------------------|
+| Goalkeeper      | Antonio Sivera       |
+| Right Back      | Tenaglia             |
+| Center Back     | Facundo Garcés       |
+| Center Back     | Mouriño             |
+| Left Back       | Youssef Enríquez (Yusi) |
+| Central Midfield| Antonio Blanco       |
+| Central Midfield| Joan Jordán          |
+| Right Wing      | Carlos Vicente       |
+| Left Wing       | Guridi              |
+| Attacking Midfield| Calebe Gonçalves   |
+| Forward         | Kike García          |
 
 ## Previews of Upcoming Matches
-- **Next Match**: Alavés vs. **Levante** on **August 15, 2025**.
-- **Quotes from Eduardo Coudet**: "We need to be physical and competitive. Our goal is to maintain our position in Primera División."
+- **Next Match**: Alavés vs. Real Valladolid
+  - **Date**: TBD
+  - **Context**: Alavés is aiming to secure their position in La Liga after a challenging season. The team is expected to field a strong lineup to ensure victory.
 
 ## Match Reports
-- **Alavés 1 - 0 Valencia**: Kike García scored a penalty that secured Alavés' permanence in LaLiga. The match was marked by a controversial penalty decision by referee Gil Manzano.
-- **Alavés 0 - 0 Atlético de Madrid**: A hard-fought draw that provided crucial points for Alavés in their fight for survival.
+- **Alavés 1 - 0 Valencia**: Kike García scored a penalty to secure a crucial victory that guaranteed Alavés' survival in La Liga. The match was marked by a controversial penalty decision by referee Gil Manzano.
+- **Alavés 0 - 0 Atlético de Madrid**: A hard-fought draw that kept Alavés out of the relegation zone, showcasing their defensive resilience against a struggling Atlético side.
 
-## Additional Notes
-- **Eduardo Coudet** has expressed confidence in the team's ability to compete this season and has emphasized the importance of physicality and teamwork.
-- The club is actively monitoring the market for potential reinforcements while managing the departures of key players.
+## Other Updates
+- **Alba Aznar**: The captain of the women's team, Gloriosas, announced her retirement after seven seasons with the club.
+- **Mariano Díaz**: Currently training with Alavés but not expected to sign a contract. He aims to regain fitness after a year without playing competitively.
+
+No major updates in other categories.

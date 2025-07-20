@@ -1,51 +1,47 @@
 # RCD Espanyol
 
 ## Injuries
-- **Omar El Hilali**: Could miss several matches due to the Africa Cup of Nations, which runs from December 21, 2025, to January 18, 2026. His absence could affect the team for up to nine games, including key fixtures like the derby against FC Barcelona.
+- **Javi Hernández**: Suffered a fracture in the fifth metatarsal of his right foot and will undergo surgery. The recovery timeline is currently unknown as it will depend on his post-surgery progress.
 
 ## Transfers
-- **In**:
-  - **Marko Dmitrovic**: Signed from Leganés on a free transfer, will serve as the new starting goalkeeper after Joan García's departure to Barcelona.
-  - **Kike García**: Joined from Alavés, bringing experience and goal-scoring ability (13 goals last season).
-  - **Carlos Romero**: Returns on loan from Villarreal, previously had a successful season with the Espanyol.
-  - **Roberto Fernández**: Transferred from Braga for €6.2 million for 50% of his rights, signing until 2031.
+- **Incomings**:
+  - **Marko Dmitrovic**: Signed as a free agent to strengthen the goalkeeping position.
+  - **Kike García**: Joined from Alavés, making an immediate impact with a hat-trick in his debut match.
+  - **Carlos Romero**: Returned on loan from Villarreal.
+  - **Roberto Fernández**: Acquired from Braga for 6.2 million euros for 50% of his rights, with options for further purchase.
   - **Ramón Terrats**: Joined on loan from Villarreal with an option to buy.
-  - **José Salinas**: Signed from Elche.
-  - **Miguel Rubio**: Joined from Granada.
-  - **Hugo Pérez**: Transferred from Villarreal B.
-  
-- **Out**:
-  - **Joan García**: Transferred to Barcelona for €25 million.
-  - **Fernando Pacheco**: Rescinded contract after limited appearances.
-  - **Brian Oliván**: Left the club after his contract expired.
-  - **Álvaro Tejero**: Expected to join Aris Thessaloniki.
-  - **Omar Sadik**: Loaned to Pau FC in France.
-  - **Roger Martínez**: Released after six years in the academy.
+  - **Miguel Rubio**: Signed from Granada.
+  - **José Salinas**: Joined from Elche.
+  - **Hugo Pérez**: Acquired from Villarreal B.
+  - **Marcos Fernández**: Signed from Real Betis.
+- **Outgoings**:
+  - **Joan García**: Transferred to FC Barcelona for 25 million euros.
+  - **Justin Smith**: Loaned to Sporting de Gijón after renewing his contract until 2027.
+  - **Álvaro Tejero**: Left the club after a mutual agreement to rescind his contract.
+  - Other players including Kumbulla, Král, Véliz, Cheddira, and Urko González have also departed.
 
 ## Lineups
-### Predicted Starting XI for Upcoming Matches
-| Position      | Player Name           |
-|---------------|-----------------------|
-| Goalkeeper    | Marko Dmitrovic       |
-| Right Back    | Omar El Hilali        |
-| Center Back   | Fernando Calero       |
-| Center Back   | Miguel Rubio          |
-| Left Back     | José Salinas          |
-| Midfielder    | Ramón Terrats         |
-| Midfielder    | Edu Expósito          |
-| Midfielder    | Javi Puado            |
-| Forward       | Kike García           |
-| Forward       | Roberto Fernández      |
-| Forward       | Carlos Romero         |
+### Predicted Starting XI for the Match Against Peralada:
+| Position         | Player                |
+|------------------|----------------------|
+| Goalkeeper       | Marko Dmitrovic      |
+| Defender         | Pablo Ramón          |
+| Defender         | Calero               |
+| Defender         | Hugo Pérez           |
+| Midfielder       | Jofre                |
+| Midfielder       | Pol Lozano           |
+| Midfielder       | Edu Expósito         |
+| Midfielder       | José Salinas         |
+| Forward          | Pere Milla           |
+| Forward          | Javi Puado           |
+| Forward          | Marcos Fernández      |
 
 ## Previews of Upcoming Matches
-- **Copa Catalunya Final**: Espanyol vs. Girona on July 23, 2025, at 20:30 in Nova Creu Alta, Sabadell.
-- **Friendly Matches**:
-  - July 19, 2025: vs. Peralada
-  - July 26, 2025: vs. Southampton
-  - July 30, 2025: vs. Wolfsburg
-  - August 2, 2025: vs. Union Berlin
-  - August 8, 2025: vs. Newcastle
+- The Espanyol will face **Girona** on **July 23, 2025**, in the final of the Copa Catalunya. The match will serve as a test of the team's preparations for the upcoming season.
 
 ## Match Reports
-No major updates.
+- **Peralada 1 - 4 Espanyol**: The Espanyol kicked off their pre-season with a convincing victory against Peralada. Javi Puado opened the scoring, followed by a hat-trick from Kike García. The match showcased the team's new signings and their potential for the upcoming season.
+
+## Other Notable Updates
+- **Alan Pace**, the new owner of Espanyol, expressed his excitement about joining the club and aims to elevate it to compete at a higher level, potentially in Europe.
+- **Fran Garagarza**, the sporting director, confirmed ongoing negotiations for additional signings, including **Kristijan Jakic** from Augsburg and **Charles Pickel** from Cremonese, to bolster the midfield.

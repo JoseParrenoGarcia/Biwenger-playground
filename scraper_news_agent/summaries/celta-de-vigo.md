@@ -1,28 +1,46 @@
 # Celta de Vigo
 
 ## Injuries
-No major updates.
+- **Iago Aspas**: Suffered a **overload in the right calf** and will miss the friendly against Braga. Expected to return to training next week.
+- **Franco Cervi**: Diagnosed with a **grade I soleus tear** in the right leg, which occurred during the match against Famalicão. Expected to be out for **several weeks**.
+- **Joseph Aidoo**: Experiencing **calf discomfort** and did not participate in the match against Famalicão.
+- **Javi Rueda**: Recovering from a **grade I tear in the right rectus femoris**; he is nearing full recovery but has not yet returned to full training.
+- **Fran Beltrán**: Left the match against Braga with **thigh discomfort** after 22 minutes. Further tests are pending.
 
 ## Transfers
-- **Carles Pérez** has been officially ceded to **Aris de Salónica** for the 2025-2026 season. The agreement includes an option to buy for around **€3 million**. The Celta will cover a significant portion of his salary during the loan. Pérez expressed excitement about this new challenge and mentioned that he was influenced by the presence of **Rubén Reyes**, the club's director who previously signed him for Getafe. (Sources: AS.com, Marca, Estadio Deportivo)
-
-- **Carlos Dotor** has been loaned to **Málaga** for the upcoming season. This move follows a disappointing period with limited playtime at Celta, where he had been on loan at both Oviedo and Sporting Gijón last season. (Sources: Estadio Deportivo, Marca)
-
-- **Gael Alonso** has signed a three-year contract with **FC Andorra** after leaving Celta. He declined a renewal offer from Celta to pursue this opportunity. (Sources: La Voz de Galicia, Estadio Deportivo)
-
-- **Hugo González** has officially signed with Celta Fortuna until 2028 after a successful loan period from Valencia. (Sources: La Voz de Galicia, Marca)
-
-- **Bryan Zaragoza** is still a target for Celta, but negotiations are complicated due to demands from **Bayern Munich** for a loan fee and an obligatory purchase option. Celta is looking for a more favorable agreement. (Sources: Estadio Deportivo)
-
-- **Carl Starfelt** is being pursued by **Como 1907**, but Celta is demanding more than **€10 million** for his transfer. (Sources: AS.com, Estadio Deportivo)
+- **Bryan Zaragoza**: Initially a target for Celta, now seems **almost out of reach** due to a change in representation and high demands from Bayern Munich.
+- **Juan Cruz**: Celta is focusing efforts on signing him from Leganés, but negotiations are ongoing as the club is reluctant to meet the asking price.
+- **Borja Iglesias**: Remains a priority for Celta, but negotiations with Real Betis are stalled over transfer fees.
+- **Aldrine Kibet**: Signed from Nástic Sports Academy to reinforce the Celta Fortuna.
+- **Anthony Khayat**: Recently signed from Fursan Dubai, will join the Celta Fortuna.
+- **Carles Pérez**: Officially transferred to Aris Salónica on loan with an option to buy.
 
 ## Lineups
-No major updates.
+### Predicted Lineup vs Sporting de Braga
+| Position          | Player                     |
+|-------------------|---------------------------|
+| Goalkeeper        | Radu                      |
+| Defender          | Manu Fernández            |
+| Defender          | Carl Starfelt             |
+| Defender          | Marcos Alonso             |
+| Defender          | Óscar Mingueza           |
+| Midfielder        | Damián Rodríguez          |
+| Midfielder        | Ilaix Moriba              |
+| Midfielder        | Mihailo Ristic            |
+| Forward           | Hugo González             |
+| Forward           | Hugo Álvarez              |
+| Forward           | Pablo Durán               |
+
+### Squad Call-ups for Braga Match
+- Iván Villar, Radu, Marc Vidal, Óscar Mingueza, Sergio Carreira, Marcos Alonso, Mihailo Ristic, Carlos Domínguez, Manu Fernández, Tincho Conde, Javi Rodríguez, Yoel Lago, Hugo Sotelo, Hugo Álvarez, Damián Rodríguez, Ilaix Moriba, Fran Beltrán, Miguel Román, Hugo González, Jones El-Abdellaoui, Ferran Jutglà, Pablo Durán, Williot Swedberg.
 
 ## Previews of Upcoming Matches
-- **Celta** will celebrate its **102nd anniversary** with a match against **Mallorca** on **August 23, 2025**, at **17:00** in Son Moix. This will be the first away match of the season. (Source: La Voz de Galicia)
-
-- The **EuroCelta** will kick off its pre-season with a match against **Famalicão** on **July 15, 2025**, at the Ciudad Deportiva Afouteza. (Source: AS.com)
+- **Match against Sporting de Braga**: Scheduled for **July 19, 2025**, at **21:00**. The Celta will face a well-prepared Braga team. Iago Aspas, Franco Cervi, Joseph Aidoo, and Javi Rueda will miss the match due to injuries.
 
 ## Match Reports
-No major updates.
+- **Celta vs Famalicão**: Celta lost **0-2** in their first pre-season match. The team struggled with rhythm and made several defensive errors.
+- **Celta vs Sporting de Braga**: Celta lost **1-3**. The first half was poor, with Braga scoring two goals. In the second half, Celta improved, with **Jones El-Abdellaoui** scoring their only goal. However, a late goal from Braga sealed the match.
+
+## Additional Notes
+- **Claudio Giráldez** expressed satisfaction with the team's improvement despite the losses, highlighting the performance of younger players like **Jones El-Abdellaoui** and **Miguel Román**.
+- The Celta is actively seeking to strengthen their attacking options before the start of the league season on **August 17, 2025**.

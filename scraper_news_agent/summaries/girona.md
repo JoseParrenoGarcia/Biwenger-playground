@@ -1,40 +1,60 @@
 # Girona FC
 
 ## Injuries
-- **Miguel Gutiérrez**: Underwent surgery on July 10, 2025, to address ongoing issues with his right ankle that have persisted since last season. There is no public estimate for his return to training, and he is expected to miss the entire preseason, complicating potential transfer opportunities. (Source: AS.com, L'Esportiu de Catalunya)
+- **Miguel Gutiérrez**: Underwent surgery on his right ankle due to ongoing issues from last season. There is currently no estimated return date for training. His future is uncertain as he was a candidate for a transfer before the operation. (Reported on July 10, 2025)
 
 ## Transfers
-- **Ibrahima Kebé**: The club announced the termination of his contract on July 1, 2025. Kebé, who had been on loan at Lommel SK in Belgium, was not in Míchel's plans for the upcoming season. (Source: AS.com)
-- **Cristhian Stuani**: Renewed his contract with Girona until June 30, 2026. He remains a key player for the team, having scored 11 goals in the previous season. (Source: AS.com)
-- **Joel Roca**: Renewed his contract until 2029 after a successful loan spell at Mirandés, where he scored 6 goals in 43 appearances. (Source: AS.com)
-- **Interest in Players**: The club is interested in signing **Claudio Echeverri** and **Sverre Nypan** from Manchester City, pending UEFA approval for player movements between the clubs. (Source: AS.com, L'Esportiu de Catalunya)
-- **Bojan Miovski**: Reportedly has interest from clubs in Scotland and Germany, including Celtic, Freiburg, and Hamburg, as he has struggled for form at Girona. (Source: AS.com)
+- **Departures**:
+  - **Oriol Romeu**, **Arthur Melo**, **Bryan Gil**, and **Arnaut Danjuma** have returned to their parent clubs after their loan spells at Girona. Their performances varied, with Romeu and Danjuma underperforming significantly. (Reported on May 27, 2025)
+  - **Juanpe**: The veteran defender has officially left Girona after nine seasons, signing with Atlético San Luis in Mexico. (Reported on June 9, 2025)
+  - **Bojan Miovski**: The forward has been linked with potential departures due to his disappointing performance last season, scoring only two goals. Clubs from the Bundesliga are reportedly interested. (Reported on July 9, 2025)
+  - **Yangel Herrera**: Despite interest from other clubs, Girona has decided to keep him for the upcoming season. (Reported on July 14, 2025)
+
+- **Arrivals**:
+  - **Minsu**: The South Korean winger has been loaned to FC Andorra for the season, with no purchase option included. (Reported on July 15, 2025)
+  - **Benjamin Bouchouari**: Girona is reportedly interested in signing the midfielder from Saint-Étienne following their relegation, with negotiations ongoing. (Reported on July 18, 2025)
 
 ## Lineups
-- **Predicted Starting XI for Preseason** (based on available players):
-  | Position     | Player               |
-  |--------------|----------------------|
-  | Goalkeeper   | Krapyvtsov           |
-  | Right Back   | Arnau Martínez       |
-  | Center Back  | Francés              |
-  | Center Back  | Krejci               |
-  | Left Back    | Blind                |
-  | Midfield     | Arthur Melo          |
-  | Midfield     | Yangel Herrera       |
-  | Right Wing   | Tsygankov            |
-  | Left Wing    | Asprilla             |
-  | Forward      | Stuani               |
-  | Forward      | Portu                |
-  
-  Note: Miguel Gutiérrez, Artero, and Valery are injured and will not participate in the initial training sessions. (Source: AS.com, L'Esportiu de Catalunya)
+### Predicted Lineup for Upcoming Matches
+- **Formation**: 3-4-3 (likely)
+  - **Goalkeeper**: 
+    - Gazzaniga
+  - **Defenders**: 
+    - Arnau Martínez
+    - David López
+    - Krejcí
+  - **Midfielders**: 
+    - Iván Martín
+    - Jhon Solís
+    - Yangel Herrera
+    - Asprilla
+  - **Forwards**: 
+    - Abel Ruiz
+    - Stuani
+    - Portu
+
+*Note: This lineup may change due to injuries, especially with Gutiérrez and other players recovering from various issues.*
 
 ## Previews of Upcoming Matches
-- **First Friendly Match**: Girona will play against Olot on July 19, 2025, as part of their preseason preparations. (Source: AS.com)
-- **Copa Catalunya Final**: Scheduled against Espanyol on July 23, 2025. (Source: AS.com)
+- **Match against Olot**: 
+  - Date: July 19, 2025
+  - Time: 19:30 (local time)
+  - Context: First pre-season friendly for Girona, aiming to build confidence after a challenging previous season. Míchel has emphasized the need for a cohesive team effort. (Reported on July 18, 2025)
+
+- **Upcoming Matches**:
+  - **Final of Copa Catalunya** against Espanyol on July 23, 2025.
+  - Friendly against Olympique de Marseille on July 26, 2025.
 
 ## Match Reports
-- **Girona 0-4 Atlético de Madrid**: In their last match of the 2024/25 season, Girona suffered a heavy defeat, finishing 16th in LaLiga, just one point above the relegation zone. This match highlighted the team's struggles throughout the season. (Source: ElDesmarque)
+- **Girona vs. Olot**: 
+  - Result: Girona won 5-0 in their first pre-season match.
+  - Goalscorers: 
+    - Asprilla (21')
+    - Stuani (27')
+    - Abel Ruiz (43')
+    - Jastin (67')
+    - Yangel Herrera (84')
+  - Notable performances included Abel Ruiz, who contributed one goal and two assists. The match served as a confidence booster for the team. (Reported on July 19, 2025)
 
-## Additional Notes
-- Míchel Sánchez expressed concerns about the lack of new signings ahead of the preseason, reflecting on the difficulties faced last season due to a late and incomplete squad. (Source: L'Esportiu de Catalunya)
-- The club is currently awaiting UEFA's confirmation to facilitate potential transfers from Manchester City, which could significantly impact their recruitment strategy. (Source: L'Esportiu de Catalunya)
+## Other Notes
+- Míchel has stated that the team needs between four to six new signings to strengthen the squad for the upcoming season. He emphasized the importance of team cohesion and learning from past mistakes. (Reported on July 16, 2025)

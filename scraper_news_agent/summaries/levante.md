@@ -1,47 +1,40 @@
 # Levante UD
 
 ## Injuries
-No major updates.
-
-## Transfers
-- **Matías Moreno**: The 21-year-old Argentine central defender from Fiorentina has arrived in Valencia to finalize his loan agreement with Levante. The deal includes a non-mandatory purchase option of €15 million. Moreno expressed excitement about joining the team, stating, "Julián Calero has transmitted a lot of confidence and desire, and that has convinced me" (10 July 2025).
+- **Carlos Álvarez**: Suffered from pubalgia, will be working individually for several weeks. His return to group training will depend on his recovery. He missed the first preseason match against Johor due to this issue.
+- **Alan Matturro**: Suffered a muscular injury in the rectus femoris of his left leg. He is expected to be out for at least two weeks and will miss the upcoming friendly against Teruel.
   
-- **Alan Matturro**: The Uruguayan central defender, also 21, has been officially signed on loan from Genoa with a non-obligatory purchase option. He is known for being a world champion at the U20 level and received the Silver Ball at the tournament (9 July 2025).
-
-- **Jeremy Toljan**: The German right-back has signed with Levante until June 2027 after leaving Sassuolo. He is expected to strengthen the defense significantly (8 July 2025).
-
-- **Víctor García**: The 27-year-old Valencia native has joined Levante from CD Eldense, signing a contract until June 2027. García can play both as a right-back and a winger (3 July 2025).
-
-- **Kervin Arriaga**: The Honduran midfielder has been officially signed from Partizán Belgrade for three years, with the club looking to bolster their midfield (2 July 2025).
-
-- **Zipporah Agama**: The 20-year-old Nigerian forward has joined the Levante UD Femenino, marking the fifth signing for the women's team this season (10 July 2025).
-
-- **Paulina Ali**: Another signing for the Levante Femenino, the Nigerian defender has also joined the team, emphasizing the club's focus on strengthening their squad (9 July 2025).
+## Transfers
+- **Kervin Arriaga**: Arrived in Valencia after participating in the Gold Cup with Honduras. He is set to start training with the team and expressed excitement about joining the Levante.
+- **Mario Sesè**: Returned to Levante from Valladolid Promesas to play for Atlético Levante.
+- **Dani Martín**: Loaned to SD Huesca for the upcoming season after returning from a loan spell at Marbella.
+- **Jon Ander Olasagasti**: Officially signed from Real Sociedad until 2028. The transfer fee could reach €1.5 million with additional clauses.
+- **Matías Moreno**: Signed on loan from Fiorentina with an option to buy. He is expected to strengthen the defense.
+- **Jeremy Toljan**: Signed until 2027 after leaving Sassuolo. He will play as a right-back.
+- **Hugo Redón**: Loaned to CD Teruel for the season.
 
 ## Lineups
-### Predicted Starting XI for Upcoming Matches
-- **Formation**: 4-2-3-1 (likely)
-  - **Goalkeeper**: Dani Martín (likely)
-  - **Defenders**: 
-    - Víctor García (likely)
-    - Alan Matturro (likely)
-    - Unai Elgezabal (likely)
-    - Jeremy Toljan (likely)
-  - **Midfielders**: 
-    - Kervin Arriaga (likely)
-    - Oriol Rey (likely)
-  - **Forwards**: 
-    - Carlos Álvarez (likely)
-    - Roger Brugué (likely)
-    - José Luis Morales (likely)
-  - **Striker**: Iván Romero (likely)
+### Predicted Starting XI for Upcoming Match vs. Teruel (July 23)
+| Position       | Player                |
+|----------------|-----------------------|
+| Goalkeeper      | Pablo Campos          |
+| Right Back      | Jeremy Toljan         |
+| Center Back     | Dela                  |
+| Center Back     | Alan Matturro         |
+| Center Back     | Cabello               |
+| Left Back       | Diego Pampín          |
+| Central Midfield| Oriol Rey             |
+| Central Midfield| Sergio Lozano         |
+| Right Wing      | Roger Brugué          |
+| Striker         | Carlos Espí           |
+| Left Wing       | Paco Cortés           |
 
 ## Previews of Upcoming Matches
-- **Match against Teruel**: Scheduled for July 23, 2025, at Estadio Pinilla. This will be part of the pre-season preparations (8 July 2025).
+- **Match against Teruel**: Scheduled for July 23, 2025. This will be the second preseason match for Levante, following their 0-0 draw against Johor. The match will serve as a test for the new tactical setup and player integrations.
 
 ## Match Reports
-No major updates. 
+- **Levante vs. Johor**: The match ended in a 0-0 draw. The team showcased a new formation with five defenders, which is expected to be a staple for the upcoming season. Despite the lack of goals, the match provided insights into the team's defensive strategy and the performances of new signings.
 
 ## Other Notes
-- **Vicente Iborra** has announced his retirement from professional football and will join the coaching staff as the assistant to Julián Calero (4 July 2025).
-- The new kit for the 2025/2026 season has been launched, honoring the centenary of the Vallejo stadium, featuring a design with golden details and inscriptions commemorating the historic venue (10 July 2025).
+- **Julián Calero**: The coach is implementing a five-defender system, which he successfully used in his previous role at Burgos. The team is focusing on building a solid defensive foundation while improving their attacking efficiency.
+- **Vicente Iborra**: Returned to the club in a coaching role after retiring as a player. His experience is expected to benefit the team significantly.

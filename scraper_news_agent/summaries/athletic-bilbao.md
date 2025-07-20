@@ -1,43 +1,44 @@
 # Athletic Bilbao
 
 ## Injuries
-- **Yeray Álvarez**: Positive for doping after a UEFA control following the Europa League match against Manchester United. He claims it was due to an involuntary intake of a medication for alopecia. Currently suspended while the case is under investigation.
+- **Yeray Álvarez**: Announced a positive doping test after a UEFA match against Manchester United. He claims it was due to an involuntary intake of a prohibited substance in a hair loss treatment. He is currently provisionally suspended and cannot train or compete.
+- **Maroan Sannadi**: Experiencing minor knee issues which are delaying his full integration into the team. Valverde emphasized the need for careful management of his recovery due to his size.
+- **Nico Williams**: Avoided surgery for his pubalgia and is under a special training plan to ensure he regains full fitness.
 
 ## Transfers
-- **Robert Navarro**: Signed from Mallorca, he has expressed his happiness to join Athletic and emphasized his versatility in attack. He signed a contract until 2030.
-- **Amaia Martínez**: Extended her loan at Espanyol for another season after a successful stint.
-- **Julen Agirrezabala**: Set to join Valencia on loan, with the deal including a €1 million fee and a €12 million option to buy.
-- **Unai Egiluz**: Renewed his contract with Athletic until 2028 and will join the first team after a successful loan at Mirandés.
-- **Eider Arana**: Renewed with Athletic until 2028 after returning from a loan at Eibar.
-- **Ane Campos**: Signed from Eibar until 2029.
+- **Aymeric Laporte**: The Athletic has made a verbal offer to Al-Nassr for the central defender, who is open to returning to Bilbao. Al-Nassr is looking to recover part of the investment made on him and has signed David Hancko, which may facilitate Laporte's exit.
+- **Jesús Areso**: The Athletic is in negotiations to sign the Osasuna player, but the Atlético de Madrid has also entered the race, complicating matters. Osasuna is holding firm on the player's release clause of €12 million.
+- **Julen Agirrezabala**: Has been loaned to Valencia for the upcoming season, with the Athletic receiving a financial compensation for the loan.
+- **Álvaro Djaló**: Expected to be loaned to Al-Gharafa in Qatar to regain confidence after a disappointing season with the Athletic.
 
 ## Lineups
-### Predicted Starting Eleven (for upcoming matches)
-- **Formation**: 4-2-3-1
-- **Goalkeeper**: Unai Simón
-- **Defenders**: 
-  - Dani Vivian
-  - Aitor Paredes
-  - Unai Egiluz
-  - (Yeray Álvarez - suspended)
-- **Midfielders**: 
-  - Oihan Sancet
-  - Unai Gómez
-- **Forwards**:
-  - Nico Williams
-  - Robert Navarro
-  - Iñaki Williams (Captain)
+### Predicted Lineup vs. Ponferradina (1-0 Win)
+| Position         | Player            |
+|------------------|-------------------|
+| Goalkeeper       | Mikel Santos       |
+| Right Back       | Adu Ares          |
+| Center Back      | Aitor Paredes     |
+| Center Back      | Unai Vesga        |
+| Left Back        | Adama Boiro       |
+| Central Midfield | Alejandro Rego     |
+| Central Midfield | Peio Canales      |
+| Right Wing       | Aingeru Olabarrieta|
+| Attacking Midfield| Oihan Sancet (C)  |
+| Left Wing        | Nico Serrano      |
+| Forward          | Urko Izeta        |
 
-### Squad Updates
-- **Julen Agirrezabala** will not be part of the squad as he is set for a loan to Valencia.
-- **Nico Williams** is expected to return to training on July 14 after participating in the UEFA Nations League.
+### Second Half Changes
+- **Goalkeeper**: Alex Padilla
+- **Defense**: Gorosabel, Lekue, Yuri Berchiche, Unai Gómez
+- **Midfield**: Iñigo Ruiz de Galarreta, Beñat Prados
+- **Attack**: Iñaki Williams, Robert Navarro, Alex Berenguer, Gorka Guruzeta
 
 ## Previews of Upcoming Matches
-- The Athletic will face **Arsenal**, **Liverpool**, and **PSV Eindhoven** in pre-season friendlies to prepare for the Champions League.
-- The first match is scheduled for **July 19** against Ponferradina, followed by a match against Alavés on **July 22**.
+- **Next Match**: Athletic vs. Deportivo Alavés on July 22, 2025. This will be the second friendly match of the pre-season.
 
 ## Match Reports
-- No major updates on match reports as the pre-season has just started.
+- **Athletic 1-0 Ponferradina**: The Athletic secured a narrow victory in their first pre-season friendly, with Oihan Sancet scoring the only goal in the 36th minute. Valverde utilized two different lineups, allowing many players to gain minutes. The team struggled with finishing, a concern for Valverde moving forward.
 
 ## Additional Notes
-- The club is currently dealing with the implications of Yeray's doping case while also preparing for the upcoming season with significant changes in the squad and coaching staff, including the addition of **Pablo Orbaiz** as an assistant coach to **Ernesto Valverde**.
+- **Ernesto Valverde** has expressed the need for reinforcements in defense, particularly after Yeray's suspension. He is optimistic about the upcoming season, especially with the return to Champions League football.
+- **Nico Williams** has renewed his contract until 2035, a decision celebrated by the club and fans alike after a summer of speculation regarding his potential move to Barcelona.

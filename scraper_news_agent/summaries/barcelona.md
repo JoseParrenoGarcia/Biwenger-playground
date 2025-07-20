@@ -1,25 +1,33 @@
 # FC Barcelona
 
 ## Injuries
-- **Marc-André ter Stegen**: The German goalkeeper is returning from a long injury layoff and is determined to fight for his position as the starting goalkeeper. He has set a deadline until January to decide on his future, as he wants to play regularly ahead of the World Cup.
-- **Andreas Christensen**: The Danish defender is recovering from a serious Achilles injury and is working hard to regain fitness for the upcoming season.
+- **Ibrahim Diarra**: Suffered a muscle tear in the rectus femoris of his right leg during training. He is expected to be out for approximately **3 to 6 weeks**, missing the Asian tour. The club's medical report states, "His recovery will depend on his evolution." Diarra was seen as a promising talent for the upcoming season.
 
 ## Transfers
-- **Joan García**: The goalkeeper has officially joined Barcelona from Espanyol and is expected to be the starting goalkeeper for the upcoming season.
-- **Pablo Torre**: The midfielder is set to transfer to Mallorca for around €5 million, allowing Barcelona to recover their initial investment and avoid paying additional variables to his former club, Racing Santander.
-- **Roony Bardghji**: The 19-year-old Swedish winger has passed the first part of his medical tests and is expected to join Barcelona from FC Copenhagen for around €2 million.
-- **Luis Díaz**: The Colombian winger has expressed a desire to leave Liverpool if a suitable offer arrives. Barcelona is monitoring his situation, but they face competition from Bayern Munich, who are also interested in signing him.
-- **Marc Casadó**: The young midfielder has a release clause of €100 million, but Barcelona has set a selling price of around €50 million, with interest from clubs like Chelsea and Arsenal.
+- **Marcus Rashford**: The FC Barcelona has reached an agreement with Manchester United for the loan of Rashford with an option to buy for **€30-35 million**. Rashford has agreed to reduce his salary by **25%** to facilitate the move. He is expected to undergo a medical examination soon and join the team for the Asian tour starting on **July 24**. Hansi Flick has expressed his desire to include Rashford in the squad, and the player has shown a strong interest in joining the club.
+- **Roony Bardghji**: Officially signed by Barcelona from Copenhagen until **2029**. Bardghji is seen as a young talent who can bring dynamism to the team.
+- **Oriol Romeu**: Expected to leave Barcelona, with Girona as a potential destination. Hansi Flick has indicated he does not plan to include Romeu in the squad.
+- **Denzel Dumfries**: Barcelona is reportedly not pursuing Dumfries, despite interest from the player’s camp. The Inter Milan director confirmed no formal approach has been made by Barcelona.
 
 ## Lineups
-- **Predicted Starting Eleven** (for the upcoming season):
-  - **Goalkeeper**: Joan García (likely starter)
-  - **Defenders**: Ronald Araujo, Pau Cubarsí, Iñigo Martínez, Eric García (Christensen uncertain)
-  - **Midfielders**: Frenkie de Jong, Pedri, Dani Olmo (Gavi and Fermín López competing for spots)
-  - **Forwards**: Robert Lewandowski, Raphinha, Lamine Yamal (or potential new signings like Luis Díaz or Rashford)
+- **Predicted Starting XI for Asian Tour**:
+  - **Goalkeeper**: Joan García (likely)
+  - **Defenders**: Koundé (likely), Araujo (likely), Christensen (likely), Balde (likely)
+  - **Midfielders**: Gavi (likely), Romeu (uncertain), Pedri (likely)
+  - **Forwards**: Rashford (likely), Lewandowski (likely), Lamine Yamal (likely)
 
 ## Previews of Upcoming Matches
-- **Joan Gamper Trophy**: Scheduled for August 10, 2025, at the Spotify Camp Nou. The club is awaiting final permissions for the stadium's use, with hopes to host around 60,000 spectators.
+- **Asian Tour Matches**:
+  - **Vs. Vissel Kobe**: July 27, 2025, at 12:00 PM (CET)
+  - **Vs. FC Seoul**: July 31, 2025, at 1:00 PM (CET)
+  - **Vs. Daegu FC**: August 4, 2025, at 1:00 PM (CET)
+  
+  Hansi Flick aims to use these matches to assess his squad and integrate new signings like Rashford.
 
 ## Match Reports
-No major updates.
+- No major updates.
+
+## Additional Notes
+- **Ter Stegen**: The goalkeeper is considering surgery for back issues, which could keep him out for **approximately four months**. His absence may allow Barcelona to register Joan García without exceeding salary limits.
+- **Joan García**: Expected to be the starting goalkeeper if Ter Stegen is sidelined.
+- The club has confirmed that the **Joan Gamper Trophy** will not be held at the Camp Nou due to licensing issues, and will instead take place at the Johan Cruyff Stadium.

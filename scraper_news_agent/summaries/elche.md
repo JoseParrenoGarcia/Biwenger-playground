@@ -1,40 +1,43 @@
 # Elche CF
 
 ## Injuries
-- **Yago de Santiago**: Out for the upcoming matches due to knee surgery.
-- **Marc Aguado**: Underwent successful shoulder surgery; expected to return in full condition for preseason.
+- **Marc Aguado**: Underwent successful shoulder surgery to address an injury sustained at the end of the last season. He is expected to be fit for the start of the pre-season.
 
 ## Transfers
-- **Matías Dituro**: Renewed contract until 2026.
-- **Josan**: Renewed contract until 2026, marking his ninth season with the club.
-- **Germán Valera**: Signed permanently until 2027 after a successful loan spell.
-- **Nico Castro**: Transferred to Toluca for approximately €5 million plus €2 million in variables.
-- **José Salinas**: Transferred to Espanyol after not renewing his contract.
-- **Nico Fernández**: Expected to leave for New York City; transfer negotiations ongoing with City Football Group.
+- **Alejandro Iturbe**: Officially signed from Atlético de Madrid until 2029. The club retains 50% of his rights. He is expected to compete for the starting goalkeeper position against Matías Dituro.
+- **Nico Fernández**: Transferred to New York City FC for approximately €8.5 million, marking the most expensive sale in the club's history. He expressed gratitude to the fans and the club in a farewell message.
+- **Léo Petrot**: Joined the team on a free transfer from Saint-Étienne, signing until June 2026. He can play both as a left-back and a central defender.
+- **Germán Valera**: Officially signed from Valencia for two years with an optional third year after a successful loan spell last season.
+- **José Salinas**: Confirmed to be leaving for Espanyol after not receiving a renewal offer from Elche.
+- **Álvaro Rodríguez**: Close to joining Elche on loan from Real Madrid. The player is eager to leave Madrid for more playing time.
 
 ## Lineups
 ### Predicted Starting XI for Upcoming Matches
-| Position        | Player                   |
-|-----------------|--------------------------|
-| Goalkeeper      | Matías Dituro           |
-| Defender        | Álvaro Núñez           |
-| Defender        | Affengruber              |
-| Defender        | Bigas                   |
-| Defender        | Salinas                 |
-| Midfielder      | Nico Fernández          |
-| Midfielder      | Aleix Febas             |
-| Midfielder      | Nico Castro             |
-| Forward         | Germán Valera           |
-| Forward         | Mourad                  |
-| Forward         | Agustín Álvarez         |
+| Position      | Player               |
+|---------------|----------------------|
+| Goalkeeper    | Matías Dituro (likely) / Alejandro Iturbe (uncertain) |
+| Defender      | Álvaro Núñez       |
+| Defender      | David Affengruber    |
+| Defender      | Pedro Bigas          |
+| Defender      | Léo Petrot           |
+| Midfielder    | Aleix Febas          |
+| Midfielder    | Nordin (recently renewed) |
+| Midfielder    | Marc Aguado          |
+| Forward       | Germán Valera       |
+| Forward       | Mourad               |
+| Forward       | Josan                |
 
 ## Previews of Upcoming Matches
-- **Match against Real Betis**: Scheduled for August 18, 2025, at 21:00. Eder Sarabia expressed excitement for the match, highlighting his personal connection to Betis as a former fan and season ticket holder.
-- **Match against Atlético de Madrid**: Scheduled for August 23, 2025, at 19:30 in the Estadio Riyadh Air Metropolitano.
+- **Friendly Match vs. Getafe**: Scheduled for July 30 at 10:00 AM in La Torre. This match will be a test against a fellow La Liga team.
+- **Friendly Match vs. Blackburn Rovers**: Scheduled for July 25 at 19:00 PM in Pinatar Arena.
+- **Friendly Match vs. Almería**: Scheduled for August 8 at 19:30 PM.
 
 ## Match Reports
-- **Elche 2-0 Málaga**: Key goals from Sory Kaba and Mourad secured the victory, placing Elche in a strong position for direct promotion to Primera División.
+- **Elche 2-1 Millwall** (July 18, 2025): Elche started their pre-season with a comeback victory over Millwall. After falling behind to a goal from Luke Cundle in the 61st minute, Elche equalized through Ali Houary in the 67th minute and secured the win with a goal from Bakary Traoré in the 86th minute. The match highlighted the contributions of several young players from the academy.
 
-## Additional Notes
-- The club is focusing on strengthening its squad for the upcoming season, with several players expected to leave and new signings being pursued.
-- The Elche CF has been recognized as one of the top ten clubs in Europe for financial sustainability, reflecting a solid economic management strategy.
+## Other Updates
+- **Eder Sarabia**: Renewed his contract with Elche for two more seasons, committing to the project in La Liga after successfully leading the team to promotion.
+- **Bakary Traoré**: Expressed happiness about returning to competition after a long injury layoff, scoring in the friendly against Millwall.
+- **Nordin**: Recently renewed his contract and is expected to play a significant role in the upcoming season. 
+
+No major updates in other categories.

@@ -1,29 +1,43 @@
 # Sevilla FC
 
 ## Injuries
-- **Kelechi Iheanacho**: Continues to miss training due to an **indigestion** issue. He has not participated in any training sessions since returning to Sevilla and is uncertain for the upcoming matches.
-- **Joan Jordán**: Also absent from training due to **minor physical discomfort**. He is expected to return soon.
+- **Joan Jordán**: Underwent surgery for a herniated disc and is expected to be out for at least three months.
+- **Tanguy Nianzou**: Suffered a muscle injury (miotendinosa del recto anterior) and will also be unavailable for an indefinite period.
 
 ## Transfers
-- **Álex Costa**: Officially signed from **SD Ponferradina** until 2028. He is primarily joining the Sevilla Atlético but may have opportunities with the first team.
-- **Juanlu Sánchez**: Negotiations with **Nápoles** are ongoing. Sevilla has lowered their asking price to **€17 million** plus a percentage of a future sale, while Nápoles has offered **€14 million**. The deal is still not finalized.
-- **Nicolás Tagliafico**: The club is interested in the Argentine left-back, but negotiations are complicated due to his high salary demands. Alternatives like **Gabriel Suazo** (free agent) are also being considered.
-- **Jens Cajuste**: The Swedish midfielder from Nápoles is on Sevilla's radar as a potential signing, contingent on player sales to free up salary cap space.
+- **Juanlu Sánchez**: Close to a transfer to Napoli for approximately €17 million, including variables. He has been excluded from the squad for the match against Sunderland, indicating the deal is imminent.
+- **Rafa Mir**: Not included in the squad for the match against Sunderland, signaling he is not in coach Matías Almeyda's plans. He has expressed a desire to remain at the club but may need to find a new team.
+- **Gabriel Suazo**: Recently signed from Toulouse on a free transfer, with a contract until 2028.
+- **Interest in Tomáš Rigo**: The Sevilla FC is monitoring the young Slovak midfielder from Baník Ostrava as a potential future signing.
 
 ## Lineups
-- **Predicted Lineup for Upcoming Match Against Birmingham City** (July 12, 2025):
-  - **Formation**: 4-3-3
-  - **Goalkeeper**: (not specified)
-  - **Defenders**: Adrià Pedrosa, José Ángel Carmona, Tanguy Nianzou, Marcao
-  - **Midfielders**: Joan Jordán, (another midfielder not specified)
-  - **Forwards**: Dodi Lukébakio, Kelechi Iheanacho (if fit), (another forward not specified)
+### Predicted Starting XI vs Sunderland (1-1)
+| Position        | Player                |
+|-----------------|-----------------------|
+| Goalkeeper       | Orjan Nyland          |
+| Right Back       | José Ángel Carmona    |
+| Center Back      | Marcao                |
+| Center Back      | Ramón Martínez        |
+| Left Back        | Oso                   |
+| Midfielder       | Manu Bueno            |
+| Midfielder       | Gudelj                |
+| Midfielder       | Rivera                |
+| Right Wing       | Ejuke                 |
+| Left Wing        | Alfon                 |
+| Forward          | Isaac Romero          |
+
+### Substitutes
+- **Gabriel Suazo**: Made his debut and provided the assist for the equalizing goal.
+- **Rubén Vargas**: Scored the equalizer in the 94th minute.
 
 ## Previews of Upcoming Matches
-- **Match Against Birmingham City**: Scheduled for **July 12, 2025**, at **21:00** local time in Algarve. This will be Sevilla's first friendly match of the pre-season under new coach Matías Almeyda.
+- **Next Match**: Sevilla FC vs. Schalke 04 on July 26, 2025.
+  - Focus on improving defensive errors and building team chemistry before the official season starts.
 
 ## Match Reports
-- No major updates available as the season has not yet started and no matches have been played.
+- **Sevilla FC 1-1 Sunderland** (July 19, 2025):
+  - Sevilla salvaged a draw with a late goal from **Rubén Vargas**, assisted by **Gabriel Suazo**. The team struggled defensively, with a notable error from **José Ángel Carmona** leading to Sunderland's opening goal by **Enzo Le Fée**. The performance showed signs of improvement in the second half, but defensive solidity remains a concern.
 
 ## Additional Notes
-- Matías Almeyda has emphasized the need for a **mental and habitual change** within the team, indicating a focus on rebuilding and improving player performances.
-- The club is currently prioritizing **player sales** to manage financial constraints before making further signings.
+- **Matías Almeyda** emphasized the need to change the team's mentality and improve competitiveness among players during his post-match comments.
+- The club is currently focused on resolving financial issues and improving the squad through strategic transfers, particularly in defense and attack.

@@ -2,43 +2,42 @@
 
 ## Injuries
 - **Cyle Larin**: Currently on vacation after participating in the Gold Cup with Canada. Expected to join the team later.
-- **Takuma Asano**: Facing flight issues, preventing his timely arrival for medical checks.
+- **Takuma Asano**: Unable to attend medical check-ups due to flight issues.
 
 ## Transfers
-- **Vedat Muriqi**: Renewed his contract with Mallorca until **2029**. Muriqi expressed his happiness about staying, stating, "Mallorca is the best dream of my life."
-- **Pablo Torre**: Agreement reached for his transfer from Barcelona to Mallorca for **5 million euros**, with the deal including a 50% sell-on clause for Barcelona. Expected to arrive imminently.
-- **Carlos Martín**: The Mallorca management is interested in the **23-year-old** winger from Atlético de Madrid, who is likely to be available for loan.
-- **Gabri Martínez**: The club is pursuing the **22-year-old** winger from Sporting de Braga, who had a notable season last year.
-- **Pablo Maffeo**: Negotiations are ongoing for his transfer to the Premier League, with a price tag around **9 million euros**.
-- **Dominik Greif**: His future is uncertain as both he and Leo Román are under contract until 2026, but only one is expected to renew.
+- **Pablo Maffeo**: Mallorca is seeking €10 million for his transfer to Nottingham Forest. The player has expressed a desire to leave.
+- **José Manuel Arias Copete**: Valencia has offered €2 million for him, but Mallorca is holding out for €4 million. Copete has requested the club to accept Valencia's offer.
+- **Pablo Torre**: Officially signed from Barcelona for €5 million, with the player stating, “My first option has always been Mallorca.”
+- **Lucas Bergström**: Signed as a new goalkeeper from Chelsea, with a contract for two years plus an option for two more.
+- **Vedat Muriqi**: Renewed his contract until 2029, expressing that staying at Mallorca is the best decision of his life.
+- **Iván 'Pichu' Cuéllar**: Renewed until 2026.
+- **Iliese Sahli**: Young left-back signed from Niza, initially for the B team but will train with the first team.
 
 ## Lineups
-### Predicted Starting XI for Upcoming Matches
-- **Formation**: 4-2-3-1 (likely)
-  - **Goalkeeper**: Leo Román (likely)
-  - **Defenders**: 
-    - Maffeo (uncertain, pending transfer)
-    - Valjent (likely)
-    - Raíllo (likely)
-    - Morey (likely)
-  - **Midfielders**: 
-    - Darder (likely)
-    - Mascarell (likely)
-  - **Forwards**: 
-    - Asano (uncertain)
-    - Muriqi (likely)
-    - Torre (incoming, expected to start)
+### Predicted Starting XI (for the upcoming season):
+| Position         | Player               |
+|------------------|---------------------|
+| GK               | Leo Román           |
+| RB               | Maffeo or new signing (if transferred) |
+| CB               | Raillo              |
+| CB               | Valjent             |
+| LB               | Mojica or Sahli     |
+| CM               | Morlanes            |
+| CM               | Darder              |
+| AM               | Pablo Torre         |
+| RW               | Asano               |
+| LW               | New signing (extreme) |
+| ST               | Muriqi              |
 
 ## Previews of Upcoming Matches
-- **First Match**: 
-  - **Opponent**: FC Barcelona
-  - **Date**: August 16, 2025
-  - **Time**: 19:30
-  - **Context**: Opening match of the LaLiga season, facing the defending champions.
+- **First Match**: Mallorca will face **FC Barcelona** at home in the opening match of LaLiga on August 15, 2025.
+- **Preseason Matches**:
+  - July 23: vs. **Sant Andreu** (Son Bibiloni)
+  - July 27: vs. **Shabab Al-Ahli Dubai FC** (Austria)
+  - July 30: vs. **Olympique Lyon** (Austria)
+  - July 31: vs. **Parma** (Austria)
+  - August 6: vs. **Poblense** (Municipal de Sa Pobla)
+  - August 9: vs. **Hamburgo SV** (Son Moix)
 
 ## Match Reports
 No major updates.
-
-## Additional Notes
-- The Mallorca team is currently undergoing medical checks and training sessions as they prepare for the upcoming season.
-- The club's management is focused on improving the squad, particularly in the attacking positions, following the departures of several players.

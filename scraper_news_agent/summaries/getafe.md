@@ -1,33 +1,52 @@
 # Getafe CF
 
 ## Injuries
-No major updates.
+- No major updates.
 
 ## Transfers
-- **Confirmed Signings:**
-  - **Kiko Femenía**: Signed from Villarreal for two seasons until June 2027. He expressed enthusiasm about joining and reuniting with coach José Bordalás.
-  - **Yvan Neyou**: Joined from Leganés on a three-year deal. His signing has sparked controversy among Leganés fans.
-  - **Adrián Liso**: Signed from Real Zaragoza, also on a three-year contract.
-  - **Davinchi**: Signed from Recreativo de Huelva, but his transfer is under legal scrutiny from the latter club.
-  - **Álex Sancris**: Joined from Burgos for three seasons, adding depth to the attack.
-  - **Javi Muñoz**: Signed from Las Palmas after waiting for an opportunity with Valencia.
-  - **Mario Martín**: Confirmed as a new signing after his time with Real Valladolid.
-
 - **Confirmed Departures:**
-  - **Juan Bernat**, **Yellu**, and **Allan Nyom**: All three players have left the club after their contracts expired.
-  - **Bertug Yildirim**, **Carles Pérez**, **Ramón Terrats**, and **Álvaro Rodríguez**: All returned to their parent clubs after their loan spells ended.
-
-- **Potential Departures:**
-  - **Christantus Uche**: Has received interest from Premier League and Serie A clubs; his future is uncertain.
-  - **Luis Milla** and **Mauro Arambarri**: Both are being monitored for potential transfers, with Milla attracting interest from Sevilla.
-
-- **Gonzalo García**: The Getafe has an agreement to sign him from Real Madrid if he does not remain with the first team.
+  - **Yellu Santiago**, Allan Nyom, and Juan Bernat have left the club after their contracts expired.
+  - **Bertug Yildirim**, Carles Pérez, Ramón Terrats, and Álvaro Rodríguez have returned to their parent clubs after their loans ended.
+- **Confirmed Arrivals:**
+  - **Kiko Femenía** (Villarreal) - Signed for two years.
+  - **Yvan Neyou** (Leganés) - Signed as a free agent.
+  - **Javi Muñoz** (Las Palmas) - Signed as a free agent.
+  - **Álex Sancris** (Burgos) - Signed for three years.
+  - **Adrián Liso** (Zaragoza) - Signed on loan.
+  - **Davinchi** (Recreativo) - Signed after activating his release clause.
+- **Potential Transfers:**
+  - **Gonzalo García** (Real Madrid) - Has an agreement to join if he does not remain at Madrid.
+  - **Christantus Uche** - Interest from Leeds United and Serie A clubs, with a release clause of €25 million.
+  - **Omar Alderete** - Interest from Bolonia, with a price tag of €18 million.
+  - **Álvaro Rodríguez** - Initially expected to return but now linked with several clubs including Elche and Alavés.
 
 ## Lineups
-No major updates.
+- **Predicted Starting XI for Upcoming Match:**
+  | Position        | Player                  |
+  |-----------------|------------------------|
+  | Goalkeeper      | David Soria            |
+  | Defender        | Juan Iglesias          |
+  | Defender        | Ivan Surkov            |
+  | Defender        | Djené                  |
+  | Defender        | Kiko Femenía          |
+  | Midfielder      | Yvan Neyou             |
+  | Midfielder      | Mauro Arambarri        |
+  | Midfielder      | Coba                   |
+  | Forward         | Borja Mayoral          |
+  | Forward         | Juanmi                 |
+  | Forward         | Adrián Liso            |
+  
+- **Tactical Notes:**
+  - José Bordalás is focusing on integrating new signings and reinforcing the squad's physical and tactical aspects during pre-season.
 
 ## Previews of Upcoming Matches
-No major updates.
+- **Next Match:** Getafe vs. Real Oviedo
+  - **Date:** Saturday, July 22, 2025
+  - **Context:** This will be the second pre-season friendly, following a draw against Preston North End.
 
 ## Match Reports
-No major updates.
+- **Preston North End vs. Getafe**: The match ended in a 0-0 draw. Getafe showed a solid performance with several clear chances, particularly from Mauro Arambarri and Coba, but could not find the back of the net. The team demonstrated good physical condition and tactical awareness despite being in the early stages of pre-season.
+
+## Other Notable News
+- **Kiko Femenía** was notably absent from the match against Preston, raising questions about his fitness or integration into the squad.
+- **Ángel Torres**, the club president, confirmed plans for further signings and emphasized the need for player departures to accommodate new arrivals.

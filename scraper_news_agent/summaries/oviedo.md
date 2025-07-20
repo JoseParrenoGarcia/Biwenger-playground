@@ -4,32 +4,31 @@
 No major updates.
 
 ## Transfers
-- **Alberto Reina** has officially signed with Real Oviedo until June 30, 2027. The midfielder joins from Mirandés, where he had a standout season, scoring 7 goals and providing 4 assists.
-- **Salomón Rondón** is confirmed as the second signing for the upcoming season, bringing experience to the forward line after departing from Pachuca.
-- **Raissa Mbappé**, a forward from Alhama, has joined the women's team, signing until June 2026.
-- The club is pursuing **Nemanja Maksimovic** from Panathinaikos, who is willing to reduce his salary to facilitate the transfer. The asking price from Panathinaikos is around €2 million.
-- **Marko Grujić** is also on the radar as a potential alternative if the Maksimovic deal does not materialize.
-- **Kevin Lomónaco**, an Argentine defender, is being targeted, but competition from other clubs is significant.
-- **Fernando Pacheco**, a goalkeeper previously with Espanyol, is being considered for the goalkeeping position.
+- **Álex Forés**: Confirmed as a new signing, arriving on loan from Villarreal with an option to buy. He previously played for Levante, scoring 5 goals in 18 matches last season.
+- **Luka Ilic**: Signed from Estrella Roja for approximately €2 million, committing to the club until 2028. He was a standout player in the Serbian SuperLiga last season, scoring 12 goals and providing 6 assists.
+- **Horatiu Moldovan**: Officially signed on loan from Atlético de Madrid until June 30, 2026, with an option to buy. He previously played for Sassuolo, contributing to their promotion to Serie A.
+- **Salomón Rondón**: Arrived on loan from Pachuca, expected to bring experience and leadership to the squad.
+- **Alberto Reina**: Signed as a free agent from Mirandés, looking to make an impact in Primera División.
+- **Interest in Luka Jovic**: The club is in negotiations to sign the Serbian striker, who is currently a free agent after leaving AC Milan. Jovic has received offers from other clubs but is considering the Oviedo proposal.
 
 ## Lineups
-- **Predicted Starting XI for the upcoming match against Villarreal on August 15, 2025**:
-  | Position         | Player               |
-  |------------------|---------------------|
-  | Goalkeeper       | Aarón Escandell     |
-  | Right Back       | Lucas Ahijado       |
-  | Center Back      | Nacho Vidal         |
-  | Center Back      | (TBD)               |
-  | Left Back        | (TBD)               |
-  | Midfielder       | Santi Cazorla       |
-  | Midfielder       | Alberto Reina        |
-  | Midfielder       | (TBD)               |
-  | Forward          | Salomón Rondón      |
-  | Forward          | Fede Viñas          |
-  | Forward          | (TBD)               |
+### Predicted Starting XI (for upcoming matches)
+| Position       | Player               |
+|----------------|----------------------|
+| Goalkeeper     | Aarón Escandell      |
+| Right Back     | Nacho Vidal          |
+| Center Back    | David Costas         |
+| Center Back    | Dani Calvo           |
+| Left Back      | Oier Luengo          |
+| Midfielder     | Santi Cazorla        |
+| Midfielder     | Alberto Reina        |
+| Midfielder     | Kwasi Sibo           |
+| Forward        | Fede Viñas           |
+| Forward        | Salomón Rondón      |
+| Forward        | Álex Forés (or Luka Jovic) |
 
 ## Previews of Upcoming Matches
-- **Match against Real Madrid**: Scheduled for August 24, 2025, at 21:30 in the Carlos Tartiere. This will be the first home match in Primera División for Oviedo after 24 years. The last encounter in Primera was a 1-1 draw in 2001.
+No major updates.
 
 ## Match Reports
 No major updates.
