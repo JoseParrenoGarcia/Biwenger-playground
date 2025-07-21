@@ -172,6 +172,7 @@ with st.container(border=True):
     select_cols = [
         'position',
         'name',
+        'current_team',
         'current_season_points',
         'market_value',
         'possible_value_improvement',
@@ -183,6 +184,7 @@ with st.container(border=True):
         'remaining_points',
     ]
     st.dataframe(current_season[select_cols], hide_index=True, height=650)
+    # st.dataframe(current_season, hide_index=True, height=650)
 
     st.write("### Possible team")
 

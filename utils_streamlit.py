@@ -22,6 +22,9 @@ def get_biwenger_player_stats():
     df['predicted_games_till_end'] = np.floor(df['games_played_perct'] * df['games_missing_till_end'])
     df['remaining_points'] = df['points_per_game'] * df['predicted_games_till_end']
 
+    for col in ["current_value", "max_value_1y", "possible_value_improvement"]:
+        df[col] = df[col].apply(lambda x: f"{x:,}")
+
     return df
 
 @st.cache_data
@@ -30,11 +33,13 @@ def get_current_team_players():
     PRODUCTION_DATA_DIR = os.path.join(current_dir, "etl_biwenger_player_stats", "data", "raw", "current_team.csv")
 
     df = pd.read_csv(PRODUCTION_DATA_DIR)
+
     return df
 
 @st.cache_data
 def enrich_team_stats(current_team_df: pd.DataFrame, all_players_df: pd.DataFrame):
     merged_df = pd.merge(current_team_df, all_players_df, on=['name', 'season'], how='left')
+    merged_df = merged_df[merged_df['season'] == np.max(merged_df['season'])]
     return merged_df
 
 @st.cache_data
