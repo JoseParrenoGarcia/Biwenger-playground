@@ -12,14 +12,13 @@ if __name__ == "__main__":
     # start_time = time.time()
     # console.rule("[bold blue]Player Extract Step")
     # scraper(season_tag=calculate_season())
-    # scraper(hardcoded_pages=6)
-    #
+
     console.rule("[bold yellow]Player Transform Step")
     transform_players()
-    #
+
     # console.rule("[bold green]Player Load Step")
     # load_to_production()
-    #
+
     # total_duration = time.time() - start_time
     # console.print(f"[bold white on black]🏁 Full ETL completed in {total_duration:.2f} seconds!")
 
