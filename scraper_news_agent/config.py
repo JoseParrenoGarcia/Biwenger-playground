@@ -61,7 +61,7 @@ TEAM_NEWS_SOURCES = {
     ],
     "Espanyol": [
         "https://www.marca.com/futbol/espanyol.html?intcmp=MENUESCU&s_kw=espanyol",
-        "https://as.com/noticias/getafe-cf/",
+        "https://as.com/noticias/rcd-espanyol/",
         "https://www.eldesmarque.com/futbol/rcd-espanyol/",
         "https://www.estadiodeportivo.com/futbol/espanyol/",
         "https://www.mundodeportivo.com/futbol/rcd-espanyol",
@@ -71,7 +71,7 @@ TEAM_NEWS_SOURCES = {
     ],
     "Getafe": [
         "https://www.marca.com/futbol/getafe.html?intcmp=MENUESCU&s_kw=getafe",
-        "https://as.com/noticias/rcd-espanyol/",
+        "https://as.com/noticias/getafe-cf/",
         "https://www.eldesmarque.com/futbol/getafe-cf/",
         "https://www.estadiodeportivo.com/futbol/getafe/",
     ],
