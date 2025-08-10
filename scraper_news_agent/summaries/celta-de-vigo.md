@@ -1,46 +1,49 @@
 # Celta de Vigo
 
 ## Injuries
-- **Iago Aspas**: Suffered a **overload in the right calf** and will miss the friendly against Braga. Expected to return to training next week.
-- **Franco Cervi**: Diagnosed with a **grade I soleus tear** in the right leg, which occurred during the match against Famalicão. Expected to be out for **several weeks**.
-- **Joseph Aidoo**: Experiencing **calf discomfort** and did not participate in the match against Famalicão.
-- **Javi Rueda**: Recovering from a **grade I tear in the right rectus femoris**; he is nearing full recovery but has not yet returned to full training.
-- **Fran Beltrán**: Left the match against Braga with **thigh discomfort** after 22 minutes. Further tests are pending.
+- **Williot Swedberg**: Out due to a hamstring overload. He has received medical clearance but did not travel for the match against Wolverhampton.
+- **Joseph Aidoo**: Received medical clearance but is not in the plans of coach Claudio Giráldez, and the club is looking for a loan or transfer.
+- **Franco Cervi**: Cleared to play after recovering from a Grade I soleus tear.
+- **Javi Rodríguez**: Not yet cleared but included in the squad for the match against Wolverhampton, recovering from a nasal fracture.
 
 ## Transfers
-- **Bryan Zaragoza**: Initially a target for Celta, now seems **almost out of reach** due to a change in representation and high demands from Bayern Munich.
-- **Juan Cruz**: Celta is focusing efforts on signing him from Leganés, but negotiations are ongoing as the club is reluctant to meet the asking price.
-- **Borja Iglesias**: Remains a priority for Celta, but negotiations with Real Betis are stalled over transfer fees.
-- **Aldrine Kibet**: Signed from Nástic Sports Academy to reinforce the Celta Fortuna.
-- **Anthony Khayat**: Recently signed from Fursan Dubai, will join the Celta Fortuna.
-- **Carles Pérez**: Officially transferred to Aris Salónica on loan with an option to buy.
+- **Carlos Domínguez**: Renewed contract with Celta until 2028, reflecting the club's commitment to its homegrown talent.
+- **Williot Swedberg**: Renewed contract until 2029, with an increase in his release clause.
+- **Jan Oliveras**: Signed from AS Roma to play for Celta Fortuna, with the Roma retaining 50% of future sale rights.
+- **Tincho Conde**: Transferred to CD Castellón after not fitting into Giráldez's plans.
 
 ## Lineups
-### Predicted Lineup vs Sporting de Braga
-| Position          | Player                     |
-|-------------------|---------------------------|
-| Goalkeeper        | Radu                      |
-| Defender          | Manu Fernández            |
-| Defender          | Carl Starfelt             |
-| Defender          | Marcos Alonso             |
-| Defender          | Óscar Mingueza           |
-| Midfielder        | Damián Rodríguez          |
-| Midfielder        | Ilaix Moriba              |
-| Midfielder        | Mihailo Ristic            |
-| Forward           | Hugo González             |
-| Forward           | Hugo Álvarez              |
-| Forward           | Pablo Durán               |
+### Predicted Starting Eleven vs. Getafe
+| Position       | Player                |
+|----------------|-----------------------|
+| GK             | Andrei Radu           |
+| CB             | Marcos Alonso         |
+| CB             | Carlos Domínguez     |
+| CB             | Starfelt              |
+| RWB            | Javi Rueda           |
+| LWB            | Óscar Mingueza       |
+| CM             | Fran Beltrán         |
+| CM             | Ilaix Moriba         |
+| FW             | Iago Aspas           |
+| FW             | Ferran Jutglà       |
+| FW             | Pablo Durán          |
 
-### Squad Call-ups for Braga Match
-- Iván Villar, Radu, Marc Vidal, Óscar Mingueza, Sergio Carreira, Marcos Alonso, Mihailo Ristic, Carlos Domínguez, Manu Fernández, Tincho Conde, Javi Rodríguez, Yoel Lago, Hugo Sotelo, Hugo Álvarez, Damián Rodríguez, Ilaix Moriba, Fran Beltrán, Miguel Román, Hugo González, Jones El-Abdellaoui, Ferran Jutglà, Pablo Durán, Williot Swedberg.
+### Notable Tactical Notes
+- Giráldez has utilized a 3-4-3 formation during the pre-season, with flexibility in player roles.
 
 ## Previews of Upcoming Matches
-- **Match against Sporting de Braga**: Scheduled for **July 19, 2025**, at **21:00**. The Celta will face a well-prepared Braga team. Iago Aspas, Franco Cervi, Joseph Aidoo, and Javi Rueda will miss the match due to injuries.
+- **Match**: Celta de Vigo vs. Getafe
+- **Date**: August 17, 2025
+- **Context**: This will be the opening match of LaLiga for Celta. Giráldez expressed confidence in the team's preparation and readiness for the league.
 
 ## Match Reports
-- **Celta vs Famalicão**: Celta lost **0-2** in their first pre-season match. The team struggled with rhythm and made several defensive errors.
-- **Celta vs Sporting de Braga**: Celta lost **1-3**. The first half was poor, with Braga scoring two goals. In the second half, Celta improved, with **Jones El-Abdellaoui** scoring their only goal. However, a late goal from Braga sealed the match.
+### Wolverhampton 0-1 Celta
+- **Date**: August 9, 2025
+- **Summary**: Celta secured a victory against Wolverhampton in their final pre-season match. Pablo Durán scored the only goal, showcasing his striking ability. Andrei Radu performed well in goal, making crucial saves to maintain a clean sheet.
+- **Key Players**: 
+  - **Pablo Durán**: Scored the match-winning goal.
+  - **Andrei Radu**: Made several important saves, solidifying his position as the starting goalkeeper.
+  - **Bryan Zaragoza**: Made his debut but struggled to find his rhythm, playing only 30 minutes.
 
 ## Additional Notes
-- **Claudio Giráldez** expressed satisfaction with the team's improvement despite the losses, highlighting the performance of younger players like **Jones El-Abdellaoui** and **Miguel Román**.
-- The Celta is actively seeking to strengthen their attacking options before the start of the league season on **August 17, 2025**.
+- **Claudio Giráldez**: Expressed satisfaction with the team's performance and emphasized the importance of the victory in building confidence ahead of the league start. He noted that the team has evolved and is ready for the challenges ahead.

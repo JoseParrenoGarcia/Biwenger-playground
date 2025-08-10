@@ -1,52 +1,45 @@
 # Getafe CF
 
 ## Injuries
-- No major updates.
+- **Omar Alderete**: Absent from training and matches due to a potential transfer to Sunderland. 
+- **Juanmi**: Recovering from muscular issues and did not travel for the friendly against Lyon.
+- **Djené**: Missed the match against Lyon due to a red card received in the same match.
+- **Letacek, Kiko Femenía, Peter Federico, Abdel Abqar, and Álex Sola**: Did not travel for the match against Lyon.
 
 ## Transfers
-- **Confirmed Departures:**
-  - **Yellu Santiago**, Allan Nyom, and Juan Bernat have left the club after their contracts expired.
-  - **Bertug Yildirim**, Carles Pérez, Ramón Terrats, and Álvaro Rodríguez have returned to their parent clubs after their loans ended.
-- **Confirmed Arrivals:**
-  - **Kiko Femenía** (Villarreal) - Signed for two years.
-  - **Yvan Neyou** (Leganés) - Signed as a free agent.
-  - **Javi Muñoz** (Las Palmas) - Signed as a free agent.
-  - **Álex Sancris** (Burgos) - Signed for three years.
-  - **Adrián Liso** (Zaragoza) - Signed on loan.
-  - **Davinchi** (Recreativo) - Signed after activating his release clause.
-- **Potential Transfers:**
-  - **Gonzalo García** (Real Madrid) - Has an agreement to join if he does not remain at Madrid.
-  - **Christantus Uche** - Interest from Leeds United and Serie A clubs, with a release clause of €25 million.
-  - **Omar Alderete** - Interest from Bolonia, with a price tag of €18 million.
-  - **Álvaro Rodríguez** - Initially expected to return but now linked with several clubs including Elche and Alavés.
+- **Omar Alderete**: Transferred to Sunderland for €12M + €1M in variables. He signed a contract until 2029.
+- **Carles Aleñá**: Transferred to Alavés after a loan spell, officially leaving Getafe.
+- **Mario Martín**: Joined Getafe on loan from Real Madrid for the 2025/26 season, with an option to buy.
+- **Abdel Abqar**: Signed from Alavés until 2028, known for being one of the most carded players last season.
+- **Yvan Neyou**: Joined Getafe as a free agent from Leganés.
+- **Javi Muñoz**: Signed as a free agent after leaving Las Palmas.
+- **Gonzalo García**: Potential transfer from Real Madrid is still pending, with Getafe expressing strong interest.
 
 ## Lineups
-- **Predicted Starting XI for Upcoming Match:**
-  | Position        | Player                  |
-  |-----------------|------------------------|
-  | Goalkeeper      | David Soria            |
-  | Defender        | Juan Iglesias          |
-  | Defender        | Ivan Surkov            |
-  | Defender        | Djené                  |
-  | Defender        | Kiko Femenía          |
-  | Midfielder      | Yvan Neyou             |
-  | Midfielder      | Mauro Arambarri        |
-  | Midfielder      | Coba                   |
-  | Forward         | Borja Mayoral          |
-  | Forward         | Juanmi                 |
-  | Forward         | Adrián Liso            |
-  
-- **Tactical Notes:**
-  - José Bordalás is focusing on integrating new signings and reinforcing the squad's physical and tactical aspects during pre-season.
+### Predicted Starting XI for Upcoming Match vs. Celta
+| Position       | Player               |
+|----------------|----------------------|
+| Goalkeeper      | David Soria          |
+| Right Back      | Kiko Femenía (likely) / Juan Iglesias (uncertain) |
+| Center Back     | Djené                |
+| Center Back     | Abdel Abqar          |
+| Left Back       | Diego Rico           |
+| Central Midfield| Luis Milla           |
+| Central Midfield| Mauro Arambarri      |
+| Right Wing      | Peter Federico       |
+| Left Wing       | Coba                 |
+| Forward         | Borja Mayoral        |
+| Forward         | Christantus Uche (likely) / Mario Martín (uncertain) |
 
 ## Previews of Upcoming Matches
-- **Next Match:** Getafe vs. Real Oviedo
-  - **Date:** Saturday, July 22, 2025
-  - **Context:** This will be the second pre-season friendly, following a draw against Preston North End.
+- **Match against Celta**: Scheduled for August 17, 2025. This will be the first official match of the LaLiga season.
+- **Friendly against Olympique Lyon**: Played on August 9, 2025, where Getafe lost 2-1. The match highlighted the team's competitive spirit but also their ongoing issues with converting chances.
 
 ## Match Reports
-- **Preston North End vs. Getafe**: The match ended in a 0-0 draw. Getafe showed a solid performance with several clear chances, particularly from Mauro Arambarri and Coba, but could not find the back of the net. The team demonstrated good physical condition and tactical awareness despite being in the early stages of pre-season.
+- **Getafe 1-2 Olympique Lyon**: Getafe lost in their final pre-season match. Goals were scored by Luis Milla (penalty) for Getafe and Mikautadze and Maitland-Niles for Lyon. The match featured two penalties against Getafe, one leading to a red card for Djené.
+- **Getafe 1-1 Real Oviedo**: In this match, Borja Mayoral scored to equalize after Ilić had given Oviedo the lead. Getafe dominated but failed to secure the win.
+- **Elche 2-1 Getafe**: Álvaro Rodríguez scored for Elche early in the match, and despite a goal from Borja Mayoral, Getafe could not secure a victory, with Mourad scoring the winner for Elche late in the game.
+- **Hull City 0-0 Getafe**: Another goalless draw for Getafe, showcasing their struggles in front of goal despite controlling much of the match.
 
-## Other Notable News
-- **Kiko Femenía** was notably absent from the match against Preston, raising questions about his fitness or integration into the squad.
-- **Ángel Torres**, the club president, confirmed plans for further signings and emphasized the need for player departures to accommodate new arrivals.
+## Additional Notes
+- The Getafe squad is currently undergoing significant changes, with a focus on improving their attacking options ahead of the new season. The team has struggled offensively during pre-season, with only two goals scored in four matches.

@@ -1,43 +1,42 @@
 # Elche CF
 
 ## Injuries
-- **Marc Aguado**: Underwent successful shoulder surgery to address an injury sustained at the end of the last season. He is expected to be fit for the start of the pre-season.
+- **Josan Ferrández**: Sustituyó en el amistoso contra Almería debido a molestias en los isquiotibiales. Su estado será evaluado en los próximos entrenamientos. 
+- **Adam Boayar**: También se retiró del partido ante Almería con molestias, lo que genera preocupación en la plantilla.
 
 ## Transfers
-- **Alejandro Iturbe**: Officially signed from Atlético de Madrid until 2029. The club retains 50% of his rights. He is expected to compete for the starting goalkeeper position against Matías Dituro.
-- **Nico Fernández**: Transferred to New York City FC for approximately €8.5 million, marking the most expensive sale in the club's history. He expressed gratitude to the fans and the club in a farewell message.
-- **Léo Petrot**: Joined the team on a free transfer from Saint-Étienne, signing until June 2026. He can play both as a left-back and a central defender.
-- **Germán Valera**: Officially signed from Valencia for two years with an optional third year after a successful loan spell last season.
-- **José Salinas**: Confirmed to be leaving for Espanyol after not receiving a renewal offer from Elche.
-- **Álvaro Rodríguez**: Close to joining Elche on loan from Real Madrid. The player is eager to leave Madrid for more playing time.
+- **Víctor Chust**: Oficialmente cedido al Elche desde el Cádiz, con opción de compra condicionada. Chust es un central de 25 años que ha jugado 108 partidos en la máxima categoría.
+- **Bakary Traoré**: Renovó su contrato hasta 2027 y fue cedido al Tarazona para la temporada 2025/26.
+- **Martim Neto**: Nuevo fichaje del Elche hasta 2028, procedente del Benfica. Es un centrocampista de 22 años con experiencia en la UEFA Youth League.
+- **Álvaro Rodríguez**: Fichado del Real Madrid, ha sido destacado como una de las sensaciones de la pretemporada, anotando tres goles.
+- **Exequiel Zeballos**: El Elche está en negociaciones con Boca Juniors para su fichaje, aunque aún no se ha concretado.
+- **Lucas Boyé**: El delantero ha rechazado la oferta del Elche, prefiriendo no unirse a un recién ascendido.
 
 ## Lineups
-### Predicted Starting XI for Upcoming Matches
-| Position      | Player               |
-|---------------|----------------------|
-| Goalkeeper    | Matías Dituro (likely) / Alejandro Iturbe (uncertain) |
-| Defender      | Álvaro Núñez       |
-| Defender      | David Affengruber    |
-| Defender      | Pedro Bigas          |
-| Defender      | Léo Petrot           |
-| Midfielder    | Aleix Febas          |
-| Midfielder    | Nordin (recently renewed) |
-| Midfielder    | Marc Aguado          |
-| Forward       | Germán Valera       |
-| Forward       | Mourad               |
-| Forward       | Josan                |
+### Predicted Starting XI vs Real Betis (August 18, 2025)
+| Position          | Player               |
+|-------------------|----------------------|
+| GK                | Matías Dituro       |
+| CB                | David Affengruber    |
+| CB                | Pedro Bigas          |
+| CB                | Léo Petrot           |
+| RWB               | Germán Valera        |
+| LWB               | Álvaro Núñez       |
+| CM                | Marc Aguado          |
+| CM                | Rodrigo Mendoza       |
+| RW                | Josan                |
+| LW                | Aleix Febas          |
+| ST                | Álvaro Rodríguez     |
 
 ## Previews of Upcoming Matches
-- **Friendly Match vs. Getafe**: Scheduled for July 30 at 10:00 AM in La Torre. This match will be a test against a fellow La Liga team.
-- **Friendly Match vs. Blackburn Rovers**: Scheduled for July 25 at 19:00 PM in Pinatar Arena.
-- **Friendly Match vs. Almería**: Scheduled for August 8 at 19:30 PM.
+- **Match against Real Betis**: Scheduled for August 18, 2025, at 21:00. Eder Sarabia emphasizes the need for more attacking options and is optimistic about the team's preparations.
 
 ## Match Reports
-- **Elche 2-1 Millwall** (July 18, 2025): Elche started their pre-season with a comeback victory over Millwall. After falling behind to a goal from Luke Cundle in the 61st minute, Elche equalized through Ali Houary in the 67th minute and secured the win with a goal from Bakary Traoré in the 86th minute. The match highlighted the contributions of several young players from the academy.
+- **Elche 1-0 Hércules**: The Elche secured a victory in the Trofeo Festa d’Elx with a goal from Aleix Febas. The match served as a final test before the league starts, although the performance raised questions about the team's readiness.
+- **Elche 0-1 Blackburn Rovers**: The Elche lost in a pre-season friendly, failing to convert chances into goals despite a strong first half.
+- **Elche 3-4 Al-Ain**: A high-scoring match where Elche lost despite leading at times. Defensive errors were highlighted as a concern for the team.
+- **Elche 1-0 Almería**: A recent victory where Álvaro Rodríguez scored the only goal, showcasing the team's potential despite previous inconsistencies.
 
-## Other Updates
-- **Eder Sarabia**: Renewed his contract with Elche for two more seasons, committing to the project in La Liga after successfully leading the team to promotion.
-- **Bakary Traoré**: Expressed happiness about returning to competition after a long injury layoff, scoring in the friendly against Millwall.
-- **Nordin**: Recently renewed his contract and is expected to play a significant role in the upcoming season. 
-
-No major updates in other categories.
+## Additional Notes
+- The Elche CF has set a record with **27,000 season ticket holders**, reflecting strong support following their return to Primera División.
+- Eder Sarabia is focused on finalizing the squad, aiming for **four to six more signings** before the transfer window closes.

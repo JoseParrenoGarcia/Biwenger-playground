@@ -1,43 +1,42 @@
 # RCD Mallorca
 
 ## Injuries
-- **Cyle Larin**: Currently on vacation after participating in the Gold Cup with Canada. Expected to join the team later.
-- **Takuma Asano**: Unable to attend medical check-ups due to flight issues.
+- **Samu Costa**: Suffered a knee injury during the match against Hamburg and was substituted after 13 minutes. Initial assessments suggest it may not be serious, but further evaluations are pending.
 
 ## Transfers
-- **Pablo Maffeo**: Mallorca is seeking €10 million for his transfer to Nottingham Forest. The player has expressed a desire to leave.
-- **José Manuel Arias Copete**: Valencia has offered €2 million for him, but Mallorca is holding out for €4 million. Copete has requested the club to accept Valencia's offer.
-- **Pablo Torre**: Officially signed from Barcelona for €5 million, with the player stating, “My first option has always been Mallorca.”
-- **Lucas Bergström**: Signed as a new goalkeeper from Chelsea, with a contract for two years plus an option for two more.
-- **Vedat Muriqi**: Renewed his contract until 2029, expressing that staying at Mallorca is the best decision of his life.
-- **Iván 'Pichu' Cuéllar**: Renewed until 2026.
-- **Iliese Sahli**: Young left-back signed from Niza, initially for the B team but will train with the first team.
+- **Mateo Joseph**: Officially signed on loan from Leeds United until the end of the season, without an option to buy. He is expected to bolster the attacking options for Mallorca.
+- **Dominik Greif**: The transfer to Olympique de Lyon is nearly finalized, with an agreement for around €5 million including variables. The deal awaits bank guarantees from Lyon.
+- **Cyle Larin**: The club is considering lowering their demands for his loan exit after he faced booing from fans during the recent match. He has expressed a desire to leave the club.
+- **Pablo Maffeo**: Expected to join Sevilla FC, with negotiations ongoing.
 
 ## Lineups
-### Predicted Starting XI (for the upcoming season):
-| Position         | Player               |
-|------------------|---------------------|
-| GK               | Leo Román           |
-| RB               | Maffeo or new signing (if transferred) |
-| CB               | Raillo              |
-| CB               | Valjent             |
-| LB               | Mojica or Sahli     |
-| CM               | Morlanes            |
-| CM               | Darder              |
-| AM               | Pablo Torre         |
-| RW               | Asano               |
-| LW               | New signing (extreme) |
-| ST               | Muriqi              |
+### Predicted Starting Eleven vs. FC Barcelona (August 16, 2025)
+| Position          | Player             |
+|-------------------|--------------------|
+| Goalkeeper        | Leo Román          |
+| Right Back        | Mateu Jaume        |
+| Center Back       | Martin Valjent     |
+| Center Back       | Antonio Raíllo     |
+| Left Back         | Mojica             |
+| Central Midfield  | Samu Costa         |
+| Central Midfield  | Manu Morlanes      |
+| Right Wing        | Darder             |
+| Left Wing         | Pablo Torre        |
+| Forward           | Takuma Asano       |
+| Forward           | Vedat Muriqi       |
+
+**Notes**: The lineup is based on the recent match against Hamburg, with Costa's fitness still uncertain.
 
 ## Previews of Upcoming Matches
-- **First Match**: Mallorca will face **FC Barcelona** at home in the opening match of LaLiga on August 15, 2025.
-- **Preseason Matches**:
-  - July 23: vs. **Sant Andreu** (Son Bibiloni)
-  - July 27: vs. **Shabab Al-Ahli Dubai FC** (Austria)
-  - July 30: vs. **Olympique Lyon** (Austria)
-  - July 31: vs. **Parma** (Austria)
-  - August 6: vs. **Poblense** (Municipal de Sa Pobla)
-  - August 9: vs. **Hamburgo SV** (Son Moix)
+- **Match**: RCD Mallorca vs. FC Barcelona
+- **Date**: August 16, 2025
+- **Context**: This will be the opening match of the La Liga season.
+- **Coach Quotes**: Jagoba Arrasate expressed confidence in the team's readiness, stating, "We are going to compete with all our might and try to win."
 
 ## Match Reports
-No major updates.
+- **Trofeo Ciutat de Palma**: Mallorca defeated Hamburg 2-0 with goals from Takuma Asano and an own goal by Muheim. The team displayed strong defensive performances, particularly from Leo Román, who made several key saves.
+- **Trofeo de S'Agricultura**: Mallorca won 2-0 against Poblense, with goals from Abdón Prats and Takuma Asano. The match highlighted the need for improvement in offensive play despite securing the victory.
+
+## Additional Notes
+- An incident occurred during the match against Hamburg where a Hamburg fan fell from the stands and was hospitalized with serious injuries. He is now reported to be stable.
+- The club is actively seeking to strengthen their squad, particularly in the attacking and defensive areas, as they prepare for the upcoming season.

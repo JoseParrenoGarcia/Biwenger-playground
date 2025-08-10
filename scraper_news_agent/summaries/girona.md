@@ -1,60 +1,42 @@
 # Girona FC
 
 ## Injuries
-- **Miguel Gutiérrez**: Underwent surgery on his right ankle due to ongoing issues from last season. There is currently no estimated return date for training. His future is uncertain as he was a candidate for a transfer before the operation. (Reported on July 10, 2025)
+- **Miguel Gutiérrez**: Underwent surgery for persistent right ankle issues. No public timeline for his return to training has been provided, but he is expected to miss the entire preseason and the start of the official league.
 
 ## Transfers
-- **Departures**:
-  - **Oriol Romeu**, **Arthur Melo**, **Bryan Gil**, and **Arnaut Danjuma** have returned to their parent clubs after their loan spells at Girona. Their performances varied, with Romeu and Danjuma underperforming significantly. (Reported on May 27, 2025)
-  - **Juanpe**: The veteran defender has officially left Girona after nine seasons, signing with Atlético San Luis in Mexico. (Reported on June 9, 2025)
-  - **Bojan Miovski**: The forward has been linked with potential departures due to his disappointing performance last season, scoring only two goals. Clubs from the Bundesliga are reportedly interested. (Reported on July 9, 2025)
-  - **Yangel Herrera**: Despite interest from other clubs, Girona has decided to keep him for the upcoming season. (Reported on July 14, 2025)
-
-- **Arrivals**:
-  - **Minsu**: The South Korean winger has been loaned to FC Andorra for the season, with no purchase option included. (Reported on July 15, 2025)
-  - **Benjamin Bouchouari**: Girona is reportedly interested in signing the midfielder from Saint-Étienne following their relegation, with negotiations ongoing. (Reported on July 18, 2025)
+- **Vítor Reis**: Officially signed on loan from Manchester City for the 2025/26 season. The 19-year-old central defender is expected to strengthen the Girona defense.
+- **Miguel Gutiérrez**: Transferred to Napoli for €18 million plus €2 million in bonuses. The Real Madrid retains 50% of his rights.
+- **Hugo Rincón**: Joined Girona on loan from Athletic Club for the season.
+- **Thomas Lemar**: Joined Girona on loan from Atlético Madrid for the season.
+- **Valery Fernández**: Rescinded his contract with Girona to join Real Zaragoza until 2028.
+- **Jastin García**: Loaned to FC Andorra for the season without an option to buy.
+- **Jean Onana**: The Girona is interested in signing the midfielder from Besiktas for a fee between €1-2 million.
 
 ## Lineups
-### Predicted Lineup for Upcoming Matches
-- **Formation**: 3-4-3 (likely)
-  - **Goalkeeper**: 
-    - Gazzaniga
-  - **Defenders**: 
-    - Arnau Martínez
-    - David López
-    - Krejcí
-  - **Midfielders**: 
-    - Iván Martín
-    - Jhon Solís
-    - Yangel Herrera
-    - Asprilla
-  - **Forwards**: 
-    - Abel Ruiz
-    - Stuani
-    - Portu
-
-*Note: This lineup may change due to injuries, especially with Gutiérrez and other players recovering from various issues.*
+### Predicted Starting XI for Upcoming Match (vs. Rayo Vallecano)
+| Position        | Player                |
+|-----------------|-----------------------|
+| Goalkeeper       | Gazzaniga             |
+| Right Back       | Arnau Martínez or Rincón (uncertain) |
+| Center Back      | Krejcí                |
+| Center Back      | David López           |
+| Left Back        | Blind                 |
+| Central Midfield | Yangel Herrera        |
+| Central Midfield | Jhon Solís            |
+| Attacking Midfield | Thomas Lemar         |
+| Right Wing       | Tsygankov            |
+| Left Wing        | Asprilla             |
+| Forward          | Stuani               |
 
 ## Previews of Upcoming Matches
-- **Match against Olot**: 
-  - Date: July 19, 2025
-  - Time: 19:30 (local time)
-  - Context: First pre-season friendly for Girona, aiming to build confidence after a challenging previous season. Míchel has emphasized the need for a cohesive team effort. (Reported on July 18, 2025)
-
-- **Upcoming Matches**:
-  - **Final of Copa Catalunya** against Espanyol on July 23, 2025.
-  - Friendly against Olympique de Marseille on July 26, 2025.
+- **Match**: Girona vs. Rayo Vallecano
+  - **Date**: August 15, 2025
+  - **Time**: 19:00 (local time)
+  - **Context**: This will be Girona's first match of the La Liga season, following a mixed preseason.
 
 ## Match Reports
-- **Girona vs. Olot**: 
-  - Result: Girona won 5-0 in their first pre-season match.
-  - Goalscorers: 
-    - Asprilla (21')
-    - Stuani (27')
-    - Abel Ruiz (43')
-    - Jastin (67')
-    - Yangel Herrera (84')
-  - Notable performances included Abel Ruiz, who contributed one goal and two assists. The match served as a confidence booster for the team. (Reported on July 19, 2025)
+- **Nápoles 3 - 2 Girona**: In their final preseason match, Girona faced Napoli, where they initially fell behind 3-0 due to goals from Di Lorenzo and a double from De Bruyne. Cristian Stuani scored both goals for Girona, bringing the score to 3-2 before halftime. The second half saw fewer chances, and the match ended with Girona unable to equalize.
 
-## Other Notes
-- Míchel has stated that the team needs between four to six new signings to strengthen the squad for the upcoming season. He emphasized the importance of team cohesion and learning from past mistakes. (Reported on July 16, 2025)
+## Additional Notes
+- **Claudio Echeverri**: The Girona is pursuing the young Argentine forward, who is currently with Manchester City. The club is optimistic about securing his loan after City rejected an offer from Roma.
+- **Vitor Reis**: Expressed enthusiasm about joining Girona, stating he aims to contribute significantly to the team this season.

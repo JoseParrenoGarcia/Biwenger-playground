@@ -1,43 +1,39 @@
 # Osasuna
 
 ## Injuries
-- **Jon Moncayola**: Suffered a hamstring injury in a match against Real Valladolid on April 22, 2025. He is currently in recovery and his return timeline is pending further evaluation.
+- **Iker Benito**: Suffered a ligament injury in his left ankle during a match against Real Sociedad. He will be out for approximately 4 to 6 weeks but does not require surgery. He will miss the start of the league season on August 19 against Real Madrid.
+- **Rubén García**: Did not participate in training due to discomfort in his left adductor.
 
 ## Transfers
-- **Jesús Areso**: Currently in negotiations for a transfer, primarily linked to **Atlético de Madrid** and **Athletic Club**. Areso has rejected three renewal offers from Osasuna and is keen on leaving. His current clause is set at 12 million euros. Areso was included in the squad for the recent friendly against Lorient but did not play.
-- **Victor Muñoz**: Officially signed from Real Madrid for 5 million euros, with an additional potential million based on performance milestones. He is set to join Osasuna on July 22, 2025.
-- **Diego Moreno**: Has left Osasuna after 14 seasons and signed with **Ponferradina**.
-- **Unai García**: Departing from Osasuna after ten seasons, he will say goodbye to fans in the last match of the season against Espanyol.
-- **Valentin Rosier**: Joined Osasuna from Leganés, with Rosier expressing excitement about the project.
+- **Sergio Herrera**: Renewed his contract with Osasuna until 2028. His release clause has increased from €14 million to €20 million.
+- **Jesús Areso**: Transferred to Athletic Club for €12 million, the full amount of his release clause. He expressed gratitude towards Osasuna and stated his decision was made for personal and family reasons.
+- **Víctor Muñoz**: Signed from Real Madrid for five seasons, with an initial fee of €5 million, potentially rising to €6 million based on performance.
+- **Valentín Rosier**: Joined Osasuna for three seasons after leaving Leganés.
+- **Jon García**: Continues to be linked with the first team after impressive performances in pre-season.
 
 ## Lineups
-### Predicted Starting XI for the Friendly against Lorient
-| Position       | Player                |
-|----------------|-----------------------|
-| Goalkeeper     | Aitor Fernández       |
-| Defender       | Valentin Rosier       |
-| Defender       | Asier Osambela       |
-| Defender       | Alejandro Catena      |
-| Defender       | Abel Bretones        |
-| Midfielder     | Lucas Torró           |
-| Midfielder     | Jon Moncayola         |
-| Midfielder     | Rubén García          |
-| Forward        | Aimar Oroz           |
-| Forward        | Pedroarena            |
-| Forward        | Raúl García de Haro   |
-
-### Squad Call-Up for the Friendly against Lorient
-- **Goalkeepers**: Aitor Fernández, Sergio Herrera, Dimitrios Stamatakis
-- **Defenders**: Iker Benito, Jesús Areso, Valentin Rosier, Enzo Boyomo, Alejandro Catena, Jorge Herrando, Juan Cruz, Abel Bretones
-- **Midfielders**: Lucas Torró, Jon Moncayola, Moi Gómez, Aimar Oroz, Rubén García, Iker Muñoz, Asier Osambela, Mauro Echegoyen
-- **Forwards**: Raúl García de Haro, Kike Barja, Ante Budimir, Ander Yoldi, Martín Pedroarena
+### Predicted Starting XI for Upcoming Match vs. Real Madrid (August 19)
+| Position        | Player                |
+|------------------|----------------------|
+| Goalkeeper        | Sergio Herrera        |
+| Right Back        | Valentín Rosier       |
+| Center Back       | Boyomo                |
+| Center Back       | Catena               |
+| Left Back         | Abel Bretones        |
+| Central Midfield  | Lucas Torró          |
+| Central Midfield  | Moncayola            |
+| Right Wing        | Rubén García         |
+| Attacking Midfield| Aimar Oroz           |
+| Left Wing         | Moi Gómez            |
+| Forward           | Budimir              |
 
 ## Previews of Upcoming Matches
-- **First Friendly Match**: Osasuna will face **FC Lorient** on July 19, 2025, at 18:00 (local time) in Stade Moustoir. This match will serve as the first test for new coach **Alessio Lisci**.
+- **Osasuna vs. Real Madrid**: Scheduled for August 19 at Santiago Bernabéu. This match marks the start of the LaLiga season for Osasuna.
 
 ## Match Reports
-- **Osasuna vs. FC Lorient**: The match ended in a 1-1 draw. Ander Yoldi scored for Osasuna in the 56th minute, but Mendy equalized for Lorient in the 74th minute. Jesús Areso was part of the squad but did not play due to ongoing transfer negotiations.
+- **Osasuna 2 - 2 Friburgo**: In their final pre-season match, Osasuna managed to draw against Friburgo. They initially fell behind due to an own goal by Moi Gómez but equalized through Aimar Oroz and took the lead with a goal from Raúl García. However, Friburgo equalized with a penalty in the dying moments of the match.
+- **Osasuna 3 - 0 Mirandés**: Osasuna achieved their first victory of the pre-season against Mirandés, with Raúl García scoring twice and Budimir adding a third goal.
 
-## Additional Notes
-- **Alessio Lisci**: The new head coach of Osasuna, emphasized the need for improvement after the friendly against Lorient, stating that while some concepts were visible, there is much work to be done.
-- **Budimir**: The Croatian striker has returned to training after participating in international matches and is expected to play a significant role in the upcoming season.
+## Other Notes
+- **Alessio Lisci**: The new head coach is focusing on building a competitive team and has expressed satisfaction with the players' adaptation to his tactics during pre-season.
+- **Aimar Oroz**: Has returned to training after recovering from an injury and is expected to play a key role in the upcoming season.

@@ -1,41 +1,53 @@
 # Real Sociedad
 
 ## Injuries
-- **Arsen Zakharyan**: Suffered from a virus, missing training and the first friendly match.
-- **Umar Sadiq**: Has not been training with the team due to travel issues and is also looking for a way out of the club.
-- **Carlos Fernández**: Recently returned from illness and has been training individually.
-- **Mikel Oyarzabal**: Along with Remiro, Aramburu, and Sucic, is not participating in the Japan tour due to management of physical loads.
+- **Umar Sadiq**: Recently returned to training after recovering from a viral infection. He has not participated in any preseason matches and remains uncertain about his future with the club.
+- **Arsen Zakharyan**: Has also been training with the team but missed several sessions due to physical issues. His participation in upcoming matches is still uncertain.
+- **Unai Marrero**: Out due to shoulder discomfort.
+- **Jon Gorrotxategi**: Out due to ankle discomfort.
 
 ## Transfers
-- **Jon Ander Olasagasti**: Transferred to Levante, signing a contract until 2028. The deal could yield up to €1.5 million for Real Sociedad, plus 30% of any future sale.
-- **Martin Zubimendi**: Officially transferred to Arsenal for approximately €66 million, paid in installments.
-- **Edna Imade**: Joined the women's team on loan from Bayern Munich for the 2025-26 season.
-- **Iker Ropero**: Loaned to Barakaldo for the upcoming season.
-- **Paula Fernández**: Signed from Levante until 2027.
-- **Ainhoa Moraza**: Returned to Real Sociedad from Atlético Madrid, signing a contract until 2029.
-- **Zac Shiaib**: Young talent from Arsenal signed for the youth team.
-- **Sheraldo Becker**: The club is looking to offload him, with interest from Al-Ettifaq in Saudi Arabia.
-
+- **In**:
+  - **Duje Caleta-Car**: Joined on loan from Olympique Lyon with an option to buy for €4 million.
+  - **Gonçalo Guedes**: Signed from Wolverhampton for €4 million plus €2 million in variables, contract until 2028.
+- **Out**:
+  - **Martin Zubimendi**: Transferred to Arsenal for €70 million.
+  - **Jon Ander Olasagasti**: Transferred to Levante.
+  - **Sheraldo Becker**: Currently not participating due to personal reasons related to impending fatherhood.
+  - **Carlos Fernández**: Not included in the squad for recent matches.
+  - **Hamari Traoré**: Interest from Paris FC, but he is hesitant about the move.
+  
 ## Lineups
-### Predicted Starting XI for Upcoming Matches
-- **Formation**: 1-4-3-3
-- **Goalkeeper**: Marrero
-- **Defenders**: Traoré, Zubeldia, Pacheco, Javi López
-- **Midfielders**: Brais Méndez, Turrientes, Marín
-- **Forwards**: Becker, Karrikaburu, Barrenetxea
-
-### Squad for Japan Tour
-- **Traveling Players**: Odriozola, Aihen, Zubeldia, Aritz, Barrenetxea, Óskarsson, Becker, Javi López, Marrero, G. de Zárate, Sergio Gómez, H. Traoré, Pacheco, Turrientes, Brais Méndez, Carlos Fernández, Goti, Gorrotxategi, Karrikaburu, Rupérez, Beitia, M. Rodríguez.
-- **Not Traveling**: Oyarzabal, Remiro, Aramburu, Sucic, Zakharyan, and Sadiq.
+### Predicted Starting XI for Upcoming Match Against Valencia (August 16, 2025)
+| Position      | Player               |
+|---------------|----------------------|
+| Goalkeeper    | Álex Remiro          |
+| Right Back    | Jon Aramburu         |
+| Center Back   | Duje Caleta-Car      |
+| Center Back   | Igor Zubeldia        |
+| Left Back     | Sergio Gómez         |
+| Midfielder    | Luka Sucic           |
+| Midfielder    | Brais Méndez        |
+| Midfielder    | Turrientes           |
+| Forward       | Take Kubo            |
+| Forward       | Mikel Oyarzabal      |
+| Forward       | Óskarsson            |
 
 ## Previews of Upcoming Matches
-- **First Match**: Against V-Varen Nagasaki on July 21, 2025, at 12:00 PM (local time).
-- **Second Match**: Against Yokohama FC on July 25, 2025, at 12:00 PM (local time).
-- **Coach's Comments**: Sergio Francisco emphasized the importance of avoiding injuries during the pre-season and expressed excitement about the squad's potential.
+- **Match**: Real Sociedad vs. Valencia
+  - **Date**: August 16, 2025
+  - **Time**: 21:30 (local time)
+  - **Context**: This will be the league opener for both teams. The Real Sociedad is looking to start strong after a mixed preseason.
 
 ## Match Reports
-- **Real Sociedad 2-0 Pau FC**: The team won their first pre-season match under new coach Sergio Francisco. Goals were scored by Jon Pacheco and Pablo Marín. The match showcased a solid performance, with notable contributions from Brais Méndez, who assisted both goals.
+- **Against Bournemouth**: 
+  - **Result**: 0-0
+  - **Highlights**: Mikel Oyarzabal missed a penalty, and Álex Remiro made several crucial saves to maintain a clean sheet. The match was characterized by a solid defensive performance but a lack of finishing quality from the attackers.
+  
+- **Against Rennes**: 
+  - **Result**: 1-1
+  - **Highlights**: Iñaki Rupérez scored for Real Sociedad, but they conceded an equalizer late in the match. The team showed improvement in the second half after a lackluster first half.
 
-## Other Notes
-- **Sergio Francisco**: The new coach is focused on maintaining a high-pressure style of play and is optimistic about the team's potential for the upcoming season.
-- **Brais Méndez**: Has started the pre-season strongly, positioning himself as a key player following Zubimendi's departure.
+## Additional Notes
+- **Sadiq's Future**: He has received interest from Valencia for a potential loan, but he is also being considered for a permanent move to Fulham.
+- **Guedes' Ambitions**: He aims to regain his form in LaLiga after struggling in the Premier League, expressing excitement about contributing to the team's success.

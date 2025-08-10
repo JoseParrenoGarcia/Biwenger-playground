@@ -1,51 +1,38 @@
 # Atlético Madrid
 
 ## Injuries
-No major updates.
+- **Pablo Barrios**: Suffered a low-grade muscle injury during training and will miss the upcoming friendly against Porto. He will undergo physiotherapy and individualized rehabilitation work in the gym. His return will depend on his recovery progress.
 
 ## Transfers
-- **Antoine Griezmann**: Expected to meet with Atlético Madrid to discuss a potential move to Los Angeles FC in MLS. His contract runs until 2026, and Atlético is reluctant to let him go easily.
-  
-- **Ángel Correa**: Officially transferred to Tigres UANL for €6 million, marking the end of his decade-long tenure at Atlético Madrid, where he made 469 appearances and scored 88 goals.
-
-- **Álex Baena**: Officially signed from Villarreal for €42 million, plus potential bonuses. He is a versatile midfielder known for his creativity and ability to assist.
-
-- **Johnny Cardoso**: Officially signed from Real Betis for €25 million plus €5 million in variables. He is a 23-year-old midfielder with experience in the US national team.
-
-- **Matteo Ruggeri**: Signed from Atalanta for €17 million. The 22-year-old left-back is expected to add depth to the squad.
-
-- **Thiago Almada**: Officially signed from Botafogo for €21 million plus €5 million in variables. Almada is a versatile attacker who has expressed his excitement about joining Atlético.
-
-- **Rodrigo De Paul**: Expected to join Inter Miami on loan with an option to buy for €15 million. His departure is part of a broader strategy to rejuvenate the squad.
-
-- **Nahuel Molina**: Offered to Villarreal as part of the club's efforts to clear a spot for Almada, as he currently occupies an extracommunity player slot.
-
-- **Samu Lino**: Likely to be sold as part of the club's strategy to balance finances after significant spending on new signings.
-
-- **Conor Gallagher**: Also on the transfer list as the club looks to make room for new players.
+- **Giacomo Raspadori**: The Atlético Madrid has reached an agreement with the player and Napoli for a transfer fee of €22 million plus €4 million in variables. Raspadori is set to arrive in Madrid for a medical examination and to sign his contract. He is expected to join the team for training shortly.
+- **Thomas Lemar**: Officially transferred on loan to Girona FC for the upcoming season.
+- **Santiago Mouriño**: Reacquired by Atlético Madrid from Deportivo Alavés for €4 million and subsequently sold to Villarreal for €10 million.
+- **Carlos Martín**: The Getafe CF is interested in signing him, with a potential deal involving a 50% rights retention by Atlético Madrid.
+- **Jadon Sancho**: Atlético Madrid is reportedly interested in signing the Manchester United winger, who has struggled for playing time in the Premier League.
+- **Roberto Piccoli**: The club is considering a move for the Cagliari forward, valued at around €30 million.
 
 ## Lineups
-### Predicted Lineup for Upcoming Matches
-| Position          | Player                |
-|-------------------|-----------------------|
-| Goalkeeper        | Jan Oblak             |
-| Right Back        | Nahuel Molina         |
-| Center Back       | José María Giménez    |
-| Center Back       | Robin Le Normand      |
-| Left Back         | Matteo Ruggeri        |
-| Midfielder        | Koke                  |
-| Midfielder        | Johnny Cardoso        |
-| Midfielder        | Álex Baena           |
-| Forward           | Julián Álvarez        |
-| Forward           | Antoine Griezmann     |
-| Forward           | Alexander Sorloth     |
+### Predicted Starting XI for Upcoming Match vs RCD Espanyol
+| Position        | Player                 |
+|-----------------|------------------------|
+| Goalkeeper       | Jan Oblak              |
+| Right Back       | Marcos Llorente        |
+| Center Back      | Le Normand             |
+| Center Back      | David Hancko           |
+| Left Back        | Matteo Ruggeri         |
+| Central Midfield | Johnny Cardoso         |
+| Central Midfield | Conor Gallagher         |
+| Left Midfield    | Thiago Almada          |
+| Right Midfield   | Álex Baena            |
+| Forward          | Julián Álvarez        |
+| Forward          | Antoine Griezmann      |
 
 ## Previews of Upcoming Matches
-- **Match against Botafogo**: Scheduled for 21:00 hours at Rose Bowl, Pasadena, California. Atlético Madrid needs a win by at least three goals to have a chance of advancing in the World Club Cup.
+- **Match vs RCD Espanyol**: Scheduled for August 17, 2025, at 21:30. This will be Atlético Madrid's first match of the LaLiga season.
 
 ## Match Reports
-- **Atlético Madrid vs. Botafogo**: Atlético won 1-0 thanks to a late goal from Antoine Griezmann, but it was not enough to advance in the tournament due to previous results.
+- **Newcastle 0-2 Atlético Madrid**: In their final pre-season friendly, Atlético Madrid secured a 2-0 victory against Newcastle with goals from **Julián Álvarez** (50') and **Antoine Griezmann** (63'). The match showcased the effectiveness of new signings, particularly the connection between Álvarez and Baena, who assisted the first goal. The team displayed solid defensive performance, with **David Hancko** standing out.
 
-## Other News
-- **Jan Oblak**: Recently recognized as one of the best goalkeepers in the world after a stellar performance for Slovenia in the Nations League.
-- **Fan Engagement**: Atlético Madrid has set a new record with 60,905 season ticket holders, reflecting the club's growing support and optimism for the upcoming season.
+## Additional Notes
+- **Koke**: Emphasized the need for patience as the team integrates new players and adjusts to the pre-season workload.
+- **Antoine Griezmann**: Expressed confidence in the team's potential and the importance of supporting new signings to help them adapt.

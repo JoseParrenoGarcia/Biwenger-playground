@@ -1,29 +1,42 @@
 # Real Madrid
 
 ## Injuries
-- **Jude Bellingham**: Underwent successful surgery on his left shoulder and is expected to be out for **3 to 4 months**, potentially missing up to ten league matches and the start of the Champions League. He expressed optimism about his recovery, stating, "The process to return has begun, see you soon."
+- **Eduardo Camavinga**: Suffered a right ankle sprain during training and is expected to be out for approximately 10 days. He will miss the opening match of La Liga against Osasuna on August 19 and the friendly against WSG Tirol on August 12. Camavinga's injury is concerning as he has struggled with injuries in the past season, missing a total of 35 matches. His availability for the second league match against Real Oviedo on August 24 is uncertain. 
+- **Jude Bellingham**: Recovering from shoulder surgery and is expected to be out until late October.
+- **Ferland Mendy**: Progressing in recovery from a quadriceps injury but is still uncertain for the start of the season.
+- **Endrick**: Currently recovering from a previous injury and will not participate in the upcoming matches.
 
 ## Transfers
-- **Thibaut Courtois**: Renewed his contract for **one more year**, extending his stay until **2027**. The renewal aligns with the club's policy of offering annual contracts to players over 32.
-- **Rodrygo Goes**: His future is uncertain, with strong interest from **Liverpool** and **Arsenal**. The club is reportedly open to selling him for around **€100 million**.
-- **Abdullah Ouazane**: The young midfielder's transfer fell through after failing a medical examination, despite being in Madrid to finalize the deal.
-- **Álvaro Carreras**: Officially signed from **Benfica** for **€45 million**, with a contract until **2031**.
-- **Franco Mastantuono**: Expected to join the club, marking a significant addition from **River Plate**.
+- **Gonzalo García**: Officially renewed his contract with Real Madrid until 2030 and will be part of the first team, wearing the number 16 jersey.
+- **Reinier Jesús**: Transferred to Atlético Mineiro after failing to make an impact at Real Madrid, where he did not debut with the first team. The deal includes Real Madrid retaining 50% of his economic rights.
+- **Rodrygo Goes**: Despite interest from several Premier League clubs, including Liverpool and Chelsea, no formal offers have been made for Rodrygo. His future at Real Madrid remains uncertain, especially with the competition for places in the squad.
+- **Ibrahima Konaté**: Real Madrid is interested in the Liverpool defender as a potential reinforcement for the defense, but the situation is complicated by Liverpool's desire to renew his contract.
 
 ## Lineups
-- **Predicted Starting XI for the season opener** (due to Bellingham's injury):
-  - **Formation**: 4-3-3
-  - **Goalkeeper**: Courtois
-  - **Defenders**: Carvajal, Militao, Rüdiger, Alaba
-  - **Midfielders**: Tchouaméni, Güler, Valverde
-  - **Forwards**: Vinicius, Mbappé, Rodrygo (if he remains)
+### Predicted Starting XI for Upcoming Match vs. WSG Tirol (August 12)
+| Position      | Player            |
+|---------------|-------------------|
+| Goalkeeper    | Thibaut Courtois  |
+| Right Back    | Dani Carvajal     |
+| Center Back   | Raúl Asencio      |
+| Center Back   | Dean Huijsen      |
+| Left Back     | Álvaro Carreras   |
+| Central Mid   | Fede Valverde     |
+| Central Mid   | Dani Ceballos     |
+| Central Mid   | Brahim Díaz       |
+| Forward       | Vinicius Jr.      |
+| Forward       | Gonzalo García     |
+| Forward       | Kylian Mbappé     |
 
 ## Previews of Upcoming Matches
-- The **first league match** is scheduled for **August 19** against **Osasuna**. Xabi Alonso will have a limited pre-season of only **15 days** for preparations.
+- **Match**: Real Madrid vs. WSG Tirol
+  - **Date**: August 12, 2025
+  - **Time**: 19:00 CEST
+  - **Context**: This will be the only pre-season friendly before the start of La Liga. The match will be crucial for assessing the team's readiness for the league opener against Osasuna on August 19.
 
 ## Match Reports
-- No major updates on match reports as the season has not yet started.
+- **Real Madrid 4 - 1 Leganés**: In a closed-door friendly, Real Madrid triumphed over Leganés. The team initially fell behind but came back to win with goals from Brahim Díaz, Dean Huijsen, and a goal from Thiago Pitarch, who made a notable impact in his debut. The match served as a tactical test for Xabi Alonso, who employed a 4-3-3 formation.
 
-## Additional Notes
-- **Lucas Vázquez** has officially left the club after a decade, and a farewell ceremony is planned.
-- **Vinicius Jr.** is being targeted by Saudi clubs with an offer reportedly around **€350 million**, which would make him the most expensive player in history. However, he has expressed a desire to stay at Madrid.
+## Notes
+- **Xabi Alonso** is focusing on integrating young talents from the academy into the first team, with players like Thiago Pitarch impressing in pre-season.
+- The club is also looking to solidify its penalty-taking responsibilities, with Kylian Mbappé being earmarked as the primary penalty taker moving forward.

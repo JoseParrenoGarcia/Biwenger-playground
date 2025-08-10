@@ -1,42 +1,63 @@
 # Villarreal CF
 
 ## Injuries
-- **Ayoze Pérez**: Suffered a muscle injury while scoring the equalizer in the friendly against Basel and was substituted as a precaution.
-- **Logan Costa**: Left the match against Basel with a knee injury, raising concerns about its severity. Further tests are pending.
+- **Willy Kambwala**
+  - Underwent surgery for a significant hamstring injury in his left leg.
+  - Expected to be sidelined for approximately five months, missing most of the first half of the season.
+  
+- **Logan Costa**
+  - Recently underwent surgery for a complete rupture of the anterior cruciate ligament in his left knee.
+  - Expected to be out for at least eight months, potentially missing the entire season.
+
+- **Ayoze Pérez**
+  - Currently dealing with a muscular injury and is a serious doubt for the start of the season.
+
+- **Ilias Akhomach**
+  - Received medical clearance after recovering from a serious knee injury (anterior cruciate ligament rupture).
+  - Expected to return to action soon.
 
 ## Transfers
-- **Thierno Barry**: Officially transferred to Everton for €32.5 million plus €5.5 million in variables. Villarreal retains a percentage of any future sale.
-- **Álex Baena**: Transferred to Atlético Madrid for approximately €45 million plus variables. He expressed his intention to return to Villarreal in the future.
-- **Rafa Marín**: Joined Villarreal on loan from Napoli with an option to buy for €15 million.
-- **Carlos Romero**: Renewed his contract with Villarreal until 2029 and will be loaned to Espanyol for another season.
-- **Eric Bailly**: Left Villarreal after his contract expired and has signed with Al Najmah SC in Saudi Arabia.
-- **Nicolas Pépé**: Renewed his contract with Villarreal until 2028.
-- **Kevin Carlos**: A target for Villarreal as a potential replacement for Barry.
-- **Martín Payero**: Villarreal is interested in signing the midfielder from Udinese.
-- **Odysseas Vlachodimos**: Villarreal is pursuing the goalkeeper, who is looking to leave Newcastle United.
-- **Tajon Buchanan**: Villarreal is considering a return for the player after the Inter de Milán failed to reach an agreement with Sassuolo.
+- **Juan Foyth**
+  - Renewed his contract with Villarreal until 2029. Foyth expressed happiness about continuing at the club, stating, "This place is my second home."
+
+- **Arnaut Danjuma**
+  - Officially transferred to Valencia until 2028. Villarreal retains 50% of any future sale and additional performance-related variables.
+
+- **Carlo Adriano**
+  - Transferred to Querétaro FC in Mexico after 16 seasons with Villarreal.
+
+- **Thomas Partey**
+  - Signed by Villarreal on a one-year contract amid ongoing legal issues related to serious allegations. The club emphasized the presumption of innocence in their announcement.
+
+- **Alex Freeman**
+  - Villarreal is interested in acquiring the young American right-back from Orlando City, although competition from other clubs exists.
 
 ## Lineups
-### Predicted Starting XI vs. Basel (Friendly)
-| Position       | Player            |
-|----------------|-------------------|
-| Goalkeeper     | Diego Conde       |
-| Defender       | Altimira          |
-| Defender       | Kambwala          |
-| Defender       | Foyth             |
-| Defender       | Cardona           |
-| Midfielder     | Pépé              |
-| Midfielder     | Parejo            |
-| Midfielder     | Comesaña          |
-| Forward        | Moleiro           |
-| Forward        | Ayoze (Danjuma)   |
-| Forward        | Etta Eyong        |
+### Predicted Starting XI for Upcoming Match vs. Aston Villa (Trofeo de la Cerámica)
+| Position         | Player             |
+|------------------|--------------------|
+| Goalkeeper       | Luiz Júnior        |
+| Right Back       | Foyth              |
+| Center Back      | Rafa Marín         |
+| Center Back      | Santiago Mouriño   |
+| Left Back        | Sergi Cardona      |
+| Central Midfield | Parejo             |
+| Central Midfield | Pape Gueye        |
+| Right Wing       | Yéremy Pino        |
+| Left Wing        | Alberto Moleiro    |
+| Forward          | Nicolas Pépé       |
+| Forward          | Ayoze Pérez (or Etta Eyong) |
 
 ## Previews of Upcoming Matches
-- **Next Match**: Villarreal will face **Saint Gallen FC** on July 22, 2025, at 19:00 in Switzerland.
+- **Match**: Villarreal vs. Aston Villa (Trofeo de la Cerámica)
+  - **Date**: August 10, 2025
+  - **Context**: Final pre-season match before the start of LaLiga. Villarreal aims to showcase improvements after a mixed pre-season.
+  - **Notable Players**: Reunion with former Villarreal coach Unai Emery and player Pau Torres.
+  - **Expectations**: Villarreal seeks to build on their recent victory against Arsenal and demonstrate readiness for the upcoming league season.
 
 ## Match Reports
-- **Villarreal vs. Basel (3-3)**: In their first pre-season friendly, Villarreal drew with Basel. Goals were scored by Ajeti (own goal), Ayoze, and Danjuma. The match was marred by injuries to Ayoze and Logan Costa.
+- **Villarreal vs. Arsenal**: Villarreal won 3-2 in a pre-season match, showcasing strong performances from players like Nicolas Pépé and Etta Eyong.
 
-## Other Notes
-- Marcelino has emphasized the need to reinforce the squad in all areas, especially following the departures of key players like Barry and Baena.
+## Additional Notes
+- The club is actively seeking replacements for injured players and is considering further signings as the transfer window remains open.
+- The situation surrounding Thomas Partey has sparked significant debate and concern among fans due to the serious nature of his legal issues.

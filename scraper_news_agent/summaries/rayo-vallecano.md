@@ -1,45 +1,40 @@
 # Rayo Vallecano
 
 ## Injuries
-- No major updates.
+- **Abdul Mumin**: Currently recovering from a serious knee injury (ACL tear) since March. His contract renewal is pending, and the club has made a second offer which remains unanswered.
+- **Etienne Eto'o**: Has been absent from the last three pre-season matches, raising concerns about his future at the club. He had previously scored in the first two friendlies.
 
 ## Transfers
-- **Raúl de Tomás**: Confirmed his departure to **Al Wakrah** in Qatar on a loan deal without an option to buy. He expressed mixed feelings about his time at Rayo, stating, "Although some may not like it, I have been a fan since I was 14." He had a difficult last season, playing only three matches and scoring no goals.
-- **Gerard Gumbau**: Officially returned to Rayo Vallecano on loan from Granada. He previously played for Rayo and is expected to contribute significantly this season.
-- **Dani Cárdenas**: The goalkeeper is being considered for a transfer to **Real Zaragoza** as part of negotiations involving Juan Cruz. His future remains uncertain.
-- **Andrei Ratiu**: The defender is attracting interest from **Wolfsburg**, which has made an offer of €10-12 million. Ratiu has a release clause of €25 million, and the Rayo Vallecano management has stated that any interested party must meet this clause.
-- **Juan Cruz**: The Rayo Vallecano is in discussions to sign the player from Leganés, who has interest from multiple clubs, including Celta and Mallorca.
+- **Andrei Ratiu**: The Rayo Vallecano has acquired 100% of his rights from Villarreal for €5 million (3.5 million fixed + 1.5 million in variables). Ratiu expressed his displeasure on social media about not being informed of the transfer and the club's refusal to accept an €18 million offer from a Premier League club.
+- **Pathé Ciss**: Has expressed a desire to leave the club, with interest from Celta de Vigo and Al Shabab (Saudi Arabia). The Rayo rejected a €2 million offer from Al Shabab, insisting on his €10 million release clause.
+- **Dani Cárdenas**: The goalkeeper is a target for Real Zaragoza, with discussions ongoing regarding a potential loan deal.
+- **Fran Pérez**: An agreement has been reached between Rayo Vallecano and Valencia for his transfer, pending final approval from Valencia's coach Carlos Corberán.
 
 ## Lineups
-### Predicted Lineup for Preseason Match vs. PEC Zwolle
-| Position       | Player              |
-|----------------|---------------------|
-| Goalkeeper      | Augusto Batalla     |
-| Right Back      | Pep Chavarría      |
-| Center Back     | Pelayo Fernández    |
-| Center Back     | Florian Lejeune     |
-| Left Back       | Diego Méndez       |
-| Central Midfield| Unai López         |
-| Central Midfield| Gerard Gumbau      |
-| Right Wing      | Álvaro García       |
-| Attacking Midfield| Óscar Trejo      |
-| Left Wing       | Randy Nteka        |
-| Forward         | Sergio Camello      |
-
-### Match Report vs. Genk
-- The Rayo Vallecano played their first preseason match against **Genk**, ending in a 1-1 draw. Álvaro García scored for Rayo in the 80th minute, but a penalty in the 94th minute equalized for Genk, awarded after a foul by Pacha Espino, who was subsequently sent off.
+### Predicted Starting Eleven vs. Girona (August 15, 2025)
+| Position          | Player           |
+|-------------------|------------------|
+| Goalkeeper        | Augusto Batalla  |
+| Right Back        | Balliu           |
+| Center Back       | Luiz Felipe      |
+| Center Back       | Lejeune          |
+| Left Back         | Pep Chavarría    |
+| Central Midfield  | Óscar Valentín   |
+| Central Midfield  | Unai López       |
+| Attacking Midfield| Pedro Díaz       |
+| Right Wing        | Jorge de Frutos  |
+| Left Wing         | Álvaro García     |
+| Forward           | Nteka            |
 
 ## Previews of Upcoming Matches
-- **Next Match**: Rayo Vallecano will face **PEC Zwolle** on July 26, 2025, as part of their preseason preparations.
+- **Match**: Rayo Vallecano vs. Girona
+- **Date**: August 15, 2025
+- **Context**: This will be the opening match of LaLiga EA Sports for Rayo Vallecano. The team aims to start strong after a promising pre-season.
 
 ## Match Reports
-- **Genk 1-1 Rayo Vallecano**: 
-  - Goals: Álvaro García (80') for Rayo; Adedeji-Sternberg (94' penalty) for Genk.
-  - Rayo showed improvement in the second half but needs to address defensive errors, particularly leading to the late penalty.
+- **Sunderland 0-3 Rayo Vallecano** (August 10, 2025): Rayo secured a convincing victory in their final pre-season friendly with goals from Jorge de Frutos, Pacha Espino, and Isi Palazón. The match showcased a solid performance ahead of their league debut.
+- **West Bromwich Albion 3-2 Rayo Vallecano** (August 2, 2025): Rayo initially led with a goal from De Frutos but conceded three goals in quick succession, ultimately losing the match despite a late goal from Gumbau.
 
 ## Other Notes
-- **Pathé Ciss**: Recently returned to training after extra vacation days. There was interest from Celta, which caused some tension, but the situation has since been clarified.
-- **Samu Becerra**: Made his debut in the match against Genk and was noted for his performance.
-- **Diego Méndez**: Returned to the pitch after 263 days, starting in the match against Genk.
-
-This summary encapsulates the latest developments regarding Rayo Vallecano, focusing on transfers, injuries, and match performances.
+- The Rayo Vallecano has faced criticism from fans regarding the high prices of season tickets and the lack of communication from the club about important decisions.
+- The team is actively seeking to bolster its squad with a focus on acquiring a new striker to fill the gap left by Raúl de Tomás, who has transferred to Al Wakrah in Qatar.

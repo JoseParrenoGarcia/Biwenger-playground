@@ -1,34 +1,42 @@
 # Real Oviedo
 
 ## Injuries
-No major updates.
+- **Haissem Hassan**: Suffered muscular discomfort during the match against Deportivo, leading to his substitution. He did not train with the group afterward, but the club remains optimistic about his condition, hoping he will be available for the season opener against Villarreal on August 15.
+- **Santiago Colombatto**: Continues to miss training due to physical issues.
+- **Jaime Seoane**: Also absent from training, as he does not fit into the club's plans.
+- **David Costas**: Suspended for the first match of the season due to a previous red card.
+- **Álvaro Lemos**: Recovering from a cruciate ligament injury and will miss the start of the season.
 
 ## Transfers
-- **Álex Forés**: Confirmed as a new signing, arriving on loan from Villarreal with an option to buy. He previously played for Levante, scoring 5 goals in 18 matches last season.
-- **Luka Ilic**: Signed from Estrella Roja for approximately €2 million, committing to the club until 2028. He was a standout player in the Serbian SuperLiga last season, scoring 12 goals and providing 6 assists.
-- **Horatiu Moldovan**: Officially signed on loan from Atlético de Madrid until June 30, 2026, with an option to buy. He previously played for Sassuolo, contributing to their promotion to Serie A.
-- **Salomón Rondón**: Arrived on loan from Pachuca, expected to bring experience and leadership to the squad.
-- **Alberto Reina**: Signed as a free agent from Mirandés, looking to make an impact in Primera División.
-- **Interest in Luka Jovic**: The club is in negotiations to sign the Serbian striker, who is currently a free agent after leaving AC Milan. Jovic has received offers from other clubs but is considering the Oviedo proposal.
+- **Luka Jovic**: Officially signed with AEK Athens, rejecting the offer from Oviedo.
+- **Nemanja Maksimovic**: His transfer has become complicated due to interest from a Qatari club, making it unlikely he will join Oviedo.
+- **Daniel Paraschiv**: Loaned to Cultural Leonesa for the season.
+- **Alberto del Moral**: Also loaned to Córdoba CF.
+- **Ovie Ejaria**: Currently on trial with the club, showing promise and likely to be signed.
 
 ## Lineups
-### Predicted Starting XI (for upcoming matches)
-| Position       | Player               |
-|----------------|----------------------|
-| Goalkeeper     | Aarón Escandell      |
-| Right Back     | Nacho Vidal          |
-| Center Back    | David Costas         |
-| Center Back    | Dani Calvo           |
-| Left Back      | Oier Luengo          |
-| Midfielder     | Santi Cazorla        |
-| Midfielder     | Alberto Reina        |
-| Midfielder     | Kwasi Sibo           |
-| Forward        | Fede Viñas           |
-| Forward        | Salomón Rondón      |
-| Forward        | Álex Forés (or Luka Jovic) |
+### Predicted Starting XI against Villarreal (August 15)
+| Position          | Player              |
+|-------------------|---------------------|
+| Goalkeeper        | Aarón Escandell     |
+| Right Back        | Nacho Vidal         |
+| Center Back       | Dani Calvo          |
+| Center Back       | Oier Luengo         |
+| Left Back         | Rahim Alhassane     |
+| Central Midfield  | Kwasi Sibo          |
+| Central Midfield  | Alberto Reina       |
+| Right Wing        | Ilyas Chaira        |
+| Left Wing         | Haissem Hassan (or Ovie Ejaria) |
+| Attacking Midfield| Santi Cazorla (or Luka Ilic) |
+| Striker           | Salomón Rondón (or Fede Viñas) |
 
 ## Previews of Upcoming Matches
-No major updates.
+- **Match against Villarreal**: Scheduled for August 15 at 21:30. This will be Oviedo's first match back in LaLiga after 24 years. The team is focusing on solidifying their defense and finding a rhythm in attack, particularly with the absence of Hassan.
 
 ## Match Reports
-No major updates.
+- **Leganés 0-0 Real Oviedo**: In their final pre-season friendly, Oviedo and Leganés ended in a goalless draw. Oviedo had early chances, including a shot from Sibo and a hit on the post by Rondón. The second half saw Leganés take control but neither team could score. The match highlighted Oviedo's need for offensive reinforcements ahead of the season.
+
+- **Real Oviedo 1-0 Cultural Leonesa**: Salomón Rondón scored the only goal of the match, marking his first goal for Oviedo. The team showed resilience and improved performance compared to previous matches, securing their first victory of the pre-season.
+
+## Additional Notes
+- The club is actively seeking to strengthen their squad, particularly in defense and attack, following the setbacks in signing Jovic and Maksimovic. They are exploring options like Munir El Haddadi and others to bolster their lineup for the upcoming season.

@@ -1,33 +1,37 @@
 # FC Barcelona
 
 ## Injuries
-- **Ibrahim Diarra**: Suffered a muscle tear in the rectus femoris of his right leg during training. He is expected to be out for approximately **3 to 6 weeks**, missing the Asian tour. The club's medical report states, "His recovery will depend on his evolution." Diarra was seen as a promising talent for the upcoming season.
+- **Robert Lewandowski**: Out for the Trofeo Joan Gamper due to muscle discomfort in the left hamstring. Expected recovery time is approximately three weeks, which may cause him to miss the first three matches of LaLiga.
+- **Marc-André Ter Stegen**: Recently underwent back surgery and is currently sidelined. His return timeline is pending a medical evaluation by LaLiga, which will determine if he is classified as long-term injured, allowing the club to use part of his salary for player registrations.
 
 ## Transfers
-- **Marcus Rashford**: The FC Barcelona has reached an agreement with Manchester United for the loan of Rashford with an option to buy for **€30-35 million**. Rashford has agreed to reduce his salary by **25%** to facilitate the move. He is expected to undergo a medical examination soon and join the team for the Asian tour starting on **July 24**. Hansi Flick has expressed his desire to include Rashford in the squad, and the player has shown a strong interest in joining the club.
-- **Roony Bardghji**: Officially signed by Barcelona from Copenhagen until **2029**. Bardghji is seen as a young talent who can bring dynamism to the team.
-- **Oriol Romeu**: Expected to leave Barcelona, with Girona as a potential destination. Hansi Flick has indicated he does not plan to include Romeu in the squad.
-- **Denzel Dumfries**: Barcelona is reportedly not pursuing Dumfries, despite interest from the player’s camp. The Inter Milan director confirmed no formal approach has been made by Barcelona.
+- **Iñigo Martínez**: Officially transferred to Al Nassr after rescinding his contract with Barcelona. His departure frees up approximately €14 million in salary space for the club, aiding in the registration of new signings.
+- **Iñaki Peña**: There are ongoing discussions about his potential transfer to Como, with Cesc Fàbregas expressing interest in signing him. The player is currently considering his options as he seeks more playing time.
 
 ## Lineups
-- **Predicted Starting XI for Asian Tour**:
-  - **Goalkeeper**: Joan García (likely)
-  - **Defenders**: Koundé (likely), Araujo (likely), Christensen (likely), Balde (likely)
-  - **Midfielders**: Gavi (likely), Romeu (uncertain), Pedri (likely)
-  - **Forwards**: Rashford (likely), Lewandowski (likely), Lamine Yamal (likely)
+### Confirmed Lineup for the Trofeo Joan Gamper against Como:
+- **Starting XI**:
+  - Joan García (GK)
+  - Eric García
+  - Ronald Araujo
+  - Pau Cubarsí
+  - Alejandro Balde
+  - Frenkie de Jong
+  - Pedri
+  - Fermín López
+  - Lamine Yamal
+  - Marcus Rashford
+  - Raphinha
+
+### Bench:
+- Iñaki Peña, Wojciech Szczesny, Kochen, Gavi, Ferran Torres, Andreas Christensen, Casadó, Roony Bardghji, Jules Koundé, Jofre, Dro, Toni Fernández, Guille Fernández, Fort, Gerard Martín.
 
 ## Previews of Upcoming Matches
-- **Asian Tour Matches**:
-  - **Vs. Vissel Kobe**: July 27, 2025, at 12:00 PM (CET)
-  - **Vs. FC Seoul**: July 31, 2025, at 1:00 PM (CET)
-  - **Vs. Daegu FC**: August 4, 2025, at 1:00 PM (CET)
-  
-  Hansi Flick aims to use these matches to assess his squad and integrate new signings like Rashford.
+- **Trofeo Joan Gamper**: Scheduled for August 10, 2025, against Como 1907 at 21:00 CET at Estadi Johan Cruyff. This match serves as the final test before the official start of LaLiga against Mallorca on August 16, 2025. The game will feature new signings and is expected to be a showcase for the team.
 
 ## Match Reports
-- No major updates.
+- **Trofeo Joan Gamper**: The match against Como serves as a significant event for the club, with new signings like Joan García and Marcus Rashford making their official debuts. The game will also mark the return of Ter Stegen as captain, who is expected to address the fans despite not playing due to injury.
 
 ## Additional Notes
-- **Ter Stegen**: The goalkeeper is considering surgery for back issues, which could keep him out for **approximately four months**. His absence may allow Barcelona to register Joan García without exceeding salary limits.
-- **Joan García**: Expected to be the starting goalkeeper if Ter Stegen is sidelined.
-- The club has confirmed that the **Joan Gamper Trophy** will not be held at the Camp Nou due to licensing issues, and will instead take place at the Johan Cruyff Stadium.
+- **Hansi Flick**: Expressed his commitment to working hard and aiming for multiple titles this season. He has emphasized the importance of the upcoming matches as the team prepares for LaLiga.
+- **Ter Stegen's Statement**: He acknowledged the importance of resolving issues with the club and expressed his desire to move forward positively.

@@ -1,43 +1,44 @@
 # Real Betis
 
 ## Injuries
-- **Abde Ezzalzouli**: Currently recovering from an edema in his ankle sustained during the Conference League final. He has traveled to Alicante for treatment and is expected to miss the pre-season training in Portugal.
-- **Diego Llorente**: Has started touching the ball and is in the final phase of recovery from a serious injury to his left hamstring. Expected to return to full training soon.
-- **Héctor Bellerín**: Also recovering from injuries and has been training at 100% capacity. He expressed gratitude to the medical staff for their support during his recovery.
+- **Isco Alarcón**: Suffered a new fracture without displacement in the middle third of his left fibula during a friendly match against Málaga. He is expected to be out for approximately **two to three months**, which could mean missing **8 to 12 matches** in LaLiga and the initial games of the Europa League. Isco left the stadium on crutches and with a significant bandage on his leg. The injury is unrelated to his previous issues with the same area, which had previously sidelined him for several months. (Sources: Estadio Deportivo, MundoBetis, AS.com)
+
+- **Germán Pezzella**: Confirmed to be out for around **eight months** due to a severe injury (anterior cruciate ligament tear) sustained during a match for River Plate. He will undergo surgery and is expected to return in April 2026. (Source: Estadio Deportivo)
+
+- **Sergi Altimira**: Missed the last match against Málaga due to a minor injury (calf contusion), but is expected to be ready for the season opener against Elche. (Source: Estadio Deportivo)
+
+- **Pau López**: Did not train due to a precautionary measure after suffering a blow to the head during a friendly match. However, he is expected to be fit for the next match. (Source: MundoBetis)
 
 ## Transfers
-- **Pau López**: Has officially rescinded his contract with Toluca and is set to return to Betis, signing a three-year deal until 2028.
-- **Valentín Gómez**: The Betis has reached an agreement with Vélez Sarsfield for the transfer of the 22-year-old central defender for approximately €5.5 million, pending medical examinations.
-- **Gonzalo Petit**: The 18-year-old Uruguayan striker has signed with Betis until 2031, with the club acquiring 85% of his rights for around €6 million plus variables. He is likely to be loaned out for experience.
-- **Vasco Sousa**: The 21-year-old left-back has joined Betis from Amora FC on a free transfer and is expected to be loaned out for the upcoming season.
-- **Junior Firpo**: Officially returns to Betis after six years, signing a contract until 2028.
+- **Romain Perraud**: Officially transferred to **LOSC Lille** for approximately **€3 million plus variables**, allowing Betis to recover their initial investment from last year. (Sources: MundoBetis, AS.com)
+
+- **Gonzalo Petit**: Loaned to **CD Mirandés** for the season without an option to buy. This move is part of Betis's strategy to manage their squad and financials. (Sources: MundoBetis, AS.com)
+
+- **Borja Iglesias**: Close to a transfer back to **RC Celta** for around **€2.5 million plus variables**. This deal is part of the club's efforts to streamline their squad. (Source: MundoBetis)
+
+- **Nelson Deossa**: Recently signed from **Rayados de Monterrey** for **€11.3 million plus variables**. He is expected to bolster the midfield. (Source: MundoBetis)
 
 ## Lineups
-### Predicted Starting XI vs. Farense (0-2 Win)
-- **Formation**: 4-2-3-1
-- **Players**:
-  - GK: Fran Vieites
-  - DEF: Ángel Ortiz, Bartra, Oreiro, Perraud
-  - MID: Altimira, Mateo
-  - FW: Pablo García, Iker Losada, Morante
-  - FW: Bakambu
-
-### Predicted Starting XI vs. Leiria (0-1 Loss)
-- **Formation**: 4-2-3-1
-- **Players**:
-  - GK: Adrián
-  - DEF: Ruibal, Natan, Rudy, De Roa
-  - MID: Mawuli, Fornals
-  - FW: Chimy Ávila, Dani Pérez, Borja Iglesias
+- **Predicted Starting XI for the next match against Elche**:
+  | Position        | Player                      |
+  |-----------------|-----------------------------|
+  | Goalkeeper      | Pau López (likely)          |
+  | Right Back      | Aitor Ruibal (likely)       |
+  | Center Back     | Marc Bartra (likely)        |
+  | Center Back     | Valentín Gómez (likely)     |
+  | Left Back       | Junior Firpo (likely)       |
+  | Midfielder      | Mawuli (likely)             |
+  | Midfielder      | Pablo Fornals (likely)      |
+  | Attacking Mid   | Giovani Lo Celso (likely)   |
+  | Attacking Mid   | Rodrigo Riquelme (likely)   |
+  | Forward         | Cédric Bakambu (likely)     |
+  | Forward         | Cucho Hernández (likely)     |
 
 ## Previews of Upcoming Matches
-- **Next Match**: The Betis will continue their pre-season training in Sevilla before traveling to England for further matches. Specific opponents and dates have yet to be confirmed.
+- **Next Match**: Against **Elche** on **August 18, 2025**. The team is looking to bounce back after a disappointing pre-season finale against Málaga, where they lost 3-1 and suffered injuries to key players. (Source: MundoBetis)
 
 ## Match Reports
-- **Betis vs. Farense (0-2)**: Betis secured a solid win with goals from Pablo García and Sergi Altimira. The team showed strong performances from canteranos, particularly García, who opened the scoring early.
-- **Betis vs. Leiria (0-1)**: In the second match of the triangular, Betis struggled to create chances and lost due to a defensive error leading to a goal from Jair Silva.
+- **Málaga 3-1 Betis**: In the final pre-season match, Betis struggled defensively and failed to respond effectively after Isco's injury. The team conceded three goals shortly after half-time, with only a late goal from Cucho Hernández providing a consolation. The match was marred by Isco's injury, which raised alarms just before the start of the LaLiga season. (Sources: AS.com, MundoBetis)
 
-## Notable Quotes
-- **Cucho Hernández**: "Empiezo de cero, me lo tomo como mi primer año."
-- **Héctor Bellerín**: "La competición sana entre jugadores hace elevar el nivel del equipo."
-- **Pau López**: Expressed excitement about returning to Betis, where he previously had a successful stint.
+## Additional Notes
+- **David Larrubia**, the player responsible for Isco's injury, has publicly apologized and expressed that he did not intend to cause harm. He has faced backlash on social media following the incident. (Sources: Estadio Deportivo, AS.com)

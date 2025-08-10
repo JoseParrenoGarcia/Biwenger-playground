@@ -1,37 +1,42 @@
 # Valencia CF
 
 ## Injuries
-- **Alberto Marí**: Suffered a muscle injury in the ischiotibial area during the first pre-season match against CD Castellón, leaving the game in the 16th minute. The extent of the injury is yet to be confirmed, but it could lead to several weeks out if it is a muscle tear.
+No major updates.
 
 ## Transfers
-- **Enzo Barrenechea**: Officially signed with Benfica on loan from Aston Villa, with an option to buy for €12 million. Valencia was unable to match the offer.
-- **José Copete**: Valencia has made a first offer of €2 million to RCD Mallorca for the central defender, who is valued at €4 million. The player is keen on the move, but negotiations are ongoing.
-- **Yarek Gasiorowski**: Sold to PSV Eindhoven for approximately €10 million, with Valencia retaining 15% of a future sale.
-- **Cristhian Mosquera**: Expected to finalize a transfer to Arsenal for around €20 million.
+- **Arnaut Danjuma**: Officially signed from Villarreal until 2028. The deal is structured as a cost-free transfer, with the Villarreal retaining 50% of any future sale and performance-related bonuses that could total up to €2 million. Danjuma expressed excitement about joining Valencia, stating, "I have grown with Valencia CF winning many titles."
+  
+- **Baptiste Santamaría**: Signed from Stade Rennes until 2027. The transfer is reported to be low-cost, with potential bonuses. Santamaría aims to bring defensive stability and experience to the midfield.
+
+- **Filip Ugrinic**: Officially signed from Young Boys for around €3 million plus €1 million in variables. He has signed a contract until 2029 and is expected to provide competition in midfield.
+
+- **Cenk Özkacar**: Officially transferred to FC Köln on loan with an option to buy, marking one of the 11 confirmed departures from Valencia this summer.
+
+- **Fran Pérez**: Close to joining Rayo Vallecano, with negotiations reportedly advanced.
 
 ## Lineups
-### Predicted Starting XI for Pre-season Match vs CD Castellón
-| Position          | Player               |
-|-------------------|---------------------|
-| Goalkeeper        | Stole Dimitrievski  |
-| Right Back        | Dimitri Foulquier   |
-| Center Back       | César Tárrega       |
-| Center Back       | Mouctar Diakhaby    |
-| Left Back         | José Luis Gayà      |
-| Central Midfield  | Javi Guerra         |
-| Central Midfield  | Lucas Núñez       |
-| Right Midfield    | Diego López         |
-| Left Midfield     | Fran Pérez          |
-| Attacking Midfield| Dani Raba           |
-| Forward           | Alberto Marí        |
+### Predicted Starting XI for the Upcoming Match (Trofeu Taronja vs. Torino)
+| Position         | Player               |
+|------------------|---------------------|
+| Goalkeeper       | Julen Agirrezabala  |
+| Right Back       | Dimitri Foulquier    |
+| Center Back      | César Tárrega       |
+| Center Back      | José Copete         |
+| Left Back        | José Luis Gayà      |
+| Central Midfield | Pepelu              |
+| Central Midfield | Javi Guerra         |
+| Right Wing       | Luis Rioja          |
+| Left Wing        | Dani Raba           |
+| Forward          | Hugo Duro           |
+| Forward          | Javi Guerra         |
 
 ## Previews of Upcoming Matches
-- **Next Match**: Valencia CF vs. CD Leganés on July 23, 2025, at 20:00 hours, at Estadi Antonio Puchades. The match will be broadcast on A Punt and GOL.
+- **Trofeu Taronja**: Valencia will face Torino on August 9, 2025. This match serves as the final pre-season test before the LaLiga opener against Real Sociedad. Carlos Corberán aims to solidify team cohesion and performance after a shaky pre-season.
 
 ## Match Reports
-- **Valencia CF 1-2 CD Castellón**: Valencia lost their first pre-season match. The team struggled significantly in the first half, trailing 0-2 at halftime due to defensive errors. Sergi Canós scored a penalty in the second half to reduce the deficit, but Valencia could not equalize. The match highlighted the need for reinforcements, as fans expressed their frustration towards the management during the game.
+- **Valencia 3 - 0 Torino**: In the Trofeu Taronja, Valencia secured a convincing victory with Javi Guerra scoring two goals. The team showcased a strong performance, with Guerra's goals coming from well-executed plays. Luis Rioja also contributed with a goal, and Baptiste Santamaría made his debut in the match.
 
-## Other Notes
-- **Eray Cömert**: Expressed his happiness to return to Valencia and is eager to prove himself after a disappointing loan spell at Valladolid. He aims to secure a place in the squad.
-- **Cristian Rivero**: Acknowledged the tough competition for the goalkeeper position and expressed his desire to stay with the club, hoping to be part of the team on September 1st.
-- **Thierry Correia**: Currently recovering from injury but optimistic about returning to full training soon. He expressed hope that key players like Javi Guerra, Diego López, and César Tárrega will remain with the club.
+## Additional Notes
+- **Javi Guerra**: Recently renewed his contract until 2029 and celebrated with a standout performance against Torino.
+- **César Tárrega**: Also renewed until 2030, highlighting the club's commitment to retaining key young talents.
+- **Carlos Corberán**: Expressed confidence in the new signings and the team's direction as they prepare for the upcoming season.
