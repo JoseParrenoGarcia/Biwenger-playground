@@ -5,7 +5,7 @@
     "position": "Forward",
     "total_points": "353",
     "games_played": "34",
-    "current_value": "€23,980,000",
+    "current_value": "€23,540,000",
     "max_value_1y": "€28,120,000"
   },
   {
@@ -14,7 +14,7 @@
     "position": "Forward",
     "total_points": "333",
     "games_played": "35",
-    "current_value": "€23,030,000",
+    "current_value": "€22,640,000",
     "max_value_1y": "€25,730,000"
   },
   {
@@ -23,7 +23,7 @@
     "position": "Forward",
     "total_points": "357",
     "games_played": "36",
-    "current_value": "€18,440,000",
+    "current_value": "€18,060,000",
     "max_value_1y": "€23,780,000"
   },
   {
@@ -32,7 +32,7 @@
     "position": "Midfielder",
     "total_points": "302",
     "games_played": "37",
-    "current_value": "€16,980,000",
+    "current_value": "€16,650,000",
     "max_value_1y": "€22,050,000"
   },
   {
@@ -41,7 +41,7 @@
     "position": "Forward",
     "total_points": "269",
     "games_played": "37",
-    "current_value": "€16,610,000",
+    "current_value": "€16,540,000",
     "max_value_1y": "€19,470,000"
   },
   {
@@ -50,26 +50,8 @@
     "position": "Forward",
     "total_points": "232",
     "games_played": "30",
-    "current_value": "€16,100,000",
-    "max_value_1y": "€21,400,000"
-  },
-  {
-    "name": "Isco",
-    "current_team": "Betis",
-    "position": "Midfielder",
-    "total_points": "200",
-    "games_played": "22",
-    "current_value": "€15,840,000",
-    "max_value_1y": "€22,680,000"
-  },
-  {
-    "name": "Lewandowski",
-    "current_team": "Barcelona",
-    "position": "Forward",
-    "total_points": "284",
-    "games_played": "34",
-    "current_value": "€15,420,000",
-    "max_value_1y": "€23,300,000"
+    "current_value": "€16,040,000",
+    "max_value_1y": "€21,370,000"
   },
   {
     "name": "Valverde",
@@ -77,8 +59,17 @@
     "position": "Midfielder",
     "total_points": "278",
     "games_played": "36",
-    "current_value": "€15,180,000",
+    "current_value": "€14,840,000",
     "max_value_1y": "€19,560,000"
+  },
+  {
+    "name": "Lewandowski",
+    "current_team": "Barcelona",
+    "position": "Forward",
+    "total_points": "284",
+    "games_played": "34",
+    "current_value": "€13,660,000",
+    "max_value_1y": "€23,300,000"
   },
   {
     "name": "Baena",
@@ -86,35 +77,17 @@
     "position": "Midfielder",
     "total_points": "261",
     "games_played": "32",
-    "current_value": "€13,610,000",
+    "current_value": "€13,570,000",
     "max_value_1y": "€19,190,000"
   },
   {
-    "name": "Ayoze",
-    "current_team": "Villarreal",
-    "position": "Forward",
-    "total_points": "231",
-    "games_played": "30",
-    "current_value": "€12,000,000",
-    "max_value_1y": "€19,260,000"
-  },
-  {
-    "name": "Nico Williams",
-    "current_team": "Athletic",
-    "position": "Forward",
-    "total_points": "146",
-    "games_played": "29",
-    "current_value": "€11,630,000",
-    "max_value_1y": "€16,710,000"
-  },
-  {
-    "name": "Budimir",
-    "current_team": "Osasuna",
-    "position": "Forward",
-    "total_points": "272",
-    "games_played": "38",
-    "current_value": "€11,400,000",
-    "max_value_1y": "€15,620,000"
+    "name": "Isco",
+    "current_team": "Betis",
+    "position": "Midfielder",
+    "total_points": "200",
+    "games_played": "22",
+    "current_value": "€12,470,000",
+    "max_value_1y": "€22,680,000"
   },
   {
     "name": "Arda Güler",
@@ -122,8 +95,35 @@
     "position": "Midfielder",
     "total_points": "176",
     "games_played": "28",
-    "current_value": "€11,130,000",
-    "max_value_1y": "€11,130,000"
+    "current_value": "€11,450,000",
+    "max_value_1y": "€11,450,000"
+  },
+  {
+    "name": "Budimir",
+    "current_team": "Osasuna",
+    "position": "Forward",
+    "total_points": "272",
+    "games_played": "38",
+    "current_value": "€11,190,000",
+    "max_value_1y": "€15,620,000"
+  },
+  {
+    "name": "Nico Williams",
+    "current_team": "Athletic",
+    "position": "Forward",
+    "total_points": "146",
+    "games_played": "29",
+    "current_value": "€11,160,000",
+    "max_value_1y": "€16,140,000"
+  },
+  {
+    "name": "Ayoze",
+    "current_team": "Villarreal",
+    "position": "Forward",
+    "total_points": "231",
+    "games_played": "30",
+    "current_value": "€11,000,000",
+    "max_value_1y": "€19,260,000"
   },
   {
     "name": "Dean Huijsen",
@@ -131,7 +131,7 @@
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€10,200,000",
+    "current_value": "€9,960,000",
     "max_value_1y": "€10,470,000"
   },
   {
@@ -140,17 +140,8 @@
     "position": "Forward",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€9,840,000",
+    "current_value": "€9,800,000",
     "max_value_1y": "€11,200,000"
-  },
-  {
-    "name": "Dani Olmo",
-    "current_team": "Barcelona",
-    "position": "Midfielder",
-    "total_points": "188",
-    "games_played": "25",
-    "current_value": "€9,450,000",
-    "max_value_1y": "€18,100,000"
   },
   {
     "name": "Kubo",
@@ -158,26 +149,26 @@
     "position": "Midfielder",
     "total_points": "205",
     "games_played": "36",
-    "current_value": "€9,320,000",
+    "current_value": "€9,560,000",
     "max_value_1y": "€16,280,000"
   },
   {
-    "name": "Sancet",
-    "current_team": "Athletic",
+    "name": "Dani Olmo",
+    "current_team": "Barcelona",
     "position": "Midfielder",
-    "total_points": "197",
-    "games_played": "29",
-    "current_value": "€9,010,000",
-    "max_value_1y": "€16,960,000"
+    "total_points": "188",
+    "games_played": "25",
+    "current_value": "€8,880,000",
+    "max_value_1y": "€18,100,000"
   },
   {
-    "name": "Bellingham",
-    "current_team": "Real Madrid",
+    "name": "Lo Celso",
+    "current_team": "Betis",
     "position": "Midfielder",
-    "total_points": "254",
-    "games_played": "31",
-    "current_value": "€8,870,000",
-    "max_value_1y": "€23,820,000"
+    "total_points": "194",
+    "games_played": "25",
+    "current_value": "€8,680,000",
+    "max_value_1y": "€19,220,000"
   },
   {
     "name": "Iñaki Williams",
@@ -185,7 +176,7 @@
     "position": "Forward",
     "total_points": "194",
     "games_played": "35",
-    "current_value": "€8,580,000",
+    "current_value": "€8,610,000",
     "max_value_1y": "€15,990,000"
   },
   {
@@ -194,44 +185,26 @@
     "position": "Defender",
     "total_points": "194",
     "games_played": "32",
-    "current_value": "€8,530,000",
+    "current_value": "€8,580,000",
     "max_value_1y": "€12,600,000"
   },
   {
-    "name": "Sørloth",
-    "current_team": "Atlético",
-    "position": "Forward",
-    "total_points": "223",
-    "games_played": "35",
-    "current_value": "€8,520,000",
-    "max_value_1y": "€14,660,000"
-  },
-  {
-    "name": "Joan García",
-    "current_team": "Barcelona",
-    "position": "Goalkeeper",
-    "total_points": "246",
-    "games_played": "38",
-    "current_value": "€8,020,000",
-    "max_value_1y": "€11,600,000"
-  },
-  {
-    "name": "Lo Celso",
-    "current_team": "Betis",
-    "position": "Midfielder",
-    "total_points": "194",
-    "games_played": "25",
-    "current_value": "€8,000,000",
-    "max_value_1y": "€19,220,000"
-  },
-  {
-    "name": "Trent",
+    "name": "Bellingham",
     "current_team": "Real Madrid",
-    "position": "Defender",
+    "position": "Midfielder",
+    "total_points": "254",
+    "games_played": "31",
+    "current_value": "€8,500,000",
+    "max_value_1y": "€23,820,000"
+  },
+  {
+    "name": "Raspadori",
+    "current_team": "Atlético",
+    "position": "Midfielder",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€7,830,000",
-    "max_value_1y": "€8,900,000"
+    "current_value": "€8,200,000",
+    "max_value_1y": "€8,560,000"
   },
   {
     "name": "De Jong",
@@ -239,26 +212,26 @@
     "position": "Midfielder",
     "total_points": "132",
     "games_played": "26",
-    "current_value": "€7,760,000",
+    "current_value": "€7,970,000",
     "max_value_1y": "€12,100,000"
   },
   {
-    "name": "Moleiro",
-    "current_team": "Villarreal",
-    "position": "Midfielder",
-    "total_points": "159",
-    "games_played": "35",
-    "current_value": "€7,680,000",
-    "max_value_1y": "€9,710,000"
+    "name": "Joan García",
+    "current_team": "Barcelona",
+    "position": "Goalkeeper",
+    "total_points": "246",
+    "games_played": "38",
+    "current_value": "€7,870,000",
+    "max_value_1y": "€11,600,000"
   },
   {
-    "name": "Cucho",
-    "current_team": "Betis",
-    "position": "Forward",
-    "total_points": "106",
-    "games_played": "15",
-    "current_value": "€7,440,000",
-    "max_value_1y": "€12,760,000"
+    "name": "Sancet",
+    "current_team": "Athletic",
+    "position": "Midfielder",
+    "total_points": "197",
+    "games_played": "29",
+    "current_value": "€7,760,000",
+    "max_value_1y": "€16,960,000"
   },
   {
     "name": "Lukébakio",
@@ -266,8 +239,35 @@
     "position": "Forward",
     "total_points": "229",
     "games_played": "38",
-    "current_value": "€7,420,000",
+    "current_value": "€7,680,000",
     "max_value_1y": "€15,100,000"
+  },
+  {
+    "name": "Cucho",
+    "current_team": "Betis",
+    "position": "Forward",
+    "total_points": "106",
+    "games_played": "15",
+    "current_value": "€7,670,000",
+    "max_value_1y": "€12,760,000"
+  },
+  {
+    "name": "Sørloth",
+    "current_team": "Atlético",
+    "position": "Forward",
+    "total_points": "223",
+    "games_played": "35",
+    "current_value": "€7,670,000",
+    "max_value_1y": "€14,660,000"
+  },
+  {
+    "name": "Trent",
+    "current_team": "Real Madrid",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€7,630,000",
+    "max_value_1y": "€8,900,000"
   },
   {
     "name": "Oyarzabal",
@@ -275,26 +275,17 @@
     "position": "Forward",
     "total_points": "162",
     "games_played": "35",
-    "current_value": "€7,370,000",
+    "current_value": "€7,430,000",
     "max_value_1y": "€9,530,000"
   },
   {
-    "name": "Courtois",
-    "current_team": "Real Madrid",
-    "position": "Goalkeeper",
-    "total_points": "154",
-    "games_played": "30",
-    "current_value": "€7,330,000",
-    "max_value_1y": "€8,620,000"
-  },
-  {
-    "name": "Thomas",
+    "name": "Moleiro",
     "current_team": "Villarreal",
     "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€7,260,000",
-    "max_value_1y": "€7,280,000"
+    "total_points": "159",
+    "games_played": "35",
+    "current_value": "€7,300,000",
+    "max_value_1y": "€9,710,000"
   },
   {
     "name": "Cubarsi",
@@ -302,17 +293,17 @@
     "position": "Defender",
     "total_points": "161",
     "games_played": "35",
-    "current_value": "€7,080,000",
+    "current_value": "€7,230,000",
     "max_value_1y": "€10,710,000"
   },
   {
-    "name": "Mastantuono",
+    "name": "Courtois",
     "current_team": "Real Madrid",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€6,990,000",
-    "max_value_1y": "€6,990,000"
+    "position": "Goalkeeper",
+    "total_points": "154",
+    "games_played": "30",
+    "current_value": "€7,190,000",
+    "max_value_1y": "€8,620,000"
   },
   {
     "name": "Iago Aspas",
@@ -320,7 +311,7 @@
     "position": "Forward",
     "total_points": "215",
     "games_played": "30",
-    "current_value": "€6,920,000",
+    "current_value": "€7,090,000",
     "max_value_1y": "€14,800,000"
   },
   {
@@ -329,7 +320,7 @@
     "position": "Forward",
     "total_points": "238",
     "games_played": "38",
-    "current_value": "€6,890,000",
+    "current_value": "€7,070,000",
     "max_value_1y": "€17,920,000"
   },
   {
@@ -338,8 +329,8 @@
     "position": "Forward",
     "total_points": "199",
     "games_played": "29",
-    "current_value": "€6,780,000",
-    "max_value_1y": "€6,900,000"
+    "current_value": "€6,970,000",
+    "max_value_1y": "€6,970,000"
   },
   {
     "name": "Muriqi",
@@ -347,17 +338,17 @@
     "position": "Forward",
     "total_points": "152",
     "games_played": "29",
-    "current_value": "€6,660,000",
+    "current_value": "€6,800,000",
     "max_value_1y": "€10,540,000"
   },
   {
-    "name": "Vivian",
-    "current_team": "Athletic",
-    "position": "Defender",
-    "total_points": "196",
-    "games_played": "32",
-    "current_value": "€6,400,000",
-    "max_value_1y": "€9,570,000"
+    "name": "Thomas",
+    "current_team": "Villarreal",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€6,450,000",
+    "max_value_1y": "€7,280,000"
   },
   {
     "name": "Puado",
@@ -365,17 +356,35 @@
     "position": "Forward",
     "total_points": "180",
     "games_played": "35",
-    "current_value": "€6,220,000",
+    "current_value": "€6,430,000",
     "max_value_1y": "€7,550,000"
   },
   {
-    "name": "Balde",
-    "current_team": "Barcelona",
+    "name": "Vivian",
+    "current_team": "Athletic",
     "position": "Defender",
-    "total_points": "144",
+    "total_points": "196",
     "games_played": "32",
-    "current_value": "€6,140,000",
-    "max_value_1y": "€7,960,000"
+    "current_value": "€6,360,000",
+    "max_value_1y": "€9,570,000"
+  },
+  {
+    "name": "Bryan Zaragoza",
+    "current_team": "Celta",
+    "position": "Forward",
+    "total_points": "128",
+    "games_played": "27",
+    "current_value": "€6,350,000",
+    "max_value_1y": "€11,750,000"
+  },
+  {
+    "name": "Mastantuono",
+    "current_team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€6,350,000",
+    "max_value_1y": "€6,990,000"
   },
   {
     "name": "Johnny",
@@ -383,8 +392,17 @@
     "position": "Midfielder",
     "total_points": "139",
     "games_played": "28",
-    "current_value": "€6,130,000",
+    "current_value": "€6,340,000",
     "max_value_1y": "€8,370,000"
+  },
+  {
+    "name": "Balde",
+    "current_team": "Barcelona",
+    "position": "Defender",
+    "total_points": "144",
+    "games_played": "32",
+    "current_value": "€6,300,000",
+    "max_value_1y": "€7,960,000"
   },
   {
     "name": "Tchouameni",
@@ -392,7 +410,7 @@
     "position": "Midfielder",
     "total_points": "166",
     "games_played": "32",
-    "current_value": "€6,110,000",
+    "current_value": "€6,270,000",
     "max_value_1y": "€6,930,000"
   },
   {
@@ -401,8 +419,8 @@
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€5,960,000",
-    "max_value_1y": "€5,960,000"
+    "current_value": "€6,050,000",
+    "max_value_1y": "€6,050,000"
   },
   {
     "name": "Aimar Oroz",
@@ -410,7 +428,7 @@
     "position": "Midfielder",
     "total_points": "197",
     "games_played": "37",
-    "current_value": "€5,840,000",
+    "current_value": "€5,990,000",
     "max_value_1y": "€8,870,000"
   },
   {
@@ -419,26 +437,8 @@
     "position": "Midfielder",
     "total_points": "195",
     "games_played": "33",
-    "current_value": "€5,820,000",
+    "current_value": "€5,950,000",
     "max_value_1y": "€10,670,000"
-  },
-  {
-    "name": "Bryan Zaragoza",
-    "current_team": "Celta",
-    "position": "Forward",
-    "total_points": "128",
-    "games_played": "27",
-    "current_value": "€5,750,000",
-    "max_value_1y": "€11,750,000"
-  },
-  {
-    "name": "Arambarri",
-    "current_team": "Getafe",
-    "position": "Midfielder",
-    "total_points": "189",
-    "games_played": "35",
-    "current_value": "€5,690,000",
-    "max_value_1y": "€10,920,000"
   },
   {
     "name": "Giuliano Simeone",
@@ -446,17 +446,17 @@
     "position": "Midfielder",
     "total_points": "154",
     "games_played": "33",
-    "current_value": "€5,690,000",
+    "current_value": "€5,800,000",
     "max_value_1y": "€10,010,000"
   },
   {
-    "name": "Jutglà",
-    "current_team": "Celta",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€5,680,000",
-    "max_value_1y": "€5,680,000"
+    "name": "Arambarri",
+    "current_team": "Getafe",
+    "position": "Midfielder",
+    "total_points": "189",
+    "games_played": "35",
+    "current_value": "€5,790,000",
+    "max_value_1y": "€10,920,000"
   },
   {
     "name": "Mingueza",
@@ -464,8 +464,17 @@
     "position": "Defender",
     "total_points": "200",
     "games_played": "34",
-    "current_value": "€5,670,000",
+    "current_value": "€5,780,000",
     "max_value_1y": "€8,780,000"
+  },
+  {
+    "name": "Jutglà",
+    "current_team": "Celta",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€5,740,000",
+    "max_value_1y": "€5,740,000"
   },
   {
     "name": "Unai Simón",
@@ -473,8 +482,8 @@
     "position": "Goalkeeper",
     "total_points": "108",
     "games_played": "21",
-    "current_value": "€5,630,000",
-    "max_value_1y": "€5,630,000"
+    "current_value": "€5,740,000",
+    "max_value_1y": "€5,740,000"
   },
   {
     "name": "Oblak",
@@ -482,8 +491,17 @@
     "position": "Goalkeeper",
     "total_points": "181",
     "games_played": "36",
-    "current_value": "€5,590,000",
-    "max_value_1y": "€5,590,000"
+    "current_value": "€5,680,000",
+    "max_value_1y": "€5,680,000"
+  },
+  {
+    "name": "Pépé",
+    "current_team": "Villarreal",
+    "position": "Forward",
+    "total_points": "160",
+    "games_played": "28",
+    "current_value": "€5,650,000",
+    "max_value_1y": "€7,120,000"
   },
   {
     "name": "Brais Méndez",
@@ -491,7 +509,7 @@
     "position": "Midfielder",
     "total_points": "114",
     "games_played": "27",
-    "current_value": "€5,450,000",
+    "current_value": "€5,590,000",
     "max_value_1y": "€10,270,000"
   },
   {
@@ -500,17 +518,8 @@
     "position": "Midfielder",
     "total_points": "180",
     "games_played": "33",
-    "current_value": "€5,360,000",
+    "current_value": "€5,570,000",
     "max_value_1y": "€9,510,000"
-  },
-  {
-    "name": "Pépé",
-    "current_team": "Villarreal",
-    "position": "Forward",
-    "total_points": "160",
-    "games_played": "28",
-    "current_value": "€5,350,000",
-    "max_value_1y": "€7,120,000"
   },
   {
     "name": "Roro Riquelme",
@@ -518,44 +527,8 @@
     "position": "Midfielder",
     "total_points": "53",
     "games_played": "16",
-    "current_value": "€5,310,000",
-    "max_value_1y": "€5,310,000"
-  },
-  {
-    "name": "Lejeune",
-    "current_team": "Rayo Vallecano",
-    "position": "Defender",
-    "total_points": "209",
-    "games_played": "37",
-    "current_value": "€5,260,000",
-    "max_value_1y": "€7,470,000"
-  },
-  {
-    "name": "Raíllo",
-    "current_team": "Mallorca",
-    "position": "Defender",
-    "total_points": "203",
-    "games_played": "36",
-    "current_value": "€5,150,000",
-    "max_value_1y": "€8,850,000"
-  },
-  {
-    "name": "Pablo Torre",
-    "current_team": "Mallorca",
-    "position": "Midfielder",
-    "total_points": "62",
-    "games_played": "10",
-    "current_value": "€5,150,000",
-    "max_value_1y": "€5,150,000"
-  },
-  {
-    "name": "Berenguer",
-    "current_team": "Athletic",
-    "position": "Forward",
-    "total_points": "197",
-    "games_played": "36",
-    "current_value": "€5,130,000",
-    "max_value_1y": "€10,400,000"
+    "current_value": "€5,560,000",
+    "max_value_1y": "€5,560,000"
   },
   {
     "name": "Guedes",
@@ -563,35 +536,35 @@
     "position": "Forward",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€5,060,000",
-    "max_value_1y": "€5,060,000"
+    "current_value": "€5,380,000",
+    "max_value_1y": "€5,380,000"
   },
   {
-    "name": "Pape Gueye",
-    "current_team": "Villarreal",
+    "name": "Pablo Torre",
+    "current_team": "Mallorca",
     "position": "Midfielder",
-    "total_points": "183",
-    "games_played": "34",
-    "current_value": "€5,000,000",
-    "max_value_1y": "€9,490,000"
+    "total_points": "62",
+    "games_played": "10",
+    "current_value": "€5,380,000",
+    "max_value_1y": "€5,380,000"
   },
   {
-    "name": "Álvaro Valles",
-    "current_team": "Betis",
-    "position": "Goalkeeper",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€4,940,000",
-    "max_value_1y": "€4,940,000"
+    "name": "Lejeune",
+    "current_team": "Rayo Vallecano",
+    "position": "Defender",
+    "total_points": "209",
+    "games_played": "37",
+    "current_value": "€5,340,000",
+    "max_value_1y": "€7,470,000"
   },
   {
-    "name": "Remiro",
-    "current_team": "Real Sociedad",
-    "position": "Goalkeeper",
-    "total_points": "164",
+    "name": "Berenguer",
+    "current_team": "Athletic",
+    "position": "Forward",
+    "total_points": "197",
     "games_played": "36",
-    "current_value": "€4,930,000",
-    "max_value_1y": "€5,690,000"
+    "current_value": "€5,320,000",
+    "max_value_1y": "€10,400,000"
   },
   {
     "name": "Militão",
@@ -599,7 +572,7 @@
     "position": "Defender",
     "total_points": "76",
     "games_played": "12",
-    "current_value": "€4,930,000",
+    "current_value": "€5,320,000",
     "max_value_1y": "€8,460,000"
   },
   {
@@ -608,26 +581,35 @@
     "position": "Forward",
     "total_points": "101",
     "games_played": "17",
-    "current_value": "€4,920,000",
+    "current_value": "€5,280,000",
     "max_value_1y": "€10,840,000"
   },
   {
-    "name": "David Soria",
-    "current_team": "Getafe",
-    "position": "Goalkeeper",
-    "total_points": "181",
-    "games_played": "38",
-    "current_value": "€4,900,000",
-    "max_value_1y": "€4,920,000"
+    "name": "Raíllo",
+    "current_team": "Mallorca",
+    "position": "Defender",
+    "total_points": "203",
+    "games_played": "36",
+    "current_value": "€5,170,000",
+    "max_value_1y": "€8,850,000"
   },
   {
-    "name": "Sergio Gómez",
-    "current_team": "Real Sociedad",
+    "name": "Pape Gueye",
+    "current_team": "Villarreal",
     "position": "Midfielder",
-    "total_points": "208",
-    "games_played": "37",
-    "current_value": "€4,900,000",
-    "max_value_1y": "€10,390,000"
+    "total_points": "183",
+    "games_played": "34",
+    "current_value": "€5,170,000",
+    "max_value_1y": "€9,490,000"
+  },
+  {
+    "name": "Remiro",
+    "current_team": "Real Sociedad",
+    "position": "Goalkeeper",
+    "total_points": "164",
+    "games_played": "36",
+    "current_value": "€5,070,000",
+    "max_value_1y": "€5,690,000"
   },
   {
     "name": "Carlos Vicente",
@@ -635,17 +617,8 @@
     "position": "Forward",
     "total_points": "187",
     "games_played": "37",
-    "current_value": "€4,890,000",
+    "current_value": "€5,050,000",
     "max_value_1y": "€6,540,000"
-  },
-  {
-    "name": "Thiago Almada",
-    "current_team": "Atlético",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€4,840,000",
-    "max_value_1y": "€6,770,000"
   },
   {
     "name": "Gonzalo García",
@@ -653,17 +626,17 @@
     "position": "Forward",
     "total_points": "9",
     "games_played": "3",
-    "current_value": "€4,830,000",
-    "max_value_1y": "€4,830,000"
+    "current_value": "€5,040,000",
+    "max_value_1y": "€5,080,000"
   },
   {
-    "name": "Ratiu",
-    "current_team": "Rayo Vallecano",
-    "position": "Defender",
-    "total_points": "171",
-    "games_played": "35",
-    "current_value": "€4,780,000",
-    "max_value_1y": "€7,680,000"
+    "name": "David Soria",
+    "current_team": "Getafe",
+    "position": "Goalkeeper",
+    "total_points": "181",
+    "games_played": "38",
+    "current_value": "€5,030,000",
+    "max_value_1y": "€5,030,000"
   },
   {
     "name": "Foyth",
@@ -671,62 +644,17 @@
     "position": "Defender",
     "total_points": "112",
     "games_played": "19",
-    "current_value": "€4,770,000",
+    "current_value": "€4,940,000",
     "max_value_1y": "€8,090,000"
   },
   {
-    "name": "Comesaña",
-    "current_team": "Villarreal",
-    "position": "Midfielder",
-    "total_points": "196",
-    "games_played": "35",
-    "current_value": "€4,750,000",
-    "max_value_1y": "€6,930,000"
-  },
-  {
-    "name": "Darder",
-    "current_team": "Mallorca",
-    "position": "Midfielder",
-    "total_points": "198",
-    "games_played": "38",
-    "current_value": "€4,700,000",
-    "max_value_1y": "€7,700,000"
-  },
-  {
-    "name": "Sergio Herrera",
-    "current_team": "Osasuna",
-    "position": "Goalkeeper",
-    "total_points": "217",
-    "games_played": "37",
-    "current_value": "€4,690,000",
-    "max_value_1y": "€5,420,000"
-  },
-  {
-    "name": "Jauregizar",
-    "current_team": "Athletic",
-    "position": "Midfielder",
-    "total_points": "157",
-    "games_played": "34",
-    "current_value": "€4,680,000",
-    "max_value_1y": "€4,680,000"
-  },
-  {
-    "name": "Deossa",
-    "current_team": "Betis",
+    "name": "Thiago Almada",
+    "current_team": "Atlético",
     "position": "Midfielder",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€4,640,000",
-    "max_value_1y": "€4,640,000"
-  },
-  {
-    "name": "Álvaro García",
-    "current_team": "Rayo Vallecano",
-    "position": "Forward",
-    "total_points": "194",
-    "games_played": "36",
-    "current_value": "€4,620,000",
-    "max_value_1y": "€6,690,000"
+    "current_value": "€4,900,000",
+    "max_value_1y": "€6,770,000"
   },
   {
     "name": "Fornals",
@@ -734,8 +662,35 @@
     "position": "Midfielder",
     "total_points": "130",
     "games_played": "26",
-    "current_value": "€4,610,000",
+    "current_value": "€4,870,000",
     "max_value_1y": "€7,870,000"
+  },
+  {
+    "name": "Álvaro Valles",
+    "current_team": "Betis",
+    "position": "Goalkeeper",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€4,860,000",
+    "max_value_1y": "€5,000,000"
+  },
+  {
+    "name": "Sergio Herrera",
+    "current_team": "Osasuna",
+    "position": "Goalkeeper",
+    "total_points": "217",
+    "games_played": "37",
+    "current_value": "€4,840,000",
+    "max_value_1y": "€5,420,000"
+  },
+  {
+    "name": "Javi Guerra",
+    "current_team": "Valencia",
+    "position": "Midfielder",
+    "total_points": "143",
+    "games_played": "36",
+    "current_value": "€4,840,000",
+    "max_value_1y": "€5,090,000"
   },
   {
     "name": "Agirrezabala",
@@ -743,17 +698,35 @@
     "position": "Goalkeeper",
     "total_points": "61",
     "games_played": "14",
-    "current_value": "€4,610,000",
-    "max_value_1y": "€4,610,000"
+    "current_value": "€4,830,000",
+    "max_value_1y": "€4,830,000"
   },
   {
-    "name": "Hugo Duro",
-    "current_team": "Valencia",
+    "name": "Jauregizar",
+    "current_team": "Athletic",
+    "position": "Midfielder",
+    "total_points": "157",
+    "games_played": "34",
+    "current_value": "€4,830,000",
+    "max_value_1y": "€4,830,000"
+  },
+  {
+    "name": "Darder",
+    "current_team": "Mallorca",
+    "position": "Midfielder",
+    "total_points": "198",
+    "games_played": "38",
+    "current_value": "€4,820,000",
+    "max_value_1y": "€7,700,000"
+  },
+  {
+    "name": "Álvaro García",
+    "current_team": "Rayo Vallecano",
     "position": "Forward",
-    "total_points": "162",
-    "games_played": "31",
-    "current_value": "€4,570,000",
-    "max_value_1y": "€7,540,000"
+    "total_points": "194",
+    "games_played": "36",
+    "current_value": "€4,730,000",
+    "max_value_1y": "€6,690,000"
   },
   {
     "name": "Parejo",
@@ -761,7 +734,7 @@
     "position": "Midfielder",
     "total_points": "187",
     "games_played": "36",
-    "current_value": "€4,530,000",
+    "current_value": "€4,690,000",
     "max_value_1y": "€8,060,000"
   },
   {
@@ -770,17 +743,26 @@
     "position": "Goalkeeper",
     "total_points": "170",
     "games_played": "32",
-    "current_value": "€4,530,000",
+    "current_value": "€4,690,000",
     "max_value_1y": "€5,510,000"
   },
   {
-    "name": "Javi Guerra",
-    "current_team": "Valencia",
+    "name": "Sergio Gómez",
+    "current_team": "Real Sociedad",
     "position": "Midfielder",
-    "total_points": "143",
-    "games_played": "36",
-    "current_value": "€4,470,000",
-    "max_value_1y": "€5,090,000"
+    "total_points": "208",
+    "games_played": "37",
+    "current_value": "€4,650,000",
+    "max_value_1y": "€10,390,000"
+  },
+  {
+    "name": "Yangel Herrera",
+    "current_team": "Girona",
+    "position": "Midfielder",
+    "total_points": "156",
+    "games_played": "29",
+    "current_value": "€4,590,000",
+    "max_value_1y": "€6,090,000"
   },
   {
     "name": "Diego López",
@@ -788,26 +770,8 @@
     "position": "Forward",
     "total_points": "168",
     "games_played": "38",
-    "current_value": "€4,460,000",
+    "current_value": "€4,570,000",
     "max_value_1y": "€8,200,000"
-  },
-  {
-    "name": "Yangel Herrera",
-    "current_team": "Girona",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "29",
-    "current_value": "€4,450,000",
-    "max_value_1y": "€6,090,000"
-  },
-  {
-    "name": "Barrios",
-    "current_team": "Atlético",
-    "position": "Midfielder",
-    "total_points": "148",
-    "games_played": "31",
-    "current_value": "€4,450,000",
-    "max_value_1y": "€4,770,000"
   },
   {
     "name": "Rioja",
@@ -815,17 +779,8 @@
     "position": "Forward",
     "total_points": "187",
     "games_played": "37",
-    "current_value": "€4,380,000",
+    "current_value": "€4,520,000",
     "max_value_1y": "€6,290,000"
-  },
-  {
-    "name": "Marcos Alonso",
-    "current_team": "Celta",
-    "position": "Defender",
-    "total_points": "169",
-    "games_played": "31",
-    "current_value": "€4,300,000",
-    "max_value_1y": "€6,590,000"
   },
   {
     "name": "Isi Palazón",
@@ -833,35 +788,26 @@
     "position": "Forward",
     "total_points": "174",
     "games_played": "35",
-    "current_value": "€4,280,000",
+    "current_value": "€4,500,000",
     "max_value_1y": "€5,270,000"
   },
   {
-    "name": "Sivera",
-    "current_team": "Alavés",
-    "position": "Goalkeeper",
-    "total_points": "154",
-    "games_played": "32",
-    "current_value": "€4,280,000",
-    "max_value_1y": "€4,280,000"
-  },
-  {
-    "name": "Sergi Cardona",
-    "current_team": "Villarreal",
-    "position": "Defender",
-    "total_points": "191",
-    "games_played": "35",
-    "current_value": "€4,280,000",
-    "max_value_1y": "€7,050,000"
-  },
-  {
-    "name": "Roberto Fernández",
-    "current_team": "Espanyol",
+    "name": "Hugo Duro",
+    "current_team": "Valencia",
     "position": "Forward",
-    "total_points": "99",
-    "games_played": "19",
-    "current_value": "€4,280,000",
-    "max_value_1y": "€5,450,000"
+    "total_points": "162",
+    "games_played": "31",
+    "current_value": "€4,460,000",
+    "max_value_1y": "€7,540,000"
+  },
+  {
+    "name": "Marcos Alonso",
+    "current_team": "Celta",
+    "position": "Defender",
+    "total_points": "169",
+    "games_played": "31",
+    "current_value": "€4,450,000",
+    "max_value_1y": "€6,590,000"
   },
   {
     "name": "Mayoral",
@@ -869,8 +815,26 @@
     "position": "Forward",
     "total_points": "102",
     "games_played": "24",
-    "current_value": "€4,270,000",
-    "max_value_1y": "€5,700,000"
+    "current_value": "€4,420,000",
+    "max_value_1y": "€5,640,000"
+  },
+  {
+    "name": "Sivera",
+    "current_team": "Alavés",
+    "position": "Goalkeeper",
+    "total_points": "154",
+    "games_played": "32",
+    "current_value": "€4,400,000",
+    "max_value_1y": "€4,400,000"
+  },
+  {
+    "name": "Sergi Cardona",
+    "current_team": "Villarreal",
+    "position": "Defender",
+    "total_points": "191",
+    "games_played": "35",
+    "current_value": "€4,400,000",
+    "max_value_1y": "€7,050,000"
   },
   {
     "name": "Le Normand",
@@ -878,35 +842,26 @@
     "position": "Defender",
     "total_points": "119",
     "games_played": "27",
-    "current_value": "€4,270,000",
+    "current_value": "€4,390,000",
     "max_value_1y": "€6,840,000"
   },
   {
-    "name": "Yéremy Pino",
+    "name": "Comesaña",
     "current_team": "Villarreal",
+    "position": "Midfielder",
+    "total_points": "196",
+    "games_played": "35",
+    "current_value": "€4,380,000",
+    "max_value_1y": "€6,930,000"
+  },
+  {
+    "name": "Roberto Fernández",
+    "current_team": "Espanyol",
     "position": "Forward",
-    "total_points": "169",
-    "games_played": "34",
-    "current_value": "€4,270,000",
-    "max_value_1y": "€4,590,000"
-  },
-  {
-    "name": "Carvajal",
-    "current_team": "Real Madrid",
-    "position": "Defender",
-    "total_points": "53",
-    "games_played": "8",
-    "current_value": "€4,250,000",
-    "max_value_1y": "€9,820,000"
-  },
-  {
-    "name": "Gazzaniga",
-    "current_team": "Girona",
-    "position": "Goalkeeper",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€4,160,000",
-    "max_value_1y": "€4,980,000"
+    "total_points": "99",
+    "games_played": "19",
+    "current_value": "€4,380,000",
+    "max_value_1y": "€5,450,000"
   },
   {
     "name": "Gavi",
@@ -914,125 +869,17 @@
     "position": "Midfielder",
     "total_points": "110",
     "games_played": "26",
-    "current_value": "€4,060,000",
+    "current_value": "€4,350,000",
     "max_value_1y": "€7,860,000"
   },
   {
-    "name": "Terrats",
-    "current_team": "Espanyol",
-    "position": "Midfielder",
-    "total_points": "113",
-    "games_played": "26",
-    "current_value": "€4,060,000",
-    "max_value_1y": "€4,990,000"
-  },
-  {
-    "name": "Dmitrovic",
-    "current_team": "Espanyol",
-    "position": "Goalkeeper",
-    "total_points": "154",
-    "games_played": "32",
-    "current_value": "€4,020,000",
-    "max_value_1y": "€4,680,000"
-  },
-  {
-    "name": "Tsygankov",
-    "current_team": "Girona",
-    "position": "Forward",
-    "total_points": "147",
-    "games_played": "27",
-    "current_value": "€4,020,000",
-    "max_value_1y": "€6,670,000"
-  },
-  {
-    "name": "Pepelu",
-    "current_team": "Valencia",
-    "position": "Midfielder",
-    "total_points": "166",
-    "games_played": "34",
-    "current_value": "€4,000,000",
-    "max_value_1y": "€10,290,000"
-  },
-  {
-    "name": "Leo Román",
-    "current_team": "Mallorca",
-    "position": "Goalkeeper",
-    "total_points": "54",
-    "games_played": "7",
-    "current_value": "€3,980,000",
-    "max_value_1y": "€3,980,000"
-  },
-  {
-    "name": "Rubén Vargas",
-    "current_team": "Sevilla",
-    "position": "Forward",
-    "total_points": "52",
-    "games_played": "11",
-    "current_value": "€3,950,000",
-    "max_value_1y": "€7,050,000"
-  },
-  {
-    "name": "Rubén García",
-    "current_team": "Osasuna",
-    "position": "Midfielder",
-    "total_points": "217",
-    "games_played": "36",
-    "current_value": "€3,940,000",
-    "max_value_1y": "€7,840,000"
-  },
-  {
-    "name": "Camavinga",
-    "current_team": "Real Madrid",
-    "position": "Midfielder",
-    "total_points": "112",
-    "games_played": "19",
-    "current_value": "€3,930,000",
-    "max_value_1y": "€9,450,000"
-  },
-  {
-    "name": "Kike García",
-    "current_team": "Espanyol",
-    "position": "Forward",
-    "total_points": "208",
-    "games_played": "35",
-    "current_value": "€3,850,000",
-    "max_value_1y": "€5,870,000"
-  },
-  {
-    "name": "Luiz Júnior",
-    "current_team": "Villarreal",
-    "position": "Goalkeeper",
-    "total_points": "98",
-    "games_played": "17",
-    "current_value": "€3,800,000",
-    "max_value_1y": "€3,800,000"
-  },
-  {
-    "name": "Ilaix Moriba",
-    "current_team": "Celta",
-    "position": "Midfielder",
-    "total_points": "147",
-    "games_played": "33",
-    "current_value": "€3,760,000",
-    "max_value_1y": "€5,430,000"
-  },
-  {
-    "name": "Hancko",
+    "name": "Barrios",
     "current_team": "Atlético",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,760,000",
-    "max_value_1y": "€4,650,000"
-  },
-  {
-    "name": "Areso",
-    "current_team": "Athletic",
-    "position": "Defender",
-    "total_points": "130",
-    "games_played": "36",
-    "current_value": "€3,730,000",
-    "max_value_1y": "€3,730,000"
+    "position": "Midfielder",
+    "total_points": "148",
+    "games_played": "31",
+    "current_value": "€4,350,000",
+    "max_value_1y": "€4,770,000"
   },
   {
     "name": "Ferran Torres",
@@ -1040,17 +887,179 @@
     "position": "Forward",
     "total_points": "169",
     "games_played": "27",
-    "current_value": "€3,710,000",
+    "current_value": "€4,320,000",
     "max_value_1y": "€11,410,000"
   },
   {
-    "name": "Óskarsson",
-    "current_team": "Real Sociedad",
+    "name": "Gazzaniga",
+    "current_team": "Girona",
+    "position": "Goalkeeper",
+    "total_points": "159",
+    "games_played": "36",
+    "current_value": "€4,310,000",
+    "max_value_1y": "€4,980,000"
+  },
+  {
+    "name": "Tsygankov",
+    "current_team": "Girona",
     "position": "Forward",
-    "total_points": "72",
-    "games_played": "23",
-    "current_value": "€3,660,000",
-    "max_value_1y": "€3,660,000"
+    "total_points": "147",
+    "games_played": "27",
+    "current_value": "€4,240,000",
+    "max_value_1y": "€6,480,000"
+  },
+  {
+    "name": "Leo Román",
+    "current_team": "Mallorca",
+    "position": "Goalkeeper",
+    "total_points": "54",
+    "games_played": "7",
+    "current_value": "€4,200,000",
+    "max_value_1y": "€4,200,000"
+  },
+  {
+    "name": "Dmitrovic",
+    "current_team": "Espanyol",
+    "position": "Goalkeeper",
+    "total_points": "154",
+    "games_played": "32",
+    "current_value": "€4,160,000",
+    "max_value_1y": "€4,680,000"
+  },
+  {
+    "name": "Ratiu",
+    "current_team": "Rayo Vallecano",
+    "position": "Defender",
+    "total_points": "171",
+    "games_played": "35",
+    "current_value": "€4,150,000",
+    "max_value_1y": "€7,680,000"
+  },
+  {
+    "name": "Pepelu",
+    "current_team": "Valencia",
+    "position": "Midfielder",
+    "total_points": "166",
+    "games_played": "34",
+    "current_value": "€4,090,000",
+    "max_value_1y": "€10,230,000"
+  },
+  {
+    "name": "Yéremy Pino",
+    "current_team": "Villarreal",
+    "position": "Forward",
+    "total_points": "169",
+    "games_played": "34",
+    "current_value": "€4,080,000",
+    "max_value_1y": "€4,590,000"
+  },
+  {
+    "name": "Deossa",
+    "current_team": "Betis",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€4,030,000",
+    "max_value_1y": "€4,640,000"
+  },
+  {
+    "name": "Rubén García",
+    "current_team": "Osasuna",
+    "position": "Midfielder",
+    "total_points": "217",
+    "games_played": "36",
+    "current_value": "€4,010,000",
+    "max_value_1y": "€7,840,000"
+  },
+  {
+    "name": "Etta Eyong",
+    "current_team": "Villarreal",
+    "position": "Forward",
+    "total_points": "17",
+    "games_played": "4",
+    "current_value": "€4,000,000",
+    "max_value_1y": "€4,000,000"
+  },
+  {
+    "name": "Luiz Júnior",
+    "current_team": "Villarreal",
+    "position": "Goalkeeper",
+    "total_points": "98",
+    "games_played": "17",
+    "current_value": "€3,990,000",
+    "max_value_1y": "€3,990,000"
+  },
+  {
+    "name": "Carvajal",
+    "current_team": "Real Madrid",
+    "position": "Defender",
+    "total_points": "53",
+    "games_played": "8",
+    "current_value": "€3,980,000",
+    "max_value_1y": "€9,420,000"
+  },
+  {
+    "name": "Ilaix Moriba",
+    "current_team": "Celta",
+    "position": "Midfielder",
+    "total_points": "147",
+    "games_played": "33",
+    "current_value": "€3,880,000",
+    "max_value_1y": "€5,430,000"
+  },
+  {
+    "name": "Fermín",
+    "current_team": "Barcelona",
+    "position": "Midfielder",
+    "total_points": "158",
+    "games_played": "28",
+    "current_value": "€3,860,000",
+    "max_value_1y": "€7,170,000"
+  },
+  {
+    "name": "Hancko",
+    "current_team": "Atlético",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€3,800,000",
+    "max_value_1y": "€4,650,000"
+  },
+  {
+    "name": "Kike García",
+    "current_team": "Espanyol",
+    "position": "Forward",
+    "total_points": "208",
+    "games_played": "35",
+    "current_value": "€3,780,000",
+    "max_value_1y": "€5,870,000"
+  },
+  {
+    "name": "Areso",
+    "current_team": "Athletic",
+    "position": "Defender",
+    "total_points": "130",
+    "games_played": "36",
+    "current_value": "€3,780,000",
+    "max_value_1y": "€3,780,000"
+  },
+  {
+    "name": "Ronald Araújo",
+    "current_team": "Barcelona",
+    "position": "Defender",
+    "total_points": "67",
+    "games_played": "12",
+    "current_value": "€3,780,000",
+    "max_value_1y": "€5,840,000"
+  },
+  {
+    "name": "Terrats",
+    "current_team": "Espanyol",
+    "position": "Midfielder",
+    "total_points": "113",
+    "games_played": "26",
+    "current_value": "€3,770,000",
+    "max_value_1y": "€4,990,000"
   },
   {
     "name": "Gayà",
@@ -1058,7 +1067,7 @@
     "position": "Defender",
     "total_points": "110",
     "games_played": "23",
-    "current_value": "€3,640,000",
+    "current_value": "€3,750,000",
     "max_value_1y": "€5,510,000"
   },
   {
@@ -1067,8 +1076,17 @@
     "position": "Defender",
     "total_points": "138",
     "games_played": "25",
-    "current_value": "€3,630,000",
+    "current_value": "€3,740,000",
     "max_value_1y": "€6,080,000"
+  },
+  {
+    "name": "Óskarsson",
+    "current_team": "Real Sociedad",
+    "position": "Forward",
+    "total_points": "72",
+    "games_played": "23",
+    "current_value": "€3,730,000",
+    "max_value_1y": "€3,730,000"
   },
   {
     "name": "Uche",
@@ -1076,7 +1094,7 @@
     "position": "Forward",
     "total_points": "158",
     "games_played": "33",
-    "current_value": "€3,600,000",
+    "current_value": "€3,710,000",
     "max_value_1y": "€6,160,000"
   },
   {
@@ -1085,35 +1103,8 @@
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€3,590,000",
-    "max_value_1y": "€3,590,000"
-  },
-  {
-    "name": "Etta Eyong",
-    "current_team": "Villarreal",
-    "position": "Forward",
-    "total_points": "17",
-    "games_played": "4",
-    "current_value": "€3,530,000",
-    "max_value_1y": "€3,530,000"
-  },
-  {
-    "name": "Boyomo",
-    "current_team": "Osasuna",
-    "position": "Defender",
-    "total_points": "167",
-    "games_played": "37",
-    "current_value": "€3,490,000",
-    "max_value_1y": "€5,690,000"
-  },
-  {
-    "name": "De Galarreta",
-    "current_team": "Athletic",
-    "position": "Midfielder",
-    "total_points": "119",
-    "games_played": "26",
-    "current_value": "€3,480,000",
-    "max_value_1y": "€5,150,000"
+    "current_value": "€3,680,000",
+    "max_value_1y": "€3,680,000"
   },
   {
     "name": "Lemar",
@@ -1121,26 +1112,8 @@
     "position": "Midfielder",
     "total_points": "14",
     "games_played": "5",
-    "current_value": "€3,480,000",
-    "max_value_1y": "€3,480,000"
-  },
-  {
-    "name": "Tenaglia",
-    "current_team": "Alavés",
-    "position": "Defender",
-    "total_points": "198",
-    "games_played": "34",
-    "current_value": "€3,480,000",
-    "max_value_1y": "€5,230,000"
-  },
-  {
-    "name": "Dani Rodríguez",
-    "current_team": "Mallorca",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "37",
-    "current_value": "€3,470,000",
-    "max_value_1y": "€6,720,000"
+    "current_value": "€3,670,000",
+    "max_value_1y": "€3,670,000"
   },
   {
     "name": "De Frutos",
@@ -1148,17 +1121,26 @@
     "position": "Forward",
     "total_points": "144",
     "games_played": "36",
-    "current_value": "€3,450,000",
+    "current_value": "€3,600,000",
     "max_value_1y": "€5,670,000"
   },
   {
-    "name": "Expósito",
-    "current_team": "Espanyol",
+    "name": "Tenaglia",
+    "current_team": "Alavés",
+    "position": "Defender",
+    "total_points": "198",
+    "games_played": "34",
+    "current_value": "€3,570,000",
+    "max_value_1y": "€5,230,000"
+  },
+  {
+    "name": "De Galarreta",
+    "current_team": "Athletic",
     "position": "Midfielder",
-    "total_points": "92",
-    "games_played": "19",
-    "current_value": "€3,420,000",
-    "max_value_1y": "€5,300,000"
+    "total_points": "119",
+    "games_played": "26",
+    "current_value": "€3,560,000",
+    "max_value_1y": "€5,150,000"
   },
   {
     "name": "Tárrega",
@@ -1166,8 +1148,44 @@
     "position": "Defender",
     "total_points": "154",
     "games_played": "34",
-    "current_value": "€3,420,000",
+    "current_value": "€3,550,000",
     "max_value_1y": "€4,890,000"
+  },
+  {
+    "name": "Boyomo",
+    "current_team": "Osasuna",
+    "position": "Defender",
+    "total_points": "167",
+    "games_played": "37",
+    "current_value": "€3,530,000",
+    "max_value_1y": "€5,690,000"
+  },
+  {
+    "name": "Expósito",
+    "current_team": "Espanyol",
+    "position": "Midfielder",
+    "total_points": "92",
+    "games_played": "19",
+    "current_value": "€3,520,000",
+    "max_value_1y": "€5,300,000"
+  },
+  {
+    "name": "Santiago Mouriño",
+    "current_team": "Villarreal",
+    "position": "Defender",
+    "total_points": "107",
+    "games_played": "25",
+    "current_value": "€3,500,000",
+    "max_value_1y": "€3,560,000"
+  },
+  {
+    "name": "Odysseas",
+    "current_team": "Sevilla",
+    "position": "Goalkeeper",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€3,480,000",
+    "max_value_1y": "€3,530,000"
   },
   {
     "name": "Escandell",
@@ -1175,35 +1193,8 @@
     "position": "Goalkeeper",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€3,360,000",
-    "max_value_1y": "€3,360,000"
-  },
-  {
-    "name": "Firpo",
-    "current_team": "Betis",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,360,000",
-    "max_value_1y": "€4,050,000"
-  },
-  {
-    "name": "Pedro Díaz",
-    "current_team": "Rayo Vallecano",
-    "position": "Midfielder",
-    "total_points": "111",
-    "games_played": "26",
-    "current_value": "€3,350,000",
-    "max_value_1y": "€8,990,000"
-  },
-  {
-    "name": "Ionut Radu",
-    "current_team": "Celta",
-    "position": "Goalkeeper",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,340,000",
-    "max_value_1y": "€3,380,000"
+    "current_value": "€3,440,000",
+    "max_value_1y": "€3,440,000"
   },
   {
     "name": "Ruggeri",
@@ -1211,7 +1202,7 @@
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€3,320,000",
+    "current_value": "€3,360,000",
     "max_value_1y": "€4,080,000"
   },
   {
@@ -1220,71 +1211,26 @@
     "position": "Goalkeeper",
     "total_points": "0",
     "games_played": "0",
+    "current_value": "€3,340,000",
+    "max_value_1y": "€3,350,000"
+  },
+  {
+    "name": "Borja Iglesias",
+    "current_team": "Celta",
+    "position": "Forward",
+    "total_points": "182",
+    "games_played": "37",
+    "current_value": "€3,310,000",
+    "max_value_1y": "€7,350,000"
+  },
+  {
+    "name": "Asprilla",
+    "current_team": "Girona",
+    "position": "Forward",
+    "total_points": "123",
+    "games_played": "27",
     "current_value": "€3,310,000",
     "max_value_1y": "€3,310,000"
-  },
-  {
-    "name": "Hassan",
-    "current_team": "Real Oviedo",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,310,000",
-    "max_value_1y": "€3,310,000"
-  },
-  {
-    "name": "Santiago Mouriño",
-    "current_team": "Villarreal",
-    "position": "Defender",
-    "total_points": "107",
-    "games_played": "25",
-    "current_value": "€3,310,000",
-    "max_value_1y": "€3,560,000"
-  },
-  {
-    "name": "Luiz Felipe",
-    "current_team": "Rayo Vallecano",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,290,000",
-    "max_value_1y": "€3,290,000"
-  },
-  {
-    "name": "Cazorla",
-    "current_team": "Real Oviedo",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,270,000",
-    "max_value_1y": "€3,760,000"
-  },
-  {
-    "name": "Álvaro Rodríguez",
-    "current_team": "Elche",
-    "position": "Forward",
-    "total_points": "90",
-    "games_played": "22",
-    "current_value": "€3,250,000",
-    "max_value_1y": "€3,270,000"
-  },
-  {
-    "name": "Nyland",
-    "current_team": "Sevilla",
-    "position": "Goalkeeper",
-    "total_points": "112",
-    "games_played": "30",
-    "current_value": "€3,230,000",
-    "max_value_1y": "€3,910,000"
-  },
-  {
-    "name": "Valjent",
-    "current_team": "Mallorca",
-    "position": "Defender",
-    "total_points": "156",
-    "games_played": "31",
-    "current_value": "€3,210,000",
-    "max_value_1y": "€4,630,000"
   },
   {
     "name": "Luka Ilic",
@@ -1292,8 +1238,8 @@
     "position": "Midfielder",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€3,180,000",
-    "max_value_1y": "€3,180,000"
+    "current_value": "€3,270,000",
+    "max_value_1y": "€3,270,000"
   },
   {
     "name": "Pablo Campos",
@@ -1301,8 +1247,89 @@
     "position": "Goalkeeper",
     "total_points": "0",
     "games_played": "0",
+    "current_value": "€3,260,000",
+    "max_value_1y": "€3,260,000"
+  },
+  {
+    "name": "Firpo",
+    "current_team": "Betis",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€3,250,000",
+    "max_value_1y": "€4,050,000"
+  },
+  {
+    "name": "Ionut Radu",
+    "current_team": "Celta",
+    "position": "Goalkeeper",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€3,230,000",
+    "max_value_1y": "€3,380,000"
+  },
+  {
+    "name": "Dani Rodríguez",
+    "current_team": "Mallorca",
+    "position": "Midfielder",
+    "total_points": "186",
+    "games_played": "37",
+    "current_value": "€3,210,000",
+    "max_value_1y": "€6,720,000"
+  },
+  {
+    "name": "Nyland",
+    "current_team": "Sevilla",
+    "position": "Goalkeeper",
+    "total_points": "112",
+    "games_played": "30",
+    "current_value": "€3,210,000",
+    "max_value_1y": "€3,910,000"
+  },
+  {
+    "name": "Rubén Vargas",
+    "current_team": "Sevilla",
+    "position": "Forward",
+    "total_points": "52",
+    "games_played": "11",
+    "current_value": "€3,210,000",
+    "max_value_1y": "€7,050,000"
+  },
+  {
+    "name": "Camavinga",
+    "current_team": "Real Madrid",
+    "position": "Midfielder",
+    "total_points": "112",
+    "games_played": "19",
+    "current_value": "€3,190,000",
+    "max_value_1y": "€9,450,000"
+  },
+  {
+    "name": "Luiz Felipe",
+    "current_team": "Rayo Vallecano",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
     "current_value": "€3,170,000",
-    "max_value_1y": "€3,170,000"
+    "max_value_1y": "€3,290,000"
+  },
+  {
+    "name": "Pedro Díaz",
+    "current_team": "Rayo Vallecano",
+    "position": "Midfielder",
+    "total_points": "111",
+    "games_played": "26",
+    "current_value": "€3,170,000",
+    "max_value_1y": "€8,990,000"
+  },
+  {
+    "name": "Cazorla",
+    "current_team": "Real Oviedo",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€3,150,000",
+    "max_value_1y": "€3,760,000"
   },
   {
     "name": "Febas",
@@ -1310,25 +1337,70 @@
     "position": "Midfielder",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€3,130,000",
-    "max_value_1y": "€3,130,000"
+    "current_value": "€3,150,000",
+    "max_value_1y": "€3,160,000"
   },
   {
-    "name": "Fermín",
-    "current_team": "Barcelona",
-    "position": "Midfielder",
-    "total_points": "158",
-    "games_played": "28",
-    "current_value": "€3,120,000",
-    "max_value_1y": "€7,170,000"
+    "name": "Rodrygo",
+    "current_team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "217",
+    "games_played": "30",
+    "current_value": "€3,100,000",
+    "max_value_1y": "€18,650,000"
   },
   {
-    "name": "Gabriel Suazo",
-    "current_team": "Sevilla",
+    "name": "Blind",
+    "current_team": "Girona",
     "position": "Defender",
+    "total_points": "168",
+    "games_played": "34",
+    "current_value": "€3,100,000",
+    "max_value_1y": "€5,340,000"
+  },
+  {
+    "name": "Akor Adams",
+    "current_team": "Sevilla",
+    "position": "Forward",
+    "total_points": "9",
+    "games_played": "4",
+    "current_value": "€3,100,000",
+    "max_value_1y": "€3,150,000"
+  },
+  {
+    "name": "Natan",
+    "current_team": "Betis",
+    "position": "Defender",
+    "total_points": "117",
+    "games_played": "31",
+    "current_value": "€3,090,000",
+    "max_value_1y": "€3,670,000"
+  },
+  {
+    "name": "Catena",
+    "current_team": "Osasuna",
+    "position": "Defender",
+    "total_points": "184",
+    "games_played": "35",
+    "current_value": "€3,050,000",
+    "max_value_1y": "€3,330,000"
+  },
+  {
+    "name": "Valjent",
+    "current_team": "Mallorca",
+    "position": "Defender",
+    "total_points": "156",
+    "games_played": "31",
+    "current_value": "€3,030,000",
+    "max_value_1y": "€4,630,000"
+  },
+  {
+    "name": "Hassan",
+    "current_team": "Real Oviedo",
+    "position": "Forward",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€3,120,000",
+    "current_value": "€3,020,000",
     "max_value_1y": "€3,310,000"
   },
   {
@@ -1337,188 +1409,17 @@
     "position": "Forward",
     "total_points": "128",
     "games_played": "26",
-    "current_value": "€3,100,000",
+    "current_value": "€3,000,000",
     "max_value_1y": "€6,200,000"
   },
   {
-    "name": "Borja Iglesias",
-    "current_team": "Betis",
-    "position": "Forward",
-    "total_points": "182",
-    "games_played": "37",
-    "current_value": "€3,090,000",
-    "max_value_1y": "€7,350,000"
-  },
-  {
-    "name": "Carlos Romero",
-    "current_team": "Espanyol",
-    "position": "Defender",
-    "total_points": "158",
-    "games_played": "34",
-    "current_value": "€3,080,000",
-    "max_value_1y": "€4,390,000"
-  },
-  {
-    "name": "Sannadi",
-    "current_team": "Athletic",
-    "position": "Forward",
-    "total_points": "61",
-    "games_played": "16",
-    "current_value": "€3,070,000",
-    "max_value_1y": "€4,700,000"
-  },
-  {
-    "name": "Gorrotxategi",
-    "current_team": "Real Sociedad",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,070,000",
-    "max_value_1y": "€3,070,000"
-  },
-  {
-    "name": "Alberto Reina",
-    "current_team": "Real Oviedo",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,070,000",
-    "max_value_1y": "€3,140,000"
-  },
-  {
-    "name": "Asprilla",
+    "name": "Stuani",
     "current_team": "Girona",
     "position": "Forward",
-    "total_points": "123",
-    "games_played": "27",
-    "current_value": "€3,060,000",
-    "max_value_1y": "€3,060,000"
-  },
-  {
-    "name": "Catena",
-    "current_team": "Osasuna",
-    "position": "Defender",
-    "total_points": "184",
-    "games_played": "35",
-    "current_value": "€3,040,000",
-    "max_value_1y": "€3,330,000"
-  },
-  {
-    "name": "Blind",
-    "current_team": "Girona",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,040,000",
-    "max_value_1y": "€5,340,000"
-  },
-  {
-    "name": "Affengruber",
-    "current_team": "Elche",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€3,040,000",
-    "max_value_1y": "€3,180,000"
-  },
-  {
-    "name": "Natan",
-    "current_team": "Betis",
-    "position": "Defender",
-    "total_points": "117",
-    "games_played": "31",
-    "current_value": "€3,030,000",
-    "max_value_1y": "€3,670,000"
-  },
-  {
-    "name": "Rüdiger",
-    "current_team": "Real Madrid",
-    "position": "Defender",
-    "total_points": "143",
-    "games_played": "29",
-    "current_value": "€3,010,000",
-    "max_value_1y": "€9,080,000"
-  },
-  {
-    "name": "Alderete",
-    "current_team": "Getafe",
-    "position": "Defender",
-    "total_points": "170",
-    "games_played": "34",
-    "current_value": "€3,000,000",
-    "max_value_1y": "€4,450,000"
-  },
-  {
-    "name": "Agoumé",
-    "current_team": "Sevilla",
-    "position": "Midfielder",
-    "total_points": "147",
-    "games_played": "35",
-    "current_value": "€3,000,000",
-    "max_value_1y": "€4,400,000"
-  },
-  {
-    "name": "Kike Salas",
-    "current_team": "Sevilla",
-    "position": "Defender",
-    "total_points": "153",
-    "games_played": "31",
-    "current_value": "€2,990,000",
-    "max_value_1y": "€3,660,000"
-  },
-  {
-    "name": "Diego Rico",
-    "current_team": "Getafe",
-    "position": "Defender",
-    "total_points": "157",
-    "games_played": "33",
-    "current_value": "€2,980,000",
-    "max_value_1y": "€4,870,000"
-  },
-  {
-    "name": "El Hilali",
-    "current_team": "Espanyol",
-    "position": "Defender",
     "total_points": "162",
-    "games_played": "36",
-    "current_value": "€2,980,000",
-    "max_value_1y": "€3,750,000"
-  },
-  {
-    "name": "Caleta-Car",
-    "current_team": "Real Sociedad",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,950,000",
-    "max_value_1y": "€3,330,000"
-  },
-  {
-    "name": "Mojica",
-    "current_team": "Mallorca",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "36",
-    "current_value": "€2,910,000",
-    "max_value_1y": "€3,370,000"
-  },
-  {
-    "name": "Sergi Altimira",
-    "current_team": "Betis",
-    "position": "Midfielder",
-    "total_points": "132",
     "games_played": "32",
-    "current_value": "€2,900,000",
-    "max_value_1y": "€3,210,000"
-  },
-  {
-    "name": "Carlos Álvarez",
-    "current_team": "Levante",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,840,000",
-    "max_value_1y": "€3,360,000"
+    "current_value": "€2,960,000",
+    "max_value_1y": "€5,810,000"
   },
   {
     "name": "Aramburu",
@@ -1526,35 +1427,8 @@
     "position": "Defender",
     "total_points": "142",
     "games_played": "35",
-    "current_value": "€2,830,000",
+    "current_value": "€2,960,000",
     "max_value_1y": "€4,060,000"
-  },
-  {
-    "name": "Morales",
-    "current_team": "Levante",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,810,000",
-    "max_value_1y": "€2,810,000"
-  },
-  {
-    "name": "Akor Adams",
-    "current_team": "Sevilla",
-    "position": "Forward",
-    "total_points": "9",
-    "games_played": "4",
-    "current_value": "€2,810,000",
-    "max_value_1y": "€2,810,000"
-  },
-  {
-    "name": "Zubeldia",
-    "current_team": "Real Sociedad",
-    "position": "Defender",
-    "total_points": "103",
-    "games_played": "28",
-    "current_value": "€2,770,000",
-    "max_value_1y": "€3,660,000"
   },
   {
     "name": "Rondón",
@@ -1562,44 +1436,116 @@
     "position": "Forward",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€2,760,000",
+    "current_value": "€2,960,000",
     "max_value_1y": "€3,360,000"
   },
   {
-    "name": "Nacho Vidal",
-    "current_team": "Real Oviedo",
+    "name": "Kike Salas",
+    "current_team": "Sevilla",
     "position": "Defender",
-    "total_points": "8",
-    "games_played": "5",
-    "current_value": "€2,750,000",
-    "max_value_1y": "€3,000,000"
+    "total_points": "153",
+    "games_played": "31",
+    "current_value": "€2,950,000",
+    "max_value_1y": "€3,660,000"
   },
   {
-    "name": "Pubill",
-    "current_team": "Atlético",
+    "name": "Agoumé",
+    "current_team": "Sevilla",
+    "position": "Midfielder",
+    "total_points": "147",
+    "games_played": "35",
+    "current_value": "€2,940,000",
+    "max_value_1y": "€4,400,000"
+  },
+  {
+    "name": "Gabriel Suazo",
+    "current_team": "Sevilla",
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€2,730,000",
-    "max_value_1y": "€2,730,000"
+    "current_value": "€2,940,000",
+    "max_value_1y": "€3,310,000"
   },
   {
-    "name": "Krejci",
-    "current_team": "Girona",
+    "name": "Carlos Romero",
+    "current_team": "Espanyol",
+    "position": "Defender",
+    "total_points": "158",
+    "games_played": "34",
+    "current_value": "€2,930,000",
+    "max_value_1y": "€4,390,000"
+  },
+  {
+    "name": "Álvaro Rodríguez",
+    "current_team": "Elche",
+    "position": "Forward",
+    "total_points": "90",
+    "games_played": "22",
+    "current_value": "€2,910,000",
+    "max_value_1y": "€3,270,000"
+  },
+  {
+    "name": "Rüdiger",
+    "current_team": "Real Madrid",
+    "position": "Defender",
+    "total_points": "143",
+    "games_played": "29",
+    "current_value": "€2,880,000",
+    "max_value_1y": "€9,080,000"
+  },
+  {
+    "name": "Zubeldia",
+    "current_team": "Real Sociedad",
+    "position": "Defender",
+    "total_points": "103",
+    "games_played": "28",
+    "current_value": "€2,870,000",
+    "max_value_1y": "€3,660,000"
+  },
+  {
+    "name": "Alberto Reina",
+    "current_team": "Real Oviedo",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,870,000",
+    "max_value_1y": "€3,140,000"
+  },
+  {
+    "name": "Santamaria",
+    "current_team": "Valencia",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,870,000",
+    "max_value_1y": "€2,900,000"
+  },
+  {
+    "name": "El Hilali",
+    "current_team": "Espanyol",
+    "position": "Defender",
+    "total_points": "162",
+    "games_played": "36",
+    "current_value": "€2,860,000",
+    "max_value_1y": "€3,750,000"
+  },
+  {
+    "name": "Affengruber",
+    "current_team": "Elche",
     "position": "Defender",
     "total_points": "0",
-    "games_played": "29",
-    "current_value": "€2,720,000",
-    "max_value_1y": "€5,100,000"
+    "games_played": "0",
+    "current_value": "€2,860,000",
+    "max_value_1y": "€3,180,000"
   },
   {
-    "name": "Rodrygo",
-    "current_team": "Real Madrid",
+    "name": "Sannadi",
+    "current_team": "Athletic",
     "position": "Forward",
-    "total_points": "217",
-    "games_played": "30",
-    "current_value": "€2,710,000",
-    "max_value_1y": "€18,650,000"
+    "total_points": "61",
+    "games_played": "16",
+    "current_value": "€2,850,000",
+    "max_value_1y": "€4,700,000"
   },
   {
     "name": "Yuri",
@@ -1607,7 +1553,7 @@
     "position": "Defender",
     "total_points": "129",
     "games_played": "30",
-    "current_value": "€2,690,000",
+    "current_value": "€2,840,000",
     "max_value_1y": "€3,990,000"
   },
   {
@@ -1616,719 +1562,17 @@
     "position": "Defender",
     "total_points": "133",
     "games_played": "28",
-    "current_value": "€2,690,000",
+    "current_value": "€2,840,000",
     "max_value_1y": "€3,700,000"
   },
   {
-    "name": "Ronald Araújo",
-    "current_team": "Barcelona",
-    "position": "Defender",
-    "total_points": "67",
-    "games_played": "12",
-    "current_value": "€2,680,000",
-    "max_value_1y": "€5,840,000"
-  },
-  {
-    "name": "Ez Abde",
-    "current_team": "Betis",
-    "position": "Forward",
-    "total_points": "147",
-    "games_played": "32",
-    "current_value": "€2,680,000",
-    "max_value_1y": "€6,300,000"
-  },
-  {
-    "name": "Chavarría",
-    "current_team": "Rayo Vallecano",
-    "position": "Defender",
-    "total_points": "147",
-    "games_played": "34",
-    "current_value": "€2,680,000",
-    "max_value_1y": "€3,970,000"
-  },
-  {
-    "name": "Víctor Muñoz",
-    "current_team": "Osasuna",
-    "position": "Forward",
-    "total_points": "2",
-    "games_played": "2",
-    "current_value": "€2,660,000",
-    "max_value_1y": "€3,170,000"
-  },
-  {
-    "name": "Pablo Martínez",
-    "current_team": "Levante",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,650,000",
-    "max_value_1y": "€2,650,000"
-  },
-  {
-    "name": "Torró",
-    "current_team": "Osasuna",
-    "position": "Midfielder",
-    "total_points": "164",
-    "games_played": "35",
-    "current_value": "€2,650,000",
-    "max_value_1y": "€4,200,000"
-  },
-  {
-    "name": "Rosier",
-    "current_team": "Osasuna",
-    "position": "Defender",
-    "total_points": "141",
-    "games_played": "32",
-    "current_value": "€2,650,000",
-    "max_value_1y": "€3,430,000"
-  },
-  {
-    "name": "Cabrera",
-    "current_team": "Espanyol",
-    "position": "Defender",
-    "total_points": "176",
-    "games_played": "33",
-    "current_value": "€2,630,000",
-    "max_value_1y": "€5,320,000"
-  },
-  {
-    "name": "Stuani",
-    "current_team": "Girona",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,590,000",
-    "max_value_1y": "€5,810,000"
-  },
-  {
-    "name": "Guruzeta",
-    "current_team": "Athletic",
-    "position": "Forward",
-    "total_points": "166",
-    "games_played": "36",
-    "current_value": "€2,580,000",
-    "max_value_1y": "€9,000,000"
-  },
-  {
-    "name": "Luka Sucic",
-    "current_team": "Real Sociedad",
-    "position": "Midfielder",
-    "total_points": "127",
-    "games_played": "29",
-    "current_value": "€2,580,000",
-    "max_value_1y": "€5,730,000"
-  },
-  {
-    "name": "Pathé Ciss",
-    "current_team": "Rayo Vallecano",
-    "position": "Midfielder",
-    "total_points": "151",
-    "games_played": "33",
-    "current_value": "€2,570,000",
-    "max_value_1y": "€3,240,000"
-  },
-  {
-    "name": "Copete",
-    "current_team": "Valencia",
-    "position": "Defender",
-    "total_points": "95",
-    "games_played": "25",
-    "current_value": "€2,510,000",
-    "max_value_1y": "€2,910,000"
-  },
-  {
-    "name": "Santamaria",
-    "current_team": "Valencia",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,510,000",
-    "max_value_1y": "€2,510,000"
-  },
-  {
-    "name": "Chaira",
-    "current_team": "Real Oviedo",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,470,000",
-    "max_value_1y": "€2,940,000"
-  },
-  {
-    "name": "Olasagasti",
-    "current_team": "Levante",
-    "position": "Midfielder",
-    "total_points": "78",
-    "games_played": "22",
-    "current_value": "€2,440,000",
-    "max_value_1y": "€2,840,000"
-  },
-  {
-    "name": "Eric García",
-    "current_team": "Barcelona",
-    "position": "Defender",
-    "total_points": "150",
-    "games_played": "29",
-    "current_value": "€2,430,000",
-    "max_value_1y": "€6,740,000"
-  },
-  {
-    "name": "Samú Costa",
-    "current_team": "Mallorca",
-    "position": "Midfielder",
-    "total_points": "137",
-    "games_played": "32",
-    "current_value": "€2,430,000",
-    "max_value_1y": "€5,220,000"
-  },
-  {
-    "name": "Colombatto",
-    "current_team": "Real Oviedo",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,430,000",
-    "max_value_1y": "€3,320,000"
-  },
-  {
-    "name": "Kiko Femenía",
-    "current_team": "Getafe",
-    "position": "Defender",
-    "total_points": "119",
-    "games_played": "28",
-    "current_value": "€2,380,000",
-    "max_value_1y": "€3,280,000"
-  },
-  {
-    "name": "Hugo Rincón",
-    "current_team": "Girona",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,350,000",
-    "max_value_1y": "€2,350,000"
-  },
-  {
-    "name": "Moncayola",
-    "current_team": "Osasuna",
-    "position": "Midfielder",
-    "total_points": "134",
-    "games_played": "32",
-    "current_value": "€2,340,000",
-    "max_value_1y": "€2,740,000"
-  },
-  {
-    "name": "Iván Martín",
-    "current_team": "Girona",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "32",
-    "current_value": "€2,330,000",
-    "max_value_1y": "€6,190,000"
-  },
-  {
-    "name": "Vitor Reis",
-    "current_team": "Girona",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,290,000",
-    "max_value_1y": "€2,290,000"
-  },
-  {
-    "name": "Carmona",
-    "current_team": "Sevilla",
-    "position": "Defender",
-    "total_points": "146",
-    "games_played": "35",
-    "current_value": "€2,210,000",
-    "max_value_1y": "€3,070,000"
-  },
-  {
-    "name": "Marc Bernal",
-    "current_team": "Barcelona",
-    "position": "Midfielder",
-    "total_points": "15",
-    "games_played": "3",
-    "current_value": "€2,210,000",
-    "max_value_1y": "€2,900,000"
-  },
-  {
-    "name": "Arnau Martínez",
-    "current_team": "Girona",
-    "position": "Defender",
-    "total_points": "153",
-    "games_played": "32",
-    "current_value": "€2,200,000",
-    "max_value_1y": "€4,270,000"
-  },
-  {
-    "name": "Jon Martín",
-    "current_team": "Real Sociedad",
-    "position": "Defender",
-    "total_points": "59",
-    "games_played": "13",
-    "current_value": "€2,200,000",
-    "max_value_1y": "€2,200,000"
-  },
-  {
-    "name": "Buchanan",
-    "current_team": "Villarreal",
-    "position": "Midfielder",
-    "total_points": "52",
-    "games_played": "13",
-    "current_value": "€2,190,000",
-    "max_value_1y": "€2,190,000"
-  },
-  {
-    "name": "Brugué",
-    "current_team": "Levante",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,180,000",
-    "max_value_1y": "€2,200,000"
-  },
-  {
-    "name": "Djené",
-    "current_team": "Getafe",
-    "position": "Defender",
-    "total_points": "101",
-    "games_played": "31",
-    "current_value": "€2,170,000",
-    "max_value_1y": "€3,250,000"
-  },
-  {
-    "name": "Diego Llorente",
-    "current_team": "Betis",
-    "position": "Defender",
-    "total_points": "153",
-    "games_played": "30",
-    "current_value": "€2,150,000",
-    "max_value_1y": "€7,690,000"
-  },
-  {
-    "name": "Elgezabal",
-    "current_team": "Levante",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,130,000",
-    "max_value_1y": "€2,130,000"
-  },
-  {
-    "name": "Diakhaby",
-    "current_team": "Valencia",
-    "position": "Defender",
-    "total_points": "66",
-    "games_played": "13",
-    "current_value": "€2,130,000",
-    "max_value_1y": "€2,130,000"
-  },
-  {
-    "name": "Calvo",
-    "current_team": "Real Oviedo",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,120,000",
-    "max_value_1y": "€2,120,000"
-  },
-  {
-    "name": "Javi Rodríguez",
-    "current_team": "Celta",
-    "position": "Defender",
-    "total_points": "166",
-    "games_played": "36",
-    "current_value": "€2,070,000",
-    "max_value_1y": "€3,630,000"
-  },
-  {
-    "name": "Koyalipou",
-    "current_team": "Levante",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,070,000",
-    "max_value_1y": "€2,070,000"
-  },
-  {
-    "name": "Paredes",
-    "current_team": "Athletic",
-    "position": "Defender",
-    "total_points": "107",
-    "games_played": "23",
-    "current_value": "€2,060,000",
-    "max_value_1y": "€2,730,000"
-  },
-  {
-    "name": "Filip Ugrinic",
-    "current_team": "Valencia",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€2,050,000",
-    "max_value_1y": "€2,050,000"
-  },
-  {
-    "name": "André Almeida",
-    "current_team": "Valencia",
-    "position": "Midfielder",
-    "total_points": "153",
-    "games_played": "34",
-    "current_value": "€2,040,000",
-    "max_value_1y": "€3,550,000"
-  },
-  {
-    "name": "Marc Casadó",
-    "current_team": "Barcelona",
-    "position": "Midfielder",
-    "total_points": "120",
-    "games_played": "23",
-    "current_value": "€2,040,000",
-    "max_value_1y": "€9,990,000"
-  },
-  {
-    "name": "Antonio Blanco",
-    "current_team": "Alavés",
-    "position": "Midfielder",
-    "total_points": "123",
-    "games_played": "35",
-    "current_value": "€2,030,000",
-    "max_value_1y": "€2,870,000"
-  },
-  {
-    "name": "David López",
+    "name": "Krejci",
     "current_team": "Girona",
     "position": "Defender",
     "total_points": "128",
     "games_played": "29",
-    "current_value": "€2,030,000",
-    "max_value_1y": "€4,700,000"
-  },
-  {
-    "name": "Abqar",
-    "current_team": "Getafe",
-    "position": "Defender",
-    "total_points": "107",
-    "games_played": "29",
-    "current_value": "€2,020,000",
-    "max_value_1y": "€2,140,000"
-  },
-  {
-    "name": "Lenglet",
-    "current_team": "Atlético",
-    "position": "Defender",
-    "total_points": "133",
-    "games_played": "23",
-    "current_value": "€2,010,000",
-    "max_value_1y": "€4,210,000"
-  },
-  {
-    "name": "Fran García",
-    "current_team": "Real Madrid",
-    "position": "Defender",
-    "total_points": "149",
-    "games_played": "31",
-    "current_value": "€2,000,000",
-    "max_value_1y": "€5,350,000"
-  },
-  {
-    "name": "Badé",
-    "current_team": "Sevilla",
-    "position": "Defender",
-    "total_points": "138",
-    "games_played": "32",
-    "current_value": "€1,960,000",
-    "max_value_1y": "€3,260,000"
-  },
-  {
-    "name": "Ceballos",
-    "current_team": "Real Madrid",
-    "position": "Midfielder",
-    "total_points": "117",
-    "games_played": "23",
-    "current_value": "€1,960,000",
-    "max_value_1y": "€6,940,000"
-  },
-  {
-    "name": "Pablo Marín",
-    "current_team": "Real Sociedad",
-    "position": "Midfielder",
-    "total_points": "83",
-    "games_played": "23",
-    "current_value": "€1,950,000",
-    "max_value_1y": "€1,950,000"
-  },
-  {
-    "name": "Carreira",
-    "current_team": "Celta",
-    "position": "Defender",
-    "total_points": "97",
-    "games_played": "23",
-    "current_value": "€1,900,000",
-    "max_value_1y": "€4,490,000"
-  },
-  {
-    "name": "Barrenetxea",
-    "current_team": "Real Sociedad",
-    "position": "Midfielder",
-    "total_points": "102",
-    "games_played": "30",
-    "current_value": "€1,890,000",
-    "max_value_1y": "€4,270,000"
-  },
-  {
-    "name": "Miguel Gutiérrez",
-    "current_team": "Girona",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,880,000",
-    "max_value_1y": "€9,810,000"
-  },
-  {
-    "name": "De la Fuente",
-    "current_team": "Levante",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,870,000",
-    "max_value_1y": "€1,870,000"
-  },
-  {
-    "name": "Jonny Castro",
-    "current_team": "Alavés",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,860,000",
-    "max_value_1y": "€1,860,000"
-  },
-  {
-    "name": "Swedberg",
-    "current_team": "Celta",
-    "position": "Midfielder",
-    "total_points": "128",
-    "games_played": "32",
-    "current_value": "€1,860,000",
-    "max_value_1y": "€4,620,000"
-  },
-  {
-    "name": "Fran Beltrán",
-    "current_team": "Celta",
-    "position": "Midfielder",
-    "total_points": "145",
-    "games_played": "34",
-    "current_value": "€1,830,000",
-    "max_value_1y": "€3,320,000"
-  },
-  {
-    "name": "Raúl Asencio",
-    "current_team": "Real Madrid",
-    "position": "Defender",
-    "total_points": "104",
-    "games_played": "23",
-    "current_value": "€1,820,000",
-    "max_value_1y": "€7,280,000"
-  },
-  {
-    "name": "Facundo Garcés",
-    "current_team": "Alavés",
-    "position": "Defender",
-    "total_points": "37",
-    "games_played": "10",
-    "current_value": "€1,810,000",
-    "max_value_1y": "€1,810,000"
-  },
-  {
-    "name": "Brahim",
-    "current_team": "Real Madrid",
-    "position": "Forward",
-    "total_points": "140",
-    "games_played": "31",
-    "current_value": "€1,780,000",
-    "max_value_1y": "€5,320,000"
-  },
-  {
-    "name": "Sibo",
-    "current_team": "Real Oviedo",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,780,000",
-    "max_value_1y": "€1,780,000"
-  },
-  {
-    "name": "Neyou",
-    "current_team": "Getafe",
-    "position": "Midfielder",
-    "total_points": "123",
-    "games_played": "30",
-    "current_value": "€1,770,000",
-    "max_value_1y": "€3,210,000"
-  },
-  {
-    "name": "Guridi",
-    "current_team": "Alavés",
-    "position": "Midfielder",
-    "total_points": "123",
-    "games_played": "33",
-    "current_value": "€1,760,000",
-    "max_value_1y": "€3,750,000"
-  },
-  {
-    "name": "Oriol Rey",
-    "current_team": "Levante",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,760,000",
-    "max_value_1y": "€1,760,000"
-  },
-  {
-    "name": "Robert Navarro",
-    "current_team": "Athletic",
-    "position": "Midfielder",
-    "total_points": "94",
-    "games_played": "23",
-    "current_value": "€1,750,000",
-    "max_value_1y": "€3,430,000"
-  },
-  {
-    "name": "Javi Muñoz",
-    "current_team": "Getafe",
-    "position": "Midfielder",
-    "total_points": "148",
-    "games_played": "35",
-    "current_value": "€1,740,000",
-    "max_value_1y": "€3,060,000"
-  },
-  {
-    "name": "Sow",
-    "current_team": "Sevilla",
-    "position": "Midfielder",
-    "total_points": "138",
-    "games_played": "30",
-    "current_value": "€1,730,000",
-    "max_value_1y": "€3,030,000"
-  },
-  {
-    "name": "Juan Iglesias",
-    "current_team": "Getafe",
-    "position": "Defender",
-    "total_points": "151",
-    "games_played": "37",
-    "current_value": "€1,720,000",
-    "max_value_1y": "€3,490,000"
-  },
-  {
-    "name": "Chust",
-    "current_team": "Elche",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,690,000",
-    "max_value_1y": "€1,690,000"
-  },
-  {
-    "name": "Aleñá",
-    "current_team": "Alavés",
-    "position": "Midfielder",
-    "total_points": "106",
-    "games_played": "24",
-    "current_value": "€1,680,000",
-    "max_value_1y": "€3,040,000"
-  },
-  {
-    "name": "Sadiq",
-    "current_team": "Real Sociedad",
-    "position": "Forward",
-    "total_points": "85",
-    "games_played": "23",
-    "current_value": "€1,660,000",
-    "max_value_1y": "€6,010,000"
-  },
-  {
-    "name": "Valentín Gómez",
-    "current_team": "Betis",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,650,000",
-    "max_value_1y": "€2,560,000"
-  },
-  {
-    "name": "Maffeo",
-    "current_team": "Mallorca",
-    "position": "Defender",
-    "total_points": "141",
-    "games_played": "30",
-    "current_value": "€1,640,000",
-    "max_value_1y": "€4,390,000"
-  },
-  {
-    "name": "Manu Sánchez",
-    "current_team": "Levante",
-    "position": "Defender",
-    "total_points": "113",
-    "games_played": "33",
-    "current_value": "€1,620,000",
-    "max_value_1y": "€1,740,000"
-  },
-  {
-    "name": "Álvaro Núñez",
-    "current_team": "Elche",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,620,000",
-    "max_value_1y": "€1,620,000"
-  },
-  {
-    "name": "Toni Martínez",
-    "current_team": "Alavés",
-    "position": "Forward",
-    "total_points": "116",
-    "games_played": "28",
-    "current_value": "€1,600,000",
-    "max_value_1y": "€4,170,000"
-  },
-  {
-    "name": "Josan",
-    "current_team": "Elche",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,540,000",
-    "max_value_1y": "€1,540,000"
-  },
-  {
-    "name": "Hugo Álvarez",
-    "current_team": "Celta",
-    "position": "Midfielder",
-    "total_points": "118",
-    "games_played": "26",
-    "current_value": "€1,530,000",
-    "max_value_1y": "€3,970,000"
-  },
-  {
-    "name": "Alhassane",
-    "current_team": "Real Oviedo",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,510,000",
-    "max_value_1y": "€1,510,000"
-  },
-  {
-    "name": "Pol Lozano",
-    "current_team": "Espanyol",
-    "position": "Midfielder",
-    "total_points": "99",
-    "games_played": "30",
-    "current_value": "€1,480,000",
-    "max_value_1y": "€1,480,000"
+    "current_value": "€2,840,000",
+    "max_value_1y": "€5,100,000"
   },
   {
     "name": "Danjuma",
@@ -2336,8 +1580,836 @@
     "position": "Forward",
     "total_points": "119",
     "games_played": "28",
-    "current_value": "€1,480,000",
+    "current_value": "€2,830,000",
     "max_value_1y": "€6,050,000"
+  },
+  {
+    "name": "Diego Rico",
+    "current_team": "Getafe",
+    "position": "Defender",
+    "total_points": "157",
+    "games_played": "33",
+    "current_value": "€2,800,000",
+    "max_value_1y": "€4,870,000"
+  },
+  {
+    "name": "Mojica",
+    "current_team": "Mallorca",
+    "position": "Defender",
+    "total_points": "134",
+    "games_played": "36",
+    "current_value": "€2,780,000",
+    "max_value_1y": "€3,370,000"
+  },
+  {
+    "name": "Morales",
+    "current_team": "Levante",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,760,000",
+    "max_value_1y": "€2,840,000"
+  },
+  {
+    "name": "Pablo Martínez",
+    "current_team": "Levante",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,760,000",
+    "max_value_1y": "€2,760,000"
+  },
+  {
+    "name": "Eric García",
+    "current_team": "Barcelona",
+    "position": "Defender",
+    "total_points": "150",
+    "games_played": "29",
+    "current_value": "€2,750,000",
+    "max_value_1y": "€6,740,000"
+  },
+  {
+    "name": "Cabrera",
+    "current_team": "Espanyol",
+    "position": "Defender",
+    "total_points": "176",
+    "games_played": "33",
+    "current_value": "€2,710,000",
+    "max_value_1y": "€5,320,000"
+  },
+  {
+    "name": "Carlos Álvarez",
+    "current_team": "Levante",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,700,000",
+    "max_value_1y": "€3,360,000"
+  },
+  {
+    "name": "Sergi Altimira",
+    "current_team": "Betis",
+    "position": "Midfielder",
+    "total_points": "132",
+    "games_played": "32",
+    "current_value": "€2,690,000",
+    "max_value_1y": "€3,210,000"
+  },
+  {
+    "name": "Torró",
+    "current_team": "Osasuna",
+    "position": "Midfielder",
+    "total_points": "164",
+    "games_played": "35",
+    "current_value": "€2,670,000",
+    "max_value_1y": "€4,200,000"
+  },
+  {
+    "name": "Luka Sucic",
+    "current_team": "Real Sociedad",
+    "position": "Midfielder",
+    "total_points": "127",
+    "games_played": "29",
+    "current_value": "€2,650,000",
+    "max_value_1y": "€5,730,000"
+  },
+  {
+    "name": "Caleta-Car",
+    "current_team": "Real Sociedad",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,640,000",
+    "max_value_1y": "€3,330,000"
+  },
+  {
+    "name": "Rosier",
+    "current_team": "Osasuna",
+    "position": "Defender",
+    "total_points": "141",
+    "games_played": "32",
+    "current_value": "€2,630,000",
+    "max_value_1y": "€3,430,000"
+  },
+  {
+    "name": "Gorrotxategi",
+    "current_team": "Real Sociedad",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,630,000",
+    "max_value_1y": "€3,070,000"
+  },
+  {
+    "name": "Copete",
+    "current_team": "Valencia",
+    "position": "Defender",
+    "total_points": "95",
+    "games_played": "25",
+    "current_value": "€2,600,000",
+    "max_value_1y": "€2,910,000"
+  },
+  {
+    "name": "Nacho Vidal",
+    "current_team": "Real Oviedo",
+    "position": "Defender",
+    "total_points": "8",
+    "games_played": "5",
+    "current_value": "€2,550,000",
+    "max_value_1y": "€3,000,000"
+  },
+  {
+    "name": "Guruzeta",
+    "current_team": "Athletic",
+    "position": "Forward",
+    "total_points": "166",
+    "games_played": "36",
+    "current_value": "€2,500,000",
+    "max_value_1y": "€9,000,000"
+  },
+  {
+    "name": "Pathé Ciss",
+    "current_team": "Rayo Vallecano",
+    "position": "Midfielder",
+    "total_points": "151",
+    "games_played": "33",
+    "current_value": "€2,490,000",
+    "max_value_1y": "€3,240,000"
+  },
+  {
+    "name": "Chavarría",
+    "current_team": "Rayo Vallecano",
+    "position": "Defender",
+    "total_points": "147",
+    "games_played": "34",
+    "current_value": "€2,490,000",
+    "max_value_1y": "€3,970,000"
+  },
+  {
+    "name": "Ez Abde",
+    "current_team": "Betis",
+    "position": "Forward",
+    "total_points": "147",
+    "games_played": "32",
+    "current_value": "€2,480,000",
+    "max_value_1y": "€6,300,000"
+  },
+  {
+    "name": "Buchanan",
+    "current_team": "Villarreal",
+    "position": "Midfielder",
+    "total_points": "52",
+    "games_played": "13",
+    "current_value": "€2,450,000",
+    "max_value_1y": "€2,450,000"
+  },
+  {
+    "name": "Moncayola",
+    "current_team": "Osasuna",
+    "position": "Midfielder",
+    "total_points": "134",
+    "games_played": "32",
+    "current_value": "€2,420,000",
+    "max_value_1y": "€2,740,000"
+  },
+  {
+    "name": "Hugo Rincón",
+    "current_team": "Girona",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,400,000",
+    "max_value_1y": "€2,470,000"
+  },
+  {
+    "name": "Víctor Muñoz",
+    "current_team": "Osasuna",
+    "position": "Forward",
+    "total_points": "2",
+    "games_played": "2",
+    "current_value": "€2,390,000",
+    "max_value_1y": "€3,170,000"
+  },
+  {
+    "name": "Vitor Reis",
+    "current_team": "Girona",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,360,000",
+    "max_value_1y": "€2,360,000"
+  },
+  {
+    "name": "Chaira",
+    "current_team": "Real Oviedo",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,350,000",
+    "max_value_1y": "€2,940,000"
+  },
+  {
+    "name": "Jon Martín",
+    "current_team": "Real Sociedad",
+    "position": "Defender",
+    "total_points": "59",
+    "games_played": "13",
+    "current_value": "€2,340,000",
+    "max_value_1y": "€2,340,000"
+  },
+  {
+    "name": "Djené",
+    "current_team": "Getafe",
+    "position": "Defender",
+    "total_points": "101",
+    "games_played": "31",
+    "current_value": "€2,330,000",
+    "max_value_1y": "€3,250,000"
+  },
+  {
+    "name": "Brahim",
+    "current_team": "Real Madrid",
+    "position": "Forward",
+    "total_points": "140",
+    "games_played": "31",
+    "current_value": "€2,310,000",
+    "max_value_1y": "€5,320,000"
+  },
+  {
+    "name": "Carmona",
+    "current_team": "Sevilla",
+    "position": "Defender",
+    "total_points": "146",
+    "games_played": "35",
+    "current_value": "€2,310,000",
+    "max_value_1y": "€3,070,000"
+  },
+  {
+    "name": "Samú Costa",
+    "current_team": "Mallorca",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "32",
+    "current_value": "€2,250,000",
+    "max_value_1y": "€5,220,000"
+  },
+  {
+    "name": "Iván Martín",
+    "current_team": "Girona",
+    "position": "Midfielder",
+    "total_points": "126",
+    "games_played": "32",
+    "current_value": "€2,240,000",
+    "max_value_1y": "€5,860,000"
+  },
+  {
+    "name": "Koyalipou",
+    "current_team": "Levante",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,220,000",
+    "max_value_1y": "€2,230,000"
+  },
+  {
+    "name": "Elgezabal",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,210,000",
+    "max_value_1y": "€2,210,000"
+  },
+  {
+    "name": "Pubill",
+    "current_team": "Atlético",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,210,000",
+    "max_value_1y": "€2,730,000"
+  },
+  {
+    "name": "Colombatto",
+    "current_team": "Real Oviedo",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,210,000",
+    "max_value_1y": "€3,320,000"
+  },
+  {
+    "name": "Antonio Blanco",
+    "current_team": "Alavés",
+    "position": "Midfielder",
+    "total_points": "123",
+    "games_played": "35",
+    "current_value": "€2,180,000",
+    "max_value_1y": "€2,870,000"
+  },
+  {
+    "name": "Calvo",
+    "current_team": "Real Oviedo",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,170,000",
+    "max_value_1y": "€2,170,000"
+  },
+  {
+    "name": "Arnau Martínez",
+    "current_team": "Girona",
+    "position": "Defender",
+    "total_points": "153",
+    "games_played": "32",
+    "current_value": "€2,140,000",
+    "max_value_1y": "€4,270,000"
+  },
+  {
+    "name": "Ceballos",
+    "current_team": "Real Madrid",
+    "position": "Midfielder",
+    "total_points": "117",
+    "games_played": "23",
+    "current_value": "€2,100,000",
+    "max_value_1y": "€6,940,000"
+  },
+  {
+    "name": "Carreira",
+    "current_team": "Celta",
+    "position": "Defender",
+    "total_points": "97",
+    "games_played": "23",
+    "current_value": "€2,060,000",
+    "max_value_1y": "€4,490,000"
+  },
+  {
+    "name": "Javi Rodríguez",
+    "current_team": "Celta",
+    "position": "Defender",
+    "total_points": "166",
+    "games_played": "36",
+    "current_value": "€2,040,000",
+    "max_value_1y": "€3,630,000"
+  },
+  {
+    "name": "Diego Llorente",
+    "current_team": "Betis",
+    "position": "Defender",
+    "total_points": "153",
+    "games_played": "30",
+    "current_value": "€2,030,000",
+    "max_value_1y": "€7,690,000"
+  },
+  {
+    "name": "Filip Ugrinic",
+    "current_team": "Valencia",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,030,000",
+    "max_value_1y": "€2,040,000"
+  },
+  {
+    "name": "Brugué",
+    "current_team": "Levante",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,020,000",
+    "max_value_1y": "€2,200,000"
+  },
+  {
+    "name": "Diakhaby",
+    "current_team": "Valencia",
+    "position": "Defender",
+    "total_points": "66",
+    "games_played": "13",
+    "current_value": "€2,010,000",
+    "max_value_1y": "€2,140,000"
+  },
+  {
+    "name": "Pablo García",
+    "current_team": "Betis",
+    "position": "Forward",
+    "total_points": "7",
+    "games_played": "3",
+    "current_value": "€2,010,000",
+    "max_value_1y": "€2,010,000"
+  },
+  {
+    "name": "De la Fuente",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€2,010,000",
+    "max_value_1y": "€2,010,000"
+  },
+  {
+    "name": "Fran Beltrán",
+    "current_team": "Celta",
+    "position": "Midfielder",
+    "total_points": "145",
+    "games_played": "34",
+    "current_value": "€2,000,000",
+    "max_value_1y": "€3,320,000"
+  },
+  {
+    "name": "Marc Bernal",
+    "current_team": "Barcelona",
+    "position": "Midfielder",
+    "total_points": "15",
+    "games_played": "3",
+    "current_value": "€1,990,000",
+    "max_value_1y": "€2,900,000"
+  },
+  {
+    "name": "Barrenetxea",
+    "current_team": "Real Sociedad",
+    "position": "Midfielder",
+    "total_points": "102",
+    "games_played": "30",
+    "current_value": "€1,940,000",
+    "max_value_1y": "€4,270,000"
+  },
+  {
+    "name": "David López",
+    "current_team": "Girona",
+    "position": "Defender",
+    "total_points": "128",
+    "games_played": "29",
+    "current_value": "€1,940,000",
+    "max_value_1y": "€4,510,000"
+  },
+  {
+    "name": "Kiko Femenía",
+    "current_team": "Getafe",
+    "position": "Defender",
+    "total_points": "119",
+    "games_played": "28",
+    "current_value": "€1,930,000",
+    "max_value_1y": "€3,280,000"
+  },
+  {
+    "name": "Olasagasti",
+    "current_team": "Levante",
+    "position": "Midfielder",
+    "total_points": "78",
+    "games_played": "22",
+    "current_value": "€1,930,000",
+    "max_value_1y": "€2,840,000"
+  },
+  {
+    "name": "Facundo Garcés",
+    "current_team": "Alavés",
+    "position": "Defender",
+    "total_points": "37",
+    "games_played": "10",
+    "current_value": "€1,930,000",
+    "max_value_1y": "€1,930,000"
+  },
+  {
+    "name": "Guridi",
+    "current_team": "Alavés",
+    "position": "Midfielder",
+    "total_points": "123",
+    "games_played": "33",
+    "current_value": "€1,920,000",
+    "max_value_1y": "€3,750,000"
+  },
+  {
+    "name": "Paredes",
+    "current_team": "Athletic",
+    "position": "Defender",
+    "total_points": "107",
+    "games_played": "23",
+    "current_value": "€1,920,000",
+    "max_value_1y": "€2,630,000"
+  },
+  {
+    "name": "Sow",
+    "current_team": "Sevilla",
+    "position": "Midfielder",
+    "total_points": "138",
+    "games_played": "30",
+    "current_value": "€1,920,000",
+    "max_value_1y": "€3,030,000"
+  },
+  {
+    "name": "Marc Casadó",
+    "current_team": "Barcelona",
+    "position": "Midfielder",
+    "total_points": "120",
+    "games_played": "23",
+    "current_value": "€1,920,000",
+    "max_value_1y": "€9,990,000"
+  },
+  {
+    "name": "Jonny Castro",
+    "current_team": "Alavés",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,910,000",
+    "max_value_1y": "€1,910,000"
+  },
+  {
+    "name": "Sibo",
+    "current_team": "Real Oviedo",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,910,000",
+    "max_value_1y": "€1,910,000"
+  },
+  {
+    "name": "Aleñá",
+    "current_team": "Alavés",
+    "position": "Midfielder",
+    "total_points": "106",
+    "games_played": "24",
+    "current_value": "€1,890,000",
+    "max_value_1y": "€3,040,000"
+  },
+  {
+    "name": "André Almeida",
+    "current_team": "Valencia",
+    "position": "Midfielder",
+    "total_points": "153",
+    "games_played": "34",
+    "current_value": "€1,890,000",
+    "max_value_1y": "€3,550,000"
+  },
+  {
+    "name": "Redondo",
+    "current_team": "Elche",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,890,000",
+    "max_value_1y": "€1,890,000"
+  },
+  {
+    "name": "Fran García",
+    "current_team": "Real Madrid",
+    "position": "Defender",
+    "total_points": "149",
+    "games_played": "31",
+    "current_value": "€1,880,000",
+    "max_value_1y": "€5,350,000"
+  },
+  {
+    "name": "Pablo Marín",
+    "current_team": "Real Sociedad",
+    "position": "Midfielder",
+    "total_points": "83",
+    "games_played": "23",
+    "current_value": "€1,880,000",
+    "max_value_1y": "€1,960,000"
+  },
+  {
+    "name": "Oriol Rey",
+    "current_team": "Levante",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,880,000",
+    "max_value_1y": "€1,880,000"
+  },
+  {
+    "name": "Neyou",
+    "current_team": "Getafe",
+    "position": "Midfielder",
+    "total_points": "123",
+    "games_played": "30",
+    "current_value": "€1,840,000",
+    "max_value_1y": "€3,210,000"
+  },
+  {
+    "name": "Lenglet",
+    "current_team": "Atlético",
+    "position": "Defender",
+    "total_points": "133",
+    "games_played": "23",
+    "current_value": "€1,820,000",
+    "max_value_1y": "€4,210,000"
+  },
+  {
+    "name": "Juan Iglesias",
+    "current_team": "Getafe",
+    "position": "Defender",
+    "total_points": "151",
+    "games_played": "37",
+    "current_value": "€1,810,000",
+    "max_value_1y": "€3,490,000"
+  },
+  {
+    "name": "Badé",
+    "current_team": "Sevilla",
+    "position": "Defender",
+    "total_points": "138",
+    "games_played": "32",
+    "current_value": "€1,760,000",
+    "max_value_1y": "€3,260,000"
+  },
+  {
+    "name": "Robert Navarro",
+    "current_team": "Athletic",
+    "position": "Midfielder",
+    "total_points": "94",
+    "games_played": "23",
+    "current_value": "€1,760,000",
+    "max_value_1y": "€3,430,000"
+  },
+  {
+    "name": "Raúl Asencio",
+    "current_team": "Real Madrid",
+    "position": "Defender",
+    "total_points": "104",
+    "games_played": "23",
+    "current_value": "€1,760,000",
+    "max_value_1y": "€7,280,000"
+  },
+  {
+    "name": "Swedberg",
+    "current_team": "Celta",
+    "position": "Midfielder",
+    "total_points": "128",
+    "games_played": "32",
+    "current_value": "€1,750,000",
+    "max_value_1y": "€4,620,000"
+  },
+  {
+    "name": "Maffeo",
+    "current_team": "Mallorca",
+    "position": "Defender",
+    "total_points": "141",
+    "games_played": "30",
+    "current_value": "€1,700,000",
+    "max_value_1y": "€4,390,000"
+  },
+  {
+    "name": "Javi Muñoz",
+    "current_team": "Getafe",
+    "position": "Midfielder",
+    "total_points": "148",
+    "games_played": "35",
+    "current_value": "€1,700,000",
+    "max_value_1y": "€3,060,000"
+  },
+  {
+    "name": "Abqar",
+    "current_team": "Getafe",
+    "position": "Defender",
+    "total_points": "107",
+    "games_played": "29",
+    "current_value": "€1,700,000",
+    "max_value_1y": "€2,140,000"
+  },
+  {
+    "name": "Álvaro Núñez",
+    "current_team": "Elche",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,700,000",
+    "max_value_1y": "€1,700,000"
+  },
+  {
+    "name": "Miguel Gutiérrez",
+    "current_team": "Girona",
+    "position": "Defender",
+    "total_points": "151",
+    "games_played": "29",
+    "current_value": "€1,690,000",
+    "max_value_1y": "€9,810,000"
+  },
+  {
+    "name": "Manu Sánchez",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "113",
+    "games_played": "33",
+    "current_value": "€1,690,000",
+    "max_value_1y": "€1,740,000"
+  },
+  {
+    "name": "Mariano",
+    "current_team": "Alavés",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,670,000",
+    "max_value_1y": "€1,670,000"
+  },
+  {
+    "name": "Alhassane",
+    "current_team": "Real Oviedo",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,600,000",
+    "max_value_1y": "€1,600,000"
+  },
+  {
+    "name": "Pol Lozano",
+    "current_team": "Espanyol",
+    "position": "Midfielder",
+    "total_points": "99",
+    "games_played": "30",
+    "current_value": "€1,580,000",
+    "max_value_1y": "€1,580,000"
+  },
+  {
+    "name": "Gudelj",
+    "current_team": "Sevilla",
+    "position": "Defender",
+    "total_points": "123",
+    "games_played": "31",
+    "current_value": "€1,580,000",
+    "max_value_1y": "€1,790,000"
+  },
+  {
+    "name": "Foulquier",
+    "current_team": "Valencia",
+    "position": "Defender",
+    "total_points": "101",
+    "games_played": "32",
+    "current_value": "€1,560,000",
+    "max_value_1y": "€2,670,000"
+  },
+  {
+    "name": "Sadiq",
+    "current_team": "Real Sociedad",
+    "position": "Forward",
+    "total_points": "85",
+    "games_played": "23",
+    "current_value": "€1,550,000",
+    "max_value_1y": "€6,010,000"
+  },
+  {
+    "name": "Joel Roca",
+    "current_team": "Girona",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,540,000",
+    "max_value_1y": "€1,540,000"
+  },
+  {
+    "name": "Chust",
+    "current_team": "Elche",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,520,000",
+    "max_value_1y": "€1,710,000"
+  },
+  {
+    "name": "Gallagher",
+    "current_team": "Atlético",
+    "position": "Midfielder",
+    "total_points": "146",
+    "games_played": "32",
+    "current_value": "€1,520,000",
+    "max_value_1y": "€8,840,000"
+  },
+  {
+    "name": "Christensen",
+    "current_team": "Barcelona",
+    "position": "Defender",
+    "total_points": "19",
+    "games_played": "5",
+    "current_value": "€1,510,000",
+    "max_value_1y": "€3,720,000"
+  },
+  {
+    "name": "Valentín Gómez",
+    "current_team": "Betis",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,500,000",
+    "max_value_1y": "€2,560,000"
+  },
+  {
+    "name": "Hugo Álvarez",
+    "current_team": "Celta",
+    "position": "Midfielder",
+    "total_points": "118",
+    "games_played": "26",
+    "current_value": "€1,470,000",
+    "max_value_1y": "€3,970,000"
+  },
+  {
+    "name": "Bigas",
+    "current_team": "Elche",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,460,000",
+    "max_value_1y": "€1,460,000"
   },
   {
     "name": "Pau López",
@@ -2345,7 +2417,7 @@
     "position": "Goalkeeper",
     "total_points": "4",
     "games_played": "1",
-    "current_value": "€1,460,000",
+    "current_value": "€1,450,000",
     "max_value_1y": "€4,450,000"
   },
   {
@@ -2354,107 +2426,17 @@
     "position": "Midfielder",
     "total_points": "129",
     "games_played": "37",
-    "current_value": "€1,460,000",
+    "current_value": "€1,450,000",
     "max_value_1y": "€3,030,000"
   },
   {
-    "name": "Pablo Durán",
-    "current_team": "Celta",
-    "position": "Forward",
-    "total_points": "116",
-    "games_played": "27",
-    "current_value": "€1,460,000",
-    "max_value_1y": "€3,670,000"
-  },
-  {
-    "name": "Gudelj",
-    "current_team": "Sevilla",
-    "position": "Defender",
-    "total_points": "123",
-    "games_played": "31",
-    "current_value": "€1,440,000",
-    "max_value_1y": "€1,790,000"
-  },
-  {
-    "name": "Bardghji",
-    "current_team": "Barcelona",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,440,000",
-    "max_value_1y": "€1,530,000"
-  },
-  {
-    "name": "Foulquier",
-    "current_team": "Valencia",
-    "position": "Defender",
-    "total_points": "101",
-    "games_played": "32",
-    "current_value": "€1,420,000",
-    "max_value_1y": "€2,670,000"
-  },
-  {
-    "name": "Bigas",
-    "current_team": "Elche",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,420,000",
-    "max_value_1y": "€1,420,000"
-  },
-  {
-    "name": "Gallagher",
-    "current_team": "Atlético",
-    "position": "Midfielder",
-    "total_points": "146",
-    "games_played": "32",
-    "current_value": "€1,410,000",
-    "max_value_1y": "€8,840,000"
-  },
-  {
-    "name": "Mario Martín",
-    "current_team": "Getafe",
-    "position": "Midfielder",
-    "total_points": "90",
-    "games_played": "30",
-    "current_value": "€1,400,000",
-    "max_value_1y": "€1,480,000"
-  },
-  {
-    "name": "Isaac Romero",
-    "current_team": "Sevilla",
-    "position": "Forward",
-    "total_points": "95",
-    "games_played": "31",
-    "current_value": "€1,390,000",
-    "max_value_1y": "€7,180,000"
-  },
-  {
-    "name": "Greif",
+    "name": "Asano",
     "current_team": "Mallorca",
-    "position": "Goalkeeper",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,360,000",
-    "max_value_1y": "€1,360,000"
-  },
-  {
-    "name": "Camello",
-    "current_team": "Rayo Vallecano",
     "position": "Forward",
-    "total_points": "104",
-    "games_played": "23",
-    "current_value": "€1,330,000",
-    "max_value_1y": "€3,550,000"
-  },
-  {
-    "name": "Dolan",
-    "current_team": "Espanyol",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,300,000",
-    "max_value_1y": "€1,550,000"
+    "total_points": "75",
+    "games_played": "21",
+    "current_value": "€1,440,000",
+    "max_value_1y": "€3,330,000"
   },
   {
     "name": "Morlanes",
@@ -2462,7 +2444,7 @@
     "position": "Midfielder",
     "total_points": "91",
     "games_played": "23",
-    "current_value": "€1,290,000",
+    "current_value": "€1,400,000",
     "max_value_1y": "€2,850,000"
   },
   {
@@ -2471,8 +2453,35 @@
     "position": "Defender",
     "total_points": "79",
     "games_played": "25",
-    "current_value": "€1,290,000",
+    "current_value": "€1,400,000",
     "max_value_1y": "€1,720,000"
+  },
+  {
+    "name": "Camello",
+    "current_team": "Rayo Vallecano",
+    "position": "Forward",
+    "total_points": "104",
+    "games_played": "23",
+    "current_value": "€1,370,000",
+    "max_value_1y": "€3,550,000"
+  },
+  {
+    "name": "Toni Martínez",
+    "current_team": "Alavés",
+    "position": "Forward",
+    "total_points": "116",
+    "games_played": "28",
+    "current_value": "€1,350,000",
+    "max_value_1y": "€4,170,000"
+  },
+  {
+    "name": "Isaac Romero",
+    "current_team": "Sevilla",
+    "position": "Forward",
+    "total_points": "95",
+    "games_played": "31",
+    "current_value": "€1,340,000",
+    "max_value_1y": "€7,180,000"
   },
   {
     "name": "Bretones",
@@ -2480,26 +2489,26 @@
     "position": "Defender",
     "total_points": "129",
     "games_played": "35",
-    "current_value": "€1,280,000",
+    "current_value": "€1,340,000",
     "max_value_1y": "€3,310,000"
   },
   {
-    "name": "Pablo Ibáñez",
-    "current_team": "Alavés",
+    "name": "Josan",
+    "current_team": "Elche",
     "position": "Midfielder",
-    "total_points": "89",
-    "games_played": "28",
-    "current_value": "€1,260,000",
-    "max_value_1y": "€1,260,000"
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,330,000",
+    "max_value_1y": "€1,540,000"
   },
   {
-    "name": "Asano",
-    "current_team": "Mallorca",
+    "name": "Pablo Durán",
+    "current_team": "Celta",
     "position": "Forward",
-    "total_points": "75",
-    "games_played": "21",
-    "current_value": "€1,250,000",
-    "max_value_1y": "€3,330,000"
+    "total_points": "116",
+    "games_played": "27",
+    "current_value": "€1,320,000",
+    "max_value_1y": "€3,670,000"
   },
   {
     "name": "Unai López",
@@ -2507,26 +2516,8 @@
     "position": "Midfielder",
     "total_points": "139",
     "games_played": "32",
-    "current_value": "€1,230,000",
+    "current_value": "€1,310,000",
     "max_value_1y": "€3,540,000"
-  },
-  {
-    "name": "Pablo García",
-    "current_team": "Betis",
-    "position": "Forward",
-    "total_points": "7",
-    "games_played": "3",
-    "current_value": "€1,220,000",
-    "max_value_1y": "€1,220,000"
-  },
-  {
-    "name": "Viñas",
-    "current_team": "Real Oviedo",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€1,210,000",
-    "max_value_1y": "€1,210,000"
   },
   {
     "name": "Luengo",
@@ -2534,8 +2525,26 @@
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€1,200,000",
-    "max_value_1y": "€1,200,000"
+    "current_value": "€1,290,000",
+    "max_value_1y": "€1,290,000"
+  },
+  {
+    "name": "Greif",
+    "current_team": "Mallorca",
+    "position": "Goalkeeper",
+    "total_points": "157",
+    "games_played": "31",
+    "current_value": "€1,260,000",
+    "max_value_1y": "€2,760,000"
+  },
+  {
+    "name": "Pablo Ibáñez",
+    "current_team": "Alavés",
+    "position": "Midfielder",
+    "total_points": "89",
+    "games_played": "28",
+    "current_value": "€1,250,000",
+    "max_value_1y": "€1,260,000"
   },
   {
     "name": "Ruibal",
@@ -2543,35 +2552,17 @@
     "position": "Midfielder",
     "total_points": "116",
     "games_played": "29",
-    "current_value": "€1,160,000",
+    "current_value": "€1,250,000",
     "max_value_1y": "€2,240,000"
   },
   {
-    "name": "Pau Navarro",
-    "current_team": "Villarreal",
-    "position": "Defender",
-    "total_points": "49",
-    "games_played": "17",
-    "current_value": "€1,160,000",
-    "max_value_1y": "€1,170,000"
-  },
-  {
-    "name": "Óscar Valentín",
-    "current_team": "Rayo Vallecano",
+    "name": "Ruibal",
+    "current_team": "Betis",
     "position": "Midfielder",
-    "total_points": "110",
-    "games_played": "34",
-    "current_value": "€1,110,000",
-    "max_value_1y": "€3,020,000"
-  },
-  {
-    "name": "Giménez",
-    "current_team": "Atlético",
-    "position": "Defender",
-    "total_points": "128",
-    "games_played": "27",
-    "current_value": "€1,100,000",
-    "max_value_1y": "€5,040,000"
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,220,000",
+    "max_value_1y": "€1,220,000"
   },
   {
     "name": "Germán Valera",
@@ -2579,71 +2570,35 @@
     "position": "Forward",
     "total_points": "20",
     "games_played": "8",
-    "current_value": "€1,090,000",
-    "max_value_1y": "€1,090,000"
+    "current_value": "€1,220,000",
+    "max_value_1y": "€1,220,000"
   },
   {
-    "name": "Szczęsny",
+    "name": "Bardghji",
     "current_team": "Barcelona",
-    "position": "Goalkeeper",
-    "total_points": "65",
-    "games_played": "15",
-    "current_value": "€1,080,000",
-    "max_value_1y": "€6,290,000"
-  },
-  {
-    "name": "Beñat Prados",
-    "current_team": "Athletic",
-    "position": "Midfielder",
-    "total_points": "115",
-    "games_played": "30",
-    "current_value": "€1,060,000",
-    "max_value_1y": "€3,560,000"
-  },
-  {
-    "name": "Portu",
-    "current_team": "Girona",
     "position": "Forward",
-    "total_points": "82",
-    "games_played": "27",
-    "current_value": "€1,020,000",
-    "max_value_1y": "€3,290,000"
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,220,000",
+    "max_value_1y": "€1,530,000"
   },
   {
-    "name": "Oriol Romeu",
-    "current_team": "Barcelona",
+    "name": "Óscar Valentín",
+    "current_team": "Rayo Vallecano",
     "position": "Midfielder",
-    "total_points": "82",
-    "games_played": "25",
-    "current_value": "€1,010,000",
-    "max_value_1y": "€3,660,000"
+    "total_points": "110",
+    "games_played": "34",
+    "current_value": "€1,180,000",
+    "max_value_1y": "€3,020,000"
   },
   {
-    "name": "Urko Gonzalez",
-    "current_team": "Real Sociedad",
-    "position": "Defender",
-    "total_points": "69",
-    "games_played": "18",
-    "current_value": "€1,010,000",
-    "max_value_1y": "€1,900,000"
-  },
-  {
-    "name": "Larin",
-    "current_team": "Mallorca",
+    "name": "Dolan",
+    "current_team": "Espanyol",
     "position": "Forward",
-    "total_points": "124",
-    "games_played": "32",
-    "current_value": "€930,000",
-    "max_value_1y": "€4,010,000"
-  },
-  {
-    "name": "Gerard Martín",
-    "current_team": "Barcelona",
-    "position": "Defender",
-    "total_points": "93",
-    "games_played": "28",
-    "current_value": "€910,000",
-    "max_value_1y": "€4,120,000"
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,180,000",
+    "max_value_1y": "€1,550,000"
   },
   {
     "name": "Coba Gomes",
@@ -2651,62 +2606,8 @@
     "position": "Forward",
     "total_points": "70",
     "games_played": "19",
-    "current_value": "€910,000",
+    "current_value": "€1,140,000",
     "max_value_1y": "€2,520,000"
-  },
-  {
-    "name": "Yeray",
-    "current_team": "Athletic",
-    "position": "Defender",
-    "total_points": "116",
-    "games_played": "21",
-    "current_value": "€880,000",
-    "max_value_1y": "€3,450,000"
-  },
-  {
-    "name": "Ejuke",
-    "current_team": "Sevilla",
-    "position": "Forward",
-    "total_points": "110",
-    "games_played": "25",
-    "current_value": "€880,000",
-    "max_value_1y": "€6,020,000"
-  },
-  {
-    "name": "Pedraza",
-    "current_team": "Villarreal",
-    "position": "Defender",
-    "total_points": "43",
-    "games_played": "12",
-    "current_value": "€820,000",
-    "max_value_1y": "€1,620,000"
-  },
-  {
-    "name": "Moldovan",
-    "current_team": "Real Oviedo",
-    "position": "Goalkeeper",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€820,000",
-    "max_value_1y": "€870,000"
-  },
-  {
-    "name": "Diego Conde",
-    "current_team": "Villarreal",
-    "position": "Goalkeeper",
-    "total_points": "96",
-    "games_played": "22",
-    "current_value": "€810,000",
-    "max_value_1y": "€5,000,000"
-  },
-  {
-    "name": "Christensen",
-    "current_team": "Barcelona",
-    "position": "Defender",
-    "total_points": "19",
-    "games_played": "5",
-    "current_value": "€800,000",
-    "max_value_1y": "€3,720,000"
   },
   {
     "name": "Mendoza",
@@ -2714,8 +2615,35 @@
     "position": "Midfielder",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€800,000",
-    "max_value_1y": "€800,000"
+    "current_value": "€1,130,000",
+    "max_value_1y": "€1,130,000"
+  },
+  {
+    "name": "Viñas",
+    "current_team": "Real Oviedo",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€1,040,000",
+    "max_value_1y": "€1,210,000"
+  },
+  {
+    "name": "Szczęsny",
+    "current_team": "Barcelona",
+    "position": "Goalkeeper",
+    "total_points": "65",
+    "games_played": "15",
+    "current_value": "€1,000,000",
+    "max_value_1y": "€6,290,000"
+  },
+  {
+    "name": "Mateu Morey",
+    "current_team": "Mallorca",
+    "position": "Defender",
+    "total_points": "40",
+    "games_played": "16",
+    "current_value": "€990,000",
+    "max_value_1y": "€990,000"
   },
   {
     "name": "Bellerín",
@@ -2723,26 +2651,152 @@
     "position": "Defender",
     "total_points": "42",
     "games_played": "9",
-    "current_value": "€750,000",
+    "current_value": "€980,000",
     "max_value_1y": "€1,610,000"
   },
   {
-    "name": "Pedrosa",
-    "current_team": "Sevilla",
-    "position": "Defender",
-    "total_points": "127",
-    "games_played": "31",
-    "current_value": "€740,000",
-    "max_value_1y": "€2,610,000"
-  },
-  {
-    "name": "Galán",
+    "name": "Giménez",
     "current_team": "Atlético",
     "position": "Defender",
-    "total_points": "100",
+    "total_points": "128",
+    "games_played": "27",
+    "current_value": "€970,000",
+    "max_value_1y": "€5,040,000"
+  },
+  {
+    "name": "Gerard Martín",
+    "current_team": "Barcelona",
+    "position": "Defender",
+    "total_points": "93",
+    "games_played": "28",
+    "current_value": "€960,000",
+    "max_value_1y": "€4,120,000"
+  },
+  {
+    "name": "Urko Gonzalez",
+    "current_team": "Real Sociedad",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€950,000",
+    "max_value_1y": "€950,000"
+  },
+  {
+    "name": "Portu",
+    "current_team": "Girona",
+    "position": "Forward",
+    "total_points": "82",
+    "games_played": "27",
+    "current_value": "€940,000",
+    "max_value_1y": "€3,290,000"
+  },
+  {
+    "name": "Pau Navarro",
+    "current_team": "Villarreal",
+    "position": "Defender",
+    "total_points": "49",
+    "games_played": "17",
+    "current_value": "€940,000",
+    "max_value_1y": "€1,170,000"
+  },
+  {
+    "name": "Beñat Prados",
+    "current_team": "Athletic",
+    "position": "Midfielder",
+    "total_points": "115",
+    "games_played": "30",
+    "current_value": "€920,000",
+    "max_value_1y": "€3,560,000"
+  },
+  {
+    "name": "Mateo Joseph",
+    "current_team": "Mallorca",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€920,000",
+    "max_value_1y": "€920,000"
+  },
+  {
+    "name": "Turrientes",
+    "current_team": "Real Sociedad",
+    "position": "Midfielder",
+    "total_points": "68",
+    "games_played": "21",
+    "current_value": "€890,000",
+    "max_value_1y": "€2,870,000"
+  },
+  {
+    "name": "Pedraza",
+    "current_team": "Villarreal",
+    "position": "Defender",
+    "total_points": "43",
+    "games_played": "12",
+    "current_value": "€860,000",
+    "max_value_1y": "€1,620,000"
+  },
+  {
+    "name": "Oriol Romeu",
+    "current_team": "Barcelona",
+    "position": "Midfielder",
+    "total_points": "82",
     "games_played": "25",
-    "current_value": "€740,000",
-    "max_value_1y": "€3,380,000"
+    "current_value": "€860,000",
+    "max_value_1y": "€3,660,000"
+  },
+  {
+    "name": "Ejuke",
+    "current_team": "Sevilla",
+    "position": "Forward",
+    "total_points": "110",
+    "games_played": "25",
+    "current_value": "€810,000",
+    "max_value_1y": "€6,020,000"
+  },
+  {
+    "name": "Larin",
+    "current_team": "Mallorca",
+    "position": "Forward",
+    "total_points": "124",
+    "games_played": "32",
+    "current_value": "€800,000",
+    "max_value_1y": "€4,010,000"
+  },
+  {
+    "name": "Juanlu",
+    "current_team": "Sevilla",
+    "position": "Midfielder",
+    "total_points": "136",
+    "games_played": "32",
+    "current_value": "€790,000",
+    "max_value_1y": "€3,050,000"
+  },
+  {
+    "name": "Diego Conde",
+    "current_team": "Villarreal",
+    "position": "Goalkeeper",
+    "total_points": "96",
+    "games_played": "22",
+    "current_value": "€760,000",
+    "max_value_1y": "€5,000,000"
+  },
+  {
+    "name": "Moldovan",
+    "current_team": "Real Oviedo",
+    "position": "Goalkeeper",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€760,000",
+    "max_value_1y": "€870,000"
+  },
+  {
+    "name": "Yeray",
+    "current_team": "Athletic",
+    "position": "Defender",
+    "total_points": "116",
+    "games_played": "21",
+    "current_value": "€720,000",
+    "max_value_1y": "€3,450,000"
   },
   {
     "name": "Koke",
@@ -2754,112 +2808,13 @@
     "max_value_1y": "€3,820,000"
   },
   {
-    "name": "Juanlu",
-    "current_team": "Sevilla",
-    "position": "Midfielder",
-    "total_points": "136",
-    "games_played": "32",
-    "current_value": "€710,000",
-    "max_value_1y": "€3,050,000"
-  },
-  {
-    "name": "Víctor García",
-    "current_team": "Levante",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€700,000",
-    "max_value_1y": "€1,960,000"
-  },
-  {
-    "name": "Turrientes",
-    "current_team": "Real Sociedad",
-    "position": "Midfielder",
-    "total_points": "68",
-    "games_played": "21",
-    "current_value": "€700,000",
-    "max_value_1y": "€2,870,000"
-  },
-  {
-    "name": "Traoré",
-    "current_team": "Real Sociedad",
-    "position": "Defender",
-    "total_points": "43",
-    "games_played": "11",
-    "current_value": "€700,000",
-    "max_value_1y": "€3,570,000"
-  },
-  {
-    "name": "Mateu Morey",
-    "current_team": "Mallorca",
-    "position": "Defender",
-    "total_points": "40",
-    "games_played": "16",
-    "current_value": "€680,000",
-    "max_value_1y": "€680,000"
-  },
-  {
-    "name": "Bakambu",
-    "current_team": "Betis",
-    "position": "Forward",
-    "total_points": "85",
-    "games_played": "25",
-    "current_value": "€650,000",
-    "max_value_1y": "€1,450,000"
-  },
-  {
-    "name": "Idumbo",
-    "current_team": "Sevilla",
-    "position": "Midfielder",
-    "total_points": "43",
-    "games_played": "14",
-    "current_value": "€650,000",
-    "max_value_1y": "€2,190,000"
-  },
-  {
-    "name": "Pampín",
-    "current_team": "Levante",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€630,000",
-    "max_value_1y": "€890,000"
-  },
-  {
-    "name": "Aihen",
-    "current_team": "Real Sociedad",
-    "position": "Defender",
-    "total_points": "65",
-    "games_played": "21",
-    "current_value": "€600,000",
-    "max_value_1y": "€600,000"
-  },
-  {
     "name": "Guevara",
     "current_team": "Alavés",
     "position": "Midfielder",
     "total_points": "106",
     "games_played": "33",
-    "current_value": "€600,000",
+    "current_value": "€700,000",
     "max_value_1y": "€2,560,000"
-  },
-  {
-    "name": "Joel Roca",
-    "current_team": "Girona",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€600,000",
-    "max_value_1y": "€600,000"
-  },
-  {
-    "name": "Kervin Arriaga",
-    "current_team": "Levante",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€580,000",
-    "max_value_1y": "€1,070,000"
   },
   {
     "name": "Pétrot",
@@ -2867,26 +2822,116 @@
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
+    "current_value": "€700,000",
+    "max_value_1y": "€700,000"
+  },
+  {
+    "name": "Galán",
+    "current_team": "Atlético",
+    "position": "Defender",
+    "total_points": "100",
+    "games_played": "25",
+    "current_value": "€690,000",
+    "max_value_1y": "€3,380,000"
+  },
+  {
+    "name": "Pedrosa",
+    "current_team": "Sevilla",
+    "position": "Defender",
+    "total_points": "127",
+    "games_played": "31",
+    "current_value": "€680,000",
+    "max_value_1y": "€2,610,000"
+  },
+  {
+    "name": "Idumbo",
+    "current_team": "Sevilla",
+    "position": "Midfielder",
+    "total_points": "43",
+    "games_played": "14",
+    "current_value": "€680,000",
+    "max_value_1y": "€2,190,000"
+  },
+  {
+    "name": "Akhomach",
+    "current_team": "Villarreal",
+    "position": "Forward",
+    "total_points": "56",
+    "games_played": "11",
+    "current_value": "€670,000",
+    "max_value_1y": "€3,430,000"
+  },
+  {
+    "name": "Víctor García",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€650,000",
+    "max_value_1y": "€1,960,000"
+  },
+  {
+    "name": "Traoré",
+    "current_team": "Real Sociedad",
+    "position": "Defender",
+    "total_points": "43",
+    "games_played": "11",
+    "current_value": "€650,000",
+    "max_value_1y": "€3,570,000"
+  },
+  {
+    "name": "Bakambu",
+    "current_team": "Betis",
+    "position": "Forward",
+    "total_points": "85",
+    "games_played": "25",
+    "current_value": "€630,000",
+    "max_value_1y": "€1,450,000"
+  },
+  {
+    "name": "Aihen",
+    "current_team": "Real Sociedad",
+    "position": "Defender",
+    "total_points": "65",
+    "games_played": "21",
+    "current_value": "€620,000",
+    "max_value_1y": "€630,000"
+  },
+  {
+    "name": "Yusi Enríquez",
+    "current_team": "Alavés",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€600,000",
+    "max_value_1y": "€600,000"
+  },
+  {
+    "name": "Toljan",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€600,000",
+    "max_value_1y": "€670,000"
+  },
+  {
+    "name": "El Ghezouani",
+    "current_team": "Elche",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€590,000",
+    "max_value_1y": "€720,000"
+  },
+  {
+    "name": "Pampín",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
     "current_value": "€580,000",
-    "max_value_1y": "€650,000"
-  },
-  {
-    "name": "Gorosabel",
-    "current_team": "Athletic",
-    "position": "Defender",
-    "total_points": "87",
-    "games_played": "20",
-    "current_value": "€570,000",
-    "max_value_1y": "€2,500,000"
-  },
-  {
-    "name": "Mumin",
-    "current_team": "Rayo Vallecano",
-    "position": "Defender",
-    "total_points": "115",
-    "games_played": "24",
-    "current_value": "€570,000",
-    "max_value_1y": "€5,170,000"
+    "max_value_1y": "€890,000"
   },
   {
     "name": "Endrick",
@@ -2895,79 +2940,16 @@
     "total_points": "57",
     "games_played": "22",
     "current_value": "€570,000",
-    "max_value_1y": "€5,180,000"
+    "max_value_1y": "€4,530,000"
   },
   {
-    "name": "Unai Gómez",
+    "name": "Gorosabel",
     "current_team": "Athletic",
-    "position": "Midfielder",
-    "total_points": "95",
-    "games_played": "32",
-    "current_value": "€560,000",
-    "max_value_1y": "€890,000"
-  },
-  {
-    "name": "Logan Costa",
-    "current_team": "Villarreal",
     "position": "Defender",
-    "total_points": "139",
-    "games_played": "32",
-    "current_value": "€560,000",
-    "max_value_1y": "€3,150,000"
-  },
-  {
-    "name": "Yusi Enríquez",
-    "current_team": "Alavés",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€550,000",
-    "max_value_1y": "€550,000"
-  },
-  {
-    "name": "Dimitrievski",
-    "current_team": "Valencia",
-    "position": "Goalkeeper",
-    "total_points": "8",
-    "games_played": "4",
-    "current_value": "€520,000",
-    "max_value_1y": "€3,680,000"
-  },
-  {
-    "name": "El Ghezouani",
-    "current_team": "Elche",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€520,000",
-    "max_value_1y": "€720,000"
-  },
-  {
-    "name": "Toljan",
-    "current_team": "Levante",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€520,000",
-    "max_value_1y": "€670,000"
-  },
-  {
-    "name": "Calero",
-    "current_team": "Espanyol",
-    "position": "Defender",
-    "total_points": "79",
-    "games_played": "21",
-    "current_value": "€510,000",
-    "max_value_1y": "€1,130,000"
-  },
-  {
-    "name": "Akhomach",
-    "current_team": "Villarreal",
-    "position": "Forward",
-    "total_points": "56",
-    "games_played": "11",
-    "current_value": "€490,000",
-    "max_value_1y": "€3,430,000"
+    "total_points": "87",
+    "games_played": "20",
+    "current_value": "€530,000",
+    "max_value_1y": "€2,500,000"
   },
   {
     "name": "Pacha Espino",
@@ -2975,8 +2957,26 @@
     "position": "Defender",
     "total_points": "57",
     "games_played": "16",
-    "current_value": "€480,000",
+    "current_value": "€530,000",
     "max_value_1y": "€2,750,000"
+  },
+  {
+    "name": "David Alaba",
+    "current_team": "Real Madrid",
+    "position": "Defender",
+    "total_points": "22",
+    "games_played": "7",
+    "current_value": "€520,000",
+    "max_value_1y": "€3,840,000"
+  },
+  {
+    "name": "Moi Gómez",
+    "current_team": "Osasuna",
+    "position": "Midfielder",
+    "total_points": "68",
+    "games_played": "26",
+    "current_value": "€520,000",
+    "max_value_1y": "€2,410,000"
   },
   {
     "name": "Chimy Ávila",
@@ -2984,7 +2984,7 @@
     "position": "Forward",
     "total_points": "79",
     "games_played": "19",
-    "current_value": "€460,000",
+    "current_value": "€510,000",
     "max_value_1y": "€3,690,000"
   },
   {
@@ -2993,53 +2993,71 @@
     "position": "Midfielder",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€460,000",
-    "max_value_1y": "€460,000"
+    "current_value": "€510,000",
+    "max_value_1y": "€510,000"
   },
   {
-    "name": "Calebe",
-    "current_team": "Alavés",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€460,000",
-    "max_value_1y": "€460,000"
-  },
-  {
-    "name": "Ter Stegen",
-    "current_team": "Barcelona",
-    "position": "Goalkeeper",
-    "total_points": "31",
-    "games_played": "8",
-    "current_value": "€430,000",
-    "max_value_1y": "€7,550,000"
-  },
-  {
-    "name": "Mariano",
-    "current_team": "Alavés",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€420,000",
-    "max_value_1y": "€420,000"
-  },
-  {
-    "name": "Etienne Eto'o",
+    "name": "Mumin",
     "current_team": "Rayo Vallecano",
-    "position": "Forward",
-    "total_points": "4",
-    "games_played": "2",
-    "current_value": "€420,000",
-    "max_value_1y": "€430,000"
+    "position": "Defender",
+    "total_points": "115",
+    "games_played": "24",
+    "current_value": "€500,000",
+    "max_value_1y": "€5,170,000"
   },
   {
-    "name": "Moi Gómez",
-    "current_team": "Osasuna",
+    "name": "Calero",
+    "current_team": "Espanyol",
+    "position": "Defender",
+    "total_points": "79",
+    "games_played": "21",
+    "current_value": "€480,000",
+    "max_value_1y": "€1,130,000"
+  },
+  {
+    "name": "Kervin Arriaga",
+    "current_team": "Levante",
     "position": "Midfielder",
-    "total_points": "68",
-    "games_played": "26",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€480,000",
+    "max_value_1y": "€1,070,000"
+  },
+  {
+    "name": "Dimitrievski",
+    "current_team": "Valencia",
+    "position": "Goalkeeper",
+    "total_points": "8",
+    "games_played": "4",
+    "current_value": "€470,000",
+    "max_value_1y": "€3,260,000"
+  },
+  {
+    "name": "Logan Costa",
+    "current_team": "Villarreal",
+    "position": "Defender",
+    "total_points": "139",
+    "games_played": "32",
+    "current_value": "€470,000",
+    "max_value_1y": "€3,150,000"
+  },
+  {
+    "name": "Unai Gómez",
+    "current_team": "Athletic",
+    "position": "Midfielder",
+    "total_points": "95",
+    "games_played": "32",
+    "current_value": "€420,000",
+    "max_value_1y": "€890,000"
+  },
+  {
+    "name": "Miguel Rubio",
+    "current_team": "Espanyol",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
     "current_value": "€410,000",
-    "max_value_1y": "€2,470,000"
+    "max_value_1y": "€410,000"
   },
   {
     "name": "Carlos Martín",
@@ -3051,22 +3069,40 @@
     "max_value_1y": "€890,000"
   },
   {
-    "name": "Juanmi",
-    "current_team": "Getafe",
-    "position": "Forward",
-    "total_points": "69",
-    "games_played": "24",
-    "current_value": "€390,000",
-    "max_value_1y": "€3,110,000"
+    "name": "Calebe",
+    "current_team": "Alavés",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€410,000",
+    "max_value_1y": "€460,000"
   },
   {
-    "name": "David Alaba",
-    "current_team": "Real Madrid",
-    "position": "Defender",
-    "total_points": "22",
-    "games_played": "7",
-    "current_value": "€380,000",
-    "max_value_1y": "€3,840,000"
+    "name": "Gumbau",
+    "current_team": "Rayo Vallecano",
+    "position": "Midfielder",
+    "total_points": "76",
+    "games_played": "22",
+    "current_value": "€400,000",
+    "max_value_1y": "€1,740,000"
+  },
+  {
+    "name": "Ter Stegen",
+    "current_team": "Barcelona",
+    "position": "Goalkeeper",
+    "total_points": "31",
+    "games_played": "8",
+    "current_value": "€370,000",
+    "max_value_1y": "€7,420,000"
+  },
+  {
+    "name": "Mascarell",
+    "current_team": "Mallorca",
+    "position": "Midfielder",
+    "total_points": "119",
+    "games_played": "32",
+    "current_value": "€370,000",
+    "max_value_1y": "€880,000"
   },
   {
     "name": "David Costas",
@@ -3078,31 +3114,49 @@
     "max_value_1y": "€620,000"
   },
   {
-    "name": "Jordán",
-    "current_team": "Sevilla",
-    "position": "Midfielder",
-    "total_points": "144",
-    "games_played": "25",
+    "name": "Witsel",
+    "current_team": "Girona",
+    "position": "Defender",
+    "total_points": "65",
+    "games_played": "14",
     "current_value": "€350,000",
-    "max_value_1y": "€4,440,000"
+    "max_value_1y": "€3,400,000"
   },
   {
-    "name": "Matías Moreno",
-    "current_team": "Levante",
+    "name": "Fran Pérez",
+    "current_team": "Valencia",
+    "position": "Forward",
+    "total_points": "70",
+    "games_played": "26",
+    "current_value": "€350,000",
+    "max_value_1y": "€550,000"
+  },
+  {
+    "name": "Etienne Eto'o",
+    "current_team": "Rayo Vallecano",
+    "position": "Forward",
+    "total_points": "4",
+    "games_played": "2",
+    "current_value": "€350,000",
+    "max_value_1y": "€430,000"
+  },
+  {
+    "name": "Davinchi",
+    "current_team": "Getafe",
     "position": "Defender",
     "total_points": "0",
     "games_played": "0",
     "current_value": "€350,000",
-    "max_value_1y": "€670,000"
+    "max_value_1y": "€350,000"
   },
   {
-    "name": "Gumbau",
-    "current_team": "Rayo Vallecano",
-    "position": "Midfielder",
-    "total_points": "76",
-    "games_played": "22",
+    "name": "Juanmi",
+    "current_team": "Getafe",
+    "position": "Forward",
+    "total_points": "69",
+    "games_played": "24",
     "current_value": "€340,000",
-    "max_value_1y": "€1,830,000"
+    "max_value_1y": "€3,110,000"
   },
   {
     "name": "Marc Roca",
@@ -3114,22 +3168,22 @@
     "max_value_1y": "€4,130,000"
   },
   {
-    "name": "Abel Ruiz",
-    "current_team": "Girona",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
+    "name": "Juan Cruz",
+    "current_team": "Osasuna",
+    "position": "Defender",
+    "total_points": "69",
+    "games_played": "25",
     "current_value": "€340,000",
-    "max_value_1y": "€5,280,000"
+    "max_value_1y": "€370,000"
   },
   {
-    "name": "Adrián",
-    "current_team": "Betis",
-    "position": "Goalkeeper",
-    "total_points": "79",
-    "games_played": "19",
-    "current_value": "€340,000",
-    "max_value_1y": "€1,730,000"
+    "name": "Vertrouwd",
+    "current_team": "Rayo Vallecano",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€330,000",
+    "max_value_1y": "€330,000"
   },
   {
     "name": "Molina",
@@ -3141,31 +3195,76 @@
     "max_value_1y": "€1,990,000"
   },
   {
-    "name": "Van de Beek",
-    "current_team": "Girona",
-    "position": "Midfielder",
-    "total_points": "105",
-    "games_played": "26",
-    "current_value": "€320,000",
-    "max_value_1y": "€6,600,000"
-  },
-  {
     "name": "Peque",
     "current_team": "Sevilla",
     "position": "Forward",
     "total_points": "84",
     "games_played": "26",
-    "current_value": "€310,000",
-    "max_value_1y": "€2,720,000"
+    "current_value": "€320,000",
+    "max_value_1y": "€2,540,000"
   },
   {
-    "name": "Mascarell",
-    "current_team": "Mallorca",
+    "name": "Goti",
+    "current_team": "Real Sociedad",
     "position": "Midfielder",
-    "total_points": "119",
-    "games_played": "32",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€320,000",
+    "max_value_1y": "€320,000"
+  },
+  {
+    "name": "Jhon Solís",
+    "current_team": "Girona",
+    "position": "Midfielder",
+    "total_points": "37",
+    "games_played": "19",
+    "current_value": "€310,000",
+    "max_value_1y": "€310,000"
+  },
+  {
+    "name": "Adrián",
+    "current_team": "Betis",
+    "position": "Goalkeeper",
+    "total_points": "79",
+    "games_played": "19",
+    "current_value": "€310,000",
+    "max_value_1y": "€1,730,000"
+  },
+  {
+    "name": "Van de Beek",
+    "current_team": "Girona",
+    "position": "Midfielder",
+    "total_points": "105",
+    "games_played": "26",
+    "current_value": "€310,000",
+    "max_value_1y": "€6,600,000"
+  },
+  {
+    "name": "Jordán",
+    "current_team": "Sevilla",
+    "position": "Midfielder",
+    "total_points": "144",
+    "games_played": "25",
     "current_value": "€300,000",
-    "max_value_1y": "€880,000"
+    "max_value_1y": "€4,440,000"
+  },
+  {
+    "name": "Marc Aguado",
+    "current_team": "Elche",
+    "position": "Midfielder",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€300,000",
+    "max_value_1y": "€300,000"
+  },
+  {
+    "name": "Matías Moreno",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€300,000",
+    "max_value_1y": "€670,000"
   },
   {
     "name": "Lunin",
@@ -3177,6 +3276,33 @@
     "max_value_1y": "€1,100,000"
   },
   {
+    "name": "Iván Romero",
+    "current_team": "Levante",
+    "position": "Forward",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€290,000",
+    "max_value_1y": "€390,000"
+  },
+  {
+    "name": "Raul García",
+    "current_team": "Osasuna",
+    "position": "Forward",
+    "total_points": "102",
+    "games_played": "32",
+    "current_value": "€290,000",
+    "max_value_1y": "€910,000"
+  },
+  {
+    "name": "Héctor Fort",
+    "current_team": "Barcelona",
+    "position": "Defender",
+    "total_points": "55",
+    "games_played": "17",
+    "current_value": "€290,000",
+    "max_value_1y": "€1,010,000"
+  },
+  {
     "name": "Iñaki Peña",
     "current_team": "Barcelona",
     "position": "Goalkeeper",
@@ -3186,31 +3312,40 @@
     "max_value_1y": "€4,270,000"
   },
   {
+    "name": "Antoniu Roca",
+    "current_team": "Espanyol",
+    "position": "Forward",
+    "total_points": "80",
+    "games_played": "26",
+    "current_value": "€280,000",
+    "max_value_1y": "€940,000"
+  },
+  {
+    "name": "Abel Ruiz",
+    "current_team": "Girona",
+    "position": "Forward",
+    "total_points": "76",
+    "games_played": "23",
+    "current_value": "€280,000",
+    "max_value_1y": "€5,280,000"
+  },
+  {
     "name": "Javi López",
     "current_team": "Real Sociedad",
     "position": "Defender",
     "total_points": "75",
     "games_played": "29",
     "current_value": "€270,000",
-    "max_value_1y": "€3,120,000"
+    "max_value_1y": "€3,010,000"
   },
   {
-    "name": "Kambwala",
-    "current_team": "Villarreal",
-    "position": "Defender",
-    "total_points": "53",
-    "games_played": "19",
-    "current_value": "€270,000",
-    "max_value_1y": "€840,000"
-  },
-  {
-    "name": "Héctor Fort",
-    "current_team": "Barcelona",
-    "position": "Defender",
-    "total_points": "55",
-    "games_played": "17",
-    "current_value": "€270,000",
-    "max_value_1y": "€1,010,000"
+    "name": "Antonio Sánchez",
+    "current_team": "Mallorca",
+    "position": "Midfielder",
+    "total_points": "96",
+    "games_played": "33",
+    "current_value": "€240,000",
+    "max_value_1y": "€1,680,000"
   },
   {
     "name": "Forés",
@@ -3218,35 +3353,8 @@
     "position": "Forward",
     "total_points": "0",
     "games_played": "0",
-    "current_value": "€270,000",
-    "max_value_1y": "€390,000"
-  },
-  {
-    "name": "Fran Pérez",
-    "current_team": "Valencia",
-    "position": "Forward",
-    "total_points": "70",
-    "games_played": "26",
-    "current_value": "€250,000",
-    "max_value_1y": "€600,000"
-  },
-  {
-    "name": "Antal",
-    "current_team": "Girona",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€250,000",
-    "max_value_1y": "€290,000"
-  },
-  {
-    "name": "Antonio Sánchez",
-    "current_team": "Mallorca",
-    "position": "Midfielder",
-    "total_points": "0",
-    "games_played": "0",
     "current_value": "€240,000",
-    "max_value_1y": "€1,680,000"
+    "max_value_1y": "€390,000"
   },
   {
     "name": "Salinas",
@@ -3276,13 +3384,13 @@
     "max_value_1y": "€1,400,000"
   },
   {
-    "name": "Raul García",
-    "current_team": "Osasuna",
-    "position": "Forward",
-    "total_points": "102",
-    "games_played": "32",
+    "name": "Antal",
+    "current_team": "Girona",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
     "current_value": "€230,000",
-    "max_value_1y": "€920,000"
+    "max_value_1y": "€290,000"
   },
   {
     "name": "Neto",
@@ -3294,31 +3402,13 @@
     "max_value_1y": "€230,000"
   },
   {
-    "name": "Iván Romero",
-    "current_team": "Levante",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€220,000",
-    "max_value_1y": "€390,000"
-  },
-  {
-    "name": "Juan Cruz",
-    "current_team": "Osasuna",
+    "name": "Kambwala",
+    "current_team": "Villarreal",
     "position": "Defender",
-    "total_points": "69",
-    "games_played": "25",
+    "total_points": "53",
+    "games_played": "19",
     "current_value": "€220,000",
-    "max_value_1y": "€370,000"
-  },
-  {
-    "name": "Miguel Rubio",
-    "current_team": "Espanyol",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€220,000",
-    "max_value_1y": "€350,000"
+    "max_value_1y": "€830,000"
   },
   {
     "name": "Becker",
@@ -3345,7 +3435,7 @@
     "total_points": "79",
     "games_played": "21",
     "current_value": "€210,000",
-    "max_value_1y": "€650,000"
+    "max_value_1y": "€630,000"
   },
   {
     "name": "Domingos Duarte",
@@ -3447,22 +3537,13 @@
     "max_value_1y": "€4,670,000"
   },
   {
-    "name": "Jhon Solís",
-    "current_team": "Girona",
-    "position": "Midfielder",
-    "total_points": "37",
-    "games_played": "19",
-    "current_value": "€190,000",
-    "max_value_1y": "€260,000"
-  },
-  {
     "name": "Iheanacho",
     "current_team": "Sevilla",
     "position": "Forward",
     "total_points": "21",
     "games_played": "9",
     "current_value": "€190,000",
-    "max_value_1y": "€3,690,000"
+    "max_value_1y": "€3,560,000"
   },
   {
     "name": "Angel Ortiz",
@@ -3504,7 +3585,7 @@
     "name": "Correia",
     "current_team": "Valencia",
     "position": "Defender",
-    "total_points": "0",
+    "total_points": "34",
     "games_played": "11",
     "current_value": "€180,000",
     "max_value_1y": "€2,970,000"
@@ -3522,8 +3603,8 @@
     "name": "Jesús Vázquez",
     "current_team": "Valencia",
     "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
+    "total_points": "50",
+    "games_played": "19",
     "current_value": "€180,000",
     "max_value_1y": "€1,560,000"
   },
@@ -3543,16 +3624,7 @@
     "total_points": "20",
     "games_played": "3",
     "current_value": "€180,000",
-    "max_value_1y": "€690,000"
-  },
-  {
-    "name": "Antoniu Roca",
-    "current_team": "Espanyol",
-    "position": "Forward",
-    "total_points": "80",
-    "games_played": "26",
-    "current_value": "€180,000",
-    "max_value_1y": "€940,000"
+    "max_value_1y": "€560,000"
   },
   {
     "name": "Iturbe",
@@ -3564,13 +3636,13 @@
     "max_value_1y": "€270,000"
   },
   {
-    "name": "Marc Aguado",
-    "current_team": "Elche",
-    "position": "Midfielder",
+    "name": "Ejaria",
+    "current_team": "Real Oviedo",
+    "position": "Forward",
     "total_points": "0",
     "games_played": "0",
     "current_value": "€180,000",
-    "max_value_1y": "€210,000"
+    "max_value_1y": "€180,000"
   },
   {
     "name": "Lekue",
@@ -3609,6 +3681,15 @@
     "max_value_1y": "€1,560,000"
   },
   {
+    "name": "Miovski",
+    "current_team": "Girona",
+    "position": "Forward",
+    "total_points": "60",
+    "games_played": "17",
+    "current_value": "€170,000",
+    "max_value_1y": "€3,180,000"
+  },
+  {
     "name": "Adrià Altimira",
     "current_team": "Villarreal",
     "position": "Defender",
@@ -3627,13 +3708,22 @@
     "max_value_1y": "€240,000"
   },
   {
+    "name": "Cabello",
+    "current_team": "Levante",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€170,000",
+    "max_value_1y": "€200,000"
+  },
+  {
     "name": "Trejo",
     "current_team": "Rayo Vallecano",
     "position": "Midfielder",
     "total_points": "53",
     "games_played": "19",
     "current_value": "€160,000",
-    "max_value_1y": "€980,000"
+    "max_value_1y": "€910,000"
   },
   {
     "name": "Losada",
@@ -3642,7 +3732,7 @@
     "total_points": "64",
     "games_played": "22",
     "current_value": "€160,000",
-    "max_value_1y": "€1,220,000"
+    "max_value_1y": "€1,140,000"
   },
   {
     "name": "Guillamón",
@@ -3652,6 +3742,24 @@
     "games_played": "12",
     "current_value": "€160,000",
     "max_value_1y": "€880,000"
+  },
+  {
+    "name": "Rubén Sánchez",
+    "current_team": "Espanyol",
+    "position": "Defender",
+    "total_points": "0",
+    "games_played": "0",
+    "current_value": "€160,000",
+    "max_value_1y": "€290,000"
+  },
+  {
+    "name": "Nteka",
+    "current_team": "Rayo Vallecano",
+    "position": "Forward",
+    "total_points": "87",
+    "games_played": "24",
+    "current_value": "€160,000",
+    "max_value_1y": "€380,000"
   },
   {
     "name": "Peter Federico",
@@ -3669,7 +3777,16 @@
     "total_points": "70",
     "games_played": "18",
     "current_value": "€160,000",
-    "max_value_1y": "€1,130,000"
+    "max_value_1y": "€1,070,000"
+  },
+  {
+    "name": "Moussa Diarra",
+    "current_team": "Alavés",
+    "position": "Defender",
+    "total_points": "68",
+    "games_played": "26",
+    "current_value": "€160,000",
+    "max_value_1y": "€1,410,000"
   },
   {
     "name": "Francés",
@@ -3679,15 +3796,6 @@
     "games_played": "18",
     "current_value": "€160,000",
     "max_value_1y": "€2,010,000"
-  },
-  {
-    "name": "Cabello",
-    "current_team": "Levante",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€160,000",
-    "max_value_1y": "€200,000"
   },
   {
     "name": "Adrián Liso",
@@ -3774,7 +3882,7 @@
     "name": "Lato",
     "current_team": "Mallorca",
     "position": "Defender",
-    "total_points": "0",
+    "total_points": "47",
     "games_played": "14",
     "current_value": "€150,000",
     "max_value_1y": "€500,000"
@@ -3864,8 +3972,8 @@
     "name": "Abdón Prats",
     "current_team": "Mallorca",
     "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
+    "total_points": "68",
+    "games_played": "24",
     "current_value": "€150,000",
     "max_value_1y": "€500,000"
   },
@@ -3876,7 +3984,7 @@
     "total_points": "13",
     "games_played": "9",
     "current_value": "€150,000",
-    "max_value_1y": "€740,000"
+    "max_value_1y": "€700,000"
   },
   {
     "name": "Vencedor",
@@ -3895,33 +4003,6 @@
     "games_played": "0",
     "current_value": "€150,000",
     "max_value_1y": "€200,000"
-  },
-  {
-    "name": "Miovski",
-    "current_team": "Girona",
-    "position": "Forward",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€150,000",
-    "max_value_1y": "€3,180,000"
-  },
-  {
-    "name": "Rubén Sánchez",
-    "current_team": "Espanyol",
-    "position": "Defender",
-    "total_points": "0",
-    "games_played": "0",
-    "current_value": "€150,000",
-    "max_value_1y": "€290,000"
-  },
-  {
-    "name": "Nteka",
-    "current_team": "Rayo Vallecano",
-    "position": "Forward",
-    "total_points": "87",
-    "games_played": "24",
-    "current_value": "€150,000",
-    "max_value_1y": "€380,000"
   },
   {
     "name": "Nico Serrano",
