@@ -1,42 +1,45 @@
 # RCD Mallorca
 
 ## Injuries
-- **Samu Costa**: Suffered a knee injury during the match against Hamburg and was substituted after 13 minutes. Initial assessments suggest it may not be serious, but further evaluations are pending.
+- **Samu Costa**: Suffered a contusion with edema in his left knee during the Trofeo Ciutat de Palma against Hamburg. He is almost certainly out for the opening match against Barcelona on August 16. Further medical evaluations are pending to determine the extent of the injury, but it is not considered serious.
 
 ## Transfers
-- **Mateo Joseph**: Officially signed on loan from Leeds United until the end of the season, without an option to buy. He is expected to bolster the attacking options for Mallorca.
-- **Dominik Greif**: The transfer to Olympique de Lyon is nearly finalized, with an agreement for around €5 million including variables. The deal awaits bank guarantees from Lyon.
-- **Cyle Larin**: The club is considering lowering their demands for his loan exit after he faced booing from fans during the recent match. He has expressed a desire to leave the club.
-- **Pablo Maffeo**: Expected to join Sevilla FC, with negotiations ongoing.
+- **Dominik Greif**: The transfer to Olympique de Lyon is still pending due to unresolved issues regarding payment guarantees. The agreement is for €4 million plus €2 million in variables. Greif is currently not training with the team.
+- **Pablo Maffeo**: Expected to leave Mallorca, with Sevilla FC showing interest. Maffeo has received offers but has not yet finalized a move.
+- **Cyle Larin**: The forward has expressed a desire to leave, with potential interest from Valencia. His situation remains unresolved.
+- **Mateo Joseph**: Officially signed on loan from Leeds United for the season. He is expected to bolster the attacking options.
+- **Marash Kumbulla**: The central defender has reportedly chosen to join Mallorca over other offers, with negotiations ongoing with Roma for his transfer.
 
 ## Lineups
-### Predicted Starting Eleven vs. FC Barcelona (August 16, 2025)
-| Position          | Player             |
-|-------------------|--------------------|
-| Goalkeeper        | Leo Román          |
-| Right Back        | Mateu Jaume        |
-| Center Back       | Martin Valjent     |
-| Center Back       | Antonio Raíllo     |
-| Left Back         | Mojica             |
-| Central Midfield  | Samu Costa         |
-| Central Midfield  | Manu Morlanes      |
-| Right Wing        | Darder             |
-| Left Wing         | Pablo Torre        |
-| Forward           | Takuma Asano       |
-| Forward           | Vedat Muriqi       |
+### Predicted Starting XI vs FC Barcelona (August 16)
+| Position       | Player                |
+|----------------|-----------------------|
+| Goalkeeper     | Leo Román             |
+| Right Back     | Mateu Jaume           |
+| Center Back    | Raíllo                |
+| Center Back    | Valjent               |
+| Left Back      | Mojica                |
+| Central Midfield | Morlanes            |
+| Central Midfield | Darder              |
+| Central Midfield | Pablo Torre         |
+| Right Wing     | Asano                 |
+| Left Wing      | (TBD)                 |
+| Forward        | Muriqi                |
 
-**Notes**: The lineup is based on the recent match against Hamburg, with Costa's fitness still uncertain.
+**Notes**: 
+- Samu Costa is likely out due to injury.
+- The left wing position is uncertain, with options including potential new signings or existing players.
 
 ## Previews of Upcoming Matches
-- **Match**: RCD Mallorca vs. FC Barcelona
+- **Match**: Mallorca vs FC Barcelona
 - **Date**: August 16, 2025
-- **Context**: This will be the opening match of the La Liga season.
-- **Coach Quotes**: Jagoba Arrasate expressed confidence in the team's readiness, stating, "We are going to compete with all our might and try to win."
+- **Time**: 19:30 CEST
+- **Venue**: Son Moix
+- **Context**: This match marks the opening of the LaLiga season. Martin Valjent emphasized the need for a clear identity and preparation to compete against a strong opponent like Barcelona.
 
 ## Match Reports
-- **Trofeo Ciutat de Palma**: Mallorca defeated Hamburg 2-0 with goals from Takuma Asano and an own goal by Muheim. The team displayed strong defensive performances, particularly from Leo Román, who made several key saves.
-- **Trofeo de S'Agricultura**: Mallorca won 2-0 against Poblense, with goals from Abdón Prats and Takuma Asano. The match highlighted the need for improvement in offensive play despite securing the victory.
+- **Trofeo Ciutat de Palma**: Mallorca defeated Hamburg 2-0, with goals from Takuma Asano and an own goal by Muheim. The match showcased positive performances, particularly from Leo Román in goal and the midfield duo of Darder and Pablo Torre. However, Samu Costa's injury raised concerns ahead of the league opener.
 
 ## Additional Notes
-- An incident occurred during the match against Hamburg where a Hamburg fan fell from the stands and was hospitalized with serious injuries. He is now reported to be stable.
-- The club is actively seeking to strengthen their squad, particularly in the attacking and defensive areas, as they prepare for the upcoming season.
+- The club is actively seeking to finalize transfers and is expected to make multiple signings before the transfer window closes.
+- The atmosphere around the team is tense due to the potential departures of key players and the need for reinforcements.

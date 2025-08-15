@@ -1,37 +1,47 @@
 # FC Barcelona
 
 ## Injuries
-- **Robert Lewandowski**: Out for the Trofeo Joan Gamper due to muscle discomfort in the left hamstring. Expected recovery time is approximately three weeks, which may cause him to miss the first three matches of LaLiga.
-- **Marc-André Ter Stegen**: Recently underwent back surgery and is currently sidelined. His return timeline is pending a medical evaluation by LaLiga, which will determine if he is classified as long-term injured, allowing the club to use part of his salary for player registrations.
+- **Marc-André Ter Stegen**: Confirmed to have a long-term injury, expected to be out for **four months**. This allows the club to use **50%** of his salary for registering a replacement, specifically **Joan García**.
+- **Robert Lewandowski**: Suffering from muscle discomfort in the left hamstring, he is **almost certainly ruled out** for the match against Mallorca.
+- **Dani Rodríguez**: Out due to a shoulder dislocation, will not participate in the opening match against Mallorca.
+- **Samu Costa (Mallorca)**: Suffered a contusion with edema in the left knee, ruled out for the match against Barcelona.
 
 ## Transfers
-- **Iñigo Martínez**: Officially transferred to Al Nassr after rescinding his contract with Barcelona. His departure frees up approximately €14 million in salary space for the club, aiding in the registration of new signings.
-- **Iñaki Peña**: There are ongoing discussions about his potential transfer to Como, with Cesc Fàbregas expressing interest in signing him. The player is currently considering his options as he seeks more playing time.
+- **Joan García**: Expected to be registered and available for the match against Mallorca after Ter Stegen's injury was confirmed.
+- **Marcus Rashford**: The club is working to register him before the match against Mallorca, utilizing a **€7 million** guarantee approved by the board.
+- **Iñaki Peña**: His potential departure to Como is contingent on the registration of Szczesny, who has yet to be officially registered.
+- **Dani Rodríguez**: Valencia is interested in signing him on loan, with an option to buy, as he seeks more playing time.
+- **Dusan Vlahovic**: Linked with Barcelona as Juventus looks to offload him before his contract expires in 2026, but financial constraints make this unlikely.
 
 ## Lineups
-### Confirmed Lineup for the Trofeo Joan Gamper against Como:
-- **Starting XI**:
-  - Joan García (GK)
-  - Eric García
-  - Ronald Araujo
-  - Pau Cubarsí
-  - Alejandro Balde
-  - Frenkie de Jong
-  - Pedri
-  - Fermín López
-  - Lamine Yamal
-  - Marcus Rashford
-  - Raphinha
+### Predicted Lineup for Match Against Mallorca
+| Position       | Player               |
+|----------------|----------------------|
+| Goalkeeper      | Joan García          |
+| Right Back      | Jules Koundé         |
+| Center Back     | Ronald Araujo        |
+| Center Back     | Pau Cubarsí          |
+| Left Back       | Alejandro Balde      |
+| Central Midfield| Frenkie de Jong      |
+| Central Midfield| Pedri González       |
+| Attacking Midfield| Fermín López       |
+| Right Wing      | Raphinha             |
+| Left Wing       | Lamine Yamal         |
+| Forward         | Ferran Torres        |
 
-### Bench:
-- Iñaki Peña, Wojciech Szczesny, Kochen, Gavi, Ferran Torres, Andreas Christensen, Casadó, Roony Bardghji, Jules Koundé, Jofre, Dro, Toni Fernández, Guille Fernández, Fort, Gerard Martín.
+### Notes
+- Lewandowski is expected to be replaced by Ferran Torres due to his injury.
+- Rashford's participation is uncertain pending his registration.
 
 ## Previews of Upcoming Matches
-- **Trofeo Joan Gamper**: Scheduled for August 10, 2025, against Como 1907 at 21:00 CET at Estadi Johan Cruyff. This match serves as the final test before the official start of LaLiga against Mallorca on August 16, 2025. The game will feature new signings and is expected to be a showcase for the team.
+- **Opponent**: RCD Mallorca
+- **Date**: August 16, 2025
+- **Time**: 19:30 (local time)
+- **Context**: This will be the opening match of the LaLiga season. Barcelona aims to continue their strong performance from the previous season, while Mallorca hopes to start positively at home.
 
 ## Match Reports
-- **Trofeo Joan Gamper**: The match against Como serves as a significant event for the club, with new signings like Joan García and Marcus Rashford making their official debuts. The game will also mark the return of Ter Stegen as captain, who is expected to address the fans despite not playing due to injury.
+- No match reports available as the season has not yet started.
 
 ## Additional Notes
-- **Hansi Flick**: Expressed his commitment to working hard and aiming for multiple titles this season. He has emphasized the importance of the upcoming matches as the team prepares for LaLiga.
-- **Ter Stegen's Statement**: He acknowledged the importance of resolving issues with the club and expressed his desire to move forward positively.
+- The club is in a critical phase regarding player registrations due to financial constraints and the need to comply with LaLiga's regulations.
+- The upcoming match against Mallorca is crucial for setting the tone for the season, especially with several key players unavailable.

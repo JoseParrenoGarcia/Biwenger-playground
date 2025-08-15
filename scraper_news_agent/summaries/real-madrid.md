@@ -1,42 +1,39 @@
 # Real Madrid
 
 ## Injuries
-- **Eduardo Camavinga**: Suffered a right ankle sprain during training and is expected to be out for approximately 10 days. He will miss the opening match of La Liga against Osasuna on August 19 and the friendly against WSG Tirol on August 12. Camavinga's injury is concerning as he has struggled with injuries in the past season, missing a total of 35 matches. His availability for the second league match against Real Oviedo on August 24 is uncertain. 
-- **Jude Bellingham**: Recovering from shoulder surgery and is expected to be out until late October.
-- **Ferland Mendy**: Progressing in recovery from a quadriceps injury but is still uncertain for the start of the season.
-- **Endrick**: Currently recovering from a previous injury and will not participate in the upcoming matches.
+- **Eduardo Camavinga**: Suffered a sprained ankle and is doubtful for the debut against Osasuna on August 19. He will miss the friendly against WSG Tirol.
+- **Fede Valverde**: Did not travel to Austria due to a muscle overload but confirmed he will be ready for the match against Osasuna.
+- **Jude Bellingham**: Currently recovering from shoulder surgery and will not be available for the upcoming matches.
+- **Ferland Mendy**: Out due to a muscle injury.
 
 ## Transfers
-- **Gonzalo García**: Officially renewed his contract with Real Madrid until 2030 and will be part of the first team, wearing the number 16 jersey.
-- **Reinier Jesús**: Transferred to Atlético Mineiro after failing to make an impact at Real Madrid, where he did not debut with the first team. The deal includes Real Madrid retaining 50% of his economic rights.
-- **Rodrygo Goes**: Despite interest from several Premier League clubs, including Liverpool and Chelsea, no formal offers have been made for Rodrygo. His future at Real Madrid remains uncertain, especially with the competition for places in the squad.
-- **Ibrahima Konaté**: Real Madrid is interested in the Liverpool defender as a potential reinforcement for the defense, but the situation is complicated by Liverpool's desire to renew his contract.
+- **Franco Mastantuono**: Officially presented as a new player for Real Madrid on August 14, 2025, coinciding with his 18th birthday. He will wear the number 30 jersey, which is reserved for players from the Castilla team, allowing the club to keep a spot open for potential new signings.
+- **Ibrahima Konaté**: Real Madrid is interested in signing the Liverpool defender, who is in the last year of his contract. The club is reportedly preparing a bid of around €25 million, but they may wait until next summer to sign him for free.
+- **Rodrygo Goes**: There are ongoing discussions regarding his potential transfer to Manchester City, with the club reportedly asking for €100 million. Rodrygo has expressed his desire to stay at Real Madrid.
+- **Adam Wharton**: The young midfielder from Crystal Palace is being considered as a potential signing, contingent on Rodrygo's departure.
 
 ## Lineups
-### Predicted Starting XI for Upcoming Match vs. WSG Tirol (August 12)
-| Position      | Player            |
-|---------------|-------------------|
-| Goalkeeper    | Thibaut Courtois  |
-| Right Back    | Dani Carvajal     |
-| Center Back   | Raúl Asencio      |
-| Center Back   | Dean Huijsen      |
-| Left Back     | Álvaro Carreras   |
-| Central Mid   | Fede Valverde     |
-| Central Mid   | Dani Ceballos     |
-| Central Mid   | Brahim Díaz       |
-| Forward       | Vinicius Jr.      |
-| Forward       | Gonzalo García     |
-| Forward       | Kylian Mbappé     |
+### Predicted Starting XI for the Match Against Osasuna (August 19, 2025):
+| Position        | Player                |
+|-----------------|-----------------------|
+| Goalkeeper      | Thibaut Courtois     |
+| Right Back      | Trent Alexander-Arnold |
+| Center Back     | Éder Militao          |
+| Center Back     | Dean Huijsen          |
+| Left Back       | Álvaro Carreras       |
+| Central Midfield| Fede Valverde         |
+| Central Midfield| Aurélien Tchouaméni   |
+| Central Midfield| Arda Güler            |
+| Right Wing      | Brahim Díaz           |
+| Left Wing       | Kylian Mbappé        |
+| Forward         | Vinicius Jr.          |
 
 ## Previews of Upcoming Matches
-- **Match**: Real Madrid vs. WSG Tirol
-  - **Date**: August 12, 2025
-  - **Time**: 19:00 CEST
-  - **Context**: This will be the only pre-season friendly before the start of La Liga. The match will be crucial for assessing the team's readiness for the league opener against Osasuna on August 19.
+- **Match Against Osasuna**: Scheduled for August 19, 2025, at the Santiago Bernabéu. This will be Xabi Alonso's first official match as head coach at the Bernabéu. The team aims to start the season strong despite a short pre-season and several key injuries.
 
 ## Match Reports
-- **Real Madrid 4 - 1 Leganés**: In a closed-door friendly, Real Madrid triumphed over Leganés. The team initially fell behind but came back to win with goals from Brahim Díaz, Dean Huijsen, and a goal from Thiago Pitarch, who made a notable impact in his debut. The match served as a tactical test for Xabi Alonso, who employed a 4-3-3 formation.
+- **WSG Tirol 0-4 Real Madrid**: In their only pre-season friendly, Real Madrid defeated WSG Tirol. Goals were scored by Éder Militao, Kylian Mbappé (two goals), and Rodrygo. The match showcased the team's attacking prowess and the promising performances of new signings like Arda Güler.
 
-## Notes
-- **Xabi Alonso** is focusing on integrating young talents from the academy into the first team, with players like Thiago Pitarch impressing in pre-season.
-- The club is also looking to solidify its penalty-taking responsibilities, with Kylian Mbappé being earmarked as the primary penalty taker moving forward.
+## Additional Notes
+- **Franco Mastantuono** expressed his admiration for Lionel Messi during his presentation, calling him the best player in the world. He also confirmed that PSG showed interest in signing him before he chose Real Madrid.
+- **Vinicius Jr.** has been named one of the captains for the season, which may indicate his commitment to the club despite ongoing transfer rumors.

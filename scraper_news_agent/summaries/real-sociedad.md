@@ -1,53 +1,53 @@
 # Real Sociedad
 
 ## Injuries
-- **Umar Sadiq**: Recently returned to training after recovering from a viral infection. He has not participated in any preseason matches and remains uncertain about his future with the club.
-- **Arsen Zakharyan**: Has also been training with the team but missed several sessions due to physical issues. His participation in upcoming matches is still uncertain.
-- **Unai Marrero**: Out due to shoulder discomfort.
-- **Jon Gorrotxategi**: Out due to ankle discomfort.
+- **Jon Gorrotxategi**: Continues to train separately due to an ankle sprain. His participation in the opening match against Valencia is uncertain.
+- **Aritz Elustondo**: Suffered muscle problems and missed the last two friendly matches. His availability for the match against Valencia is doubtful.
+- **Arsen Zakharyan**: Suffered a virus and has not played in the last two friendlies. His fitness is unclear as he has had a blank pre-season.
+- **Unai Marrero**: Also dealing with ankle issues but expected to return to training soon.
 
 ## Transfers
 - **In**:
-  - **Duje Caleta-Car**: Joined on loan from Olympique Lyon with an option to buy for €4 million.
-  - **Gonçalo Guedes**: Signed from Wolverhampton for €4 million plus €2 million in variables, contract until 2028.
+  - **Gonçalo Guedes**: Signed from Wolverhampton until 2028. He expressed his desire to return to LaLiga and contribute significantly to the team.
+  - **Duje Caleta-Car**: Joined on loan from Olympique Lyon with an option to buy. He aims to bring versatility to the defense.
 - **Out**:
-  - **Martin Zubimendi**: Transferred to Arsenal for €70 million.
+  - **Martin Zubimendi**: Transferred to Arsenal for €70 million, marking a significant departure for the club.
   - **Jon Ander Olasagasti**: Transferred to Levante.
-  - **Sheraldo Becker**: Currently not participating due to personal reasons related to impending fatherhood.
-  - **Carlos Fernández**: Not included in the squad for recent matches.
-  - **Hamari Traoré**: Interest from Paris FC, but he is hesitant about the move.
-  
+  - **Carlos Fernández**: Negotiations ongoing for his transfer to Mirandés, as he is not in the coach's plans.
+
 ## Lineups
-### Predicted Starting XI for Upcoming Match Against Valencia (August 16, 2025)
-| Position      | Player               |
-|---------------|----------------------|
-| Goalkeeper    | Álex Remiro          |
-| Right Back    | Jon Aramburu         |
-| Center Back   | Duje Caleta-Car      |
-| Center Back   | Igor Zubeldia        |
-| Left Back     | Sergio Gómez         |
-| Midfielder    | Luka Sucic           |
-| Midfielder    | Brais Méndez        |
-| Midfielder    | Turrientes           |
-| Forward       | Take Kubo            |
-| Forward       | Mikel Oyarzabal      |
-| Forward       | Óskarsson            |
+### Predicted Starting XI vs Valencia (August 16, 2025)
+| Position        | Player               |
+|-----------------|---------------------|
+| Goalkeeper      | Álex Remiro         |
+| Right Back      | Jon Aramburu        |
+| Center Back     | Jon Martín          |
+| Center Back     | Igor Zubeldia       |
+| Left Back       | Sergio Gómez        |
+| Central Midfield| Brais Méndez       |
+| Central Midfield| Pablo Marín         |
+| Central Midfield| Beñat Turrientes    |
+| Right Wing      | Take Kubo           |
+| Left Wing       | Mikel Oyarzabal     |
+| Forward         | Orri Óskarsson      |
+
+- **Notes**: Guedes and Caleta-Car may not be available for the match due to registration issues. Gorrotxategi is also a doubt for the lineup.
 
 ## Previews of Upcoming Matches
-- **Match**: Real Sociedad vs. Valencia
-  - **Date**: August 16, 2025
-  - **Time**: 21:30 (local time)
-  - **Context**: This will be the league opener for both teams. The Real Sociedad is looking to start strong after a mixed preseason.
+- **Match**: Real Sociedad vs Valencia
+- **Date**: August 16, 2025
+- **Venue**: Mestalla
+- **Context**: This will be Sergio Francisco's debut as head coach. The team aims to start the season positively after a challenging previous year without European competition.
+- **Key Quotes**:
+  - Mikel Oyarzabal emphasized the importance of starting well and adapting to the new coach's strategies.
+  - Gonçalo Guedes expressed his excitement about returning to LaLiga and contributing to the team's success.
 
 ## Match Reports
-- **Against Bournemouth**: 
-  - **Result**: 0-0
-  - **Highlights**: Mikel Oyarzabal missed a penalty, and Álex Remiro made several crucial saves to maintain a clean sheet. The match was characterized by a solid defensive performance but a lack of finishing quality from the attackers.
-  
-- **Against Rennes**: 
-  - **Result**: 1-1
-  - **Highlights**: Iñaki Rupérez scored for Real Sociedad, but they conceded an equalizer late in the match. The team showed improvement in the second half after a lackluster first half.
+- **Recent Friendly**: Real Sociedad drew 1-1 against Bournemouth. Ander Barrenetxea scored the equalizer after Evanilson opened the scoring for Bournemouth. Guedes and Caleta-Car made their debuts as starters in this match.
+
+## Other Updates
+- **Sadiq Umar**: Currently training and has rejected a move to Elche, showing interest in a return to Valencia.
+- **Carlos Fernández**: Close to a transfer to Mirandés as the club seeks to reduce the number of players in the squad.
 
 ## Additional Notes
-- **Sadiq's Future**: He has received interest from Valencia for a potential loan, but he is also being considered for a permanent move to Fulham.
-- **Guedes' Ambitions**: He aims to regain his form in LaLiga after struggling in the Premier League, expressing excitement about contributing to the team's success.
+- The club is working on finalizing the registration of new signings and managing player exits to comply with LaLiga regulations.

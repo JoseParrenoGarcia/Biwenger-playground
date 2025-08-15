@@ -1,48 +1,44 @@
 # RCD Espanyol
 
 ## Injuries
-- No major updates.
+- **Javier Hernández**: Out due to a metatarsal fracture.
 
 ## Transfers
-- **Marash Kumbulla**: The central defender is a priority for Espanyol, with the club exploring a potential loan deal from Roma. Kumbulla has expressed a desire to return to Espanyol after a successful previous season. However, Cagliari is also interested, complicating the situation.
-- **Berkan Kutlu**: The Turkish midfielder was a target for Espanyol, but negotiations fell through due to financial fair play restrictions. Galatasaray rejected offers of €2 million, seeking €4.5 million instead.
-- **Tim Breithaupt**: Espanyol is interested in the Augsburg midfielder as a potential replacement for Urko González, who is likely to remain with Real Sociedad.
-- **Lucas Vázquez**: The former Espanyol player is being considered for a return after leaving Real Madrid. He has multiple offers but is reportedly open to rejoining Espanyol.
-- **Hugo Pérez**: The young defender has been loaned to Huesca for the upcoming season.
-- **Gastón Valles**: The Uruguayan forward has had his contract rescinded and is now a free agent after a brief spell with the club.
+- **Roger Hinojo**: Renewed contract until 2030, maintaining a place in the first team while keeping a youth squad registration.
+- **Tyrhys Dolan**: Signed as a free agent from Blackburn Rovers, debuted in pre-season.
+- **Marko Dmitrovic**: Signed as a free agent from Leganés, expected to be the starting goalkeeper.
+- **Carlos Romero**: Returned on loan from Villarreal.
+- **José Salinas**: Joined from Elche.
+- **Marash Kumbulla**: Initially targeted for a return from Roma, but has reportedly chosen to join Cagliari instead.
+- **Urko González**: The club has decided to pursue other options after he opted to stay with Real Sociedad.
 
 ## Lineups
-### Predicted Starting XI vs. Newcastle (Friendly)
-| Position        | Player               |
-|-----------------|---------------------|
-| Goalkeeper      | Dmitrovic           |
-| Right Back      | Omar El Hilali      |
-| Center Back     | Miguel Rubio        |
-| Center Back     | Leandro Cabrera     |
-| Left Back       | Carlos Romero       |
-| Central Midfield| Pol Lozano          |
-| Central Midfield| Edu Expósito        |
-| Right Wing      | Rubén Sánchez       |
-| Left Wing       | Antoniu Roca        |
-| Forward         | Javi Puado          |
-| Forward         | Roberto Fernández    |
+### Predicted Starting XI vs Atlético Madrid
+| Position         | Player               |
+|------------------|---------------------|
+| Goalkeeper       | Marko Dmitrovic     |
+| Right Back       | Omar El Hilali      |
+| Center Back      | Leandro Cabrera     |
+| Center Back      | Miguel Rubio (likely) or Fernando Calero (uncertain) |
+| Left Back        | Carlos Romero       |
+| Central Midfield | Edu Expósito        |
+| Central Midfield | Pol Lozano          |
+| Right Midfield   | Ramón Terrats       |
+| Left Midfield    | Antoniu Roca        |
+| Forward          | Javi Puado          |
+| Forward          | Roberto Fernández    |
 
 ## Previews of Upcoming Matches
-- **Match**: Espanyol vs. Atlético Madrid
-  - **Date**: August 17, 2025
-  - **Context**: This will be the opening match of LaLiga 2025-26 for Espanyol, following a strong pre-season where they finished unbeaten.
-  - **Key Players**: Javi Puado and Kike García are expected to play crucial roles in the attack.
+- **Match**: RCD Espanyol vs Atlético Madrid
+- **Date**: August 17, 2025
+- **Time**: 21:30 (local time)
+- **Venue**: RCDE Stadium
+- **Context**: Edu Expósito expressed optimism about the match, stating it's a good moment to face Atlético, especially after their Champions League matches. He emphasized the importance of starting strong at home and aims for a solid performance to secure points early in the season.
 
 ## Match Reports
-- **Newcastle 2 - 2 Espanyol** (Friendly)
-  - **Date**: August 8, 2025
-  - **Summary**: Espanyol finished their pre-season unbeaten, drawing against Newcastle. Edu Expósito opened the scoring with a stunning goal, but Newcastle equalized shortly after. Kike García scored in the last minute to secure the draw after Espanyol had fallen behind.
-  - **Goals**: 
-    - 0-1: Edu Expósito (17’)
-    - 1-1: Matt Targett (21’)
-    - 2-1: Jacob Murphy (77’)
-    - 2-2: Kike García (89’)
+- **Pre-season Performance**: Espanyol finished their pre-season unbeaten, with notable results including a 2-2 draw against Newcastle, where Kike García scored a late equalizer. Edu Expósito opened the scoring with a long-range goal. The team demonstrated solid defensive organization and attacking potential throughout the pre-season.
 
 ## Additional Notes
-- **Manolo González** has emphasized the need for reinforcements, particularly in central defense and midfield, as the team prepares for their LaLiga debut.
-- The club is also focused on maintaining a competitive squad while navigating financial constraints.
+- **Edu Expósito**: He aims to contribute more goals this season and is optimistic about the team's potential, stating that the squad will be more complete than last year.
+- **Antoniu Roca**: Expressed excitement for the upcoming season and the importance of the home crowd in supporting the team.
+- **Fran Garagarza**: The director of sports is working on finalizing the squad, with a focus on bringing in a central defender and a defensive midfielder before the transfer window closes.

@@ -1,44 +1,47 @@
 # Real Betis
 
 ## Injuries
-- **Isco Alarcón**: Suffered a new fracture without displacement in the middle third of his left fibula during a friendly match against Málaga. He is expected to be out for approximately **two to three months**, which could mean missing **8 to 12 matches** in LaLiga and the initial games of the Europa League. Isco left the stadium on crutches and with a significant bandage on his leg. The injury is unrelated to his previous issues with the same area, which had previously sidelined him for several months. (Sources: Estadio Deportivo, MundoBetis, AS.com)
-
-- **Germán Pezzella**: Confirmed to be out for around **eight months** due to a severe injury (anterior cruciate ligament tear) sustained during a match for River Plate. He will undergo surgery and is expected to return in April 2026. (Source: Estadio Deportivo)
-
-- **Sergi Altimira**: Missed the last match against Málaga due to a minor injury (calf contusion), but is expected to be ready for the season opener against Elche. (Source: Estadio Deportivo)
-
-- **Pau López**: Did not train due to a precautionary measure after suffering a blow to the head during a friendly match. However, he is expected to be fit for the next match. (Source: MundoBetis)
+- **Isco Alarcón**: Suffered a fracture without displacement in his left fibula during a friendly match against Málaga. Expected to be out for **2 to 3 months**, which means he will miss at least the first **8 matches** of LaLiga and the first **2 matches** of the Europa League. He left the stadium on crutches and with a compression bandage. (Sources: MundoBetis, AS.com)
+- **Ez Abde**: Currently recovering from a bone edema in his left ankle, which has kept him out of the entire preseason. (Source: AS.com)
+- **Marc Roca**: Recovering from ankle surgery and will not be available for the opening match. (Source: MundoBetis)
+- **Sergi Altimira**: Did not train with the team due to physical discomfort, but is expected to be available for the match against Elche. (Source: AS.com)
 
 ## Transfers
-- **Romain Perraud**: Officially transferred to **LOSC Lille** for approximately **€3 million plus variables**, allowing Betis to recover their initial investment from last year. (Sources: MundoBetis, AS.com)
-
-- **Gonzalo Petit**: Loaned to **CD Mirandés** for the season without an option to buy. This move is part of Betis's strategy to manage their squad and financials. (Sources: MundoBetis, AS.com)
-
-- **Borja Iglesias**: Close to a transfer back to **RC Celta** for around **€2.5 million plus variables**. This deal is part of the club's efforts to streamline their squad. (Source: MundoBetis)
-
-- **Nelson Deossa**: Recently signed from **Rayados de Monterrey** for **€11.3 million plus variables**. He is expected to bolster the midfield. (Source: MundoBetis)
+- **Borja Iglesias**: Officially transferred to **Celta de Vigo** for approximately **€1.5 million** plus variables. (Source: MundoBetis)
+- **Nobel Mendy**: Close to signing with **Glasgow Rangers** for around **€4 million** for 80% of his rights. (Source: AS.com)
+- **Romain Perraud**: Transferred to **Lille** for **€3 million** plus variables. (Source: MundoBetis)
+- **Gonzalo Petit**: Loaned to **Mirandés** for the season. (Source: MundoBetis)
+- **Daouda Traoré**: Joined the Betis Deportivo on loan from **Southampton** with an option to buy. (Source: MundoBetis)
+- **Iker Losada**: Negotiations ongoing for a loan to **Levante** with an option to buy. (Source: MundoBetis)
 
 ## Lineups
-- **Predicted Starting XI for the next match against Elche**:
-  | Position        | Player                      |
-  |-----------------|-----------------------------|
-  | Goalkeeper      | Pau López (likely)          |
-  | Right Back      | Aitor Ruibal (likely)       |
-  | Center Back     | Marc Bartra (likely)        |
-  | Center Back     | Valentín Gómez (likely)     |
-  | Left Back       | Junior Firpo (likely)       |
-  | Midfielder      | Mawuli (likely)             |
-  | Midfielder      | Pablo Fornals (likely)      |
-  | Attacking Mid   | Giovani Lo Celso (likely)   |
-  | Attacking Mid   | Rodrigo Riquelme (likely)   |
-  | Forward         | Cédric Bakambu (likely)     |
-  | Forward         | Cucho Hernández (likely)     |
+### Predicted Lineup for Upcoming Match Against Elche
+- **Formation**: 4-2-3-1
+- **Goalkeeper**: Pau López
+- **Defenders**:
+  - Junior Firpo
+  - Marc Bartra
+  - Natan
+  - Ricardo Rodríguez (if not transferred)
+- **Midfielders**:
+  - Pablo Fornals
+  - Mawuli Mensah
+- **Forwards**:
+  - Riquelme
+  - Giovani Lo Celso
+  - Ruibal (or other options for the right wing)
+- **Striker**: Cucho Hernández
+
+**Note**: Several players including Isco, Abde, Roca, and Deossa are unavailable for selection due to injuries. (Sources: AS.com, MundoBetis)
 
 ## Previews of Upcoming Matches
-- **Next Match**: Against **Elche** on **August 18, 2025**. The team is looking to bounce back after a disappointing pre-season finale against Málaga, where they lost 3-1 and suffered injuries to key players. (Source: MundoBetis)
+- **Match**: Real Betis vs. Elche
+- **Date**: August 18, 2025
+- **Context**: This will be the opening match of the LaLiga season. The team is facing several injury concerns, particularly in midfield, which may affect their performance. (Source: MundoBetis)
 
 ## Match Reports
-- **Málaga 3-1 Betis**: In the final pre-season match, Betis struggled defensively and failed to respond effectively after Isco's injury. The team conceded three goals shortly after half-time, with only a late goal from Cucho Hernández providing a consolation. The match was marred by Isco's injury, which raised alarms just before the start of the LaLiga season. (Sources: AS.com, MundoBetis)
+- No recent match reports available as the season has not yet started.
 
 ## Additional Notes
-- **David Larrubia**, the player responsible for Isco's injury, has publicly apologized and expressed that he did not intend to cause harm. He has faced backlash on social media following the incident. (Sources: Estadio Deportivo, AS.com)
+- The Betis has reached a record of **57,000 season ticket holders** for the upcoming season at La Cartuja. (Source: MundoBetis)
+- The club is actively working on finalizing transfers and preparing for the new season amidst various player movements. (Source: AS.com)

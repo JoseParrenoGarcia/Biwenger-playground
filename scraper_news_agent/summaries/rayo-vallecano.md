@@ -1,40 +1,55 @@
 # Rayo Vallecano
 
 ## Injuries
-- **Abdul Mumin**: Currently recovering from a serious knee injury (ACL tear) since March. His contract renewal is pending, and the club has made a second offer which remains unanswered.
-- **Etienne Eto'o**: Has been absent from the last three pre-season matches, raising concerns about his future at the club. He had previously scored in the first two friendlies.
+- **Abdul Mumin**: Out due to a torn ACL.
+- **Cristhian Stuani** (Girona): Will miss the match against Rayo due to personal reasons.
 
 ## Transfers
-- **Andrei Ratiu**: The Rayo Vallecano has acquired 100% of his rights from Villarreal for €5 million (3.5 million fixed + 1.5 million in variables). Ratiu expressed his displeasure on social media about not being informed of the transfer and the club's refusal to accept an €18 million offer from a Premier League club.
-- **Pathé Ciss**: Has expressed a desire to leave the club, with interest from Celta de Vigo and Al Shabab (Saudi Arabia). The Rayo rejected a €2 million offer from Al Shabab, insisting on his €10 million release clause.
-- **Dani Cárdenas**: The goalkeeper is a target for Real Zaragoza, with discussions ongoing regarding a potential loan deal.
-- **Fran Pérez**: An agreement has been reached between Rayo Vallecano and Valencia for his transfer, pending final approval from Valencia's coach Carlos Corberán.
+- **Jozhua Vertrouwd**: Signed from Castellón for €1.5 million, with an option for the total fee to reach €2 million based on performance. He will play as a defender and has signed a five-year contract.
+- **Fran Pérez**: Transferred from Valencia for €1 million plus €500,000 in variables. Valencia retains a 25% sell-on clause.
+- **Chris Ramos**: Has signed with Botafogo after the Rayo did not match the Brazilian club's offer.
+- **Andrei Ratiu**: Rayo has purchased the remaining 50% of his rights from Villarreal for €5 million (including variables).
 
 ## Lineups
-### Predicted Starting Eleven vs. Girona (August 15, 2025)
-| Position          | Player           |
-|-------------------|------------------|
-| Goalkeeper        | Augusto Batalla  |
-| Right Back        | Balliu           |
-| Center Back       | Luiz Felipe      |
-| Center Back       | Lejeune          |
-| Left Back         | Pep Chavarría    |
-| Central Midfield  | Óscar Valentín   |
-| Central Midfield  | Unai López       |
-| Attacking Midfield| Pedro Díaz       |
-| Right Wing        | Jorge de Frutos  |
-| Left Wing         | Álvaro García     |
-| Forward           | Nteka            |
+### Predicted Starting XI vs Girona (15 August 2025)
+- **Formation**: 4-2-3-1
+- **Goalkeeper**: Batalla
+- **Defenders**: 
+  - Ratiu (or Balliu, uncertain)
+  - Lejeune
+  - Luiz Felipe
+  - Chavarría (or Espino, uncertain)
+- **Midfielders**: 
+  - Ciss
+  - Unai López
+  - Pedro Díaz
+- **Forwards**: 
+  - De Frutos
+  - Isi Palazón
+  - Álvaro García
 
 ## Previews of Upcoming Matches
-- **Match**: Rayo Vallecano vs. Girona
-- **Date**: August 15, 2025
-- **Context**: This will be the opening match of LaLiga EA Sports for Rayo Vallecano. The team aims to start strong after a promising pre-season.
+- **Match**: Girona vs Rayo Vallecano
+- **Date**: 15 August 2025
+- **Time**: 19:00 CEST
+- **Context**: Opening match of LaLiga EA Sports 2025/2026. Both teams aim for a solid start; Rayo is looking to build on last season's success in Europe.
+- **Quotes**: 
+  - Iñigo Pérez expressed confidence in his squad, stating, "We have prepared for this marathon of matches."
+  - Míchel (Girona coach) mentioned concerns about the heat and the need for a schedule change due to high temperatures.
 
 ## Match Reports
-- **Sunderland 0-3 Rayo Vallecano** (August 10, 2025): Rayo secured a convincing victory in their final pre-season friendly with goals from Jorge de Frutos, Pacha Espino, and Isi Palazón. The match showcased a solid performance ahead of their league debut.
-- **West Bromwich Albion 3-2 Rayo Vallecano** (August 2, 2025): Rayo initially led with a goal from De Frutos but conceded three goals in quick succession, ultimately losing the match despite a late goal from Gumbau.
+- **West Bromwich Albion 3 - 2 Rayo Vallecano** (Preseason Friendly)
+  - Rayo took the lead with a goal from De Frutos but conceded three goals in a five-minute span. Gumbau scored late but it wasn't enough to secure a draw.
+  - **Goals**: 
+    - 0-1: De Frutos (69')
+    - 1-1: Molumby (73')
+    - 1-2: Grant (76')
+    - 1-3: Price (79')
+    - 2-3: Gumbau (83')
 
-## Other Notes
-- The Rayo Vallecano has faced criticism from fans regarding the high prices of season tickets and the lack of communication from the club about important decisions.
-- The team is actively seeking to bolster its squad with a focus on acquiring a new striker to fill the gap left by Raúl de Tomás, who has transferred to Al Wakrah in Qatar.
+## Other Updates
+- **Market Activity**: Rayo is actively seeking to strengthen their squad with additional signings, particularly in the forward and wing positions.
+- **Fan Reactions**: The club's management has faced criticism from fans regarding ticket prices and the lack of engagement with the community.
+
+## Notes
+- The Rayo Vallecano is preparing for a busy season with commitments in LaLiga, Copa del Rey, and the Conference League. The squad is currently under scrutiny for its depth and potential for success.

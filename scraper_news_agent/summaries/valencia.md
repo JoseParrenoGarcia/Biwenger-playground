@@ -1,42 +1,40 @@
 # Valencia CF
 
 ## Injuries
-No major updates.
+- **Hugo Duro**: Suffered from physical discomfort since the Trofeu Taronja match against Torino. He trained separately for two days but returned to group training and is expected to be available for the match against Real Sociedad.
+- **Fran Pérez**: Continues to train alone due to physical issues and is in the process of transferring to Rayo Vallecano.
+- **André Almeida**: Also trained separately but has since rejoined group training.
+- **Thierry Rendall**: Recovering from a serious knee injury and is expected to return to full training in September.
 
 ## Transfers
-- **Arnaut Danjuma**: Officially signed from Villarreal until 2028. The deal is structured as a cost-free transfer, with the Villarreal retaining 50% of any future sale and performance-related bonuses that could total up to €2 million. Danjuma expressed excitement about joining Valencia, stating, "I have grown with Valencia CF winning many titles."
-  
-- **Baptiste Santamaría**: Signed from Stade Rennes until 2027. The transfer is reported to be low-cost, with potential bonuses. Santamaría aims to bring defensive stability and experience to the midfield.
-
-- **Filip Ugrinic**: Officially signed from Young Boys for around €3 million plus €1 million in variables. He has signed a contract until 2029 and is expected to provide competition in midfield.
-
-- **Cenk Özkacar**: Officially transferred to FC Köln on loan with an option to buy, marking one of the 11 confirmed departures from Valencia this summer.
-
-- **Fran Pérez**: Close to joining Rayo Vallecano, with negotiations reportedly advanced.
+- **Fran Pérez**: Transferred to Rayo Vallecano for €1 million plus €500,000 in variables, and Valencia retains a 25% sell-on clause.
+- **Arnaut Danjuma**: Officially signed from Villarreal, with a contract until 2028. He emphasized his desire to help the club grow and adapt to any position as needed.
+- **Baptiste Santamaría**: Signed from Rennes, with a focus on strengthening the midfield.
+- **Filip Ugrinic**: Signed from Young Boys and is now officially registered with LaLiga.
+- **Luis Maximiano**: The Valencia CF is interested in signing him from Almería as a potential replacement for Dimitrievski, who is looking to leave.
+- **Iván Azón**: Will not join Valencia CF and has signed with Ipswich Town instead.
 
 ## Lineups
-### Predicted Starting XI for the Upcoming Match (Trofeu Taronja vs. Torino)
-| Position         | Player               |
-|------------------|---------------------|
-| Goalkeeper       | Julen Agirrezabala  |
-| Right Back       | Dimitri Foulquier    |
-| Center Back      | César Tárrega       |
-| Center Back      | José Copete         |
-| Left Back        | José Luis Gayà      |
-| Central Midfield | Pepelu              |
-| Central Midfield | Javi Guerra         |
-| Right Wing       | Luis Rioja          |
-| Left Wing        | Dani Raba           |
-| Forward          | Hugo Duro           |
-| Forward          | Javi Guerra         |
+### Predicted Starting XI vs. Real Sociedad
+| Position        | Player               |
+|-----------------|----------------------|
+| Goalkeeper       | Julen Agirrezabala   |
+| Defenders        | Foulquier, Tárrega, Copete, Gayà |
+| Midfielders      | Pepelu, Javi Guerra  |
+| Forwards         | Diego López, Luis Rioja, Dani Raba, Hugo Duro (or Danjuma) |
+
+- **Hugo Duro** is the main striker, but if he is unable to play, **Arnaut Danjuma** will likely take his place.
 
 ## Previews of Upcoming Matches
-- **Trofeu Taronja**: Valencia will face Torino on August 9, 2025. This match serves as the final pre-season test before the LaLiga opener against Real Sociedad. Carlos Corberán aims to solidify team cohesion and performance after a shaky pre-season.
+- **Match**: Valencia CF vs. Real Sociedad
+- **Date**: Saturday, August 16, 2025
+- **Time**: 21:30 (local time)
+- **Venue**: Mestalla
+- **Context**: This is the opening match of the LaLiga season. Valencia aims to build on a strong pre-season and improve upon last year's performance.
+- **Quote**: Ron Gourlay emphasized the ambition to return to the elite of European football, stating, "I am not here to fight for relegation."
 
 ## Match Reports
-- **Valencia 3 - 0 Torino**: In the Trofeu Taronja, Valencia secured a convincing victory with Javi Guerra scoring two goals. The team showcased a strong performance, with Guerra's goals coming from well-executed plays. Luis Rioja also contributed with a goal, and Baptiste Santamaría made his debut in the match.
+- **Trofeu Taronja**: Valencia CF defeated Torino 3-0, showcasing a strong performance that has boosted confidence ahead of the league opener.
 
 ## Additional Notes
-- **Javi Guerra**: Recently renewed his contract until 2029 and celebrated with a standout performance against Torino.
-- **César Tárrega**: Also renewed until 2030, highlighting the club's commitment to retaining key young talents.
-- **Carlos Corberán**: Expressed confidence in the new signings and the team's direction as they prepare for the upcoming season.
+- The club is actively looking to finalize additional signings, particularly in the forward position, as they continue to navigate the transfer market.

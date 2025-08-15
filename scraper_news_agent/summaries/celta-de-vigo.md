@@ -1,49 +1,32 @@
 # Celta de Vigo
 
 ## Injuries
-- **Williot Swedberg**: Out due to a hamstring overload. He has received medical clearance but did not travel for the match against Wolverhampton.
-- **Joseph Aidoo**: Received medical clearance but is not in the plans of coach Claudio Giráldez, and the club is looking for a loan or transfer.
-- **Franco Cervi**: Cleared to play after recovering from a Grade I soleus tear.
-- **Javi Rodríguez**: Not yet cleared but included in the squad for the match against Wolverhampton, recovering from a nasal fracture.
+- **Pablo Durán**: Doubt for the opening match against Getafe due to a contusion in his right foot sustained during a friendly against Wolverhampton. He has not trained with the team for several days, but the medical staff has not ruled out his participation in the match.
 
 ## Transfers
-- **Carlos Domínguez**: Renewed contract with Celta until 2028, reflecting the club's commitment to its homegrown talent.
-- **Williot Swedberg**: Renewed contract until 2029, with an increase in his release clause.
-- **Jan Oliveras**: Signed from AS Roma to play for Celta Fortuna, with the Roma retaining 50% of future sale rights.
-- **Tincho Conde**: Transferred to CD Castellón after not fitting into Giráldez's plans.
+- **Borja Iglesias**: Officially signed with Celta from Real Betis for €1.5 million plus €1 million in variables. He has signed a contract until 2028. Iglesias expressed his happiness to return to Celta, stating, "In my head, there was no other option."
+- **Manu Fernández**: Confirmed to stay in the first team after impressing during pre-season. He has renewed his contract until 2028.
+- **Jan Oliveras**: Officially signed for Celta Fortuna from AS Roma. He is a left-back and has signed a four-year contract.
+- **Bryan Zaragoza**: Joined Celta on loan from Bayern Munich, but is still working on his fitness after a summer of training alone.
 
 ## Lineups
-### Predicted Starting Eleven vs. Getafe
+### Predicted Starting XI vs. Getafe
 | Position       | Player                |
-|----------------|-----------------------|
-| GK             | Andrei Radu           |
-| CB             | Marcos Alonso         |
-| CB             | Carlos Domínguez     |
-| CB             | Starfelt              |
-| RWB            | Javi Rueda           |
-| LWB            | Óscar Mingueza       |
-| CM             | Fran Beltrán         |
-| CM             | Ilaix Moriba         |
-| FW             | Iago Aspas           |
-| FW             | Ferran Jutglà       |
-| FW             | Pablo Durán          |
+|---------------|-----------------------|
+| Goalkeeper     | Andrei Radu           |
+| Defenders      | Javi Rodríguez, Carl Starfelt, Marcos Alonso |
+| Midfielders    | Ilaix Moriba, Fran Beltrán |
+| Forwards       | Iago Aspas, Ferran Jutglà, (Bryan Zaragoza or Hugo Álvarez) |
 
-### Notable Tactical Notes
-- Giráldez has utilized a 3-4-3 formation during the pre-season, with flexibility in player roles.
+- **Tactics**: Giráldez has alternated between a 3-4-3 and a 4-3-3 formation during pre-season. The starting eleven against Getafe is expected to reflect the lineup used against Wolverhampton.
 
 ## Previews of Upcoming Matches
-- **Match**: Celta de Vigo vs. Getafe
-- **Date**: August 17, 2025
-- **Context**: This will be the opening match of LaLiga for Celta. Giráldez expressed confidence in the team's preparation and readiness for the league.
+- **Celta vs. Getafe**: The opening match of LaLiga is scheduled for Sunday. Claudio Giráldez expressed confidence in his team's preparation, stating, "The Celta arrives prepared, with clarity and eagerness." 
 
 ## Match Reports
-### Wolverhampton 0-1 Celta
-- **Date**: August 9, 2025
-- **Summary**: Celta secured a victory against Wolverhampton in their final pre-season match. Pablo Durán scored the only goal, showcasing his striking ability. Andrei Radu performed well in goal, making crucial saves to maintain a clean sheet.
-- **Key Players**: 
-  - **Pablo Durán**: Scored the match-winning goal.
-  - **Andrei Radu**: Made several important saves, solidifying his position as the starting goalkeeper.
-  - **Bryan Zaragoza**: Made his debut but struggled to find his rhythm, playing only 30 minutes.
+- **Celta 1 - 0 Wolverhampton**: Celta concluded their pre-season with a victory against Wolverhampton. Giráldez praised the team's physical performance and ability to compete, highlighting improvements in their gameplay.
 
 ## Additional Notes
-- **Claudio Giráldez**: Expressed satisfaction with the team's performance and emphasized the importance of the victory in building confidence ahead of the league start. He noted that the team has evolved and is ready for the challenges ahead.
+- **Williot Swedberg**: Recently renewed his contract until 2029 and is eager to prove himself this season, aiming for a spot in the Swedish national team.
+- **Joseph Aidoo**: His future remains uncertain as he is not in Giráldez's plans, and the club is looking for a way to facilitate his departure.
+- **Carlos Domínguez**: Also renewed his contract until 2028, expressing his excitement about playing in Europe with Celta.

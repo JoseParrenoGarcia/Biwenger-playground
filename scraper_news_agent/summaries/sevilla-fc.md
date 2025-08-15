@@ -1,48 +1,41 @@
 # Sevilla FC
 
 ## Injuries
-- **Rubén Vargas**: Out for the match against Toulouse due to a mild myofascial injury in the left hamstring sustained during training on August 7.
-- **Adrià Pedrosa**: Also out for the Toulouse match due to a muscle overload in the right adductors.
-- **Stanis Idumbo**: Suffered a mild myofascial injury in the left adductor, likely missing the season opener against Athletic Club.
-- **Loïc Badé**: Currently recovering from a soleus injury; his participation in the first match is uncertain.
-- **Tanguy Nianzou**: Has not played since October last year and is out for several weeks due to a summer relapse.
-- **Ramón Martínez**: Suffered a tendon injury in the left hamstring and is expected to be out for several weeks.
-- **Chidera Ejuke**: Recently added to the injury list with a mild injury in the right adductor.
+- **Stanis Idumbo**: Returned to training after recovering from a mild adductor injury and is expected to be available for the match against Athletic Club.
+- **Chidera Ejuke**: Also returned to training after recovering from a muscle injury.
+- **Loïc Badé, Joan Jordán, Tanguy Nianzou, Ramón Martínez, Adrià Pedrosa, and Rubén Vargas**: All remain sidelined due to various injuries and are not expected to be available for the upcoming match.
 
 ## Transfers
-- **Juanlu Sánchez**: Remains in negotiations with Napoli, having rejected offers from Wolverhampton. The Sevilla FC is asking for €20 million plus a percentage of a future sale.
-- **Loïc Badé**: Negotiations with Bayer Leverkusen are ongoing, with Sevilla demanding €30 million. The player is interested in the move due to the opportunity to play in the Champions League.
-- **Pablo Maffeo**: Confirmed as a new signing from RCD Mallorca, expected to fill the right-back position, especially if Juanlu leaves.
-- **Álvaro Fernández**: Expected to leave Sevilla for Deportivo de La Coruña, with the club open to his departure.
+- **Erik Lamela**: Announced his retirement from professional football and will join the coaching staff of Matías Almeyda at Sevilla FC after rescinding his contract with AEK Athens.
+- **Kelechi Iheanacho**: Close to transferring to **Samsunspor** for approximately €3.5 million. The deal is reportedly progressing well, with Iheanacho set to earn €1.2 million per year.
+- **Loïc Badé**: Sevilla is negotiating with **Bayer Leverkusen**, who have offered €25 million plus variables, but Sevilla is holding out for €30 million. The **Inter de Milán** has also expressed interest and asked Badé to delay any decisions regarding the Leverkusen offer.
+- **Juanlu Sánchez**: Negotiations are ongoing with **Napoli**, with Sevilla demanding €20 million plus a percentage of any future sale, while Napoli has offered €17 million plus a 5% sell-on clause.
+- **Odysseas Vlachodimos**: Officially joined Sevilla on loan from Newcastle United until June 2026.
 
 ## Lineups
-### Predicted Starting XI against Toulouse
-| Position       | Player            |
-|----------------|-------------------|
-| Goalkeeper     | Nyland            |
-| Defender       | Juanlu            |
-| Defender       | Carmona           |
-| Defender       | Castrín           |
-| Defender       | Kike Salas        |
-| Defender       | Suazo             |
-| Midfielder     | Gudelj            |
-| Midfielder     | Agoumé            |
-| Midfielder     | Sow               |
-| Forward        | Lukebakio         |
-| Forward        | Akor Adams        |
+### Predicted Starting Eleven vs Athletic Club (August 17, 2025)
+| Position       | Player                |
+|----------------|-----------------------|
+| Goalkeeper     | Nyland                |
+| Right Back     | Carmona               |
+| Center Back    | Marcao                |
+| Center Back    | Kike Salas           |
+| Left Back      | Pedrosa               |
+| Midfield       | Gudelj                |
+| Midfield       | Agoumé                |
+| Midfield       | Sow                   |
+| Forward        | Lukebakio             |
+| Forward        | Peque                 |
+| Forward        | Isaac Romero          |
 
-- Matías Almeyda employed a 1-3-5-2 system against Toulouse, with Juanlu starting as a right wing-back.
+**Notes**: 
+- **Idumbo** and **Ejuke** are expected to be available but may not start. 
+- **Badé**, **Jordán**, and **Vargas** are confirmed out.
 
 ## Previews of Upcoming Matches
-- **Match**: Sevilla FC vs. Athletic Club
+- **Match**: Sevilla FC vs Athletic Club
 - **Date**: August 17, 2025
-- **Context**: This is the season opener for LaLiga EA Sports. The team is facing significant injury challenges and needs to finalize player registrations before the match.
+- **Context**: This will be the opening match of LaLiga 2025/26 at San Mamés. Sevilla is facing significant challenges with injuries and player registrations, having only 15 players available.
 
 ## Match Reports
-### Toulouse 1-1 Sevilla
-- **Date**: August 10, 2025
-- **Summary**: Sevilla ended their pre-season with a 1-1 draw against Toulouse. Dodi Lukebakio scored a stunning goal in the 36th minute, but a late equalizer from Santiago Hidalgo in the 86th minute highlighted defensive frailties. The match showcased the need for reinforcements, particularly in defense, as the team prepares for the upcoming league season.
-
-## Additional Notes
-- The Sevilla FC is currently facing a significant injury crisis, which has raised concerns about their defensive capabilities ahead of the LaLiga season.
-- Almeyda's tactical adjustments and the integration of new players will be crucial in overcoming these challenges.
+No major updates.

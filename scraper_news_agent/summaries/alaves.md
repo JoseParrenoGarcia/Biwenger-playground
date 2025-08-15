@@ -1,45 +1,48 @@
 # Deportivo Alavés
 
 ## Injuries
-- No major updates.
+- **Abde Rebbach**: Out due to an ankle sprain (uncertain).
+- **Novoa**: Left training early, described as a "serious doubt" for the upcoming match against Levante, but Coudet stated "it's not serious".
 
 ## Transfers
-- **Adrián Rodríguez**: Confirmed loan to Real Zaragoza for the season, with no option to buy included in the agreement. He aims for more playing time away from Alavés, where he was behind Sivera and Raúl Fernández in the pecking order.
-- **Asier Villalibre**: Loaned to Racing de Santander for the season. He seeks more minutes after limited playing time at Alavés.
-- **Joaquín Panichelli**: Transferred to Strasbourg for over €16 million, despite not scoring in LaLiga with Alavés.
-- **Carles Aleñá**: Signed permanently from Getafe until 2029 after a successful loan spell last season.
-- **Calebe Gonçalves**: Joined Alavés on loan from Fortaleza for the 2025-26 season, expected to add creativity and dynamism to the midfield.
-- **Víctor Parada**: Contract renewed until 2029, reflecting the club's confidence in him after a successful loan at Mirandés.
-- **Mariano Díaz**: Officially signed until 2027 after impressing during pre-season. He aims to reclaim his form and contribute significantly to the team.
+- **Gustavo Albarracín**: Signed from Talleres for four years; expected to reinforce the B team but will train with the first team.
+- **Adrián Rodríguez**: Loaned to Real Zaragoza for the 2025/26 season.
+- **Asier Villalibre**: Loaned to Racing de Santander for the season, with an option to buy.
+- **Santiago Mouriño**: Transferred back to Atlético Madrid after they activated a buy-back clause.
+- **Joaquín Panichelli**: Transferred to Strasbourg for over €16 million.
+- **Carles Aleñá**: Returned to Alavés from Getafe on a permanent deal until 2029.
+- **Calebe Gonçalves**: Joined Alavés on loan from Fortaleza for the 2025/26 season.
+- **Youssef Enríquez (Yusi)**: Signed from Real Madrid Castilla for four years.
 
 ## Lineups
-### Predicted Starting XI for Upcoming Match Against Levante (August 16, 2025)
-| Position        | Player               |
-|-----------------|---------------------|
-| GK              | Antonio Sivera      |
-| RB              | Tenaglia            |
-| CB              | Garcés              |
-| CB              | Mouriño             |
-| LB              | Parada              |
-| CM              | Blanco              |
-| CM              | Guevara             |
-| CM              | Aleñá               |
-| RW              | Carlos Vicente      |
-| LW              | Guridi              |
-| CF              | Mariano (likely)    |
+### Predicted Starting XI vs Levante (August 16, 2025)
+| Position      | Player                |
+|---------------|-----------------------|
+| Goalkeeper    | Antonio Sivera        |
+| Right Back    | Tenaglia              |
+| Center Back   | Garcés                |
+| Center Back   | Parada (or Diarra)    |
+| Left Back     | Yusi                  |
+| Central Mid   | Antonio Blanco        |
+| Central Mid   | Pablo Ibáñez         |
+| Central Mid   | Aleñá                 |
+| Right Wing    | Carlos Vicente        |
+| Left Wing     | Guridi               |
+| Forward       | Mariano (or Toni Martínez) |
 
-- The formation is expected to be a **4-2-3-1**. 
-- **Mariano** is likely to start based on his pre-season performance, including a double against Castellón.
+- **Tactics**: Coudet may employ a 4-2-3-1 formation, emphasizing possession and physical play.
 
 ## Previews of Upcoming Matches
-- **Opponent**: Levante UD
+- **Match**: Alavés vs Levante
 - **Date**: August 16, 2025
-- **Context**: This will be Alavés' first match of the LaLiga season, and they will be looking to start strong against a newly promoted team. Coach Coudet has emphasized the need for intensity and focus.
+- **Time**: 21:30 CEST (changed from 17:00 due to high temperatures).
+- **Context**: Both teams are seen as direct rivals for avoiding relegation. Coudet emphasized the importance of starting strong at home, stating, "We want to be protagonists in Mendizorroza with our people."
 
 ## Match Reports
-- **Alavés 0 - 1 Huesca**: The team suffered a defeat in a recent friendly, with a penalty conceded by Mariano leading to the only goal of the match.
-- **Alavés 0 - 0 Eibar**: The final pre-season match ended in a goalless draw, highlighting ongoing concerns about the team's attacking efficiency.
+- **Eibar 0 - Alavés 0**: The final pre-season friendly ended in a goalless draw, with both teams struggling to create clear chances. Notable performances came from goalkeepers Jonmi and Sivera.
+- **Alavés 0 - Huesca 1**: In a disappointing pre-season match, Alavés lost to Huesca, conceding a penalty goal. The team struggled offensively, failing to convert opportunities.
+- **Alavés 1 - Real Sociedad 0**: A crucial victory in a derby match, secured by a stunning volley from Nahuel Tenaglia, which helped Alavés move out of the relegation zone.
 
-## Additional Notes
-- **Mariano Díaz** expressed his desire to "reclaim" his status and contribute significantly to the team, indicating a strong personal motivation for the upcoming season.
-- **Sergio Fernández**, the sporting director, has shown confidence in Mariano's potential to return to form, stating, "He will become one of the best players in Europe again."
+## Other Notable Updates
+- **Mariano Díaz**: Expressed his desire to "reclaim" his status as a top player in Europe after signing a two-year contract. He has shown promising form in pre-season.
+- **Víctor Parada**: Recently renewed his contract until 2029, highlighting his importance in the squad following departures in defense.
